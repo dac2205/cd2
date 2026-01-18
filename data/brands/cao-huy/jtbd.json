@@ -4,19 +4,52 @@
             "id": "func-1",
             "title": "Giảm đau mỏi cơ thể",
             "description": "Xử lý các cơn đau lưng, vai gáy, mệt mỏi do văn phòng hoặc stress.",
-            "context": "Sau giờ làm việc căng thẳng."
+            "situation": "Sau 8 tiếng ngồi lì trước máy tính, cơ thể cứng đờ và đau nhức vùng cổ vai gáy.",
+            "context": "Dân văn phòng ít vận động, tư thế ngồi sai lệch kéo dài.",
+            "triggers": [
+                "Đau mỏi đến mức không quay được cổ.",
+                "Cảm giác cơ thể nặng nề như đeo đá.",
+                "Dùng cao dán mãi không đỡ."
+            ],
+            "desiredOutcome": [
+                "Cơ thể nhẹ nhõm, linh hoạt trở lại.",
+                "Hết đau mỏi mà không cần uống thuốc giảm đau.",
+                "Cảm giác được giải phóng (Release)."
+            ]
         },
         {
             "id": "func-2",
             "title": "Cải thiện giấc ngủ",
             "description": "Giúp đi vào giấc ngủ dễ dàng hơn, ngủ sâu hơn, không mộng mị.",
-            "context": "Khi gặp chứng mất ngủ kéo dài."
+            "situation": "Nằm trằn trọc đến 2-3h sáng, đầu óc quay cuồng với những suy nghĩ không tên.",
+            "context": "Stress công việc và ánh sáng xanh từ thiết bị điện tử làm rối loạn nhịp sinh học.",
+            "triggers": [
+                "Uống thuốc ngủ thì mệt, không uống thì không ngủ được.",
+                "Sáng dậy lờ đờ, thiếu tỉnh táo.",
+                "Sợ đêm dài."
+            ],
+            "desiredOutcome": [
+                "Ngủ một mạch đến sáng.",
+                "Thức dậy với năng lượng tràn đầy.",
+                "Không còn phụ thuộc vào thuốc an thần."
+            ]
         },
         {
             "id": "func-3",
             "title": "Tăng cường đề kháng tự nhiên",
             "description": "Giúp cơ thể ít ốm vặt, phục hồi nhanh sau bệnh.",
-            "context": "Trong giai đoạn giao mùa hoặc dịch bệnh."
+            "situation": "Cứ trở trời là hắt hơi, sổ mũi, cảm cúm kéo dài cả tuần không khỏi.",
+            "context": "Hệ miễn dịch suy yếu do lạm dụng kháng sinh và lối sống thiếu lành mạnh.",
+            "triggers": [
+                "Hay bị lây bệnh từ người khác.",
+                "Người lúc nào cũng hâm hấp sốt.",
+                "Muốn cai kháng sinh."
+            ],
+            "desiredOutcome": [
+                "Cơ thể vững vàng trước thời tiết.",
+                "Hồi phục nhanh chóng sau ốm.",
+                "Cảm giác khỏe khoắn từ bên trong."
+            ]
         }
     ],
     "emotional": [
@@ -24,24 +57,51 @@
             "id": "emo-1",
             "title": "Cảm giác An tâm (Safety)",
             "description": "Không lo sợ về tác dụng phụ hay hóa chất độc hại.",
+            "situation": "Cầm trên tay sản phẩm/liệu trình biết rõ nguồn gốc tự nhiên, không hóa chất bảo quản.",
+            "context": "Thị trường tràn lan các sản phẩm kém chất lượng, trộn corticoid.",
+            "triggers": [
+                "Đọc tin tức về tác hại của thuốc giả/kém chất lượng.",
+                "Da/cơ thể bị kích ứng với hóa chất.",
+                "Muốn tìm về những giá trị nguyên bản."
+            ],
             "desiredOutcome": [
-                "Tin tưởng tuyệt đối vào cơ thể"
+                "Tin tưởng tuyệt đối vào cơ thể.",
+                "Không còn nỗi lo 'tiền mất tật mang'.",
+                "An lòng chăm sóc bản thân và gia đình."
             ]
         },
         {
             "id": "emo-2",
             "title": "Cảm giác Thư thái (Relaxation)",
             "description": "Trút bỏ được gánh nặng, nhẹ nhõm cả đầu óc lẫn chân tay.",
+            "situation": "Thả lỏng hoàn toàn trong không gian yên tĩnh, mùi thảo mộc thoang thoảng.",
+            "context": "Cuộc sống đô thị ồn ào, xô bồ khiến thần kinh luôn căng thẳng.",
+            "triggers": [
+                "Đầu óc căng như dây đàn.",
+                "Dễ nổi nóng, cáu gắt.",
+                "Thèm một chốn bình yên để 'trốn'."
+            ],
             "desiredOutcome": [
-                "Tận hưởng cuộc sống"
+                "Tâm trí tĩnh lặng như mặt hồ.",
+                "Tận hưởng cuộc sống chậm lại.",
+                "Sạc đầy năng lượng tích cực."
             ]
         },
         {
             "id": "emo-3",
             "title": "Cảm giác Được chữa lành (Healed)",
             "description": "Cảm nhận được sự chăm sóc vỗ về từ thiên nhiên.",
+            "situation": "Cảm nhận được sự chuyển hóa tích cực của cơ thể từng ngày, tự nhiên và êm ái.",
+            "context": "Những tổn thương tâm-thể tích tụ lâu ngày cần được xoa dịu.",
+            "triggers": [
+                "Cảm thấy mình đang 'ngược đãi' bản thân.",
+                "Trống rỗng bên trong.",
+                "Cần sự vỗ về, an ủi."
+            ],
             "desiredOutcome": [
-                "Hồi sinh năng lượng sống"
+                "Hồi sinh năng lượng sống.",
+                "Kết nối lại với chính mình.",
+                "Yêu thương và trân trọng cơ thể hơn."
             ]
         }
     ],
@@ -50,13 +110,35 @@
             "id": "soc-1",
             "title": "Người sống xanh (Eco-conscious)",
             "description": "Được nhìn nhận là người có lối sống văn minh, bảo vệ môi trường.",
-            "situation": "Trong cộng đồng lối sống xanh."
+            "situation": "Chia sẻ về thói quen sử dụng sản phẩm tự nhiên, không rác thải nhựa.",
+            "context": "Xu hướng tiêu dùng bền vững đang lên ngôi.",
+            "triggers": [
+                "Muốn đóng góp cho môi trường.",
+                "Không muốn dùng đồ nhựa/hóa chất.",
+                "Tham gia cộng đồng sống xanh."
+            ],
+            "desiredOutcome": [
+                "Được cộng đồng tôn trọng.",
+                "Lan tỏa lối sống tích cực.",
+                "Cảm thấy mình có ích cho xã hội."
+            ]
         },
         {
             "id": "soc-2",
             "title": "Người biết chăm sóc bản thân",
             "description": "Được ngưỡng mộ vì vẻ ngoài rạng rỡ, thần thái an nhiên.",
-            "situation": "Khi gặp gỡ bạn bè."
+            "situation": "Bạn bè khen ngợi vì dạo này trông tươi tắn, trẻ trung hơn hẳn.",
+            "context": "Vẻ đẹp tự nhiên (Natural Beauty) luôn có sức hút riêng.",
+            "triggers": [
+                "Bị chê già, kém sắc.",
+                "Muốn đẹp lên một cách tự nhiên.",
+                "Tự tin hơn trong giao tiếp."
+            ],
+            "desiredOutcome": [
+                "Trở nên thu hút, rạng ngời.",
+                "Được khen ngợi và ngưỡng mộ.",
+                "Truyền cảm hứng cho người khác."
+            ]
         }
     ],
     "other": [
@@ -64,16 +146,34 @@
             "id": "oth-1",
             "title": "Tiết kiệm chi phí dài hạn",
             "description": "Đầu tư cho sức khỏe bây giờ rẻ hơn tiền viện phí sau này.",
+            "situation": "Chi một khoản nhỏ hàng tháng để dưỡng sinh thay vì tốn tiền triệu đi viện.",
+            "context": "Phòng bệnh hơn chữa bệnh.",
+            "triggers": [
+                "Nhìn hóa đơn viện phí chóng mặt.",
+                "Sợ cảnh nằm viện tốn kém.",
+                "Muốn quản lý tài chính thông minh."
+            ],
             "desiredOutcome": [
-                "Tài chính bền vững"
+                "Tài chính bền vững.",
+                "Không lo phát sinh chi phí y tế lớn.",
+                "Đầu tư sinh lời cho sức khỏe."
             ]
         },
         {
             "id": "oth-2",
             "title": "Lan tỏa giá trị",
             "description": "Có thể dùng chính phương pháp này để chăm sóc ngược lại cho người thân.",
+            "situation": "Tự tay chăm sóc sức khỏe cho bố mẹ/con cái bằng các phương pháp tự nhiên đã học được.",
+            "context": "Mong muốn mang lại những điều tốt đẹp nhất cho gia đình.",
+            "triggers": [
+                "Thấy người thân ốm đau mà bất lực.",
+                "Muốn gắn kết gia đình.",
+                "Tạo ra truyền thống chăm sóc nhau."
+            ],
             "desiredOutcome": [
-                "Gắn kết gia đình"
+                "Gắn kết gia đình bền chặt.",
+                "Người thân khỏe mạnh, vui vẻ.",
+                "Trở thành 'bác sĩ' của gia đình."
             ]
         }
     ]
