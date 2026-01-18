@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Xây dụng Content Business bền vững",
+            "description": "Tạo ra một hệ thống kinh doanh tri thức có thể scale (mở rộng) mà không vắt kiệt sức lực (burnout).",
+            "situation": "Đang làm freelance viết lách nhưng thu nhập bấp bênh, làm ngày nào ăn ngày đó, muốn đóng gói thành khóa học/sản phẩm số.",
+            "context": "Thị trường Creator Economy đang bùng nổ nhưng cũng đầy rẫy sự cạnh tranh và kiệt sức.",
+            "triggers": [
+                "Cảm thấy mình đang bán thời gian lấy tiền rẻ mạt.",
+                "Bị kẹt trong vòng xoáy sản xuất nội dung (content hamster wheel).",
+                "Muốn có thu nhập thụ động từ tri thức của mình."
+            ],
+            "desiredOutcome": [
+                "Sở hữu sản phẩm số (Ebook, Course) bán tự động.",
+                "Hệ thống content thu hút khách hàng đều đặn.",
+                "Tự do về thời gian và địa điểm làm việc."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Tìm ra Niche độc bản (Signature)",
+            "description": "Khám phá 'chất liệu' bên trong để định vị bản thân khác biệt hoàn toàn so với đám đông ngoài kia.",
+            "situation": "Loay hoay giữa hàng ngàn chủ đề, thấy ai làm gì cũng muốn bắt chước nhưng làm mãi không lên.",
+            "context": "Sự bão hòa nội dung khiến những thứ chung chung (generic) không còn chỗ đứng.",
+            "triggers": [
+                "Cảm thấy mình nhạt nhòa, không ai nhớ tới.",
+                "Bế tắc trong việc tìm ý tưởng mới.",
+                "Sợ bị AI thay thế."
+            ],
+            "desiredOutcome": [
+                "Tìm ra 'Long mạch' (Sweet spot) của bản thân.",
+                "Xây dựng được tiếng nói (Voice) riêng biệt.",
+                "Được khán giả nhận diện ngay lập tức."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Hệ thống hóa Sáng tạo (Systematize Creativity)",
+            "description": "Biến những cảm hứng bất chợt thành một cỗ máy sản xuất nội dung có thể dự đoán được (predictable engine), giúp duy trì sự hiện diện đều đặn.",
+            "situation": "Ngồi trước màn hình trắng hàng giờ mà không biết viết gì, trong khi hôm qua thì ý tưởng tuôn trào.",
+            "context": "Sự ngẫu hứng (Inspiration) là kẻ thù của sự chuyên nghiệp (Consistency).",
+            "triggers": [
+                "Bị 'writer block' thường xuyên.",
+                "Content trồi sụt, lúc hay lúc dở.",
+                "Mệt mỏi vì phải liên tục 'săn tìm' ý tưởng."
+            ],
+            "desiredOutcome": [
+                "Có kho ý tưởng dự trữ dùng cả năm.",
+                "Sản xuất content nhanh, chất lượng ổn định.",
+                "Giải phóng não bộ khỏi áp lực sáng tạo."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Được thấu hiểu (Being Seen)",
+            "description": "Cảm thấy được sống thật với con người mình (Authentic), không phải gồng mình diễn vai chuyên gia hoàn hảo.",
+            "situation": "Viết một bài chia sẻ về thất bại của bản thân và nhận được sự đồng cảm sâu sắc từ cộng đồng, thay vì sự phán xét.",
+            "context": "Mạng xã hội thường chỉ show ra những gì hào nhoáng nhất, khiến con người ta cô đơn và giả tạo.",
+            "triggers": [
+                "Mệt mỏi vì phải đeo mặt nạ trên mạng xã hội.",
+                "Sợ bị ném đá (Haters).",
+                "Khao khát được kết nối sâu sắc (Deep connection)."
+            ],
+            "desiredOutcome": [
+                "Cảm thấy nhẹ nhõm, tự do.",
+                "Được yêu quý vì chính con người thật.",
+                "Chữa lành những tổn thương bên trong."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Tự tin dẫn lối (Confidence to Lead)",
+            "description": "Vượt qua hội chứng kẻ mạo danh (Imposter Syndrome) để tự tin chia sẻ giá trị và dẫn dắt cộng đồng.",
+            "situation": "Trước khi bấm nút 'Publish' không còn run sợ, mà cảm thấy hào hứng vì sắp trao đi giá trị.",
+            "context": "Nỗi sợ 'Mình là ai mà dám dạy người khác' kìm hãm rất nhiều người tài năng.",
+            "triggers": [
+                "Luôn nghĩ mình chưa đủ giỏi (Not good enough).",
+                "So sánh bản thân với những KOLs lớn.",
+                "Sợ bị gọi là 'lùa gà'."
+            ],
+            "desiredOutcome": [
+                "Tin tưởng tuyệt đối vào giá trị mình mang lại.",
+                "Dám đứng lên chia sẻ quan điểm đi ngược đám đông.",
+                "Cảm thấy mình có ích (Impactful)."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Vượt qua Cầu toàn (Overcome Perfectionism)",
+            "description": "Dám công bố những sản phẩm ở dạng 'bản nháp' (work in progress) mà không cảm thấy xấu hổ, chấp nhận sự không hoàn hảo.",
+            "situation": "Viết đi viết lại một caption 10 lần rồi xóa vì thấy chưa đủ hay.",
+            "context": "Chủ nghĩa hoàn hảo (Perfectionism) thực chất là nỗi sợ bị phán xét.",
+            "triggers": [
+                "Trì hoãn ra mắt sản phẩm vì cảm thấy chưa đủ tốt.",
+                "So sánh bản thân với các 'đàn anh' trong nghề.",
+                "Sợ sai sót nhỏ sẽ làm mất uy tín."
+            ],
+            "desiredOutcome": [
+                "Tự do sáng tạo và thử nghiệm.",
+                "Tiến độ công việc (Shipping velocity) tăng vọt.",
+                "Học được nhiều hơn từ feedback thực tế."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Thought Leader",
+            "description": "Được công nhận là một người dẫn dắt tư tưởng (Thought Leader), người tạo ra xu hướng chứ không phải chạy theo xu hướng.",
+            "situation": "Được mời đi chia sẻ (Speaker) tại các sự kiện uy tín về chuyên môn.",
+            "context": "Uy tín cá nhân là tài sản lớn nhất trong kỷ nguyên số.",
+            "triggers": [
+                "Muốn nâng tầm vị thế trong ngành.",
+                "Không muốn mãi là người follower (bám đuôi).",
+                "Muốn để lại di sản (Legacy) tri thức."
+            ],
+            "desiredOutcome": [
+                "Có một cộng đồng Loyal Followers chất lượng.",
+                "Được tôn trọng bởi các đồng nghiệp (Peers).",
+                "Có sức ảnh hưởng thực tế (Real Influence)."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Deep Connection Tribe",
+            "description": "Thu hút và kết nối với những tâm hồn đồng điệu, tạo ra một 'bộ lạc' (Tribe) văn minh và sâu sắc.",
+            "situation": "Tổ chức một buổi Offline mà mọi người đến ôm chầm lấy nhau như người thân, không phải xã giao hời hợt.",
+            "context": "Sự cô đơn trong hành trình làm sáng tạo nội dung.",
+            "triggers": [
+                "Cảm thấy lạc lõng giữa đám đông ồn ào.",
+                "Muốn tìm những người bạn tâm giao.",
+                "Chán ngấy (Sick of) các mối quan hệ lợi dụng."
+            ],
+            "desiredOutcome": [
+                "Có những người bạn tri kỷ trong nghề.",
+                "Môi trường sinh hoạt an toàn, nâng đỡ nhau.",
+                "Cùng nhau đi xa (Go together)."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Xây dựng Di sản (Legacy Building)",
+            "description": "Tạo ra những nội dung có giá trị trường tồn (Evergreen), được lưu truyền và trích dẫn lâu dài chứ không chỉ là tin tức thoáng qua.",
+            "situation": "Một bài viết từ 2 năm trước vẫn được độc giả tìm đọc và chia sẻ lại.",
+            "context": "Mạng xã hội trôi đi rất nhanh, content ngày hôm nay ngày mai đã là rác.",
+            "triggers": [
+                "Muốn tạo ra tác động lâu dài.",
+                "Chán ngấy việc đua theo trend ngắn hạn.",
+                "Muốn được nhớ đến như một người có chiều sâu."
+            ],
+            "desiredOutcome": [
+                "Sở hữu tài sản số (Digital Assets) giá trị.",
+                "Tạo dấu ấn sâu đậm trong tâm trí khán giả.",
+                "Kiến tạo di sản tri thức cho thế hệ sau."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Inner Peace",
+            "description": "Tìm thấy sự bình an nội tại, không còn bị xao động bởi áp lực con số (like, view) hay sự biến đổi của thuật toán.",
+            "situation": "Facebook bóp tương tác, view giảm nhưng tâm vẫn bình an vì biết giá trị cốt lõi nằm ở đâu.",
+            "context": "Áp lực perform trên social media gây ra anxiety (lo âu) diện rộng.",
+            "triggers": [
+                "Mất ăn mất ngủ vì bài đăng ít like.",
+                "Stress mỗi khi nền tảng update thuật toán.",
+                "Cảm thấy cuộc sống bị thao túng bởi điện thoại."
+            ],
+            "desiredOutcome": [
+                "Làm chủ cuộc chơi (Master the game).",
+                "Sáng tạo trong niềm vui (Joy of Creation).",
+                "Cân bằng cuộc sống - công việc (Work-Life Harmony)."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Intellectual Clarity (Sự sáng rõ)",
+            "description": "Sử dụng việc viết lách như một công cụ để tư duy, sắp xếp lại những suy nghĩ hỗn độn trong đầu thành trật tự logic.",
+            "situation": "Sau khi viết xong một bài, cảm thấy vấn đề mình đang vướng mắc bỗng nhiên trở nên rõ ràng và dễ giải quyết hơn.",
+            "context": "Viết không chỉ để người khác đọc, mà để chính mình hiểu (Writing to think).",
+            "triggers": [
+                "Đầu óc lúc nào cũng rối bời nhiều ý tưởng.",
+                "Khó diễn đạt ý mình cho người khác hiểu.",
+                "Muốn rèn luyện tư duy sắc bén."
+            ],
+            "desiredOutcome": [
+                "Tư duy mạch lạc, gãy gọn.",
+                "Giải quyết vấn đề hiệu quả hơn.",
+                "Giao tiếp thuyết phục hơn."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Archive of Self (Lưu trữ bản thân)",
+            "description": "Xây dựng một thư viện kỹ thuật số lưu giữ lại hành trình phát triển, suy nghĩ và trải nghiệm của chính mình qua thời gian.",
+            "situation": "Đọc lại những bài viết cũ và thấy mình đã trưởng thành như thế nào.",
+            "context": "Con người thường quên đi phiên bản cũ của mình rất nhanh.",
+            "triggers": [
+                "Sợ quên mất những bài học quý giá đã trải qua.",
+                "Muốn có tư liệu để sau này kể cho con cháu/học trò.",
+                "Muốn đo lường sự trưởng thành của bản thân."
+            ],
+            "desiredOutcome": [
+                "Trân trọng hành trình đã qua.",
+                "Có nguồn tư liệu phong phú để tái sử dụng.",
+                "Hiểu rõ bản thân (Self-awareness) hơn."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "groups": [
+        {
+            "title": "Group 1: Định hình Chân dung (Defining the Who)",
+            "concepts": [
+                {
+                    "title": "Audience Segments (Phân khúc Khán giả)",
+                    "content": "Thay vì cố gắng bán cho \"Everyone\" (tất cả mọi người), chúng ta chia thị trường thành các nhóm nhỏ dựa trên Demographics (nhân khẩu học) và Psychographics (tâm lý học). Điều này giúp thông điệp trở nên Relevant (liên quan) hơn."
+                },
+                {
+                    "title": "Personas (Chân dung Đại diện)",
+                    "content": "Persona là một nhân vật hư cấu đại diện cho một Segment cụ thể. Nó giúp team marketing có Empathy (sự thấu cảm) sâu sắc hơn, hình dung rõ ràng họ đang nói chuyện với ai, thay vì chỉ nhìn vào số liệu khô khan."
+                },
+                {
+                    "title": "Empathy Map (Bản đồ Thấu cảm)",
+                    "content": "Một công cụ giúp đi sâu vào tâm trí khách hàng bằng cách đặt câu hỏi: Họ Think & Feel (nghĩ và cảm thấy) gì? Họ See (thấy) gì? Họ Say & Do (nói và làm) gì? Mục tiêu là tìm ra Pain points (nỗi đau) và Gains (mong muốn)."
+                }
+            ]
+        },
+        {
+            "title": "Group 2: Động cơ & Hành vi (Motivation & Behavior)",
+            "concepts": [
+                {
+                    "title": "Jobs to be Done (Công việc cần làm)",
+                    "content": "Khách hàng không mua sản phẩm, họ \"Hire\" (thuê) sản phẩm để hoàn thành một \"Job\" nhằm đạt được progress (sự tiến bộ) trong cuộc sống. Job này thường có 3 khía cạnh: Functional (chức năng), Emotional (cảm xúc) và Social (xã hội)."
+                },
+                {
+                    "title": "Struggle Stack (Chuỗi khó khăn)",
+                    "content": "Một \"Job\" chỉ xuất hiện khi có Struggle (sự đấu tranh). Nó đi từ Passive Struggle (chấp nhận sống chung) -> Active Struggle (muốn thay đổi ngay) -> Trigger Event (sự kiện kích hoạt hành động mua)."
+                },
+                {
+                    "title": "Mental Model (Mô hình Tư duy)",
+                    "content": "Là cách khách hàng nhận thức thế giới vận hành. Nếu sản phẩm của bạn đi ngược lại Mental Model của họ, sẽ xảy ra Friction (ma sát). Marketing giỏi là Align (căn chỉnh) giải pháp vào đúng Perception (nhận thức) hiện có của họ."
+                }
+            ]
+        },
+        {
+            "title": "Group 3: Cấu trúc Insight (Insight Structure)",
+            "concepts": [
+                {
+                    "title": "Customer Insight (Sự thật Ngầm hiểu)",
+                    "content": "Insight không phải là data hay observation (quan sát). Insight là lý do \"Why\" (tại sao) ẩn sâu bên dưới hành vi, thường chứa đựng một mâu thuẫn hoặc một sự thật hiển nhiên nhưng bị bỏ qua."
+                },
+                {
+                    "title": "Tension (Điểm Căng thẳng)",
+                    "content": "Khoảng cách giữa Current Self (con người hiện tại) và Ideal Self (con người mong muốn). Tension tạo ra năng lượng để hành động. Không có Tension, không có Sale."
+                },
+                {
+                    "title": "Trigger (Điểm Kích hoạt)",
+                    "content": "Sự kiện hoặc tín hiệu (Internal hoặc External) thúc đẩy khách hàng hành động ngay lập tức. Without a trigger, desire (mong muốn) chỉ là tiềm năng."
+                }
+            ]
+        }
+    ]
+}

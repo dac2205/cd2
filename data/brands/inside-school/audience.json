@@ -1,0 +1,35 @@
+[
+    {
+        "id": "segment-expert-creator",
+        "title": "Chuyên gia / Solopreneur (The Expert Creator)",
+        "isPrimary": true,
+        "description": "Những người có chuyên môn sâu (Coach, Consultant, Trainer) muốn đóng gói kiến thức thành sản phẩm số và xây dựng thương hiệu cá nhân bền vững.",
+        "painPoints": [
+            "Biết nhiều nhưng không biết diễn đạt",
+            "Sợ bị đánh đồng với những người 'lùa gà'",
+            "Bí ý tưởng content, viết mãi không ra đơn"
+        ]
+    },
+    {
+        "id": "segment-freelancer",
+        "title": "Freelancer muốn Nâng tầm (Level-up Freelancer)",
+        "isPrimary": false,
+        "description": "Copywriter, Designer, Marketer muốn thoát khỏi việc bán thời gian giá rẻ để trở thành đối tác chiến lược của khách hàng.",
+        "painPoints": [
+            "Khách hàng trả giá thấp, hay đòi hỏi",
+            "Không có tiếng nói định hướng cho khách",
+            "Thu nhập bấp bênh, phụ thuộc dự án"
+        ]
+    },
+    {
+        "id": "segment-sme-founder",
+        "title": "Founder Doanh nghiệp nhỏ (SME Founder)",
+        "isPrimary": false,
+        "description": "Chủ doanh nghiệp muốn tự mình hiểu về Content/Branding để quản lý team hoặc tự làm trong giai đoạn đầu.",
+        "painPoints": [
+            "Thuê Agency tốn kém nhưng không hiệu quả",
+            "Tuyển nhân sự về không biết giao việc gì",
+            "Thương hiệu mờ nhạt giữa thị trường"
+        ]
+    }
+]

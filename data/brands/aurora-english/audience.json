@@ -1,0 +1,35 @@
+[
+    {
+        "id": "segment-professional",
+        "title": "Người đi làm (Professionals 1-10 năm)",
+        "isPrimary": true,
+        "description": "Đã có nền tảng tiếng Anh nhưng bị 'đóng băng' khả năng nghe nói. Muốn dùng tiếng Anh làm đòn bẩy thăng tiến và giành lại vị thế.",
+        "painPoints": [
+            "Nghe không hiểu kịp trong họp",
+            "Không diễn đạt được ý chuyên sâu",
+            "Mất tự tin trước đồng nghiệp trẻ hoặc sếp Tây"
+        ]
+    },
+    {
+        "id": "segment-student",
+        "title": "Sinh viên Năm cuối (The Final Year Student)",
+        "isPrimary": false,
+        "description": "Sinh viên năm 3-4 đang chuẩn bị hồ sơ tập sự/ứng tuyển. Cần tiếng Anh để tạo lợi thế cạnh tranh đầu vào.",
+        "painPoints": [
+            "Sợ phỏng vấn tiếng Anh",
+            "Viết CV/Email còn ngô nghê",
+            "Cảm thấy thua kém bạn bè đồng trang lứa"
+        ]
+    },
+    {
+        "id": "segment-self-improver",
+        "title": "Người Phát triển Bản thân (Self-improver)",
+        "isPrimary": false,
+        "description": "Những người muốn tiếp cận tri thức gốc (sách, khóa học, video) từ thế giới mà không muốn đợi bản dịch.",
+        "painPoints": [
+            "Đọc tài liệu chuyên ngành rất chậm",
+            "Hiểu sai ý tác giả do vốn từ hạn chế",
+            "Cảm thấy bị giới hạn trong \"ao làng\" kiến thức"
+        ]
+    }
+]

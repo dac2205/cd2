@@ -1,0 +1,38 @@
+[
+    {
+        "id": "q1",
+        "question": "Who is the primary target audience for True Juice?",
+        "options": [
+            "Young fitness enthusiasts",
+            "Busy Female Leaders (35-45) with health anxiety",
+            "Stay-at-home moms",
+            "Corporate employees looking for lunch options"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The specific target is female leaders, 35-45, high income, who are 'Stress but Busy' and fear health collapse."
+    },
+    {
+        "id": "q2",
+        "question": "What is the primary emotional driver for this customer?",
+        "options": [
+            "To look beautiful",
+            "To lose weight fast",
+            "Fear of 'collapsing' (đổ gục) and seeking peace of mind",
+            "To save money on food"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The core fear is 'đổ gục' (bloody collapse) from overwork, seeking 'An tâm' (Peace of mind)."
+    },
+    {
+        "id": "q3",
+        "question": "What distinguishes the True Juice offer?",
+        "options": [
+            "It is the cheapest juice in Hanoi",
+            "It is a 'Therapy' (Liệu trình) combined with mental care app",
+            "It is just fruit juice",
+            "It is available in all supermarkets"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It incorporates a nutrition therapy (Juice/Soup/Nut Mylk) AND a mental care app (meditation/habits)."
+    }
+]

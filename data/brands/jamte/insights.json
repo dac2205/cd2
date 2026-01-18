@@ -1,0 +1,87 @@
+[
+    {
+        "id": "insight-peace-of-mind",
+        "title": "Mua sự An Tâm (Buying Peace of Mind)",
+        "tension": "Tôi muốn con ăn ngon, nhưng tôi luôn lo sợ về nguồn gốc thực phẩm bên ngoài.",
+        "belief": "Đồ ăn ngoài luôn tiềm ẩn rủi ro (dầu bẩn, phụ gia).",
+        "core": "Mẹ không mua món ăn, mẹ mua 'sự an tâm' cho chính mình.",
+        "hooks": [
+            "Con ăn gì hôm nay?",
+            "Sạch như mẹ nấu",
+            "An tâm tuyệt đối"
+        ],
+        "angle": "Sự An Toàn Cảm Xúc (Emotional Safety)",
+        "reframe": "Từ 'mua đồ ăn sẵn' sang 'đầu tư sự an tâm'.",
+        "promise": "Minh bạch tuyệt đối, sạch như mẹ làm.",
+        "rtb": "Quy trình minh bạch, không chất bảo quản, không hương liệu.",
+        "mechanism": "Thực đơn được kiểm soát chặt chẽ."
+    },
+    {
+        "id": "insight-kid-approval",
+        "title": "Bé là người quyết định (The Kid is The Boss)",
+        "tension": "Mẹ thấy tốt, nhưng con không chịu ăn thì cũng bỏ.",
+        "belief": "Đồ tốt thường không ngon (do ít gia vị).",
+        "core": "Trẻ là người quyết định 70% khả năng mua lại.",
+        "hooks": [
+            "Bé ăn thun thút",
+            "Con đòi ăn thêm",
+            "Hết veo trong một nốt nhạc"
+        ],
+        "angle": "Khẩu vị trẻ em (Kid-approved Taste)",
+        "reframe": "Món ăn sạch nhưng vẫn phải NHỚP RĂNG (ngon miệng) với bé.",
+        "promise": "Bé ăn ngon miệng, mẹ k có stress.",
+        "rtb": "Nghiên cứu khẩu vị trẻ 3-15 tuổi, ít gia vị nhưng đậm đà tự nhiên.",
+        "mechanism": "Test món trên trẻ em trước khi ra mắt."
+    },
+    {
+        "id": "insight-transparency",
+        "title": "Minh bạch hơn Giá rẻ (Transparency > Cheap Price)",
+        "tension": "Tôi thà tốn thêm tiền còn hơn là mua đồ rẻ mà lo ngay ngáy.",
+        "belief": "Của rẻ là của ôi.",
+        "core": "Mẹ cực sợ rủi ro, nên minh bạch quy trình quan trọng hơn giá rẻ.",
+        "hooks": [
+            "Thấy tận mắt",
+            "Bếp mở online",
+            "Rõ ràng nguồn gốc"
+        ],
+        "angle": "Niềm tin (Trust)",
+        "reframe": "Giá cao hơn vì sự an toàn cao hơn.",
+        "promise": "Không giấu giếm bất cứ điều gì.",
+        "rtb": "Show quy trình sơ chế, nấu nướng, đóng gói.",
+        "mechanism": "Livestream bếp, cam kết nguồn gốc."
+    },
+    {
+        "id": "insight-scientific-care",
+        "title": "Chăm con khoa học (Scientific Parenting Identity)",
+        "tension": "Tôi sợ bị đánh giá là 'mẹ lười' khi mua đồ ăn sẵn.",
+        "belief": "Mẹ tốt là phải tự tay nấu cho con.",
+        "core": "Mẹ thích cảm giác 'mình đang chăm con khoa học'. Mua Jamte là giải pháp thông minh, không phải lười biếng.",
+        "hooks": [
+            "Mẹ hiện đại",
+            "Chăm con thời 4.0",
+            "Khoa học dinh dưỡng"
+        ],
+        "angle": "Sự tự hào (Pride)",
+        "reframe": "Từ 'mẹ lười' sang 'mẹ thông thái'.",
+        "promise": "Đầy đủ dinh dưỡng, cân đối khẩu phần theo tuổi.",
+        "rtb": "Menu thiết kế theo tháp dinh dưỡng.",
+        "mechanism": "Chia khẩu phần sẵn."
+    },
+    {
+        "id": "insight-convenience-safety",
+        "title": "Tiện nhưng phải Sạch (Convenience without Compromise)",
+        "tension": "Tôi muốn nhanh, nhưng tôi không muốn cho con ăn 'rác' (junk food).",
+        "belief": "Đồ ăn nhanh (convenient food) thường không tốt cho sức khỏe.",
+        "core": "Đồ ăn phải tiện nhưng vẫn phải sạch tuyệt đối.",
+        "hooks": [
+            "5 phút có ăn ngay",
+            "Nhanh - Gọn - Sạch",
+            "Giải phóng mẹ"
+        ],
+        "angle": "Sự tiện lợi không đánh đổi (Uncompromised Convenience)",
+        "reframe": "Tiện lợi không có nghĩa là xuề xòa.",
+        "promise": "Nhanh như mì gói, bổ như mẹ nấu.",
+        "rtb": "Công nghệ cấp đông/đóng gói giữ tươi.",
+        "mechanism": "Hâm nóng/Nấu nhanh trong vài phút."
+    }
+]

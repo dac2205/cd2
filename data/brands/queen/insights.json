@@ -1,0 +1,87 @@
+[
+    {
+        "id": "insight-thoughtfulness",
+        "title": "Nghịch lý của sự Chu đáo (The Thoughtfulness Paradox)",
+        "tension": "Tôi muốn tặng một món quà thể hiện sự quan tâm sâu sắc, nhưng tôi quá bận để đi tìm từng món nhỏ nhặt.",
+        "belief": "Sự chu đáo tỷ lệ thuận với thời gian bỏ ra để tìm kiếm (Effort = Love).",
+        "core": "Sự chu đáo (Thoughtfulness) không nằm ở công sức bạn bỏ ra đi tìm, mà ở kết quả: Cảm xúc của người nhận.",
+        "hooks": [
+            "Quà gì bây giờ? (What to buy?)",
+            "Đừng tặng cho xong",
+            "5 phút > 5 giờ tìm kiếm"
+        ],
+        "angle": "Curation is Love",
+        "reframe": "Từ việc 'Tự tay đi chọn' (Hunting) sang 'Tin tưởng vào sự tuyển chọn' (Trusting Curation).",
+        "promise": "Người nhận phải 'rơi nước mắt' vì cảm động.",
+        "rtb": "Các set quà được phối hợp (Mix & Match) tinh tế, có câu chuyện riêng.",
+        "mechanism": "5-minute Selection Process."
+    },
+    {
+        "id": "insight-affordable-luxury",
+        "title": "Sang trọng không cần đắt đỏ (Affordable Luxury)",
+        "tension": "Tôi muốn tặng quà sang trọng để nở mày nở mặt, nhưng ngân sách của tôi có hạn.",
+        "belief": "Sang trọng đồng nghĩa với Đắt tiền (Luxury = Expensive).",
+        "core": "Giá trị của món quà (Value) nằm ở sự Độc đáo (Uniqueness) và Khan hiếm (Scarcity), không phải ở giá tiền (Price tag).",
+        "hooks": [
+            "Luxury không cháy túi",
+            "Sang mà Sáng (suốt)",
+            "Đắt ở tấm lòng, vừa ở túi tiền"
+        ],
+        "angle": "Accessible Rapidity",
+        "reframe": "Đừng mua 'đồ hiệu' giá rẻ, hãy mua 'trải nghiệm' đắt giá.",
+        "promise": "Tiết kiệm ví tiền nhưng vẫn được tiếng là 'Sang'.",
+        "rtb": "Sản phẩm không đại trà, thiết kế bao bì cao cấp.",
+        "mechanism": "Smart Sourcing & Elegant Packaging."
+    },
+    {
+        "id": "insight-generic-gift-fear",
+        "title": "The 'Generic Gift' Fear",
+        "tension": "Giving an envelope (money) is practical but feels cold/impersonal.",
+        "belief": "Practicality beats sentimentality.",
+        "core": "Gifts are emotional currency. A thoughtful gift says 'I see you,' while money just says 'I paid my dues.'",
+        "hooks": [
+            "Phong bì thì lạnh",
+            "Quà là Cảm xúc",
+            "Tiền không mua được sự quan tâm"
+        ],
+        "angle": "Emotional Currency",
+        "reframe": "Từ 'Tặng giá trị' sang 'Tặng cảm xúc'.",
+        "promise": "Người nhận cảm thấy được trân trọng đặc biệt.",
+        "rtb": "Thiệp viết tay + Gói quà nghệ thuật.",
+        "mechanism": "Personalization Service."
+    },
+    {
+        "id": "insight-last-minute-guilt",
+        "title": "Last-Minute Guilt",
+        "tension": "I remembered the occasion too late, and now whatever I buy looks like a rush job.",
+        "belief": "Good gifts require weeks of planning.",
+        "core": "Speed doesn't have to look sloppy. A curated, ready-to-ship box can look more thoughtful than a months-planned failure.",
+        "hooks": [
+            "Gấp mà vẫn Sang",
+            "Cứu tinh phút chót",
+            "Nhanh nhưng Tinh"
+        ],
+        "angle": "Elegant Speed",
+        "reframe": "Từ 'Sơ sài vì vội' sang 'Tinh tế tức thì'.",
+        "promise": "Không ai biết bạn mới mua nó 5 phút trước.",
+        "rtb": "Giao hỏa tốc 2h nội thành.",
+        "mechanism": "Ready-to-gift Sets."
+    },
+    {
+        "id": "insight-corporate-fatigue",
+        "title": "Corporate Gifting Fatigue",
+        "tension": "Every year we give the same mooncakes/calendars, and they end up in the trash.",
+        "belief": "Corporate gifts are just a checkbox obligation.",
+        "core": "A business gift is a brand ambassador. If it's boring, your brand is boring.",
+        "hooks": [
+            "Đừng tặng rác",
+            "Đại sứ thương hiệu",
+            "Quà doanh nghiệp có Gu"
+        ],
+        "angle": "Brand Ambassadorship",
+        "reframe": "Từ 'Thủ tục' sang 'Chiến lược thương hiệu'.",
+        "promise": "Đối tác nhớ mãi món quà của bạn.",
+        "rtb": "Custom logo + Unique products.",
+        "mechanism": "B2B Curated Service."
+    }
+]

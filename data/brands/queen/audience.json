@@ -1,0 +1,35 @@
+[
+    {
+        "id": "segment-thoughtful-giver",
+        "title": "Người Tặng quà Tinh tế (The Thoughtful Giver)",
+        "isPrimary": true,
+        "description": "Người có gu, tài chính tốt (23+), muốn tặng quà để thể hiện sự quan tâm sâu sắc và khẳng định hình ảnh bản thân. Tặng cho: Khách hàng, bạn bè, người thân.",
+        "painPoints": [
+            "Sợ quà bị 'quê' hoặc đại trà",
+            "Mất quá nhiều thời gian để săn lùng món độc lạ",
+            "Lo người nhận không hiểu được tấm lòng"
+        ]
+    },
+    {
+        "id": "segment-corporate",
+        "title": "Doanh nghiệp Tặng đối tác (Corporate Gifting)",
+        "isPrimary": false,
+        "description": "Admin, HR hoặc chủ doanh nghiệp cần quà tặng số lượng vừa phải nhưng phải Sang trọng và Chỉn chu để giữ quan hệ.",
+        "painPoints": [
+            "Cần hóa đơn, chứng từ rõ ràng",
+            "Cần đóng gói đẹp, chuyên nghiệp, đồng bộ",
+            "Sợ quà tặng làm mất mặt công ty"
+        ]
+    },
+    {
+        "id": "segment-urgent-buyer",
+        "title": "Người cần quà Gấp (Urgent Buyer)",
+        "isPrimary": false,
+        "description": "Những người sực nhớ ra ngày kỷ niệm hoặc sự kiện quan trọng vào phút chót và cần giải pháp 'cứu cánh' ngay lập tức.",
+        "painPoints": [
+            "Không còn thời gian để lựa chọn kỹ",
+            "Sợ mua vội thì quà xấu",
+            "Cần giao hàng hỏa tốc trong 1-2h"
+        ]
+    }
+]

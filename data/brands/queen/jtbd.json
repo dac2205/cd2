@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Giải pháp quà tặng 5 phút",
+            "description": "Giúp người tặng chọn được set quà tinh tế, sang trọng, đầy đủ ý nghĩa chỉ trong 5 phút mà không cần tốn công tìm kiếm, phối đồ.",
+            "situation": "Sắp đến 20/10, sếp giao nhiệm vụ mua quà cho đối tác nữ VIP, ngân sách cao nhưng deadline gấp.",
+            "context": "Người tặng quà thường bận rộn, sợ mua sai, sợ quà quê mùa hoặc không xứng tầm.",
+            "triggers": [
+                "Quên ngày lễ/kỷ niệm quan trọng.",
+                "Bí ý tưởng tặng quà (năm ngoái tặng hoa/son rồi).",
+                "Sợ mua phải hàng fake/kém chất lượng làm mất mặt."
+            ],
+            "desiredOutcome": [
+                "Chọn xong quà nhanh gọn, ship hỏa tốc.",
+                "Gói quà đẹp, sang trọng, có sẵn thiệp viết tay.",
+                "Người nhận 'Wow' ngay khi mở hộp."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Curated Selection (Tuyển chọn kỹ lưỡng)",
+            "description": "Đảm bảo mọi món đồ trong hộp quà (trà, bánh, nến thơm, lụa...) đều là hàng tuyển (Best of the best), có nguồn gốc rõ ràng và gu thẩm mỹ cao.",
+            "situation": "Người nhận là một người phụ nữ kỹ tính, sành điệu, nếu tặng đồ đại tràn họ sẽ biết ngay.",
+            "context": "Giá trị của món quà không nằm ở giá tiền mà ở sự tâm ý (thoughtfulness) và độ tinh (tinderness).",
+            "triggers": [
+                "Sợ tặng bánh bị ngọt gắt, trà bị cũ.",
+                "Sợ các set quà công nghiệp nhìn rẻ tiền.",
+                "Muốn món quà phải 'Độc bản' (Unique)."
+            ],
+            "desiredOutcome": [
+                "Chất lượng sản phẩm hoàn hảo.",
+                "Sự phối hợp màu sắc, mùi hương hài hòa.",
+                "Được đảm bảo bởi uy tín thương hiệu Queen."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Xử lý Khủng hoảng (Crisis Management)",
+            "description": "Cứu nguy cho những tình huống 'quên' ngày kỷ niệm hoặc cần quà gấp để ngoại giao.",
+            "situation": "Sáng nay facebook nhắc mới nhớ hôm nay là kỷ niệm ngày cưới, đang đi làm không thể chạy đi mua.",
+            "context": "Cuộc sống bận rộn khiến chúng ta dễ quên những dịp quan trọng.",
+            "triggers": [
+                "Facebook nhắc ngày sinh nhật bạn thân.",
+                "Sếp đột xuất bảo đi thăm đối tác ốm.",
+                "Cần quà xin lỗi gấp."
+            ],
+            "desiredOutcome": [
+                "Có quà trình diện đúng giờ.",
+                "Món quà chỉn chu như đã chuẩn bị từ lâu.",
+                "Thở phào nhẹ nhõm."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Tự tin về Gu thẩm mỹ",
+            "description": "Cảm thấy mình là người có gu, tinh tế và hiểu tâm lý phụ nữ khi chọn được món quà Queeen.",
+            "situation": "Trao món quà cho người yêu/vợ, thấy cô ấy mắt sáng lên và khoe ngay với bạn bè, mình phổng mũi tự hào.",
+            "context": "Tặng quà là một bài test về sự thấu hiểu và độ tinh tế của người đàn ông/người tặng.",
+            "triggers": [
+                "Sợ bị chê là 'khô khan', 'vô tâm'.",
+                "Muốn gây ấn tượng mạnh (Make a statement).",
+                "Muốn thể hiện tình yêu/sự trân trọng không cần lời nói."
+            ],
+            "desiredOutcome": [
+                "Được khen là 'Tâm lý thế'.",
+                "Khẳng định đẳng cấp/phong cách cá nhân.",
+                "Cảm xúc thăng hoa trong mối quan hệ."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Hào hứng khi tặng (Joy of Giving)",
+            "description": "Biến việc tặng quà từ một nghĩa vụ (phải làm) thành niềm vui (muốn làm), háo hức chờ đợi phản ứng của người nhận.",
+            "situation": "Cầm hộp quà Queen trên tay đẹp đến mức chính mình còn muốn giữ lại, cảm giác trao đi một tác phẩm nghệ thuật.",
+            "context": "Tặng những món quà nhàm chán khiến cả người tặng và người nhận đều gượng gạo.",
+            "triggers": [
+                "Cảm thấy việc chọn quà là gánh nặng.",
+                "Sợ người nhận nhận quà xong cất vào góc tủ.",
+                "Muốn tạo ra khoảnh khắc đáng nhớ (Memorable moment)."
+            ],
+            "desiredOutcome": [
+                "Người nhận xúc động, có thể rơi nước mắt.",
+                "Cảm giác kết nối cảm xúc mãnh liệt.",
+                "Niềm hạnh phúc lan tỏa."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Thoát khỏi Ma trận lựa chọn (Relief from Decision Fatigue)",
+            "description": "Giải phóng bản thân khỏi áp lực phải lựa chọn giữa ma trận hàng hóa vô tận trên các sàn TMĐT.",
+            "situation": "Lướt Shopee 2 tiếng đồng hồ mà vẫn không chốt được món nào vì quá nhiều lựa chọn loạn xạ.",
+            "context": "Nghịch lý của sự lựa chọn (Paradox of Choice): Càng nhiều lựa chọn càng khó chọn.",
+            "triggers": [
+                "Mệt mỏi, đau đầu vì phải so sánh giá/review.",
+                "Sợ chọn sai, sợ bị hớ.",
+                "Muốn ai đó chọn hộ cho mình."
+            ],
+            "desiredOutcome": [
+                "Quyết định mua nhanh chóng (trong 5 phút).",
+                "Cảm thấy nhẹ đầu.",
+                "Tin tưởng vào sự lựa chọn của chuyên gia."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Thắt chặt mối quan hệ",
+            "description": "Sử dụng quà tặng như chất xúc tác để hàn gắn, hâm nóng hoặc nâng tầm mối quan hệ quan trọng.",
+            "situation": "Dùng set quà Queen để làm hòa với vợ sau một trận cãi vã, hoặc cảm ơn người sếp đã dìu dắt mình.",
+            "context": "Lời nói gió bay, nhưng một món quà đúng lúc có sức nặng ngàn cân.",
+            "triggers": [
+                "Mối quan hệ đang lạnh nhạt, cần hâm nóng.",
+                "Muốn bày tỏ lòng biết ơn nhưng ngại nói.",
+                "Muốn tạo thiện cảm trong lần đầu gặp gỡ."
+            ],
+            "desiredOutcome": [
+                "Gương vỡ lại lành, tình cảm mặn nồng hơn.",
+                "Đối tác tin tưởng, ký hợp đồng suôn sẻ.",
+                "Gia đình hòa thuận."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Được khen ngợi công khai",
+            "description": "Khi người nhận chia sẻ món quà lên mạng xã hội, người tặng cũng được 'thơm lây' về sự chu đáo và rộng rãi.",
+            "situation": "Vợ đăng story Facebook khoe quà, tag chồng vào với caption: 'Cảm ơn chồng yêu, chu đáo nhất hệ mặt trời'.",
+            "context": "Sự công nhận xã hội (Social validation) là nhu cầu lớn của con người.",
+            "triggers": [
+                "Muốn mọi người thấy mình có gia đình hạnh phúc.",
+                "Muốn khẳng định vị thế trong mắt bạn bè/đồng nghiệp.",
+                "Thích được 'nở mày nở mặt'."
+            ],
+            "desiredOutcome": [
+                "Nhận được nhiều like/comment ngưỡng mộ.",
+                "Xây dựng hình ảnh 'người đàn ông/đối tác lý tưởng'.",
+                "Tăng cường uy tín cá nhân."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Cân bằng sự Có đi có lại (Reciprocity Balance)",
+            "description": "Đáp lễ một cách tinh tế - món quà không quá rẻ để bị coi thường, nhưng không quá đắt để khiến người nhận áp lực.",
+            "situation": "Được mời đến nhà sếp ăn cơm, cần mang theo một chai rượu hoặc set quà vừa vặn.",
+            "context": "Văn hóa tặng quà 'trả nợ' rất tế nhị trong xã hội Á Đông.",
+            "triggers": [
+                "Sợ bị đánh giá là keo kiệt.",
+                "Sợ tặng món quá đắt khiến họ ngại nhận.",
+                "Muốn giữ mối quan hệ ở mức 'đẹp'."
+            ],
+            "desiredOutcome": [
+                "Giữ được thể diện cho cả hai bên.",
+                "Mối quan hệ trở nên khăng khít hơn.",
+                "Được đánh giá là người biết cư xử."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Self-Reward (Tự thưởng)",
+            "description": "Phụ nữ mua quà Queen tặng chính mình như một cách yêu bản thân sau những ngày nỗ lực.",
+            "situation": "Hoàn thành một project lớn, tự order một set nến thơm Queen về để chill cuối tuần.",
+            "context": "Phụ nữ hiện đại độc lập, không cần đợi ai tặng quà mới thấy vui.",
+            "triggers": [
+                "Cảm thấy kiệt sức, cần nạp năng lượng.",
+                "Muốn ăn mừng một thành công nhỏ.",
+                "Đơn giản là tôi xứng đáng (I deserve it)."
+            ],
+            "desiredOutcome": [
+                "Cảm thấy được nuông chiều (Pampered).",
+                "Tái tạo năng lượng làm việc.",
+                "Khẳng định giá trị bản thân."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Trải nghiệm Đập hộp (Unboxing Experience)",
+            "description": "Tận hưởng cảm giác thỏa mãn thị giác và thính giác (ASMR) khi mở một gói quà đẹp.",
+            "situation": "Từ từ tháo ruy băng, mở lớp giấy lụa sột soạt, hít hà mùi thơm tỏa ra từ hộp quà.",
+            "context": "Unboxing đã trở thành một nghi thức (ritual) mang lại niềm vui.",
+            "triggers": [
+                "Thích những thứ đẹp đẽ, phù phiếm.",
+                "Muốn quay video unboxing đăng story.",
+                "Tìm kiếm những niềm vui nhỏ bé (Small wins)."
+            ],
+            "desiredOutcome": [
+                "Cảm giác được chữa lành (Healing).",
+                "Thỏa mãn giác quan.",
+                "Hưng phấn ngắn hạn (Dopamine hit)."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Vật phẩm Decor (Aesthetic Decor)",
+            "description": "Hộp quà sau khi dùng xong có thể tái sử dụng làm vật trang trí hoặc hộp đựng đồ xinh xắn.",
+            "situation": "Đặt hộp nến thơm của Queen lên bàn làm việc nhìn cả góc phòng sáng bừng lên.",
+            "context": "Xu hướng sống tối giản nhưng tinh tế (Minimalism & Aesthetics).",
+            "triggers": [
+                "Yêu cái đẹp.",
+                "Thích trang trí nhà cửa.",
+                "Ghét vứt bỏ những thứ xinh đẹp (tiếc của)."
+            ],
+            "desiredOutcome": [
+                "Tận dụng tối đa giá trị món quà.",
+                "Làm đẹp không gian sống.",
+                "Bảo vệ môi trường (Reuse)."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+[
+    {
+        "id": "insight-regaining-status",
+        "title": "Giành lại vị thế (Regaining Status)",
+        "tension": "Họ vừa tin rằng 'mình không kém đến thế', vừa liên tục chứng kiến người khác được giao vai trò phiên dịch. Điều này tạo ra cảm giác bị đẩy ra khỏi trung tâm.",
+        "belief": "Năng lực tiếng Anh kém đồng nghĩa với năng lực chuyên môn thấp.",
+        "core": "Khao khát không phải là giỏi ngoại ngữ hơn, mà là giành lại vị thế và sự tin tưởng trong công việc.",
+        "hooks": [
+            "Được gọi tên (The Chosen One)",
+            "Giành lại sân khấu",
+            "Không chỉ là dịch, là đại diện"
+        ],
+        "angle": "Vị thế & Niềm tin (Status & Trust)",
+        "reframe": "Từ 'Học thêm kỹ năng' sang 'Khẳng định vị thế'.",
+        "promise": "Đủ tầm để đại diện và bước vào các tình huống then chốt.",
+        "rtb": "Mô phỏng tình huống thực tế (Real-world Simulation).",
+        "mechanism": "Hành trình từ Kỹ thuật đến Vị thế."
+    },
+    {
+        "id": "insight-fear-losing-face",
+        "title": "Nỗi sợ Mất mặt (Fear of Losing Face)",
+        "tension": "Chỉ cần tưởng tượng cảnh đứng trước đám đông và không theo kịp, họ đã tự động rút lui khỏi mọi cơ hội.",
+        "belief": "Sai sót là biểu hiện của sự yếu kém và sẽ hủy hoại hình tượng mãi mãi.",
+        "core": "Nỗi sợ không phải là dịch sai, mà là bị lộ ra rằng mình không giỏi như người khác nghĩ (mất hình tượng).",
+        "hooks": [
+            "Được phép yếu (Permission to be weak)",
+            "An toàn để sai",
+            "Lớp học không phán xét"
+        ],
+        "angle": "Tâm lý an toàn (Psychological Safety)",
+        "reframe": "Từ 'Sợ sai' sang 'Được phép yếu trước khi mạnh'.",
+        "promise": "Môi trường an toàn để lột xác.",
+        "rtb": "Feedback protective, không phán xét.",
+        "mechanism": "Kín -> Mở (Private to Public Journey)."
+    },
+    {
+        "id": "insight-lack-benchmark",
+        "title": "Thiếu Hệ quy chiếu (Lack of Benchmark)",
+        "tension": "Học rất chăm nhưng không biết mình đang ở đâu, dậm chân hay tiến bộ, lỗi này có nghiêm trọng không.",
+        "belief": "Tiến bộ chỉ có thể đo lường bằng điểm số IDELTS/TOEIC.",
+        "core": "Họ không thiếu nỗ lực, họ thiếu một bản đồ năng lực rõ ràng để biết mình đang đứng ở đâu.",
+        "hooks": [
+            "Tôi đang ở đâu? (Where am I?)",
+            "Bản đồ hay La bàn?",
+            "Thoát khỏi sương mù năng lực"
+        ],
+        "angle": "Định vị năng lực (Competency Mapping)",
+        "reframe": "Từ 'Cảm giác tự ti' sang 'Hệ quy chiếu rõ ràng'.",
+        "promise": "Biết chính xác mình cần làm gì để tiến bộ.",
+        "rtb": "Hệ thống tiêu chí đánh giá cụ thể theo level.",
+        "mechanism": "Bản đồ năng lực (Competency Map)."
+    },
+    {
+        "id": "insight-articulation",
+        "title": "Tư duy Diễn đạt (Articulation Mindset)",
+        "tension": "Càng học nhiều càng thấy khó nói tiếng Việt, bị kẹt word-by-word, nói ra nghe 'ngô nghê'.",
+        "belief": "Nói tiếng Anh nghĩa là dịch từng từ tiếng Việt sang tiếng Anh trong đầu.",
+        "core": "Vấn đề cốt lõi không nằm ở tiếng Anh, mà ở tư duy diễn đạt (ý trong đầu chưa rõ).",
+        "hooks": [
+            "Tiếng Việt không ra hồn",
+            "Nghĩ tiếng Việt, Nói tiếng Anh",
+            "Thoát kiếp Word-by-Word"
+        ],
+        "angle": "Xử lý Ý trước Từ (Sense before Word)",
+        "reframe": "Từ 'Chuyển ngữ máy móc' sang 'Tư duy diễn đạt'.",
+        "promise": "Nói rõ ràng hơn trong cả hai ngôn ngữ.",
+        "rtb": "Quy trình: Nghe -> Tóm ý -> Diễn đạt -> Chuyển ngữ.",
+        "mechanism": "Quy trình Xử lý Ý (Sense-making Process)."
+    },
+    {
+        "id": "insight-trust-mentor",
+        "title": "Chọn Người dẫn đường (Trusting the Mentor)",
+        "tension": "Không tin vào hứa hẹn chung chung, nhưng rất sợ làm người dạy thất vọng.",
+        "belief": "Các khóa học chỉ là giao dịch mua bán, không ai thực sự quan tâm đến sự phát triển cá nhân của mình.",
+        "core": "Quyết định học dựa trên niềm tin cá nhân vào người dẫn đường - người sẽ không bỏ rơi họ.",
+        "hooks": [
+            "Không bị bỏ rơi (Never left behind)",
+            "Người dẫn đường tận tụy",
+            "Hơn cả một người thầy"
+        ],
+        "angle": "Mentor, not just Teacher",
+        "reframe": "Từ 'Chọn khóa học' sang 'Chọn người đồng hành'.",
+        "promise": "Kiên nhẫn dẫn dắt đến cùng.",
+        "rtb": "Kinh nghiệm thực chiến và câu chuyện thật của người dạy.",
+        "mechanism": "Đối thoại cá nhân & Dẫn dắt tâm lý."
+    }
+]

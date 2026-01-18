@@ -1,0 +1,35 @@
+[
+    {
+        "id": "segment-health-conscious",
+        "title": "Người Quan tâm Sức khỏe Sâu sắc (Deep Health Conscious)",
+        "isPrimary": true,
+        "description": "Những người không chỉ muốn 'không bệnh' mà muốn tối ưu hóa sức khỏe và năng lượng. Họ hiểu biết, kén chọn và sẵn sàng chi trả cho chất lượng cao nhất.",
+        "painPoints": [
+            "Sợ hóa chất, thực phẩm bẩn",
+            "Muốn detox nhưng sợ mất cơ/mệt mỏi",
+            "Cần năng lượng cao để làm việc cường độ lớn"
+        ]
+    },
+    {
+        "id": "segment-busy-professional",
+        "title": "Người Bận rộn muốn Tiện lợi (Busy Professionals)",
+        "isPrimary": false,
+        "description": "Giám đốc, quản lý, người kinh doanh bận rộn. Muốn khỏe nhưng không có thời gian ép rau củ mỗi sáng.",
+        "painPoints": [
+            "Quá bận để tự chuẩn bị bữa ăn healthy",
+            "Hay phải đi tiếp khách, uống rượu bia",
+            "Cảm thấy cơ thể nặng nề, thiếu tỉnh táo"
+        ]
+    },
+    {
+        "id": "segment-healing-seeker",
+        "title": "Người tìm kiếm Chữa lành (Healing Seekers)",
+        "isPrimary": false,
+        "description": "Những người đang gặp vấn đề cụ thể (tiêu hóa, da dẻ, cân nặng) và muốn tìm giải pháp tự nhiên thay vì thuốc tây.",
+        "painPoints": [
+            "Da mụn, tối màu do nội tiết/độc tố",
+            "Táo bón, đầy hơi thường xuyên",
+            "Cân nặng mất kiểm soát dù ăn ít"
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "id": "insight-content-burnout",
+        "title": "Content Burnout vs Authenticity",
+        "tension": "I know I need to produce content to grow, but the process feels draining and inauthentic.",
+        "belief": "Content must be 'performed' and polished to be valuable (The Performance Belief).",
+        "core": "Content shouldn't be a performance; it should be a documented extension of your thinking.",
+        "hooks": [
+            "Viết như hơi thở (Write like breathing)",
+            "Từ 'Phải viết' sang 'Muốn kể'",
+            "Đừng diễn, hãy sống"
+        ],
+        "angle": "Inside-Out Content",
+        "reframe": "From 'Creating Content' to 'Documenting Journey'.",
+        "promise": "Sustainable growth without burnout.",
+        "rtb": "Based on the proven 'Inside School' methodology of self-discovery.",
+        "mechanism": "Frameworks that extract your inner thoughts into posts."
+    },
+    {
+        "id": "insight-conversion-anxiety",
+        "title": "Conversion Anxiety",
+        "tension": "I get likes and comments, but nobody is buying, and I feel like a fraud.",
+        "belief": "Higher Traffic always equals Higher Revenue (The Traffic Fallacy).",
+        "core": "People don't buy information; they buy clarity and trust.",
+        "hooks": [
+            "Bán niềm tin (Selling Trust)",
+            "Người ta mua người bán (People buy People)",
+            "Thanh khoản niềm tin"
+        ],
+        "angle": "Clarity is King",
+        "reframe": "From 'Chasing Traffic' to 'Building Trust Depth'.",
+        "promise": "High conversion rates from smaller audiences.",
+        "rtb": "Case studies of students selling high-ticket items with small followings.",
+        "mechanism": "The 'Customer Decode' deep-dive process."
+    },
+    {
+        "id": "insight-expert-trap",
+        "title": "The 'Expert' Trap",
+        "tension": "I feel I need to know *everything* before I can teach *anything*.",
+        "belief": "Expertise = Certification/Years of experience.",
+        "core": "You only need to be one step ahead to help someone behind you. The value is in the shared journey, not the pedestal.",
+        "hooks": [
+            "Đừng chờ hoàn hảo (Don't wait for perfection)",
+            "Chia sẻ hành trình",
+            "Người hướng dẫn > Chuyên gia"
+        ],
+        "angle": "Guide on the Side",
+        "reframe": "From 'Fake Guru' to 'Authentic Guide'.",
+        "promise": "Confidence to share without Imposter Syndrome.",
+        "rtb": "Community-led learning model.",
+        "mechanism": "The 'Learn-Do-Teach' Framework."
+    },
+    {
+        "id": "insight-silent-consumption",
+        "title": "Silent Consumption",
+        "tension": "People read my posts but don't like/comment, making me feel invisible.",
+        "belief": "No engagement = No impact.",
+        "core": "The most valuable customers often watch in silence (The 'Dark Social'). They buy trust, not the 'like' button.",
+        "hooks": [
+            "Khán giả vô hình (Invisible Audience)",
+            "Thầm lặng theo dõi",
+            "Niềm tin không cần Like"
+        ],
+        "angle": "Dark Social",
+        "reframe": "From 'Viral Metrics' to 'Deep Impact'.",
+        "promise": "Sales from 'ghost' followers.",
+        "rtb": "Tracking data shows sales come from non-engagers.",
+        "mechanism": "Trigger-based Content Strategy."
+    },
+    {
+        "id": "insight-niche-paralysis",
+        "title": "Thu hẹp để Mở rộng (Niche Paralysis)",
+        "tension": "Tôi sợ nếu chọn ngách quá hẹp sẽ mất đi cơ hội với những khách hàng khác.",
+        "belief": "Càng rộng càng tốt (Broad = Safe).",
+        "core": "Sự cụ thể tạo ra lực hút (Specificity is magnetic). Cố gắng nói với tất cả mọi người là không nói với ai cả.",
+        "hooks": [
+            "Hẹp là Rộng",
+            "Cá lớn trong ao nhỏ",
+            "Độc quyền tâm trí"
+        ],
+        "angle": "Radical Specificity",
+        "reframe": "Từ 'Bỏ lỡ cơ hội' sang 'Sở hữu thị trường riêng'.",
+        "promise": "Trở thành Top-of-mind trong ngách.",
+        "rtb": "Blue Ocean Strategy adaptation.",
+        "mechanism": "Micro-Niche Positioning Canvas."
+    }
+]

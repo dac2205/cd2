@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Lấy lại căn bản & Sự tự tin",
+            "description": "Xây dựng lại nền tảng tiếng Anh vững chắc để có thể giao tiếp tự nhiên, không còn sợ sai, sợ bị đánh giá.",
+            "situation": "Ngồi trong cuộc họp với đối tác nước ngoài, muốn phát biểu ý kiến nhưng sợ nói sai ngữ pháp nên đành im lặng.",
+            "context": "Đã học tiếng Anh nhiều năm (12 năm phổ thông + Đại học) nhưng vẫn bị 'điếc' và 'câm' tiếng Anh.",
+            "triggers": [
+                "Bỏ lỡ cơ hội thăng tiến vì rào cản ngoại ngữ.",
+                "Cảm thấy xấu hổ khi phải dùng Google Dịch trước mặt đồng nghiệp.",
+                "Bị sếp phàn nàn về khả năng giao tiếp email tiếng Anh."
+            ],
+            "desiredOutcome": [
+                "Có thể mở miệng nói tiếng Anh mà không cần dịch trong đầu.",
+                "Tự tin thuyết trình (presentation) bằng tiếng Anh.",
+                "Cảm thấy mình chuyên nghiệp và có giá trị hơn."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Phương pháp học Tư duy & Tâm lý",
+            "description": "Tiếp cận tiếng Anh không phải như một môn học học thuật mà như một công cụ tư duy, giải tỏa các rào cản tâm lý.",
+            "situation": "Đến lớp không phải để chép ngữ pháp, mà để được 'khai mở' tư duy, hiểu tại sao người bản xứ lại nói như vậy.",
+            "context": "Chán ngấy cách học vẹt, nhồi nhét từ vựng vô nghĩa của các trung tâm truyền thống.",
+            "triggers": [
+                "Học trước quên sau, không áp dụng được vào thực tế.",
+                "Cảm thấy việc học tiếng Anh là một cực hình (burden).",
+                "Mất niềm tin vào khả năng ngôn ngữ của bản thân."
+            ],
+            "desiredOutcome": [
+                "Hiểu bản chất (root cause) của ngôn ngữ.",
+                "Tìm thấy niềm vui và động lực học tập nội tại.",
+                "Thay đổi tư duy (Mindset shift) về việc học."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Email Intelligence",
+            "description": "Viết email không chỉ 'đúng' mà còn phải 'khéo', thể hiện sự chuyên nghiệp, ngoại giao và vị thế của người gửi.",
+            "situation": "Viết mail từ chối đối tác nhưng không biết dùng từ sao cho lịch sự mà vẫn cứng rắn.",
+            "context": "Văn viết (Written communication) là bộ mặt của doanh nghiệp.",
+            "triggers": [
+                "Sợ viết mail nghe cộc lốc (rude).",
+                "Mất quá nhiều thời gian để soạn một email ngắn.",
+                "Bị hiểu lầm thái độ qua email."
+            ],
+            "desiredOutcome": [
+                "Email gãy gọn, tinh tế.",
+                "Đạt được mục đích giao tiếp.",
+                "Xây dựng hình ảnh chuyên nghiệp."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Khôi phục vị thế (Restore Status)",
+            "description": "Cảm thấy mình tài giỏi, thông minh xứng đáng với chuyên môn của mình, không bị tiếng Anh làm 'lu mờ' năng lực.",
+            "situation": "Khi có thể tranh luận sòng phẳng với đối tác nước ngoài, cảm thấy mình được tôn trọng thực sự.",
+            "context": "Nhiều người rất giỏi chuyên môn nhưng bị coi thường chỉ vì tiếng Anh kém.",
+            "triggers": [
+                "Cảm thấy mình 'thấp bé' trước những bạn trẻ giỏi tiếng Anh.",
+                "Bị coi là 'lỗi thời' trong môi trường quốc tế.",
+                "Ức chế vì không diễn đạt được sự thông minh của mình."
+            ],
+            "desiredOutcome": [
+                "Tự hào về bản thân (Self-pride).",
+                "Được đồng nghiệp/sếp nhìn nhận đúng năng lực.",
+                "Cảm thấy quyền lực (Empowered) trong công việc."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Vượt qua nỗi sợ sai",
+            "description": "Tạo ra một Zone an toàn để dám mắc lỗi, dám nói, dám thể hiện mà không sợ bị phán xét.",
+            "situation": "Đứng lên nói sai một câu nhưng được giáo viên và bạn học khích lệ thay vì cười chê.",
+            "context": "Tâm lý sợ sai (Fear of failure) ăn sâu vào tiềm thức người Việt khi học ngoại ngữ.",
+            "triggers": [
+                "Run lẩy bẩy khi phải nói tiếng Anh.",
+                "Luôn ám ảnh việc phải nói chuẩn ngữ pháp 100%.",
+                "Sợ bị người khác đánh giá accent (giọng)."
+            ],
+            "desiredOutcome": [
+                "Thoải mái mắc lỗi để trưởng thành.",
+                "Cảm thấy nhẹ nhàng, không áp lực.",
+                "Dám là chính mình (Be Authentic) khi dùng ngôn ngữ khác."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Imposter Syndrome Relief",
+            "description": "Giải thoát khỏi cảm giác mình là kẻ giả mạo, không đủ giỏi, luôn lo sợ bị người khác phát hiện ra điểm yếu tiếng Anh.",
+            "situation": "Được khen tiếng Anh giỏi nhưng trong lòng vẫn lo nơm nớp vì biết mình chỉ học vẹt.",
+            "context": "Áp lực phải hoàn hảo khiến nhiều người không bao giờ dám mở miệng.",
+            "triggers": [
+                "Luôn so sánh mình với người khác.",
+                "Cảm thấy không xứng đáng với vị trí hiện tại.",
+                "Sợ bị 'bóc phốt' năng lực."
+            ],
+            "desiredOutcome": [
+                "Tự tin vào giá trị thực của bản thân.",
+                "Chấp nhận trình độ hiện tại và vui vẻ tiến bộ.",
+                "Thoát khỏi gánh nặng tâm lý."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Global Citizen Image",
+            "description": "Xây dựng hình ảnh một công dân toàn cầu, hiện đại, có khả năng kết nối và làm việc trong môi trường đa văn hóa.",
+            "situation": "Đi du lịch nước ngoài tự tin order món ăn, hỏi đường, kết bạn với người bản xứ.",
+            "context": "Tiếng Anh là tấm hộ chiếu để bước ra thế giới.",
+            "triggers": [
+                "Thấy bạn bè đi nước ngoài check-in sang chảnh.",
+                "Muốn đi du học hoặc định cư.",
+                "Muốn mở rộng network quốc tế."
+            ],
+            "desiredOutcome": [
+                "Được ngưỡng mộ về phong cách sống.",
+                "Tự do đi bất cứ đâu mình muốn.",
+                "Kết nối không biên giới."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Career Advancement",
+            "description": "Chứng minh sự thăng tiến trong sự nghiệp, khẳng định vị trí quản lý/lãnh đạo.",
+            "situation": "Tự tin lead một team dự án có thành viên là người nước ngoài.",
+            "context": "Ở các vị trí cao cấp, tiếng Anh là yêu cầu bắt buộc (Must-have).",
+            "triggers": [
+                "Cơ hội thăng chức đến nhưng lụt mất vì tiếng Anh.",
+                "Muốn deal mức lương cao hơn (ngàn đô).",
+                "Sợ bị đào thải nếu không cập nhật."
+            ],
+            "desiredOutcome": [
+                "Thăng tiến lên vị trí cao hơn.",
+                "Thu nhập tăng trưởng đột phá.",
+                "Được săn đón (Headhunted)."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Cultural Bridging",
+            "description": "Hiểu được các ẩn ý văn hóa (nuance), sự hài hước (humor) để kết nối sâu sắc người nước ngoài, chứ không chỉ giao tiếp bề mặt.",
+            "situation": "Mọi người cười ồ lên vì một câu đùa trong cuộc họp, còn mình thì ngơ ngác không hiểu gì.",
+            "context": "Ngôn ngữ chỉ là công cụ, văn hóa mới là cầu nối.",
+            "triggers": [
+                "Cảm thấy lạc lõng trong các buổi networking.",
+                "Không hiểu được 'ẩn ý' của đối tác.",
+                "Muốn có bạn bè quốc tế thực sự."
+            ],
+            "desiredOutcome": [
+                "Hòa nhập tự nhiên vào môi trường quốc tế.",
+                "Giao tiếp có duyên, thú vị.",
+                "Xây dựng mối quan hệ tin cậy."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Personal Growth",
+            "description": "Coi việc học tiếng Anh như một hành trình phát triển bản thân, rèn luyện sự kiên trì và kỷ luật.",
+            "situation": "Thấy mình kiên trì đi học đều đặn mỗi tối sau giờ làm thay vì đi nhậu.",
+            "context": "Học tập là con đường duy nhất để không bị tụt hậu.",
+            "triggers": [
+                "Cảm thấy cuộc sống nhàm chán, dậm chân tại chỗ.",
+                "Muốn thử thách bản thân ở một lĩnh vực mới.",
+                "Cần một môi trường tích cực để thay đổi thói quen."
+            ],
+            "desiredOutcome": [
+                "Trở thành phiên bản tốt hơn của chính mình.",
+                "Sống kỷ luật và có mục tiêu hơn.",
+                "Mở rộng vốn hiểu biết văn hóa."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Cognitive Sharpening",
+            "description": "Sử dụng việc học ngôn ngữ như một bài tập gym cho não bộ, giúp tư duy sắc bén và linh hoạt hơn.",
+            "situation": "Cảm thấy đầu óc nhanh nhạy hơn khi phải xử lý thông tin bằng hai ngôn ngữ.",
+            "context": "Học ngoại ngữ là cách tốt nhất để chống lão hóa não bộ.",
+            "triggers": [
+                "Cảm thấy trí nhớ giảm sút.",
+                "Muốn rèn luyện tư duy logic.",
+                "Thích thử thách trí tuệ."
+            ],
+            "desiredOutcome": [
+                "Tư duy đa chiều (Multidimensional thinking).",
+                "Tăng khả năng tập trung.",
+                "Não bộ khỏe mạnh, minh mẫn."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Content Consumption",
+            "description": "Tự do tiếp cận kho tàng tri thức nhân loại (sách, khóa học, video) bằng ngôn ngữ gốc mà không cần chờ bản dịch.",
+            "situation": "Đọc một cuốn sách chuyên ngành bản gốc mới ra mắt mà không cần đợi 2 năm sau mới có bản tiếng Việt.",
+            "context": "Knowledge is Power. Người tiếp cận thông tin gốc sẽ đi trước người khác.",
+            "triggers": [
+                "Bực mình vì bản dịch sai hoặc khó hiểu.",
+                "Muốn update kiến thức mới nhất từ thế giới.",
+                "Không muốn bị giới hạn bởi biên giới ngôn ngữ."
+            ],
+            "desiredOutcome": [
+                "Tiếp thu kiến thức nguyên bản.",
+                "Cập nhật xu hướng thế giới nhanh nhất.",
+                "Tự chủ trong việc học tập."
+            ]
+        }
+    ]
+}

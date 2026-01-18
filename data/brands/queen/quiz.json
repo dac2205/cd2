@@ -1,0 +1,35 @@
+[
+    {
+        "id": "q1",
+        "question": "Vấn đề lớn nhất của bạn khi chọn quà là gì?",
+        "options": [
+            "Không biết người nhận thích gì",
+            "Sợ mua phải món quà 'quê' hoặc kém chất lượng",
+            "Mất quá nhiều thời gian đi tìm",
+            "Ngân sách hạn hẹp nhưng muốn quà sang"
+        ],
+        "explanation": "QUEEN tập trung giải quyết vấn đề Thời gian và Sự tinh tế."
+    },
+    {
+        "id": "q2",
+        "question": "Bạn muốn người nhận cảm thấy thế nào?",
+        "options": [
+            "Bất ngờ thú vị",
+            "Cảm động đến rơi nước mắt",
+            "Vui vẻ bình thường",
+            "Thấy mình giàu có"
+        ],
+        "explanation": "Lời hứa thương hiệu của QUEEN là cảm xúc 'được trân trọng' sâu sắc."
+    },
+    {
+        "id": "q3",
+        "question": "Phong cách tặng quà của bạn là gì?",
+        "options": [
+            "Nhanh gọn lẹ, sao cũng được",
+            "Độc đáo, có gu riêng, không đại trà",
+            "Ưu tiên đồ hiệu đắt tiền logo to",
+            "Tự tay làm mọi thứ (Handmade)"
+        ],
+        "explanation": "QUEEN dành cho những người muốn có 'gu' nhưng cần sự tiện lợi."
+    }
+]

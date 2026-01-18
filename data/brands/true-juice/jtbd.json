@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Health Markers Improvement",
+            "description": "Cải thiện các chỉ số sức khỏe cụ thể (Health Markers) và mức năng lượng hàng ngày để duy trì hiệu suất làm việc cao.",
+            "situation": "Sau kỳ khám sức khỏe tổng quát, cầm trên tay kết quả với nhiều chỉ số 'báo động đỏ' (mỡ máu, men gan).",
+            "context": "Một CEO/Founder 35-45 tuổi, làm việc 12-14h/ngày, ăn uống thất thường và chịu áp lực cao.",
+            "triggers": [
+                "Cảm thấy kiệt sức (fatigue) vào buổi chiều.",
+                "Bác sĩ cảnh báo về nguy cơ đột quỵ/tiểu đường.",
+                "Không còn đủ sức bền để chơi thể thao cuối tuần."
+            ],
+            "desiredOutcome": [
+                "Các chỉ số trở về mức an toàn (màu xanh).",
+                "Cơ thể nhẹ nhõm, tràn đầy năng lượng từ sáng đến tối.",
+                "Không phải dùng thuốc tây để điều trị."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Digestive Reset",
+            "description": "Cho hệ tiêu hóa được nghỉ ngơi (Gut rest) thông qua việc hấp thụ dinh dưỡng dạng lỏng, giúp cơ thể tự chữa lành.",
+            "situation": "Cảm thấy đầy bụng, khó tiêu, nặng nề sau chuỗi ngày tiệc tùng tiếp khách liên miên.",
+            "context": "Lối sống giao tế nhiều bia rượu và đồ ăn dầu mỡ khiến hệ tiêu hóa quá tải.",
+            "triggers": [
+                "Thường xuyên bị trào ngược, đầy hơi.",
+                "Da dẻ sạm, nổi mụn do tích tụ độc tố.",
+                "Cảm giác cơ thể ì ạch, chậm chạp."
+            ],
+            "desiredOutcome": [
+                "Hệ tiêu hóa nhẹ nhàng, bụng phẳng.",
+                "Da dẻ sáng mịn, hồng hào hơn.",
+                "Cảm giác 'sạch' (clean) từ bên trong."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Weight Management",
+            "description": "Kiểm soát cân nặng một cách tự nhiên nhờ nạp vào cơ thể nguồn dinh dưỡng thực vật nguyên chất, đào thải độc tố.",
+            "situation": "Thử gài khuy chiếc áo sơ mi cũ nhưng không vừa nữa, cảm thấy tự ti khi gặp đối tác.",
+            "context": "Tăng cân mất kiểm soát do stress và ăn uống không điều độ, không có thời gian tập gym.",
+            "triggers": [
+                "Quần áo chật chội, phải nới size.",
+                "Ngại chụp ảnh hoặc xuất hiện trước đám đông.",
+                "Bị người quen quở 'dạo này phát tướng thế'."
+            ],
+            "desiredOutcome": [
+                "Giảm 2-3kg mỡ thừa nhẹ nhàng.",
+                "Cơ thể săn chắc, gọn gàng hơn.",
+                "Lấy lại vóc dáng tự tin để mặc đồ đẹp."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Peace of Mind (An tâm)",
+            "description": "Cảm thấy an tâm tuyệt đối rằng mình đang chăm sóc cơ thể đúng cách và sẽ không bị 'đổ gục' vì bệnh tật.",
+            "situation": "Nằm trên giường vào đêm muộn, lo lắng tim đập nhanh và sợ mình có mệnh hệ gì thì ai lo cho con/công ty.",
+            "context": "Nỗi sợ vô hình về cái chết hoặc bệnh tật hiểm nghèo (Cancer, Stroke) luôn rình rập giới doanh nhân.",
+            "triggers": [
+                "Nghe tin một người bạn đồng trang lứa đột quỵ.",
+                "Cảm thấy hụt hơi, tức ngực bất thường.",
+                "Mất ngủ triền miên do lo âu."
+            ],
+            "desiredOutcome": [
+                "Ngủ ngon giấc, sâu giấc.",
+                "Cảm giác an toàn, kiểm soát được sức khỏe (In control).",
+                "Yên tâm cống hiến và tận hưởng cuộc sống."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Trust in Expertise",
+            "description": "Tin tưởng vào giải pháp được thiết kế bởi chuyên gia (Huyền) thay vì lo lắng khi sử dụng các sản phẩm trôi nổi.",
+            "situation": "Đứng giữa rừng ma trận thực phẩm chức năng nhưng không biết tin ai.",
+            "context": "Người thành đạt thường đa nghi và chỉ tin vào những gì có cơ sở khoa học hoặc Expert uy tín.",
+            "triggers": [
+                "Đã từng bị lừa bởi các sản phẩm giảm cân ảo.",
+                "Đọc các bài viết chuyên sâu của True Juice thấy thuyết phục.",
+                "Thấy người thật việc thật review uy tín."
+            ],
+            "desiredOutcome": [
+                "Cảm thấy mình đang đầu tư đúng chỗ.",
+                "Không phải lo lắng về tác dụng phụ.",
+                "Được đồng hành, chăm sóc 1-1."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Self-Love",
+            "description": "Cảm nhận được sự yêu thương bản thân khi dành tặng cho cơ thể những điều tinh túy nhất từ thiên nhiên.",
+            "situation": "Khoảnh khắc buổi sáng thức dậy, uống chai Juice đầu tiên và cảm thấy dòng năng lượng tươi mới chảy trong người.",
+            "context": "Dành quá nhiều thời gian chăm sóc người khác/công việc mà bỏ bê chính mình.",
+            "triggers": [
+                "Cảm thấy mình đang ngược đãi bản thân.",
+                "Muốn thưởng cho mình một liệu trình 'Chữa lành'.",
+                "Cần một nghi thức (ritual) để bắt đầu ngày mới tích cực."
+            ],
+            "desiredOutcome": [
+                "Cảm thấy được yêu thương và trân trọng.",
+                "Tâm trạng tích cực, vui vẻ.",
+                "Kết nối sâu sắc hơn với cơ thể."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Capable Leader",
+            "description": "Được nhìn nhận là một người lãnh đạo có năng lực, biết quản lý cuộc sống và sức khỏe, không phải là người 'yếu đuối'.",
+            "situation": "Xuất hiện trong cuộc họp với thần thái rạng rỡ, năng lượng dồi dào, truyền cảm hứng cho nhân viên.",
+            "context": "Hình ảnh người lãnh đạo ốm yếu, mệt mỏi sẽ làm giảm uy tín và niềm tin của đội ngũ.",
+            "triggers": [
+                "Bị nhân viên xì xào vì hay nghỉ ốm.",
+                "Không theo kịp tiến độ dự án vì sức khỏe.",
+                "Muốn xây dựng hình tượng lãnh đạo mạnh mẽ toàn diện."
+            ],
+            "desiredOutcome": [
+                "Được nhân viên/đối tác nể trọng.",
+                "Thể hiện năng lực quản trị bản thân xuất sắc.",
+                "Tạo dựng niềm tin vững chắc."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Health Influencer",
+            "description": "Trở thành nguồn cảm hứng về lối sống lành mạnh cho nhân viên, đồng nghiệp và gia đình noi theo.",
+            "situation": "Chia sẻ về hành trình 7 ngày Juice Cleanse trên Facebook và nhận được nhiều sự ngưỡng mộ.",
+            "context": "Nhu cầu khẳng định bản thân và lan tỏa giá trị tích cực đến cộng đồng.",
+            "triggers": [
+                "Được mọi người hỏi bí quyết trẻ/khỏe.",
+                "Muốn làm gương cho con cái/nhân viên.",
+                "Thấy mình có tầm ảnh hưởng tích cực."
+            ],
+            "desiredOutcome": [
+                "Trở thành hình mẫu lý tưởng (Role Model).",
+                "Lan tỏa lối sống xanh đến cộng đồng.",
+                "Nhận được sự công nhận xã hội (Social Recognition)."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Modern Lifestyle",
+            "description": "Thể hiện gu sống hiện đại, văn minh thông qua việc lựa chọn phương pháp chăm sóc sức khỏe khoa học, thuận tự nhiên.",
+            "situation": "Cầm chai True Juice trên tay check-in như một biểu tượng của phong cách sống thượng lưu mới.",
+            "context": "Sức khỏe là sự xa xỉ mới (Health is the new Luxury).",
+            "triggers": [
+                "Muốn thể hiện đẳng cấp khác biệt.",
+                "Không muốn bị đánh đồng với những trào lưu kems sang.",
+                "Tìm kiếm sự tinh tế, chỉn chu trong từng sản phẩm."
+            ],
+            "desiredOutcome": [
+                "Được nhìn nhận là người có gu, có hiểu biết.",
+                "Hòa nhập với tầng lớp tinh hoa.",
+                "Nâng tầm thương hiệu cá nhân."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Effortless Habit",
+            "description": "Tích hợp thói quen lành mạnh vào lịch trình bận rộn một cách không tốn sức (Effortless), không cần chế biến cầu kỳ.",
+            "situation": "Chỉ mất 30s để lấy chai Juice từ tủ lạnh ra uống, thay vì mất 1 tiếng chuẩn bị bữa sáng healthy.",
+            "context": "Sự bận rộn là kẻ thù số 1 của thói quen lành mạnh.",
+            "triggers": [
+                "Bỏ cuộc việc ăn healthy vì quá lích kích.",
+                "Không có thời gian đi chợ/nấu nướng.",
+                "Muốn một giải pháp 'Grab & Go' chất lượng cao."
+            ],
+            "desiredOutcome": [
+                "Duy trì thói quen dài hạn dễ dàng.",
+                "Không bị stress vì việc ăn uống.",
+                "Tiết kiệm thời gian quý báu."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Taste Enjoyment",
+            "description": "Thưởng thức hương vị tươi ngon, nguyên bản của rau củ quả, thay vì phải 'chịu đựng' những thực phẩm chức năng khó uống.",
+            "situation": "uống Juice mà thấy ngon như uống sinh tố, không hề có mùi hăng của cần tây hay cải xoăn.",
+            "context": "Quan niệm sai lầm: 'Thuốc đắng dã tật', đồ healthy thường dở tệ.",
+            "triggers": [
+                "Sợ mùi vị rau củ sống.",
+                "Đã từng uống các loại detox khó uống và bỏ cuộc.",
+                "Muốn healthy nhưng không muốn hành xác."
+            ],
+            "desiredOutcome": [
+                "Tìm thấy niềm vui trong việc ăn uống lành mạnh.",
+                "Háo hức chờ đợi mỗi chai Juice.",
+                "Thay đổi khẩu vị tự nhiên."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Systematic Approach",
+            "description": "Tiếp cận sức khỏe theo một lộ trình bài bản, có hệ thống (Liệu trình), chứ không phải là những giải pháp chắp vá.",
+            "situation": "Biết rõ ngày 1 uống gì, ngày 2 uống gì, lộ trình thải độc diễn ra như thế nào.",
+            "context": "Thích sự rõ ràng (Clarity), khoa học và có kế hoạch (Plan).",
+            "triggers": [
+                "Ghét sự mơ hồ, áng chừng.",
+                "Cần một lộ trình cam kết kết quả.",
+                "Muốn được đo lường hiệu quả rõ ràng."
+            ],
+            "desiredOutcome": [
+                "Cảm giác được dẫn dắt bởi chuyên gia.",
+                "Nhìn thấy tiến bộ rõ rệt theo từng giai đoạn.",
+                "Không bị lạc lối giữa rừng thông tin."
+            ]
+        }
+    ]
+}

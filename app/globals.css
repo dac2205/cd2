@@ -1,42 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:wght@100..900&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Detective Wood & Acoustic Theme - Semantic Color Tokens */
+  --background: 45 50% 96%; /* Paper White #FAF7F0 */
+  --foreground: 25 25% 24%; /* Ink Brown #4C3A2E */
+  
+  --card: 45 50% 96%;
+  --card-foreground: 25 25% 24%;
+  
+  --popover: 38 60% 81%; /* Maple Cream #EED7B0 */
+  --popover-foreground: 25 25% 24%;
+  
+  --primary: 8 60% 49%; /* Conan Red Soft #C74433 */
+  --primary-foreground: 45 50% 96%;
+  
+  --secondary: 33 50% 56%; /* Honey Oak #C89254 */
+  --secondary-foreground: 45 50% 96%;
+  
+  --muted: 38 60% 81%;
+  --muted-foreground: 25 25% 24%; /* opacity handled in class */
+  
+  --accent: 33 62% 45%; /* Guitar Amber #B97A2B */
+  --accent-foreground: 45 50% 96%;
+  
+  --destructive: 8 60% 49%;
+  --destructive-foreground: 45 50% 96%;
+  
+  --border: 0 0% 91%; /* Fog Grey */
+  --input: 45 50% 96%;
+  --ring: 33 62% 45%;
+  
+  /* Raw Wood Colors (referenced for utility) */
+  --golden-oak: 33 56% 64%;
+  --honey-oak: 33 50% 56%;
+  --maple-cream: 38 60% 81%;
+  --guitar-amber: 33 62% 45%;
+  --caramel-walnut: 28 42% 43%;
+  --deep-espresso: 0 11% 21%;
+  --paper-white: 45 50% 96%;
+  --fog-grey: 0 0% 91%;
+  --ink-brown: 25 25% 24%;
+  --conan-red-soft: 8 60% 49%;
+  --copper-line: 28 43% 46%;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --radius: 0.5rem;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Crimson Pro', Georgia, serif;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans);
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(var(--ink-brown));
+  line-height: 1.2;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-size: 1.5rem;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-subtext {
+  color: hsl(var(--ink-brown) / 0.7);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Card Wood Style */
+.card-wood {
+  background: hsl(var(--paper-white));
+  border: 1px solid hsl(var(--caramel-walnut) / 0.15);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  color: hsl(var(--ink-brown));
+  overflow: hidden;
+}
+
+.card-wood-header {
+  background: hsl(var(--maple-cream));
+  border-bottom: 1px solid hsl(var(--caramel-walnut) / 0.15);
+  padding: 1rem;
+}
+
+.card-wood-content {
+  padding: 1rem;
+}
+
+/* Animations */
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s ease-out;
 }

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "seg-1",
+        "title": "Mẹ bận rộn hiện đại (The Overloaded Mom)",
+        "isPrimary": true,
+        "description": "Nhóm phụ nữ đi làm (văn phòng, kinh doanh) có thu nhập tốt nhưng quỹ thời gian cực kỳ hạn hẹp. Họ yêu con, muốn điều tốt nhất cho con nhưng bất lực trước áp lực công việc và việc nhà.",
+        "painPoints": [
+            "Luôn trong tình trạng thiếu ngủ, thiếu thời gian.",
+            "Cảm thấy tội lỗi vì không chăm con chu đáo.",
+            "Stress vì áp lực kép: Giỏi việc nước - Đảm việc nhà."
+        ]
+    },
+    {
+        "id": "seg-2",
+        "title": "Mẹ có con kén ăn (The Struggle Mom)",
+        "isPrimary": false,
+        "description": "Nhóm mẹ có con gặp vấn đề về ăn uống (biếng ăn, kén chọn, suy dinh dưỡng nhẹ). Bữa ăn là một cuộc chiến và họ đang tìm kiếm mọi giải pháp để con 'chịu mở miệng'.",
+        "painPoints": [
+            "Bất lực khi con ngậm, phun thức ăn.",
+            "Lo lắng con thiếu chất, chậm lớn.",
+            "Mệt mỏi vì phải nấu riêng nhiều món mà con vẫn chê."
+        ]
+    },
+    {
+        "id": "seg-3",
+        "title": "Mẹ sành điệu kỹ tính (The Quality Obsessed)",
+        "isPrimary": false,
+        "description": "Nhóm mẹ có kiến thức, cực kỳ khắt khe về nguồn gốc thực phẩm. Họ không tin tưởng đồ ăn ngoài, thường chỉ mua đồ organic hoặc tự làm. Họ tìm đến Jamte vì sự minh bạch.",
+        "painPoints": [
+            "Sợ thực phẩm bẩn, hóa chất độc hại.",
+            "Không tin tưởng bếp ăn công nghiệp/hàng quán.",
+            "Sẵn sàng chi trả cao nhưng khó tìm được nơi ưng ý."
+        ]
+    }
+]

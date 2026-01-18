@@ -1,0 +1,38 @@
+[
+    {
+        "id": "q1",
+        "question": "Jamte giải quyết nỗi đau lớn nhất nào của mẹ?",
+        "options": [
+            "Con biếng ăn, suy dinh dưỡng",
+            "Mẹ không biết nấu ăn ngon",
+            "Thiếu thời gian nhưng lo sợ thực phẩm bẩn bên ngoài",
+            "Muốn tiết kiệm chi phí ăn uống"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jamte đánh trúng vào tâm lý 'Muốn tiện nhưng phải Sạch'. Mẹ bận rộn sẵn sàng chi trả để mua sự an tâm và thời gian."
+    },
+    {
+        "id": "q2",
+        "question": " Insight 'The Kid is the Boss' nghĩa là gì?",
+        "options": [
+            "Trẻ em là khách hàng trả tiền",
+            "Mẹ thích là mua, không quan trọng con",
+            "Trẻ quyết định 70% khả năng mua lại, con phải thích mẹ mới mua tiếp",
+            "Jamte chỉ bán đồ chơi cho trẻ"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dù mẹ là người mua, nhưng nếu con từ chối ăn thì hành vi mua sẽ chấm dứt. Sản phẩm phải chinh phục được khẩu vị của bé."
+    },
+    {
+        "id": "q3",
+        "question": "Giá trị cảm xúc (Emotional Job) cốt lõi mà Jamte mang lại là gì?",
+        "options": [
+            "Sự hào hứng",
+            "Sự tò mò",
+            "Sự an tâm và giảm bớt mặc cảm tội lỗi",
+            "Sự sang chảnh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jamte giúp mẹ giải tỏa tâm lý 'tội lỗi' khi không tự nấu, mang lại sự an tâm rằng mình vẫn đang chăm sóc con tốt nhất."
+    }
+]

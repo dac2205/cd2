@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Bữa ăn Nhanh - Sạch - Đủ chất",
+            "description": "Giải quyết bài toán bữa ăn dinh dưỡng cho con trong quỹ thời gian hạn hẹp, đảm bảo sự an toàn tuyệt đối.",
+            "situation": "6h30 tối mới về đến nhà, con đói, mẹ mệt, tủ lạnh trống trơn.",
+            "context": "Mẹ đi làm về muộn, không có người hỗ trợ, nhưng vẫn không muốn order đồ ăn ngoài (fastfood) vì sợ dầu mỡ.",
+            "triggers": [
+                "Sáng ngủ dậy muộn, không kịp nấu.",
+                "Chiều về kẹt xe, quá mệt.",
+                "Con đi khám dinh dưỡng bác sĩ bảo thiếu chất."
+            ],
+            "desiredOutcome": [
+                "Bữa ăn hoàn chỉnh trong 5-10 phút.",
+                "Con ăn ngon miệng, hết suất.",
+                "Mẹ có thời gian nghỉ ngơi sớm."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Cá nhân hóa khẩu vị & Định lượng",
+            "description": "Cung cấp các món ăn được nghiên cứu riêng cho khẩu vị trẻ em (ít gia vị) và chia khẩu phần (portion) chính xác theo độ tuổi.",
+            "situation": "Nấu một nồi canh cả nhà ăn thì con chê mặn/cay, nấu riêng thì lích kích.",
+            "context": "Trẻ em có vị giác nhạy cảm hơn người lớn và nhu cầu dinh dưỡng khác biệt theo từng giai đoạn.",
+            "triggers": [
+                "Con chê món mẹ nấu 'không ngon bằng ngoài hàng'.",
+                "Mẹ loay hoay không biết nêm nếm sao cho vừa con.",
+                "Con biếng ăn, nhìn bát cơm là sợ."
+            ],
+            "desiredOutcome": [
+                "Con tự giác ăn, tìm lại niềm vui ăn uống.",
+                "Đúng chuẩn dinh dưỡng (không mặn, không ngọt).",
+                "Không lãng phí thức ăn (đúng định lượng)."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Phương án dự phòng (Emergency Backup)",
+            "description": "Luôn có sẵn 'kho lương thực' an toàn trong tủ đông cho những tình huống bất khả kháng.",
+            "situation": "Mẹ phải đi công tác đột xuất vài ngày, bố ở nhà không biết nấu ăn.",
+            "context": "Gia đình hạt nhân, thiếu sự hỗ trợ từ ông bà, cần sự chủ động cao.",
+            "triggers": [
+                "Mẹ ốm, không dậy nấu được.",
+                "Nhà có việc bận đột xuất.",
+                "Người giúp việc nghỉ làm."
+            ],
+            "desiredOutcome": [
+                "Con vẫn được ăn ngon, đúng giờ dù mẹ vắng nhà.",
+                "Bố/Ông bà dễ dàng hâm nóng phục vụ bé.",
+                "Duy trì nề nếp sinh hoạt không bị xáo trộn."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Người mẹ 'Đủ đầy' (The Good Enough Mom)",
+            "description": "Xóa bỏ cảm giác tội lỗi (Guilt) khi không tự tay nấu nướng, thay thế bằng niềm tin rằng mình đang chọn điều tốt nhất cho con.",
+            "situation": "Ngồi nhìn con ăn ngấu nghiến món Jamte mà mẹ đặt, thay vì cảnh ép ăn trong nước mắt.",
+            "context": "Áp lực xã hội về việc 'mẹ tốt phải tự tay nấu cơm' đè nặng lên vai người phụ nữ hiện đại.",
+            "triggers": [
+                "Cảm thấy áy náy khi order pizza cho con ăn.",
+                "Bị chồng/mẹ chồng chê trách là 'bỏ bê con cái'.",
+                "Thấy con hào hứng ăn khi được đổi món."
+            ],
+            "desiredOutcome": [
+                "Cảm thấy nhẹ nhõm, trút bỏ gánh nặng.",
+                "Tự hào vì mình là người mẹ thông thái.",
+                "Gia tăng kết nối tích cực với con."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "An tâm tuyệt đối (Total Peace of Mind)",
+            "description": "Mua sự yên bình trong tâm trí, không còn lo lắng về vấn đề an toàn thực phẩm.",
+            "situation": "Đọc tin tức về ngộ độc thực phẩm ở trường học, mẹ thở phào vì con ăn đồ Jamte chuẩn bị sẵn.",
+            "context": "Thị trường thực phẩm hỗn loạn, niềm tin của người tiêu dùng bị lung lay dữ dội.",
+            "triggers": [
+                "Tin tức về thực phẩm bẩn tràn lan.",
+                "Con bị rối loạn tiêu hóa sau khi ăn hàng.",
+                "Thấy quy trình bếp mở minh bạch của Jamte."
+            ],
+            "desiredOutcome": [
+                "Tin tưởng 100% vào nguồn thức ăn của con.",
+                "Ngủ ngon hơn vì không còn nỗi lo thường trực.",
+                "Cảm giác kiểm soát được rủi ro sức khỏe."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Giảm tải áp lực (Stress Relief)",
+            "description": "Chuyển hóa khoảng thời gian buổi tối từ 'chiến trường' thành 'giờ hạnh phúc'.",
+            "situation": "7h tối, thay vì đầu bù tóc rối trong bếp, mẹ đang ngồi đọc sách cùng con trong khi chờ món ăn nóng.",
+            "context": "Quỹ thời gian của mẹ quá ít ỏi, năng lượng cuối ngày đã cạn kiệt.",
+            "triggers": [
+                "Về nhà thấy nhà cửa bừa bộn + chưa nấu cơm → Cáu gắt.",
+                "Con mè nheo, đòi mẹ chơi cùng.",
+                "Mệt mỏi, chỉ muốn nằm nghỉ."
+            ],
+            "desiredOutcome": [
+                "Mẹ vui vẻ, thư thái, cười nhiều hơn.",
+                "Không khí gia đình đầm ấm.",
+                "Có thời gian chất lượng (quality time) cho con."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Doanh nhân gia đình (Family CEO)",
+            "description": "Được nhìn nhận là người phụ nữ hiện đại, biết quản lý và sử dụng nguồn lực (outsource) hiệu quả để tối ưu cuộc sống.",
+            "situation": "Đồng nghiệp hỏi 'Sao cậu bận thế mà con vẫn tươm tất?', mẹ tự hào chia sẻ bí quyết Jamte.",
+            "context": "Chuẩn mực về người phụ nữ thành đạt đã thay đổi: không chỉ giỏi việc nước mà còn phải khéo thu xếp việc nhà.",
+            "triggers": [
+                "Được bạn bè khen ngợi vì chăm con khéo.",
+                "Chia sẻ hình ảnh bữa ăn đẹp mắt lên mạng xã hội.",
+                "Thấy người khác chật vật nấu nướng còn mình thảnh thơi."
+            ],
+            "desiredOutcome": [
+                "Được ngưỡng mộ và tôn trọng.",
+                "Xác lập vị thế 'người tiêu dùng thông minh'.",
+                "Truyền cảm hứng cho các bà mẹ khác."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Kiến tạo nếp nhà (Harmony Keeper)",
+            "description": "Giữ gìn hòa khí gia đình bằng việc loại bỏ những xung đột không đáng có quanh bàn ăn.",
+            "situation": "Bữa cơm không còn tiếng quát mắng ép ăn, cả nhà vui vẻ trò chuyện.",
+            "context": "Bữa cơm gia đình là nơi gắn kết, nhưng thường trở thành nơi xả stress tiêu cực.",
+            "triggers": [
+                "Chồng phàn nàn nhà cửa lộn xộn/cơm nước muộn.",
+                "Con khóc lóc vì không muốn ăn.",
+                "Ông bà chê mẹ không biết chăm con."
+            ],
+            "desiredOutcome": [
+                "Gia đình êm ấm, vợ chồng hòa thuận.",
+                "Con cái ngoan ngoãn, hợp tác.",
+                "Mẹ được ghi nhận công lao."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Modern Parenting",
+            "description": "Thể hiện quan điểm nuôi con hiện đại: ưu tiên chất lượng thời gian (Quality Time) hơn là số lượng công việc tay chân.",
+            "situation": "Tự tin tranh luận với mẹ chồng rằng việc dành thời gian chơi với con quan trọng hơn là hì hục trong bếp.",
+            "context": "Sự xung đột giữa các thế hệ về quan điểm nuôi dạy con cái.",
+            "triggers": [
+                "Bị áp đặt các quan điểm cũ kỹ.",
+                "Muốn chứng minh phương pháp của mình là đúng.",
+                "Muốn con được hưởng những điều tốt nhất."
+            ],
+            "desiredOutcome": [
+                "Được công nhận là người mẹ có kiến thức.",
+                "Bảo vệ được quan điểm nuôi con.",
+                "Tự chủ trong cuộc sống gia đình."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Xây dựng thói quen ăn uống (Habit Builder)",
+            "description": "Giúp con hình thành vị giác chuẩn và thói quen ăn uống lành mạnh từ nhỏ.",
+            "situation": "Con làm quen với việc ăn rau củ và các món ít gia vị một cách tự nhiên.",
+            "context": "Thói quen ăn uống xấu (thích đồ chiên rán, ngọt) rất khó sửa khi lớn lên.",
+            "triggers": [
+                "Con chỉ thích ăn xúc xích, gà rán.",
+                "Con không chịu ăn rau.",
+                "Lo ngại béo phì/dậy thì sớm."
+            ],
+            "desiredOutcome": [
+                "Con ăn đa dạng thực phẩm.",
+                "Phát triển thể chất cân đối.",
+                "Tránh xa các bệnh lý dinh dưỡng."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Emergency Stash (Kho dự phòng)",
+            "description": "Cảm giác an toàn khi luôn có một 'Plan B' trong tủ lạnh cho mọi tình huống bất ngờ.",
+            "situation": "Khách đến chơi nhà đột xuất đúng bữa cơm, lôi ngay set Jamte ra đãi khách ngon lành.",
+            "context": "Cuộc sống luôn có những biến số không lường trước được.",
+            "triggers": [
+                "Sợ bị động khi có khách.",
+                "Muốn luôn trong tâm thế chủ động.",
+                "Cần giải pháp chữa cháy nhanh gọn."
+            ],
+            "desiredOutcome": [
+                "Luôn sẵn sàng đón tiếp.",
+                "Không bao giờ bị rơi vào thế bí.",
+                "Thể hiện sự chu đáo của chủ nhà."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Travel Companion",
+            "description": "Giải quyết nỗi lo về ăn uống cho con khi đi du lịch hoặc về quê, nơi không đảm bảo vệ sinh hoặc khẩu vị.",
+            "situation": "Xách theo thùng xốp Jamte đi resort, đến bữa chỉ việc nhờ nhà hàng hâm nóng, con ăn ngon lành.",
+            "context": "Đi du lịch với trẻ nhỏ thường là một cuộc chiến về ăn uống.",
+            "triggers": [
+                "Sợ con lạ nước lạ cái bị đau bụng.",
+                "Không tin tưởng đồ ăn ở điểm du lịch.",
+                "Muốn kỳ nghỉ trọn vẹn cho cả nhà."
+            ],
+            "desiredOutcome": [
+                "Chuyến đi vui vẻ, không lo âu.",
+                "Con khỏe mạnh suốt hành trình.",
+                "Mẹ được nghỉ ngơi thực sự."
+            ]
+        }
+    ]
+}

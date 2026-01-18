@@ -1,0 +1,87 @@
+[
+    {
+        "id": "insight-collapse",
+        "title": "Nỗi sợ Đổ gục (Fear of Collapse) vs Khát khao Sức khỏe",
+        "tension": "Tôi là một lãnh đạo thành công, nhưng tôi cảm thấy cơ thể mình sắp 'sập nguồn' (Collapse) bất cứ lúc nào.",
+        "belief": "Sự nghiệp thành công buộc phải trả giá bằng sức khỏe (The Trade-off Belief).",
+        "core": "Sức khỏe không phải là chuyện Đẹp hay Fitness; nó là sự Sống còn (Survival) và sự liên tục của Kinh doanh (Business Continuity).",
+        "hooks": [
+            "Sợ nhưng bận (Scared but busy)",
+            "Tiền nhiều để làm gì?",
+            "Chiếc giường đắt nhất là giường bệnh"
+        ],
+        "angle": "Niềm tin Y khoa (Medical Trust)",
+        "reframe": "Từ 'Uống nước ép' sang 'Kê đơn liệu pháp tự nhiên' (Prescribing a natural therapy).",
+        "promise": "An tâm (Peace of mind) - Bạn sẽ không gục ngã.",
+        "rtb": "Được thiết kế bởi chuyên gia (Expert-led) về Liệu pháp Nước ép Tự nhiên.",
+        "mechanism": "Giao hàng mỗi ngày + App chăm sóc tinh thần (Holistic System)"
+    },
+    {
+        "id": "insight-medical-fatigue",
+        "title": "Mệt mỏi với Thuốc (Medical Fatigue)",
+        "tension": "Tôi ghét phải uống thuốc và đến những bệnh viện trắng toát, nhưng tôi cũng không tin vào mấy trào lưu wellness 'phù phiếm' (Fluffy).",
+        "belief": "Cơ thể chỉ có thể được chữa lành bằng thuốc tây hoặc phẫu thuật, các phương pháp tự nhiên là yếu ớt.",
+        "core": "Cơ thể cần dinh dưỡng nền tảng (Fundamental Nourishment) để tự chữa lành, chứ không chỉ là đè nén triệu chứng (Symptom Suppression).",
+        "hooks": [
+            "Không phải thuốc (Not medicine)",
+            "Uống để không phải uống",
+            "Bác sĩ tốt nhất là chính mình"
+        ],
+        "angle": "Thiên nhiên là Thuốc (Pure Nature as Medicine)",
+        "reframe": "Thực phẩm là liều thuốc phòng ngừa tối thượng (Preventative Medicine).",
+        "promise": "Tái tạo năng lượng (Revitalized Energy) mà không phụ thuộc hóa chất.",
+        "rtb": "100% Organic, Công nghệ ép lạnh (Cold-pressed).",
+        "mechanism": "Hấp thụ dinh dưỡng dạng lỏng đậm đặc (Nutrient-dense liquid) + Để đường ruột nghỉ ngơi (Gut rest)"
+    },
+    {
+        "id": "insight-clean-identity",
+        "title": "The 'Clean' Identity",
+        "tension": "I exercise, but I still feel 'toxic' from stress and pollution.",
+        "belief": "Health is just about calories in/calories out.",
+        "core": "Detox is not just physical; it's a mental ritual of 'cleansing' one's lifestyle.",
+        "hooks": [
+            "Thanh lọc tâm trí (Mental Detox)",
+            "Sống sạch từ bên trong",
+            "Nghi thức chữa lành"
+        ],
+        "angle": "Mental & Physical Purity",
+        "reframe": "Từ 'Giảm cân' sang 'Thanh lọc cuộc sống'.",
+        "promise": "Cảm giác nhẹ nhõm, tinh khiết (Purity) cả thân và tâm.",
+        "rtb": "Liệu trình Cleanse khoa học, loại bỏ độc tố tích tụ.",
+        "mechanism": "Cơ chế Tự chữa lành (Self-healing Mechanism)."
+    },
+    {
+        "id": "insight-hidden-malnutrition",
+        "title": "Nạn đói vi chất (Hidden Malnutrition)",
+        "tension": "Tôi ăn rất nhiều đồ bổ, yến sào, đông trùng hạ thảo nhưng người vẫn mệt mỏi, thiếu sức sống.",
+        "belief": "Cứ ăn no, ăn nhiều đạm là đủ chất.",
+        "core": "Chúng ta đang bị 'bội thực' calo nhưng 'cits đói' vi chất (micro-nutrient deficiency).",
+        "hooks": [
+            "No giả tạo (Fake Fullness)",
+            "Đói chất chứ không đói cơm",
+            "Nạp năng lượng thật (Real Energy)"
+        ],
+        "angle": "Dinh dưỡng tế bào (Cellular Nutrition)",
+        "reframe": "Từ 'Ăn cho no' sang 'Nạp dinh dưỡng cho tế bào'.",
+        "promise": "Cơ thể tràn đầy sinh lực thực sự.",
+        "rtb": "Công nghệ ép lạnh giữ lại 100% enzyme và vitamin sống.",
+        "mechanism": "Nạp trực tiếp vào máu (Instant Absorbtion)."
+    },
+    {
+        "id": "insight-convenience-trap",
+        "title": "Bẫy tiện lợi (The Convenience Trap)",
+        "tension": "Tôi muốn healthy nhưng các món healthy thường mất công chế biến quá, tôi không có thời gian.",
+        "belief": "Muốn ăn sạch thì phải chịu khó (Convenience always compromises quality).",
+        "core": "Sự sang trọng thực sự (True Luxury) là có sức khỏe được mang đến tận giường mà không cần động tay.",
+        "hooks": [
+            "Khỏe không cần cố (Effortless Health)",
+            "Phục vụ tận răng",
+            "Healthy lười biếng"
+        ],
+        "angle": "Effortless Wellness",
+        "reframe": "Từ 'Phải nỗ lực để khỏe' sang 'Thuê chuyên gia chăm sóc tận nơi'.",
+        "promise": "Duy trì lối sống xanh dễ dàng nhất.",
+        "rtb": "Giao hàng mỗi sáng, chai thủy tinh thu hồi, menu đổi món liên tục.",
+        "mechanism": "Dịch vụ Subscription (Định kỳ) không lo nghĩ."
+    }
+]
