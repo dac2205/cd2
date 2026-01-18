@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Brand } from "@/lib/types";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { Heart } from "lucide-react";
+import { toast } from "sonner";
 
 interface BrandListProps {
     initialBrands: Brand[];
@@ -36,7 +37,9 @@ export default function BrandList({ initialBrands }: BrandListProps) {
                 newFavorites = prev.filter((s) => s !== slug);
             } else {
                 if (prev.length >= 3) {
-                    window.alert("Chỉ được chọn tối đa 3 brands yêu thích. Hãy bỏ một brand đi để thêm brand mới.");
+                    toast.error("Chỉ được chọn tối đa 3 brands yêu thích", {
+                        description: "Hãy bỏ một brand đi để thêm brand mới."
+                    });
                     return prev;
                 }
                 newFavorites = [...prev, slug];
@@ -47,11 +50,6 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     };
 
     const favoriteBrands = initialBrands.filter(b => favorites.includes(b.slug));
-    // Sort favorites by the order they were added (or just by slug if order doesn't matter much, 
-    // but preserving inclusion order in favorites array might be nice. 
-    // For simplicity, we just filter. If we want them sorted by how they are in the favorites array:
-    // favoriteBrands.sort((a, b) => favorites.indexOf(a.slug) - favorites.indexOf(b.slug));
-
     const otherBrands = initialBrands.filter(b => !favorites.includes(b.slug));
 
     const renderCard = (brand: Brand, isFavorite: boolean) => (
@@ -89,9 +87,9 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     );
 
     if (!mounted) {
-        // Server-side / Hydration fallback: just show all in one grid
+        // Server-side / Hydration fallback
         return (
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "2rem" }}>
                 {initialBrands.map((brand) => (
                     <Card key={brand.slug} style={{ height: '100%', transition: 'transform 0.2s' }}>
                         <CardHeader>
@@ -112,7 +110,7 @@ export default function BrandList({ initialBrands }: BrandListProps) {
             {/* Favorites Section */}
             {favoriteBrands.length > 0 && (
                 <div className="animate-in fade-in slide-in-from-top-4 duration-500">
-                    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+                    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "2rem" }}>
                         {favoriteBrands.map(brand => renderCard(brand, true))}
                     </div>
 
@@ -124,13 +122,12 @@ export default function BrandList({ initialBrands }: BrandListProps) {
                         backgroundColor: 'hsl(var(--border))',
                         position: 'relative'
                     }}>
-                        {/* Optional: Add a text label on the divider if desired, but user just said "short separator" */}
                     </div>
                 </div>
             )}
 
             {/* Other Brands Section */}
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "2rem" }}>
                 {otherBrands.map(brand => renderCard(brand, false))}
             </div>
 
