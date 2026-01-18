@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Insight } from "@/lib/types";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
-import { Badge, Check, GitCompare, X } from "lucide-react";
+import { Badge, Check, GitCompare, X, ArrowLeft, ChevronDown } from "lucide-react";
 
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/Popover";
 import { HelpCircle } from "lucide-react";
@@ -89,8 +89,10 @@ const definitions: Record<string, { title: string; bullets: string[] }> = {
 
 export default function InsightsExplorer({ insights }: InsightsExplorerProps) {
     const [selectedIds, setSelectedIds] = useState<string[]>([]);
+    const [expandedId, setExpandedId] = useState<string | null>(null);
 
-    const toggleSelection = (id: string) => {
+    const toggleSelection = (e: React.MouseEvent, id: string) => {
+        e.stopPropagation();
         if (selectedIds.includes(id)) {
             setSelectedIds(selectedIds.filter((sid) => sid !== id));
         } else {
@@ -100,22 +102,14 @@ export default function InsightsExplorer({ insights }: InsightsExplorerProps) {
         }
     };
 
+    const toggleExpand = (id: string) => {
+        setExpandedId(expandedId === id ? null : id);
+    };
+
     const isComparing = selectedIds.length === 2;
     const compareData = isComparing
         ? insights.filter(i => selectedIds.includes(i.id))
         : [];
-
-    const fields: { key: keyof Insight; label: string; color: string }[] = [
-        { key: "tension", label: "Tension", color: "hsl(var(--ink-brown))" },
-        { key: "belief", label: "Belief", color: "hsl(var(--secondary))" },
-        { key: "core", label: "Core Insight", color: "hsl(var(--primary))" },
-        { key: "hooks", label: "Hooks", color: "hsl(var(--accent))" },
-        { key: "angle", label: "Unique Angle", color: "hsl(var(--secondary))" },
-        { key: "reframe", label: "Reframe", color: "hsl(var(--ink-brown))" },
-        { key: "promise", label: "Promise", color: "hsl(var(--primary))" },
-        { key: "rtb", label: "RTB", color: "hsl(var(--ink-brown))" },
-        { key: "mechanism", label: "Mechanism", color: "hsl(var(--ink-brown))" },
-    ];
 
     const renderLabelWithPopover = (fieldKey: string, label: string, color: string) => {
         const def = definitions[fieldKey];
@@ -142,52 +136,134 @@ export default function InsightsExplorer({ insights }: InsightsExplorerProps) {
         );
     };
 
+    // Clusters for Comparison & Sequenced View
+    const clusters = [
+        {
+            title: "The Psychology (Problem)",
+            color: "hsl(var(--ink-brown) / 0.1)",
+            fields: [
+                { key: "tension", label: "Tension", color: "hsl(var(--ink-brown))" },
+                { key: "belief", label: "Belief", color: "hsl(var(--secondary))" }
+            ]
+        },
+        {
+            title: "The Strategy (Solution)",
+            color: "hsl(var(--primary) / 0.1)",
+            borderColor: "hsl(var(--primary))",
+            fields: [
+                { key: "core", label: "Core Insight", color: "hsl(var(--primary))" },
+                { key: "reframe", label: "Reframe", color: "hsl(var(--ink-brown))" },
+                { key: "angle", label: "Unique Angle", color: "hsl(var(--secondary))" }
+            ]
+        },
+        {
+            title: "The Execution (Promise)",
+            color: "hsl(var(--accent) / 0.1)",
+            fields: [
+                { key: "promise", label: "Promise", color: "hsl(var(--primary))" },
+                { key: "mechanism", label: "Mechanism", color: "hsl(var(--ink-brown))" },
+                { key: "rtb", label: "RTB", color: "hsl(var(--ink-brown))" },
+                { key: "hook", label: "Hooks", color: "hsl(var(--accent))" }
+            ]
+        }
+    ];
+
     if (isComparing) {
         return (
             <div className="animate-slide-in">
                 <div style={{ marginBottom: "2rem", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                    <h2>So sánh 2 Insight</h2>
-                    <button
-                        onClick={() => setSelectedIds([])}
-                        style={{
-                            display: "flex", alignItems: "center", gap: "0.5rem",
-                            padding: "0.5rem 1rem",
-                            backgroundColor: "hsl(var(--background))",
-                            border: "1px solid hsl(var(--border))",
-                            borderRadius: "8px",
-                            cursor: "pointer"
-                        }}
-                    >
-                        <X size={16} /> Thoát so sánh
-                    </button>
+                    <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                        <button
+                            onClick={() => setSelectedIds([])}
+                            style={{
+                                display: "flex", alignItems: "center", gap: "0.5rem",
+                                padding: "0.5rem 1rem",
+                                backgroundColor: "hsl(var(--background))",
+                                border: "1px solid hsl(var(--border))",
+                                borderRadius: "8px",
+                                cursor: "pointer",
+                                fontSize: "0.875rem",
+                                fontWeight: 600
+                            }}
+                        >
+                            <ArrowLeft size={16} /> Back to List
+                        </button>
+                        <h2 style={{ margin: 0 }}>Comparing 2 Insights</h2>
+                    </div>
                 </div>
 
-                <div style={{ display: "grid", gridTemplateColumns: "200px 1fr 1fr", gap: "1rem" }}>
+                <div style={{ display: "grid", gridTemplateColumns: "150px 1fr 1fr", gap: "1rem", alignItems: "start" }}>
+                    {/* Header Row */}
                     <div style={{ fontWeight: "bold" }}></div>
                     {compareData.map(insight => (
-                        <div key={insight.id} style={{ fontWeight: "bold", textAlign: "center", fontSize: "1.25rem", color: "hsl(var(--primary))" }}>
+                        <div key={insight.id} style={{
+                            fontWeight: "bold",
+                            textAlign: "center",
+                            fontSize: "1.25rem",
+                            color: "hsl(var(--primary))",
+                            padding: "1rem",
+                            backgroundColor: "hsl(var(--paper-white))",
+                            borderRadius: "12px",
+                            border: "1px solid hsl(var(--border))"
+                        }}>
                             {insight.title}
                         </div>
                     ))}
 
-                    {fields.map(field => (
-                        <React.Fragment key={field.key}>
+                    {/* Clusters */}
+                    {clusters.map((cluster, cIdx) => (
+                        <React.Fragment key={cIdx}>
                             <div style={{
-                                fontWeight: 600,
-                                color: field.color,
-                                borderBottom: "1px solid hsl(var(--border))",
-                                padding: "1rem 0"
+                                gridColumn: "1 / -1",
+                                marginTop: "2rem",
+                                padding: "0.5rem 1rem",
+                                backgroundColor: cluster.color,
+                                borderRadius: "8px",
+                                color: "hsl(var(--ink-brown))",
+                                fontWeight: 800,
+                                textTransform: "uppercase",
+                                fontSize: "0.875rem",
+                                letterSpacing: "0.05em"
                             }}>
-                                {renderLabelWithPopover(field.key, field.label, field.color)}
+                                {cluster.title}
                             </div>
-                            {compareData.map(insight => (
-                                <div key={`${insight.id}-${field.key}`} style={{
-                                    borderBottom: "1px solid hsl(var(--border))",
-                                    padding: "1rem",
-                                    backgroundColor: "hsl(var(--paper-white))"
-                                }}>
-                                    {insight[field.key]}
-                                </div>
+
+                            {cluster.fields.map(field => (
+                                <React.Fragment key={field.key}>
+                                    <div style={{
+                                        fontWeight: 600,
+                                        color: field.color,
+                                        padding: "1rem 0",
+                                        fontSize: "0.875rem",
+                                        textAlign: "right",
+                                        display: "flex",
+                                        justifyContent: "flex-end",
+                                        alignItems: "flex-start",
+                                        marginTop: "0.25rem"
+                                    }}>
+                                        {renderLabelWithPopover(field.key, field.label, field.color)}
+                                    </div>
+                                    {compareData.map(insight => (
+                                        <div key={`${insight.id}-${field.key}`} style={{
+                                            padding: "1rem",
+                                            backgroundColor: "hsl(var(--paper-white))",
+                                            borderRadius: "8px",
+                                            border: "1px solid hsl(var(--border))",
+                                            fontSize: "0.95rem",
+                                            lineHeight: "1.6"
+                                        }}>
+                                            {field.key === "hook" && Array.isArray(insight.hooks) ? (
+                                                <ul style={{ listStyle: "inside", padding: 0, margin: 0 }}>
+                                                    {insight.hooks.map((h, i) => (
+                                                        <li key={i} style={{ marginBottom: "0.5rem" }}>{h}</li>
+                                                    ))}
+                                                </ul>
+                                            ) : (
+                                                insight[field.key as keyof Insight]
+                                            )}
+                                        </div>
+                                    ))}
+                                </React.Fragment>
                             ))}
                         </React.Fragment>
                     ))}
@@ -200,109 +276,207 @@ export default function InsightsExplorer({ insights }: InsightsExplorerProps) {
         <div className="animate-slide-in">
             <div style={{ marginBottom: "2rem", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <p style={{ color: "hsl(var(--ink-brown) / 0.7)" }}>
-                    Phân tích Insight Cốt lõi. Chọn tối đa 2 mục để so sánh.
+                    Tap to view details. Select 2 items to compare.
                 </p>
                 {selectedIds.length > 0 && (
-                    <span style={{
-                        fontSize: "0.875rem",
-                        backgroundColor: "hsl(var(--secondary))",
-                        color: "white",
-                        padding: "0.25rem 0.75rem",
-                        borderRadius: "999px"
-                    }}>
-                        {selectedIds.length} Đã chọn
-                    </span>
+                    <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+                        <span style={{
+                            fontSize: "0.875rem",
+                            backgroundColor: "hsl(var(--secondary))",
+                            color: "white",
+                            padding: "0.25rem 0.75rem",
+                            borderRadius: "999px"
+                        }}>
+                            {selectedIds.length} Selected
+                        </span>
+                        {selectedIds.length === 2 && (
+                            <button
+                                style={{
+                                    display: "flex", alignItems: "center", gap: "0.5rem",
+                                    padding: "0.5rem 1rem",
+                                    backgroundColor: "hsl(var(--primary))",
+                                    color: "white",
+                                    border: "none",
+                                    borderRadius: "8px",
+                                    cursor: "pointer",
+                                    fontWeight: 600
+                                }}
+                                onClick={() => {/* Comparison mode tracks state automatically */ }}
+                            >
+                                <GitCompare size={16} /> Compare Now
+                            </button>
+                        )}
+                    </div>
                 )}
             </div>
 
-            <div style={{ display: "grid", gap: "2rem" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
                 {insights.map((insight) => {
                     const isSelected = selectedIds.includes(insight.id);
+                    const isExpanded = expandedId === insight.id;
+
                     return (
-                        <div key={insight.id} className="card-wood" style={{ position: "relative" }}>
-                            <div
-                                style={{
-                                    position: "absolute",
-                                    top: "1.5rem",
-                                    right: "1.5rem",
-                                    cursor: "pointer",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    gap: "0.5rem",
-                                    zIndex: 10
-                                }}
-                                onClick={() => toggleSelection(insight.id)}
-                            >
-                                <div style={{
-                                    width: "24px",
-                                    height: "24px",
-                                    borderRadius: "4px",
-                                    border: `2px solid ${isSelected ? "hsl(var(--primary))" : "hsl(var(--border))"}`,
-                                    backgroundColor: isSelected ? "hsl(var(--primary))" : "transparent",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    transition: "all 0.2s"
-                                }}>
-                                    {isSelected && <Check size={16} color="white" />}
+                        <div
+                            key={insight.id}
+                            className={`card-wood ${isExpanded ? "expanded" : ""}`}
+                            style={{
+                                cursor: isExpanded ? "default" : "pointer",
+                                transition: "all 0.3s ease",
+                                border: isSelected ? "2px solid hsl(var(--secondary))" : undefined
+                            }}
+                            onClick={() => !isExpanded && toggleExpand(insight.id)}
+                        >
+                            {/* Card Header / Summary */}
+                            <div style={{
+                                padding: "1.5rem 2rem",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "space-between",
+                                borderBottom: isExpanded ? "1px solid hsl(var(--border))" : "none"
+                            }}>
+                                <div>
+                                    <h3 style={{
+                                        fontSize: isExpanded ? "1.5rem" : "1.25rem",
+                                        fontWeight: 700,
+                                        color: isExpanded ? "hsl(var(--primary))" : "hsl(var(--ink-brown))",
+                                        marginBottom: "0.25rem"
+                                    }}>
+                                        {insight.title}
+                                    </h3>
+                                    {!isExpanded && (
+                                        <p style={{ color: "hsl(var(--ink-brown) / 0.6)", fontStyle: "italic", margin: 0 }}>
+                                            "{insight.tension.substring(0, 100)}..."
+                                        </p>
+                                    )}
                                 </div>
-                                <span style={{ fontSize: "0.875rem", fontWeight: 600, color: "hsl(var(--ink-brown) / 0.7)" }}>So sánh</span>
-                            </div>
 
-                            <div style={{ padding: "2rem" }}>
-                                <h2 style={{ fontSize: "1.75rem", marginBottom: "2rem", paddingRight: "5rem" }}>{insight.title}</h2>
-
-                                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
-
-                                    {/* Tension */}
-                                    <div style={{ padding: "1.5rem", backgroundColor: "hsl(var(--paper-white))", borderRadius: "12px", border: "1px solid hsl(var(--border))" }}>
-                                        <h4 style={{ color: "hsl(var(--ink-brown) / 0.6)", fontSize: "0.875rem", textTransform: "uppercase", marginBottom: "0.5rem" }}>
-                                            {renderLabelWithPopover("tension", "Tension", "hsl(var(--ink-brown) / 0.6)")}
-                                        </h4>
-                                        <p style={{ fontSize: "1.125rem", fontStyle: "italic", lineHeight: "1.6" }}>"{insight.tension}"</p>
-                                    </div>
-
-                                    {/* Core Insight */}
-                                    <div style={{ padding: "1.5rem", backgroundColor: "hsl(var(--paper-white))", borderRadius: "12px", border: "1px solid hsl(var(--primary))", boxShadow: "0 4px 12px -2px rgba(0,0,0,0.05)" }}>
-                                        <h4 style={{ color: "hsl(var(--primary))", fontSize: "0.875rem", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.5rem" }}>
-                                            {renderLabelWithPopover("core", "Core Insight", "hsl(var(--primary))")}
-                                        </h4>
-                                        <p style={{ fontSize: "1.25rem", fontWeight: 600, lineHeight: "1.5" }}>{insight.core}</p>
-                                    </div>
-
-                                    {/* Hooks - Spanning full width if possible or just normal card */}
-                                    <div style={{ padding: "1.5rem", backgroundColor: "hsl(var(--background))", borderRadius: "12px", border: "1px solid hsl(var(--accent))", gridColumn: "1 / -1" }}>
-                                        <h4 style={{ color: "hsl(var(--accent))", fontSize: "0.875rem", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.5rem" }}>
-                                            {renderLabelWithPopover("hook", "Hooks", "hsl(var(--accent))")}
-                                        </h4>
-                                        <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: "0.75rem" }}>
-                                            {insight.hooks.map((h, idx) => (
-                                                <li key={idx} style={{
-                                                    fontSize: idx === 0 ? "1.5rem" : "1.125rem",
-                                                    fontFamily: idx === 0 ? "var(--font-heading)" : "inherit",
-                                                    color: idx === 0 ? "inherit" : "hsl(var(--ink-brown) / 0.8)",
-                                                    padding: "0.5rem 0",
-                                                    borderBottom: idx < insight.hooks.length - 1 ? "1px dashed hsl(var(--border))" : "none"
-                                                }}>
-                                                    {h}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-
-                                    {/* Other Fields */}
-                                    {fields.slice(3).map(field => (
-                                        <div key={field.key} style={{ padding: "1.5rem", backgroundColor: "hsl(var(--paper-white))", borderRadius: "12px", border: "1px solid hsl(var(--border))" }}>
-                                            <div style={{ marginBottom: "0.5rem" }}>
-                                                <h4 style={{ color: "hsl(var(--ink-brown) / 0.7)", fontSize: "0.875rem", textTransform: "uppercase", fontWeight: 600 }}>
-                                                    {renderLabelWithPopover(field.key, field.label, "hsl(var(--ink-brown) / 0.7)")}
-                                                </h4>
-                                            </div>
-                                            <p style={{ fontSize: "1rem", lineHeight: "1.6" }}>{insight[field.key as keyof Insight]}</p>
+                                <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                                    <div
+                                        onClick={(e) => toggleSelection(e, insight.id)}
+                                        style={{
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: "0.5rem",
+                                            padding: "0.5rem",
+                                            borderRadius: "8px",
+                                            backgroundColor: isSelected ? "hsl(var(--secondary) / 0.1)" : "transparent",
+                                            cursor: "pointer"
+                                        }}
+                                    >
+                                        <div style={{
+                                            width: "20px",
+                                            height: "20px",
+                                            borderRadius: "4px",
+                                            border: `2px solid ${isSelected ? "hsl(var(--secondary))" : "hsl(var(--border))"}`,
+                                            backgroundColor: isSelected ? "hsl(var(--secondary))" : "transparent",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center"
+                                        }}>
+                                            {isSelected && <Check size={14} color="white" />}
                                         </div>
-                                    ))}
+                                        <span style={{ fontSize: "0.875rem", fontWeight: 600, color: isSelected ? "hsl(var(--secondary))" : "hsl(var(--ink-brown) / 0.5)" }}>
+                                            Compare
+                                        </span>
+                                    </div>
+                                    <button
+                                        onClick={(e) => { e.stopPropagation(); toggleExpand(insight.id); }}
+                                        style={{
+                                            background: "none",
+                                            border: "none",
+                                            cursor: "pointer",
+                                            color: "hsl(var(--ink-brown) / 0.5)",
+                                            display: "flex",
+                                            alignItems: "center"
+                                        }}
+                                    >
+                                        {isExpanded ? <X size={24} /> : <ChevronDown size={24} />}
+                                    </button>
                                 </div>
                             </div>
+
+                            {/* Expanded Content */}
+                            {isExpanded && (
+                                <div className="animate-slide-in" style={{ padding: "2rem" }}>
+                                    <div style={{ display: "grid", gap: "2rem" }}>
+                                        {clusters.map((cluster, cIdx) => (
+                                            <div key={cIdx} style={{
+                                                padding: "1.5rem",
+                                                backgroundColor: cIdx === 1 ? "hsl(var(--paper-white))" : "transparent",
+                                                borderRadius: "16px",
+                                                border: cIdx === 1 ? "1px solid hsl(var(--primary) / 0.2)" : "none"
+                                            }}>
+                                                <h4 style={{
+                                                    fontSize: "0.875rem",
+                                                    textTransform: "uppercase",
+                                                    letterSpacing: "0.1em",
+                                                    color: cluster.borderColor || "hsl(var(--ink-brown) / 0.5)",
+                                                    marginBottom: "1.5rem",
+                                                    borderBottom: "1px solid hsl(var(--border))",
+                                                    paddingBottom: "0.5rem",
+                                                    width: "max-content"
+                                                }}>
+                                                    {cluster.title}
+                                                </h4>
+
+                                                <div style={{ display: "grid", gridTemplateColumns: cIdx === 2 ? "1fr 1fr" : "1fr", gap: "1.5rem" }}>
+                                                    {cluster.fields.map((field) => (
+                                                        <div key={field.key} style={{
+                                                            gridColumn: field.key === "hook" ? "1 / -1" : "auto",
+                                                            position: "relative",
+                                                            paddingLeft: "1.5rem",
+                                                            borderLeft: `3px solid ${field.color}`
+                                                        }}>
+                                                            <div style={{ marginBottom: "0.5rem" }}>
+                                                                {renderLabelWithPopover(field.key, field.label, field.color)}
+                                                            </div>
+                                                            {field.key === "core" ? (
+                                                                <p style={{ fontSize: "1.25rem", fontWeight: 600, color: "hsl(var(--primary))", lineHeight: "1.5" }}>
+                                                                    {insight.core}
+                                                                </p>
+                                                            ) : field.key === "hook" ? (
+                                                                <ul style={{ padding: 0, margin: 0, listStyle: "none", display: "grid", gap: "0.75rem" }}>
+                                                                    {insight.hooks.map((h, i) => (
+                                                                        <li key={i} style={{
+                                                                            fontSize: i === 0 ? "1.25rem" : "1rem",
+                                                                            fontWeight: i === 0 ? 600 : 400,
+                                                                            fontStyle: "italic"
+                                                                        }}>
+                                                                            "{h}"
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            ) : (
+                                                                <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "hsl(var(--ink-brown))" }}>
+                                                                    {insight[field.key as keyof Insight]}
+                                                                </p>
+                                                            )}
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+
+                                    <div style={{ textAlign: "center", marginTop: "2rem" }}>
+                                        <button
+                                            onClick={(e) => { e.stopPropagation(); toggleExpand(insight.id); }}
+                                            style={{
+                                                padding: "0.75rem 2rem",
+                                                backgroundColor: "hsl(var(--background))",
+                                                border: "1px solid hsl(var(--border))",
+                                                borderRadius: "99px",
+                                                cursor: "pointer",
+                                                fontSize: "0.875rem",
+                                                fontWeight: 600,
+                                                color: "hsl(var(--ink-brown) / 0.7)"
+                                            }}
+                                        >
+                                            Close Details
+                                        </button>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     );
                 })}
