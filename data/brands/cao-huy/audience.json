@@ -1,14 +1,14 @@
 [
   {
     "id": "segment-primary",
-    "title": "The Soulful Giver (Người trao gửi tâm hồn)",
+    "title": "The Natural Seeker (Người tìm về Tự nhiên)",
     "isPrimary": true,
-    "description": "**Demographics:** Người quan tâm sức khỏe, lối sống xanh, nhân viên văn phòng chịu áp lực. Thu nhập trung bình khá.\n\n**Psychographics:** Trân trọng giá trị tinh thần, ghét sự lãng phí và công nghiệp. Muốn tặng quà để thể hiện sự quan tâm sâu sắc (care) chứ không chỉ là nghĩa vụ (obligation).\n\n**Desires:**\n- Tìm được món quà vừa túi tiền nhưng nhìn sang trọng và đầy đặn.\n- Người nhận cảm động và cảm thấy được trân trọng thực sự.\n- Món quà có tính ứng dụng cao, tốt cho sức khỏe thể chất và tinh thần.\n- Giải pháp tặng quà nhanh gọn, tiện lợi nhưng không hời hợt.\n\n**Quote:** \"Tôi muốn người nhận quà rơi nước mắt vì cảm động, chứ không phải chỉ lịch sự cảm ơn cho xong.\"",
+    "description": "**Demographics:** Nữ, từ 23 tuổi trở lên. Có xu hướng sống xanh, ưu tiên các sản phẩm tự nhiên, lành tính.\n\n**Psychographics:** Đang gặp vấn đề sức khỏe thể chất hoặc tâm lý (stress, mất ngủ, đau mỏi). Đã thử nhiều phương pháp Tây y/Hiện đại nhưng vấn đề cứ lặp lại, không dứt điểm. Mất niềm tin vào các giải pháp \"công nghiệp\" hoặc sợ tác dụng phụ.\n\n**Desires:**\n- Tìm kiếm một giải pháp an toàn, lành tính, không xâm lấn.\n- Cải thiện sức khỏe từ gốc rễ (Root cause) một cách bền vững.\n- Cảm giác được thư giãn sâu, giải tỏa áp lực công việc.\n- Một lối sống cân bằng Thân - Tâm.\n\n**Quote:** \"Tôi không muốn uống thêm thuốc nữa, tôi muốn cơ thể tự chữa lành theo cách tự nhiên nhất.\"",
     "painPoints": [
-      "Muốn tặng quà ý nghĩa cho người thân/đối tác nhưng không biết mua gì ngoài hoa và phong bì.",
-      "Sợ tặng những món quà đắt tiền nhưng vô dụng, người nhận không dùng đến.",
-      "Không có thời gian để tự tay gói ghém hay chọn lựa kỹ càng.",
-      "Muốn món quà thể hiện được sự tinh tế và quan tâm đến sức khỏe người nhận."
+      "Stress và áp lực công việc lặp đi lặp lại không dứt.",
+      "Sức khỏe suy giảm nhưng đi khám không ra bệnh rõ ràng (Giả bệnh).",
+      "Sợ tác dụng phụ của thuốc tây và các phương pháp can thiệp mạnh.",
+      "Cảm thấy mệt mỏi, thiếu năng lượng dù đã ngủ nghỉ."
     ]
   }
 ]
