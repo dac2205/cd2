@@ -1,47 +1,87 @@
 [
-    {
-        "id": "ins-1",
-        "title": "The Second Enemy (Kẻ thù thứ hai)",
-        "tension": "Bạn dồn hết sức lực để tiêu diệt tế bào ung thư (Kẻ thù 1), nhưng lại để cho Nỗi sợ hãi và Stress (Kẻ thù 2) gặm nhấm tâm hồn mỗi ngày. Chính nỗi sợ làm suy yếu hệ miễn dịch nhanh hơn cả bệnh.",
-        "belief": "Chữa bệnh là việc của bác sĩ và thuốc.",
-        "core": "Thuốc chữa Thân, nhưng Tâm phải do chính bạn (cùng sự hỗ trợ đúng đắn) chữa lành. Tâm an thì Thân mới kiện.",
-        "reframe": "Chiến thắng bệnh tật bắt đầu từ chiến thắng nỗi sợ.",
-        "mechanism": "Mind-Body Oncology."
-    },
-    {
-        "id": "ins-2",
-        "title": "Information Flood (Lũ lụt Thông tin)",
-        "tension": "Người thì bảo ăn chay, người bảo ăn thịt, người bảo uống thuốc nam, người bảo ra nước ngoài. Bạn quay cuồng trong ma trận lời khuyên.",
-        "belief": "Phải thử mọi cách để sống.",
-        "core": "Sự nhiễu loạn thông tin khiến bạn hoang mang (Stress) và đưa ra quyết định sai lầm. Bạn cần một 'Hải đăng' dẫn đường tin cậy, khoa học nhưng nhân văn.",
-        "reframe": "Bớt nghe 'người ta', hãy lắng nghe cơ thể và chuyên gia chính thống.",
-        "mechanism": "Trusted Guidance."
-    },
-    {
-        "id": "ins-3",
-        "title": "Treatment Trauma (Sang chấn Điều trị)",
-        "tension": "Những đợt hóa trị, xạ trị để lại nỗi ám ảnh kinh hoàng về thể xác lẫn tinh thần. Bệnh viện là nơi gợi lại nỗi đau.",
-        "belief": "Hết khối u là hết bệnh.",
-        "core": "Khối u có thể mất, nhưng vết thương tâm lý (Trauma) vẫn còn đó. Cần chữa lành những tổn thương vô hình này để thực sự hồi sinh.",
-        "reframe": "Mái Ấm là nơi xoa dịu những cơn đau mà thuốc giảm đau không chạm tới được.",
-        "mechanism": "Trauma Healing."
-    },
-    {
-        "id": "ins-4",
-        "title": "The 'Battle' Metaphor (Ẩn dụ Cuộc chiến)",
-        "tension": "Chúng ta hay nói 'chiến đấu' với ung thư. Nhưng càng chiến đấu, càng căng thẳng, càng kiệt sức. Cơ thể là ngôi nhà, không phải chiến trường.",
-        "belief": "Phải gồng mình lên để chống chọi.",
-        "core": "Thay vì 'đánh nhau' với cơ thể, hãy 'làm hòa' và yêu thương nó. Sự chữa lành đến từ tình yêu và sự chấp nhận, không phải sự thù ghét.",
-        "reframe": "Từ 'Chiến đấu' chuyển sang 'Chăm sóc' và 'Yêu thương'.",
-        "mechanism": "Compassionate Care."
-    },
-    {
-        "id": "ins-5",
-        "title": "Post-Treatment Void (khoảng trống sau điều trị)",
-        "tension": "Kết thúc phác đồ điều trị, bác sĩ trả về. Bạn mừng nhưng cũng hụt hẫng tột độ: 'Giờ mình phải sống thế nào để nó không quay lại?'.",
-        "belief": "Về nhà là xong.",
-        "core": "Giai đoạn phục hồi và duy trì (Maintenance) quan trọng không kém giai đoạn cấp cứu. Cần một lối sống mới (New Normal) để bệnh không có cơ hội tái phát.",
-        "reframe": "Bảo dưỡng sức khỏe nền tảng là tấm khiên bảo vệ bền vững nhất.",
-        "mechanism": "Sustainable Lifestyle."
-    }
+  {
+    "id": "ins-1",
+    "title": "The Second Enemy (Kẻ thù thứ hai)",
+    "tension": "Bạn dồn hết sức lực để tiêu diệt tế bào ung thư (Kẻ thù 1), nhưng lại để cho Nỗi sợ hãi và Stress (Kẻ thù 2) gặm nhấm tâm hồn mỗi ngày. Chính nỗi sợ làm suy yếu hệ miễn dịch nhanh hơn cả bệnh.",
+    "belief": "Chữa bệnh là việc của bác sĩ và thuốc.",
+    "core": "Thuốc chữa Thân, nhưng Tâm phải do chính bạn (cùng sự hỗ trợ đúng đắn) chữa lành. Tâm an thì Thân mới kiện.",
+    "reframe": "Chiến thắng bệnh tật bắt đầu từ chiến thắng nỗi sợ.",
+    "mechanism": "Mind-Body Oncology.",
+    "hooks": [
+      "The Second Enemy (Kẻ thù thứ hai)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Chiến thắng bệnh tật bắt đầu từ chiến thắng nỗi sợ.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-2",
+    "title": "Information Flood (Lũ lụt Thông tin)",
+    "tension": "Người thì bảo ăn chay, người bảo ăn thịt, người bảo uống thuốc nam, người bảo ra nước ngoài. Bạn quay cuồng trong ma trận lời khuyên.",
+    "belief": "Phải thử mọi cách để sống.",
+    "core": "Sự nhiễu loạn thông tin khiến bạn hoang mang (Stress) và đưa ra quyết định sai lầm. Bạn cần một 'Hải đăng' dẫn đường tin cậy, khoa học nhưng nhân văn.",
+    "reframe": "Bớt nghe 'người ta', hãy lắng nghe cơ thể và chuyên gia chính thống.",
+    "mechanism": "Trusted Guidance.",
+    "hooks": [
+      "Information Flood (Lũ lụt Thông tin)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Bớt nghe 'người ta', hãy lắng nghe cơ thể và chuyên gia chính thống.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-3",
+    "title": "Treatment Trauma (Sang chấn Điều trị)",
+    "tension": "Những đợt hóa trị, xạ trị để lại nỗi ám ảnh kinh hoàng về thể xác lẫn tinh thần. Bệnh viện là nơi gợi lại nỗi đau.",
+    "belief": "Hết khối u là hết bệnh.",
+    "core": "Khối u có thể mất, nhưng vết thương tâm lý (Trauma) vẫn còn đó. Cần chữa lành những tổn thương vô hình này để thực sự hồi sinh.",
+    "reframe": "Mái Ấm là nơi xoa dịu những cơn đau mà thuốc giảm đau không chạm tới được.",
+    "mechanism": "Trauma Healing.",
+    "hooks": [
+      "Treatment Trauma (Sang chấn Điều trị)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Mái Ấm là nơi xoa dịu những cơn đau mà thuốc giảm đau không chạm tới được.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-4",
+    "title": "The 'Battle' Metaphor (Ẩn dụ Cuộc chiến)",
+    "tension": "Chúng ta hay nói 'chiến đấu' với ung thư. Nhưng càng chiến đấu, càng căng thẳng, càng kiệt sức. Cơ thể là ngôi nhà, không phải chiến trường.",
+    "belief": "Phải gồng mình lên để chống chọi.",
+    "core": "Thay vì 'đánh nhau' với cơ thể, hãy 'làm hòa' và yêu thương nó. Sự chữa lành đến từ tình yêu và sự chấp nhận, không phải sự thù ghét.",
+    "reframe": "Từ 'Chiến đấu' chuyển sang 'Chăm sóc' và 'Yêu thương'.",
+    "mechanism": "Compassionate Care.",
+    "hooks": [
+      "The 'Battle' Metaphor (Ẩn dụ Cuộc chiến)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Từ 'Chiến đấu' chuyển sang 'Chăm sóc' và 'Yêu thương'.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-5",
+    "title": "Post-Treatment Void (khoảng trống sau điều trị)",
+    "tension": "Kết thúc phác đồ điều trị, bác sĩ trả về. Bạn mừng nhưng cũng hụt hẫng tột độ: 'Giờ mình phải sống thế nào để nó không quay lại?'.",
+    "belief": "Về nhà là xong.",
+    "core": "Giai đoạn phục hồi và duy trì (Maintenance) quan trọng không kém giai đoạn cấp cứu. Cần một lối sống mới (New Normal) để bệnh không có cơ hội tái phát.",
+    "reframe": "Bảo dưỡng sức khỏe nền tảng là tấm khiên bảo vệ bền vững nhất.",
+    "mechanism": "Sustainable Lifestyle.",
+    "hooks": [
+      "Post-Treatment Void (khoảng trống sau điều trị)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Bảo dưỡng sức khỏe nền tảng là tấm khiên bảo vệ bền vững nhất.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  }
 ]

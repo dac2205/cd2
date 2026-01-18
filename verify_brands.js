@@ -35,6 +35,15 @@ brands.forEach(brand => {
                 console.error(`    [FAIL] Insights count mismatch for ${brand}`);
                 allPas = false;
             }
+
+            // Check for required Insight fields
+            content.forEach((insight, idx) => {
+                if (!insight.hooks || !Array.isArray(insight.hooks)) {
+                    console.error(`    [FAIL] Insight ${idx} missing 'hooks' array in ${brand}`);
+                    allPas = false;
+                }
+                if (!insight.angle) console.error(`    [FAIL] Insight ${idx} missing 'angle' in ${brand}`);
+            });
         }
     } catch (e) {
         console.error(`  [ERROR] Invalid JSON in ${insightsPath}: ${e.message}`);

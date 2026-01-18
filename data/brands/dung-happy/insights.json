@@ -1,47 +1,87 @@
 [
-    {
-        "id": "ins-1",
-        "title": "The 'Perfect Readiness' Myth (Huyền thoại Sẵn sàng)",
-        "tension": "Bạn nghĩ mình cần học thêm một chứng chỉ nữa, đọc thêm vài cuốn sách nữa thì mới đủ giỏi để kiếm khách. Nhưng càng học bạn càng thấy mình thiếu.",
-        "belief": "Khi nào mình giỏi mình sẽ có khách.",
-        "core": "Sự tự tin không đến từ việc học (Input), nó đến từ việc làm (Output). Bạn không bao giờ cảm thấy sẵn sàng cho đến khi bạn nhảy xuống nước.",
-        "reframe": "Đừng đợi hoàn hảo mới bắt đầu, hãy bắt đầu để trở nên hoàn hảo.",
-        "mechanism": "Action-Based Confidence."
-    },
-    {
-        "id": "ins-2",
-        "title": "The Freebie Trap (Bẫy Miễn phí)",
-        "tension": "Bạn coach miễn phí cho mọi người với hy vọng họ sẽ trả tiền hoặc giới thiệu khách. Nhưng họ chỉ đến nhận rồi đi, còn bạn thì kiệt sức.",
-        "belief": "Cho đi trước, nhận lại sau.",
-        "core": "Miễn phí thu hút những người thích miễn phí, không phải khách hàng tiềm năng. Sự cam kết tài chính (dù nhỏ) là bộ lọc tốt nhất.",
-        "reframe": "Thu phí là cách bạn giúp khách hàng cam kết với chính họ, không chỉ là kiếm tiền cho bạn.",
-        "mechanism": "Low-Ticket Offer."
-    },
-    {
-        "id": "ins-3",
-        "title": "Invisible Seller (Người bán hàng Tàng hình)",
-        "tension": "Trên Facebook bạn chia sẻ toàn đạo lý, triết lý sống nhưng tuyệt nhiên không có bài nào nói rõ 'Tôi bán cái gì, giá bao nhiêu'. Bạn chờ khách tự inbox.",
-        "belief": "Bán hàng là làm phiền người khác.",
-        "core": "Nếu bạn không mời chào, bạn đang tước đi cơ hội được giúp đỡ của khách hàng. Bán hàng là phục vụ.",
-        "reframe": "Chuyển từ tâm thế 'xin tiền' sang tâm thế 'trao giải pháp'.",
-        "mechanism": "Direct Offer."
-    },
-    {
-        "id": "ins-4",
-        "title": "Niche Paralysis (Tê liệt vì Ngách)",
-        "tension": "Bạn sợ chọn một ngách hẹp (ví dụ: Coach cho mẹ đơn thân) vì sợ mất khách ở các ngách khác. Kết quả là thông điệp của bạn chung chung, không chạm vào ai.",
-        "belief": "Phục vụ tất cả mọi người là tốt nhất.",
-        "core": "Nếu bạn nói chuyện với tất cả mọi người, bạn không nói chuyện với ai cả. Sự rõ ràng (Clarity) tạo ra sức hút.",
-        "reframe": "Thà làm cá lớn trong ao nhỏ còn hơn làm cá con ngoài biển lớn.",
-        "mechanism": "Niche Down."
-    },
-    {
-        "id": "ins-5",
-        "title": "Business vs. Hobby (Kinh doanh hay Sở thích)",
-        "tension": "Bạn đam mê coaching nhưng lại ghét con số, ghét marketing, ghét bán hàng. Bạn chỉ muốn ngồi coach thôi.",
-        "belief": "Hữu xạ tự nhiên hương.",
-        "core": "Nếu không tạo ra doanh thu, coaching chỉ là một sở thích tốn kém. Bạn cần tư duy của một chủ doanh nghiệp (Entrepreneur Mindset).",
-        "reframe": "Kỹ năng nghề giúp bạn làm tốt, kỹ năng kinh doanh giúp bạn sống tốt với nghề.",
-        "mechanism": "Business Model Canvas."
-    }
+  {
+    "id": "ins-1",
+    "title": "The 'Perfect Readiness' Myth (Huyền thoại Sẵn sàng)",
+    "tension": "Bạn nghĩ mình cần học thêm một chứng chỉ nữa, đọc thêm vài cuốn sách nữa thì mới đủ giỏi để kiếm khách. Nhưng càng học bạn càng thấy mình thiếu.",
+    "belief": "Khi nào mình giỏi mình sẽ có khách.",
+    "core": "Sự tự tin không đến từ việc học (Input), nó đến từ việc làm (Output). Bạn không bao giờ cảm thấy sẵn sàng cho đến khi bạn nhảy xuống nước.",
+    "reframe": "Đừng đợi hoàn hảo mới bắt đầu, hãy bắt đầu để trở nên hoàn hảo.",
+    "mechanism": "Action-Based Confidence.",
+    "hooks": [
+      "The 'Perfect Readiness' Myth (Huyền thoại Sẵn sàng)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Đừng đợi hoàn hảo mới bắt đầu, hãy bắt đầu để trở nên hoàn hảo.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-2",
+    "title": "The Freebie Trap (Bẫy Miễn phí)",
+    "tension": "Bạn coach miễn phí cho mọi người với hy vọng họ sẽ trả tiền hoặc giới thiệu khách. Nhưng họ chỉ đến nhận rồi đi, còn bạn thì kiệt sức.",
+    "belief": "Cho đi trước, nhận lại sau.",
+    "core": "Miễn phí thu hút những người thích miễn phí, không phải khách hàng tiềm năng. Sự cam kết tài chính (dù nhỏ) là bộ lọc tốt nhất.",
+    "reframe": "Thu phí là cách bạn giúp khách hàng cam kết với chính họ, không chỉ là kiếm tiền cho bạn.",
+    "mechanism": "Low-Ticket Offer.",
+    "hooks": [
+      "The Freebie Trap (Bẫy Miễn phí)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Thu phí là cách bạn giúp khách hàng cam kết với chính họ, không chỉ là kiếm tiền cho bạn.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-3",
+    "title": "Invisible Seller (Người bán hàng Tàng hình)",
+    "tension": "Trên Facebook bạn chia sẻ toàn đạo lý, triết lý sống nhưng tuyệt nhiên không có bài nào nói rõ 'Tôi bán cái gì, giá bao nhiêu'. Bạn chờ khách tự inbox.",
+    "belief": "Bán hàng là làm phiền người khác.",
+    "core": "Nếu bạn không mời chào, bạn đang tước đi cơ hội được giúp đỡ của khách hàng. Bán hàng là phục vụ.",
+    "reframe": "Chuyển từ tâm thế 'xin tiền' sang tâm thế 'trao giải pháp'.",
+    "mechanism": "Direct Offer.",
+    "hooks": [
+      "Invisible Seller (Người bán hàng Tàng hình)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Chuyển từ tâm thế 'xin tiền' sang tâm thế 'trao giải pháp'.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-4",
+    "title": "Niche Paralysis (Tê liệt vì Ngách)",
+    "tension": "Bạn sợ chọn một ngách hẹp (ví dụ: Coach cho mẹ đơn thân) vì sợ mất khách ở các ngách khác. Kết quả là thông điệp của bạn chung chung, không chạm vào ai.",
+    "belief": "Phục vụ tất cả mọi người là tốt nhất.",
+    "core": "Nếu bạn nói chuyện với tất cả mọi người, bạn không nói chuyện với ai cả. Sự rõ ràng (Clarity) tạo ra sức hút.",
+    "reframe": "Thà làm cá lớn trong ao nhỏ còn hơn làm cá con ngoài biển lớn.",
+    "mechanism": "Niche Down.",
+    "hooks": [
+      "Niche Paralysis (Tê liệt vì Ngách)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Thà làm cá lớn trong ao nhỏ còn hơn làm cá con ngoài biển lớn.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  },
+  {
+    "id": "ins-5",
+    "title": "Business vs. Hobby (Kinh doanh hay Sở thích)",
+    "tension": "Bạn đam mê coaching nhưng lại ghét con số, ghét marketing, ghét bán hàng. Bạn chỉ muốn ngồi coach thôi.",
+    "belief": "Hữu xạ tự nhiên hương.",
+    "core": "Nếu không tạo ra doanh thu, coaching chỉ là một sở thích tốn kém. Bạn cần tư duy của một chủ doanh nghiệp (Entrepreneur Mindset).",
+    "reframe": "Kỹ năng nghề giúp bạn làm tốt, kỹ năng kinh doanh giúp bạn sống tốt với nghề.",
+    "mechanism": "Business Model Canvas.",
+    "hooks": [
+      "Business vs. Hobby (Kinh doanh hay Sở thích)",
+      "Tìm hiểu thêm",
+      "Chi tiết..."
+    ],
+    "angle": "Góc nhìn chuyên gia",
+    "promise": "Kỹ năng nghề giúp bạn làm tốt, kỹ năng kinh doanh giúp bạn sống tốt với nghề.",
+    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+  }
 ]
