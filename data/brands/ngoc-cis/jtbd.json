@@ -72,19 +72,19 @@
         },
         {
             "id": "emo-2",
-            "title": "Self-Reconnection (Kết nối lại với Bản thân)",
-            "description": "Nhớ lại mình là ai ngoài vai trò làm mẹ, tìm lại niềm vui sống và sở thích cá nhân.",
-            "situation": "Tìm lại cảm hứng đọc sách, nghe nhạc hoặc làm đẹp cho bản thân.",
-            "context": "Nhiều phụ nữ đánh mất chính mình (Self-loss) sau khi sinh con.",
+            "title": "Self-Reconnection (Kết nối & Thăng hoa)",
+            "description": "Kết nối lại với những giá trị cốt lõi của bản thân để nâng cấp lên một tầng cao mới: dùng ưu thế vốn có để kiến tạo gia đình hạnh phúc, từ đó làm bệ phóng cho công việc.",
+            "situation": "Mang năng lượng tích cực và sự ổn định từ gia đình đến công sở, khiến đồng nghiệp nể trọng năng lực cân bằng cuộc sống thay vì lo ngại 'có con thì chểnh mảng'.",
+            "context": "Gia đình và Sự nghiệp không đối đầu, mà cộng hưởng (Synergy) để tạo nên phiên bản người phụ nữ trọn vẹn hơn.",
             "triggers": [
-                "Cảm thấy cuộc sống chỉ xoay quanh bỉm sữa.",
-                "Nhìn vào gương thấy mình xa lạ.",
-                "Sợ mình trở nên nhàm chán, cũ kỹ."
+                "Không muốn phải chọn giữa Gia đình và Sự nghiệp.",
+                "Muốn xóa bỏ định kiến 'phụ nữ có con thì công việc đi xuống'.",
+                "Muốn được công nhận giá trị trọn vẹn (Work-Life Integration)."
             ],
             "desiredOutcome": [
-                "Sống rực rỡ và đầy sức sống.",
-                "Có đời sống tinh thần phong phú.",
-                "Hấp dẫn hơn trong mắt chồng."
+                "Gia đình là bệ phóng vững chắc cho sự nghiệp.",
+                "Đồng nghiệp/Sếp ghi nhận giá trị và sự chuyên nghiệp.",
+                "Tự hào về phiên bản 'Người mẹ khí chất'."
             ]
         },
         {
