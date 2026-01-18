@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { useAuth } from "@/lib/auth";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { Lock } from "lucide-react";
+import mixpanel from "mixpanel-browser";
 
 export default function LoginPage() {
     const [email, setEmail] = useState("");
@@ -18,7 +19,13 @@ export default function LoginPage() {
         if (password === "AnhDacDepTrai") {
             login(email);
         } else {
-            setError("Mật khẩu không đúng. Vui lòng thử lại.");
+            const errorMsg = "Mật khẩu không đúng. Vui lòng thử lại.";
+            setError(errorMsg);
+            mixpanel.track("Error", {
+                error_type: "auth",
+                error_message: errorMsg,
+                page_url: window.location.href
+            });
         }
     };
 
