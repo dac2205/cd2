@@ -1,11 +1,13 @@
 {
     "id": "ngoc-cis",
     "name": "Ngọc CIS",
-    "tagline": "Bảo dưỡng não bộ - Mở khóa giấc ngủ",
+    "tagline": "Bảo dưỡng não bộ - Tắt chế độ sinh tồn",
+    "owner": "Ngọc",
     "keywords": [
-        "Bảo dưỡng não",
-        "Tâm thể",
-        "Mất ngủ",
-        "Mẹ bầu"
+        "Healing",
+        "Neuroscience",
+        "Mom",
+        "Sleep",
+        "Burnout"
     ]
 }
