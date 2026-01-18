@@ -15,147 +15,149 @@
                 "Không gian hài hòa, thẩm mỹ.",
                 "Nâng tầm nội thất.",
                 "Giải quyết bài toán bố cục."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Discovery Access (Tiếp cận Khám phá)",
+            "description": "Được giới thiệu những gương mặt nghệ sĩ mới, những phong cách lạ mà thị trường đại chúng chưa biết đến.",
+            "situation": "Là người đầu tiên trong nhóm bạn sở hữu tranh của họa sĩ X nào đó.",
+            "context": "Sự độc bản (Exclusivity) là đỉnh cao của xa xỉ.",
+            "triggers": [
+                "Chán những cái tên quen thuộc.",
+                "Thích sự mới mẻ, tiên phong.",
+                "Muốn dẫn đầu xu hướng."
             ],
-            {
-                "id": "func-3",
-                "title": "Discovery Access (Tiếp cận Khám phá)",
-                "description": "Được giới thiệu những gương mặt nghệ sĩ mới, những phong cách lạ mà thị trường đại chúng chưa biết đến.",
-                "situation": "Là người đầu tiên trong nhóm bạn sở hữu tranh của họa sĩ X nào đó.",
-                "context": "Sự độc bản (Exclusivity) là đỉnh cao của xa xỉ.",
-                "triggers": [
-                    "Chán những cái tên quen thuộc.",
-                    "Thích sự mới mẻ, tiên phong.",
-                    "Muốn dẫn đầu xu hướng."
-                ],
-                "desiredOutcome": [
-                    "Sở hữu tác phẩm độc đáo.",
-                    "Thể hiện gu thưởng thức tinh tường.",
-                    "Trải nghiệm khám phá thú vị."
-                ]
-            }
-        ],
-        "emotional": [
-            {
-                "id": "emo-1",
-                "title": "Deep Resonance (Sự Cộng hưởng Sâu sắc)",
-                "description": "Cảm thấy bức tranh nói hộ nỗi lòng hoặc khát vọng của mình mà ngôn từ bất lực.",
-                "situation": "Đứng lặng trước bức tranh và cảm thấy bình yên lạ thường sau một ngày bão tố.",
-                "context": "Nghệ thuật là ngôn ngữ của cảm xúc.",
-                "triggers": [
-                    "Cần sự đồng cảm.",
-                    "Muốn tìm về bản thân.",
-                    "Cảm thấy trống rỗng."
-                ],
-                "desiredOutcome": [
-                    "Được thấu hiểu, vỗ về.",
-                    "Kết nối với chính mình.",
-                    "Tâm hồn được tưới mát."
-                ],
-                {
-                    "id": "emo-3",
-                    "title": "Pride of Ownership (Niềm kiêu hãnh Sở hữu)",
-                    "description": "Cảm giác tự hào khi là chủ nhân của một tác phẩm đẹp, độc bản, thể hiện đẳng cấp văn hóa.",
-                    "situation": "Mời bạn bè đến nhà và tự hào giới thiệu về bộ sưu tập của mình.",
-                    "context": "Sở hữu nghệ thuật là sở hữu văn hóa.",
-                    "triggers": [
-                        "Muốn khẳng định vị thế.",
-                        "Thích được ngưỡng mộ.",
-                        "Tự hào về thành quả lao động."
-                    ],
-                    "desiredOutcome": [
-                        "Được kính trọng.",
-                        "Thỏa mãn cái tôi.",
-                        "Khẳng định đẳng cấp."
-                    ]
-                }
-            ],
-            "social": [
-                {
-                    "id": "soc-2",
-                    "title": "Cultural Status (Vị thế Văn hóa)",
-                    "description": "Được nhìn nhận là một người có văn hóa, có chiều sâu, không chỉ là người có tiền.",
-                    "situation": "Được mời tham gia các sự kiện nghệ thuật, giao lưu với giới tinh hoa.",
-                    "context": "Tiền mua được đồ hiệu, nhưng Gu mới mua được sự nể trọng.",
-                    "triggers": [
-                        "Sợ bị coi là trọc phú.",
-                        "Muốn nâng tầm hình ảnh.",
-                        "Gia nhập giới thượng lưu."
-                    ],
-                    "desiredOutcome": [
-                        "Được giới trí thức nể trọng.",
-                        "Hình ảnh sang trọng, tri thức.",
-                        "Mở rộng quan hệ chất lượng."
-                    ]
-                },
-                {
-                    "id": "soc-3",
-                    "title": "Legacy (Di sản)",
-                    "description": "Để lại cho con cái một gia tài văn hóa và thẩm mỹ, giáo dục gu thẩm mỹ cho thế hệ sau.",
-                    "situation": "Con cái lớn lên trong môi trường nghệ thuật và hình thành tư duy duy mỹ từ bé.",
-                    "context": "Giáo dục thẩm mỹ là món quà vô giá cho con.",
-                    "triggers": [
-                        "Lo con cái nghiện điện thoại.",
-                        "Muốn con có tâm hồn đẹp.",
-                        "Tích sản cho con."
-                    ],
-                    "desiredOutcome": [
-                        "Con cái tinh tế, nhạy cảm.",
-                        "Gia đình có truyền thống.",
-                        "Tài sản truyền đời."
-                    ]
-                }
-            ],
-            "other": [
-                {
-                    "id": "other-1",
-                    "title": "Vibrational Shift (Chuyển đổi Rung động)",
-                    "description": "Thay đổi trường năng lượng của căn phòng từ trầm, tối sang sáng, cao.",
-                    "situation": "Bước vào phòng cảm thấy nhẹ nhõm, vui vẻ ngay lập tức.",
-                    "context": "Năng lượng là có thật.",
-                    "triggers": [
-                        "Nhà cửa u ám.",
-                        "Cảm giác nặng nề.",
-                        "Muốn đổi vận."
-                    ],
-                    "desiredOutcome": [
-                        "Phong thủy tốt.",
-                        "Sức khỏe cải thiện.",
-                        "Tâm trạng thăng hoa."
-                    ]
-                },
-                {
-                    "id": "other-2",
-                    "title": "Visual Meditation (Thiền Thị giác)",
-                    "description": "Dùng việc ngắm tranh như một phương pháp thiền định, thả lỏng tâm trí.",
-                    "situation": "Nhìn sâu vào các mảng màu và quên hết muộn phiền.",
-                    "context": "Mắt là cửa sổ tâm hồn.",
-                    "triggers": [
-                        "Đầu óc căng thẳng.",
-                        "Không ngồi thiền được.",
-                        "Cần điểm neo thị giác."
-                    ],
-                    "desiredOutcome": [
-                        "Tâm trí tĩnh lặng.",
-                        "Giảm stress.",
-                        "Thư giãn sâu."
-                    ]
-                },
-                {
-                    "id": "other-3",
-                    "title": "Artist Connection (Kết nối Nghệ sĩ)",
-                    "description": "Cảm thấy gắn bó với người nghệ sĩ đã tạo ra tác phẩm, hiểu câu chuyện đời họ.",
-                    "situation": "Biết rằng mình đang ủng hộ một tài năng trẻ phát triển.",
-                    "context": "Mua tranh là mua một phần cuộc đời họa sĩ.",
-                    "triggers": [
-                        "Muốn ủng hộ nghệ thuật.",
-                        "Thích nghe chuyện đời tư.",
-                        "Kết nối nhân văn."
-                    ],
-                    "desiredOutcome": [
-                        "Làm việc thiện/có ý nghĩa.",
-                        "Sự trân trọng.",
-                        "Gắn kết con người."
-                    ]
-                }
+            "desiredOutcome": [
+                "Sở hữu tác phẩm độc đáo.",
+                "Thể hiện gu thưởng thức tinh tường.",
+                "Trải nghiệm khám phá thú vị."
             ]
         }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Deep Resonance (Sự Cộng hưởng Sâu sắc)",
+            "description": "Cảm thấy bức tranh nói hộ nỗi lòng hoặc khát vọng của mình mà ngôn từ bất lực.",
+            "situation": "Đứng lặng trước bức tranh và cảm thấy bình yên lạ thường sau một ngày bão tố.",
+            "context": "Nghệ thuật là ngôn ngữ của cảm xúc.",
+            "triggers": [
+                "Cần sự đồng cảm.",
+                "Muốn tìm về bản thân.",
+                "Cảm thấy trống rỗng."
+            ],
+            "desiredOutcome": [
+                "Được thấu hiểu, vỗ về.",
+                "Kết nối với chính mình.",
+                "Tâm hồn được tưới mát."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Pride of Ownership (Niềm kiêu hãnh Sở hữu)",
+            "description": "Cảm giác tự hào khi là chủ nhân của một tác phẩm đẹp, độc bản, thể hiện đẳng cấp văn hóa.",
+            "situation": "Mời bạn bè đến nhà và tự hào giới thiệu về bộ sưu tập của mình.",
+            "context": "Sở hữu nghệ thuật là sở hữu văn hóa.",
+            "triggers": [
+                "Muốn khẳng định vị thế.",
+                "Thích được ngưỡng mộ.",
+                "Tự hào về thành quả lao động."
+            ],
+            "desiredOutcome": [
+                "Được kính trọng.",
+                "Thỏa mãn cái tôi.",
+                "Khẳng định đẳng cấp."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-2",
+            "title": "Cultural Status (Vị thế Văn hóa)",
+            "description": "Được nhìn nhận là một người có văn hóa, có chiều sâu, không chỉ là người có tiền.",
+            "situation": "Được mời tham gia các sự kiện nghệ thuật, giao lưu với giới tinh hoa.",
+            "context": "Tiền mua được đồ hiệu, nhưng Gu mới mua được sự nể trọng.",
+            "triggers": [
+                "Sợ bị coi là trọc phú.",
+                "Muốn nâng tầm hình ảnh.",
+                "Gia nhập giới thượng lưu."
+            ],
+            "desiredOutcome": [
+                "Được giới trí thức nể trọng.",
+                "Hình ảnh sang trọng, tri thức.",
+                "Mở rộng quan hệ chất lượng."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Legacy (Di sản)",
+            "description": "Để lại cho con cái một gia tài văn hóa và thẩm mỹ, giáo dục gu thẩm mỹ cho thế hệ sau.",
+            "situation": "Con cái lớn lên trong môi trường nghệ thuật và hình thành tư duy duy mỹ từ bé.",
+            "context": "Giáo dục thẩm mỹ là món quà vô giá cho con.",
+            "triggers": [
+                "Lo con cái nghiện điện thoại.",
+                "Muốn con có tâm hồn đẹp.",
+                "Tích sản cho con."
+            ],
+            "desiredOutcome": [
+                "Con cái tinh tế, nhạy cảm.",
+                "Gia đình có truyền thống.",
+                "Tài sản truyền đời."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Vibrational Shift (Chuyển đổi Rung động)",
+            "description": "Thay đổi trường năng lượng của căn phòng từ trầm, tối sang sáng, cao.",
+            "situation": "Bước vào phòng cảm thấy nhẹ nhõm, vui vẻ ngay lập tức.",
+            "context": "Năng lượng là có thật.",
+            "triggers": [
+                "Nhà cửa u ám.",
+                "Cảm giác nặng nề.",
+                "Muốn đổi vận."
+            ],
+            "desiredOutcome": [
+                "Phong thủy tốt.",
+                "Sức khỏe cải thiện.",
+                "Tâm trạng thăng hoa."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Visual Meditation (Thiền Thị giác)",
+            "description": "Dùng việc ngắm tranh như một phương pháp thiền định, thả lỏng tâm trí.",
+            "situation": "Nhìn sâu vào các mảng màu và quên hết muộn phiền.",
+            "context": "Mắt là cửa sổ tâm hồn.",
+            "triggers": [
+                "Đầu óc căng thẳng.",
+                "Không ngồi thiền được.",
+                "Cần điểm neo thị giác."
+            ],
+            "desiredOutcome": [
+                "Tâm trí tĩnh lặng.",
+                "Giảm stress.",
+                "Thư giãn sâu."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Artist Connection (Kết nối Nghệ sĩ)",
+            "description": "Cảm thấy gắn bó với người nghệ sĩ đã tạo ra tác phẩm, hiểu câu chuyện đời họ.",
+            "situation": "Biết rằng mình đang ủng hộ một tài năng trẻ phát triển.",
+            "context": "Mua tranh là mua một phần cuộc đời họa sĩ.",
+            "triggers": [
+                "Muốn ủng hộ nghệ thuật.",
+                "Thích nghe chuyện đời tư.",
+                "Kết nối nhân văn."
+            ],
+            "desiredOutcome": [
+                "Làm việc thiện/có ý nghĩa.",
+                "Sự trân trọng.",
+                "Gắn kết con người."
+            ]
+        }
+    ]
+}

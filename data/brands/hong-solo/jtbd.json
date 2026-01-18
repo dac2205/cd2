@@ -4,25 +4,69 @@
             "id": "func-1",
             "title": "Quản lý học viên",
             "description": "Lưu trữ, phân loại và cập nhật thông tin học viên chính xác, không dùng sổ sách thủ công.",
-            "context": "Khi số lượng học viên tăng lên trên 20 người."
+            "situation": "Danh sách học viên lên đến 50 người, lưu trên Excel rời rạc, không biết ai đã đóng tiền hay chưa.",
+            "context": "Khi số lượng học viên tăng lên trên 20 người, việc quản lý thủ công trở nên quá tải.",
+            "triggers": [
+                "Mất file Excel chứa data quan trọng.",
+                "Quên thu học phí hoặc thu nhầm.",
+                "Học viên phàn nàn vì không nhận được link học."
+            ],
+            "desiredOutcome": [
+                "Quản lý tập trung, chính xác 100%.",
+                "Tra cứu thông tin trong 30s.",
+                "Tự động hóa quy trình nhắc nhở."
+            ]
         },
         {
             "id": "func-2",
             "title": "Tự động hóa lịch nhắc",
             "description": "Gửi email/tin nhắn nhắc lịch học, gửi tài liệu, link Zoom tự động.",
-            "context": "Trước mỗi buổi học."
+            "situation": "Suốt ngày phải canh giờ gửi link Zoom thủ công, rất mất thời gian và dễ quên.",
+            "context": "Trước mỗi buổi học, giáo viên cần tập trung chuẩn bị nội dung thay vì lo logistic.",
+            "triggers": [
+                "Gửi nhầm link Zoom hoặc gửi muộn.",
+                "Học viên vào muộn vì trôi tin nhắn.",
+                "Stress vì những đầu việc lặt vặt không tên."
+            ],
+            "desiredOutcome": [
+                "Hệ thống tự động chạy trơn tru.",
+                "Có thêm thời gian chuẩn bị bài giảng chất lượng.",
+                "Trải nghiệm học viên mượt mà, chuyên nghiệp."
+            ]
         },
         {
             "id": "func-3",
             "title": "Thiết kế tài liệu đẹp",
             "description": "Chuyển hóa slide bài giảng thô sơ thành tài liệu có tính thẩm mỹ cao (Canva, PPT chuẩn).",
-            "context": "Khi chuẩn bị bài giảng mới."
+            "situation": "Slide bài giảng cũ kỹ, nhiều chữ, nhìn kém chuyên nghiệp nhưng không có thời gian làm lại.",
+            "context": "Học viên ngày càng yêu cầu cao về trải nghiệm thị giác (Visual Experience).",
+            "triggers": [
+                "Ngại show slide cũ xấu trước học viên.",
+                "Muốn lớp học trông xịn xò, hiện đại hơn.",
+                "Không biết dùng công cụ thiết kế chuyên nghiệp."
+            ],
+            "desiredOutcome": [
+                "Slide đẹp, hiện đại, bắt mắt.",
+                "Gây ấn tượng mạnh về thị giác.",
+                "Dễ dàng cập nhật nội dung giảng dạy."
+            ]
         },
         {
             "id": "func-4",
             "title": "Hỗ trợ kỹ thuật Zoom/Live",
             "description": "Quản lý phòng chờ, record, xử lý sự cố kỹ thuật trong giờ học.",
-            "context": "Trong các buổi dạy online."
+            "situation": "Đang dạy thì Zoom mất tiếng, mạng lag, học viên náo loạn, thầy giáo lúng túng xử lý.",
+            "context": "Trong các buổi dạy online, sự cố kỹ thuật là điều khó tránh khỏi.",
+            "triggers": [
+                "Sợ sự cố kỹ thuật làm gián đoạn bài giảng.",
+                "Bị phân tâm khi vừa dạy vừa duyệt người vào.",
+                "Muốn tập trung hoàn toàn vào chuyên môn."
+            ],
+            "desiredOutcome": [
+                "Lớp học diễn ra suôn sẻ không gián đoạn.",
+                "Có người 'đứng mũi chịu sào' về kỹ thuật.",
+                "Tâm lý thoải mái, thăng hoa khi giảng dạy."
+            ]
         }
     ],
     "emotional": [
@@ -30,32 +74,68 @@
             "id": "emo-1",
             "title": "Cảm giác Thảnh thơi (Relief)",
             "description": "Không còn lo lắng, giật mình thon thót vì sợ quên lịch hay sót tin nhắn của khách.",
+            "situation": "8h tối dạy xong là tắt máy nghỉ ngơi, không phải lo check inbox hay gửi bài tập.",
+            "context": "Solo-trainer thường làm việc 16h/ngày, kiệt sức vì ôm đồm (Burnout).",
+            "triggers": [
+                "Luôn trong trạng thái căng thẳng, 'trực chiến'.",
+                "Không có thời gian chất lượng cho bản thân/gia đình.",
+                "Cảm thấy bị công việc nuốt chửng."
+            ],
             "desiredOutcome": [
-                "Đầu óc trống rỗng để sáng tạo"
+                "Cân bằng công việc - cuộc sống (Work-Life Balance).",
+                "Đầu óc trống rỗng để sáng tạo.",
+                "Tái tạo năng lượng mỗi ngày."
             ]
         },
         {
             "id": "emo-2",
             "title": "Cảm giác Chuyên nghiệp (Professional)",
             "description": "Tự hào khi học viên khen quy trình lớp học chỉn chu, xịn xò.",
+            "situation": "Học viên phản hồi: 'Bên thầy làm việc chuyên nghiệp quá, có email confirm, lịch nhắc đầy đủ'.",
+            "context": "Muốn thoát khỏi mác 'thầy giáo làng', hướng tới hình ảnh Academy bài bản.",
+            "triggers": [
+                "Sợ bị đánh giá là nghiệp dư, tự phát.",
+                "Muốn nâng giá khóa học xứng tầm.",
+                "Cần sự chỉn chu tuyệt đối trong mắt khách hàng."
+            ],
             "desiredOutcome": [
-                "Nâng cao vị thế chuyên gia"
+                "Nâng cao vị thế chuyên gia.",
+                "Tự tin set giá cao (Premium pricing).",
+                "Tăng sự tin tưởng và tỷ lệ referral."
             ]
         },
         {
             "id": "emo-3",
             "title": "Cảm giác Được thấu hiểu (Understood)",
             "description": "Có người chia sẻ gánh nặng, hiểu ý mình mà không cần nói nhiều.",
+            "situation": "Chỉ cần nói 'Em ơi chuẩn bị lớp tối nay nhé' là trợ lý tự biết phải làm gì, không cần cầm tay chỉ việc.",
+            "context": "Sự cô đơn trên hành trình độc hành (Solopreneur loneliness) là rất lớn.",
+            "triggers": [
+                "Mệt mỏi vì phải giải thích nhiều cho nhân sự.",
+                "Không tìm được người tin cậy giao việc.",
+                "Cần một cánh tay phải đắc lực (Right hand)."
+            ],
             "desiredOutcome": [
-                "Bớt cô đơn trên hành trình Solo"
+                "Bớt cô đơn trên hành trình Solo.",
+                "Có người đồng hành tâm đầu ý hợp.",
+                "Cảm giác được hỗ trợ vô điều kiện."
             ]
         },
         {
             "id": "emo-4",
             "title": "Cảm giác Tươi mới (Rejuvenated)",
             "description": "Được truyền năng lượng từ sự trẻ trung, nhiệt huyết của trợ lý.",
+            "situation": "Được làm việc với đội ngũ Gen Z năng động, cập nhật trend mới, thấy mình trẻ ra.",
+            "context": "Giáo dục cần sự đổi mới liên tục để không bị lỗi thời.",
+            "triggers": [
+                "Cảm thấy mình đang già đi/tụt hậu so với thị trường.",
+                "Lớp học trầm lặng, thiếu tương tác.",
+                "Cần luồng gió mới cho công việc."
+            ],
             "desiredOutcome": [
-                "Yêu công việc dạy học trở lại"
+                "Yêu công việc dạy học trở lại.",
+                "Bắt kịp xu hướng thời đại.",
+                "Lớp học sôi nổi, hào hứng."
             ]
         }
     ],
@@ -64,25 +144,69 @@
             "id": "soc-1",
             "title": "Hình ảnh Học viện bài bản",
             "description": "Được nhìn nhận như một tổ chức giáo dục uy tín chứ không phải thầy dạy kèm tự phát.",
-            "situation": "Khi học viên giới thiệu cho bạn bè."
+            "situation": "Khi học viên giới thiệu cho bạn bè: 'Học ở đây quy trình xịn lắm, không lôm côm đâu'.",
+            "context": "Uy tín thương hiệu cá nhân quyết định sự tồn vong của lớp học.",
+            "triggers": [
+                "Mất khách vì quy trình lỏng lẻo, thiếu chuyên nghiệp.",
+                "Bị so sánh với các trung tâm lớn.",
+                "Muốn xây dựng thương hiệu bền vững (Brand building)."
+            ],
+            "desiredOutcome": [
+                "Được nhìn nhận là tổ chức uy tín.",
+                "Tăng độ trust với khách hàng mới.",
+                "Dễ dàng mở rộng quy mô (Scale-up)."
+            ]
         },
         {
             "id": "soc-2",
             "title": "Chuyên gia 'High-tech'",
             "description": "Được đồng nghiệp/đối thủ nể phục vì áp dụng công nghệ tiên tiến vào lớp học.",
-            "situation": "Trong cộng đồng chuyên môn."
+            "situation": "Được mời chia sẻ trong cộng đồng chuyên môn về cách vận hành lớp học tự động hóa.",
+            "context": "Công nghệ là đòn bẩy quan trọng cho giáo dục hiện đại (EdTech).",
+            "triggers": [
+                "Bị đồng nghiệp coi thường là 'mù công nghệ'.",
+                "Muốn chứng tỏ năng lực quản trị.",
+                "Muốn tiên phong trong nghành."
+            ],
+            "desiredOutcome": [
+                "Được đồng nghiệp nể phục, ngưỡng mộ.",
+                "Trở thành KOL/Thought Leader trong ngách.",
+                "Dẫn đầu xu hướng chuyển đổi số."
+            ]
         },
         {
             "id": "soc-3",
             "title": "Người thầy tận tâm",
             "description": "Được học viên yêu quý vì chăm sóc quá kỹ càng (dù là do trợ lý làm).",
-            "situation": "Khi nhận feedback cuối khóa."
+            "situation": "Nhận được feedback cuối khóa khen ngợi sự tận tâm, chu đáo của đội ngũ hỗ trợ.",
+            "context": "Sự hài lòng của học viên là thước đo thành công cao nhất.",
+            "triggers": [
+                "Sợ bị mang tiếng là 'thu tiền xong đem con bỏ chợ'.",
+                "Muốn học viên quay lại học tiếp.",
+                "Xây dựng cộng đồng học viên trung thành."
+            ],
+            "desiredOutcome": [
+                "Được học viên yêu quý, kính trọng.",
+                "Tăng tỷ lệ quay lại (Retention rate).",
+                "Tiếng lành đồn xa."
+            ]
         },
         {
             "id": "soc-4",
             "title": "Doanh nhân giáo dục thành đạt",
             "description": "Chứng minh được sự thành công và khả năng scale-up mô hình kinh doanh.",
-            "situation": "Khi chia sẻ câu chuyện thành công."
+            "situation": "Chia sẻ câu chuyện thành công về việc đi từ dạy kèm 1-1 lên hệ thống hàng trăm học viên.",
+            "context": "Khẳng định vị thế xã hội thông qua thành công trong kinh doanh.",
+            "triggers": [
+                "Muốn chứng minh bản thân với gia đình/xã hội.",
+                "Muốn thoát khỏi hình ảnh giáo viên nghèo.",
+                "Khát vọng làm giàu từ tri thức."
+            ],
+            "desiredOutcome": [
+                "Được xã hội công nhận là doanh nhân thành đạt.",
+                "Tự chủ tài chính.",
+                "Tự hào về sự nghiệp giáo dục."
+            ]
         }
     ],
     "other": [
@@ -90,24 +214,51 @@
             "id": "oth-1",
             "title": "Tiết kiệm chi phí nhân sự",
             "description": "Thuê 1 người làm được việc của 3 người (Admin + Tech + Design).",
+            "situation": "Thay vì thuê 1 admin, 1 design, 1 tech tốn 20-30tr/tháng, chỉ cần 1 gói dịch vụ tối ưu.",
+            "context": "Bài toán tối ưu chi phí (Cost optimization) luôn đau đầu với doanh nghiệp nhỏ.",
+            "triggers": [
+                "Chi phí cố định quá cao ăn mòn lợi nhuận.",
+                "Nhân sự full-time không hiệu quả, ngồi chơi nhiều.",
+                "Ngại quản lý con người phức tạp."
+            ],
             "desiredOutcome": [
-                "Tối ưu hóa lợi nhuận"
+                "Tối ưu hóa lợi nhuận ròng.",
+                "Mô hình vận hành tinh gọn (Lean).",
+                "Dòng tiền dương khỏe mạnh."
             ]
         },
         {
             "id": "oth-2",
             "title": "Cập nhật xu hướng Gen Z",
             "description": "Hiểu ngôn ngữ và tư duy của thế hệ trẻ để dạy học tốt hơn.",
+            "situation": "Biết cách dùng TikTok, Reels để marketing khóa học nhờ sự tư vấn của trợ lý trẻ.",
+            "context": "Học viên ngày càng trẻ hóa, giáo viên cần 'trẻ hóa' theo.",
+            "triggers": [
+                "Không hiểu học viên đang nói gì/nghĩ gì.",
+                "Marketing theo cách cũ không hiệu quả.",
+                "Muốn tiếp cận tệp khách hàng trẻ tiềm năng."
+            ],
             "desiredOutcome": [
-                "Bridge the generation gap"
+                "Xóa nhòa khoảng cách thế hệ (Generation gap).",
+                "Giao tiếp hiệu quả với học viên trẻ.",
+                "Marketing đúng insight."
             ]
         },
         {
             "id": "oth-3",
             "title": "Bảo mật dữ liệu",
             "description": "Đảm bảo data học viên và tài liệu giảng dạy được lưu trữ an toàn.",
+            "situation": "Có hợp đồng bảo mật (NDA) rõ ràng, dữ liệu được phân quyền truy cập chặt chẽ.",
+            "context": "Tài sản lớn nhất của người dạy là chất xám và danh sách học viên.",
+            "triggers": [
+                "Sợ bị lộ bài giảng ra ngoài.",
+                "Sợ trợ lý cũ lấy mất data học viên.",
+                "Cần sự an toàn pháp lý."
+            ],
             "desiredOutcome": [
-                "Risk management"
+                "Quản trị rủi ro (Risk management) tốt.",
+                "Ngủ ngon vì tài sản được bảo vệ.",
+                "Kinh doanh bền vững an toàn."
             ]
         }
     ]
