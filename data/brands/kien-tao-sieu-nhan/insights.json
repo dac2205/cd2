@@ -1,0 +1,47 @@
+[
+    {
+        "id": "ins-1",
+        "title": "The Superwoman Trap (Cái bẫy Siêu nhân)",
+        "tension": "Xã hội và gia đình ca ngợi bạn là 'Giỏi việc nước đảm việc nhà'. Lời khen đó trở thành gánh nặng khiến bạn không dám nghỉ ngơi và không dám yếu đuối.",
+        "belief": "Mình phải mạnh mẽ để lo cho mọi người. Nhờ vả là yếu kém.",
+        "core": "Sức mạnh thực sự không phải là gồng mình gánh vác, mà là dũng cảm cởi bỏ chiếc áo choàng siêu nhân để sống thật với cảm xúc của mình.",
+        "reframe": "Bạn không cần phải làm siêu nhân để được yêu thương. Bạn xứng đáng được yêu thương vì chính bạn.",
+        "mechanism": "Vulnerability as Strength."
+    },
+    {
+        "id": "ins-2",
+        "title": "Prosperity Paradox (Nghịch lý Thịnh vượng)",
+        "tension": "Bạn nỗ lực kiếm tiền để gia đình hạnh phúc hơn, nhưng càng kiếm nhiều tiền thì thời gian và tâm trí dành cho gia đình càng ít đi.",
+        "belief": "Có tài chính vững vàng thì gia đình mới êm ấm.",
+        "core": "Bạn giàu có về tài sản (Assets) nhưng khánh kiệt về cảm xúc (Emotional Bankruptcy). Ngôi nhà to nhưng thiếu hơi ấm.",
+        "reframe": "Hạnh phúc là sự cân bằng giữa Thành công bên ngoài và Bình an bên trong.",
+        "mechanism": "Life Balance Wheel."
+    },
+    {
+        "id": "ins-3",
+        "title": "The 'Roommate' Marriage (Hôn nhân Bạn cùng phòng)",
+        "tension": "Bạn và chồng phối hợp nuôi dạy con, quản lý kinh tế rất ăn ý như hai đối tác kinh doanh, nhưng sự lãng mạn và kết nối tâm hồn đã nguội lạnh.",
+        "belief": "Sống lâu với nhau thì tình yêu chuyển thành tình nghĩa thôi.",
+        "core": "Sự mất kết nối không phải do hết yêu, mà do cả hai đã ngừng chia sẻ những tầng sâu (Deep Intimacy) của tâm hồn.",
+        "reframe": "Hôn nhân cần được 'kiến tạo' lại mỗi ngày bằng sự thấu hiểu và trân trọng hiện diện.",
+        "mechanism": "Relationship Coaching."
+    },
+    {
+        "id": "ins-4",
+        "title": "Knowledge vs. Wisdom (Kiến thức và Trí tuệ)",
+        "tension": "Bạn đi học rất nhiều khóa phát triển bản thân, đọc hàng trăm cuốn sách. Bạn biết hết lý thuyết nhưng vẫn không thoát khỏi sự bất an.",
+        "belief": "Mình cần học thêm kỹ năng mới để xử lý vấn đề.",
+        "core": "Bình an không phải là một kỹ năng (Skill) để học, nó là một trạng thái (State) để tu tập và cảm nhận. Bạn cần người dẫn dắt năng lượng, không phải người dạy kiến thức.",
+        "reframe": "Coaching 1:1 giúp chuyển hóa năng lượng tắc nghẽn, đưa bạn về trạng thái bình an gốc.",
+        "mechanism": "Energy Transformation."
+    },
+    {
+        "id": "ins-5",
+        "title": "The Oxygen Mask Rule (Quy tắc Mặt nạ dưỡng khí)",
+        "tension": "Bạn luôn ưu tiên chồng, con, công việc lên trên hết. Bản thân bạn xếp cuối cùng trong danh sách chăm sóc.",
+        "belief": "Hy sinh là đức tính cao đẹp của phụ nữ.",
+        "core": "Bạn không thể rót nước từ một chiếc ly rỗng. Việc bạn kiệt sức chính là nguyên nhân khiến không khí gia đình căng thẳng.",
+        "reframe": "Yêu mình là cách tốt nhất để yêu người. Khi bạn bình an, cả thế giới xung quanh bạn sẽ bình an.",
+        "mechanism": "Self-Love Mastery."
+    }
+]

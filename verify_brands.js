@@ -7,7 +7,15 @@ const brands = [
     'inside-school',
     'queen',
     'aurora-english',
-    'jamte'
+    'jamte',
+    'duoc-su-van-bao',
+    'ngoc-cis',
+    'kien-tao-sieu-nhan',
+    'cao-huy',
+    'vitamind',
+    'dung-happy',
+    'mai-am',
+    'nam-art'
 ];
 
 const baseDir = '/Users/dac/ConanCode/conan.school websites/customer-decode-2/data/brands';

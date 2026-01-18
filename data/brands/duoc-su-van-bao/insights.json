@@ -1,0 +1,47 @@
+[
+    {
+        "id": "ins-1",
+        "title": "The Illusion of Control (Ảo ảnh của sự Kiểm soát)",
+        "tension": "Bạn càng cố gắng kiểm soát mọi thứ (nhân viên, thị trường, con cái) để cảm thấy an toàn, bạn càng trở nên lo âu và kiệt sức.",
+        "belief": "An toàn đến từ việc kiểm soát được mọi biến số bên ngoài.",
+        "core": "Sự kiểm soát là biểu hiện của nỗi sợ hãi, không phải sức mạnh.",
+        "reframe": "An toàn thực sự đến từ Nội lực (Inner Capacity) để đối diện với bất kỳ điều gì xảy ra, chứ không phải nỗ lực ngăn chặn điều xấu xảy ra.",
+        "mechanism": "Chuyển hóa tâm thức từ Fear-based sang Wisdom-based."
+    },
+    {
+        "id": "ins-2",
+        "title": "Productivity Detox (Cai nghiện Năng suất)",
+        "tension": "Bạn liên tục đi học thêm kỹ năng quản trị, lãnh đạo, marketing... nhưng vẫn cảm thấy thiếu sót và quá tải.",
+        "belief": "Mình chưa đủ giỏi, mình cần nạp thêm kiến thức và công cụ mới giải quyết được vấn đề.",
+        "core": "Vấn đề không nằm ở 'Doing' (Làm gì) mà ở 'Being' (Là ai). Bạn đang dùng chiến thuật để giải quyết vấn đề tâm thức.",
+        "reframe": "Trí tuệ là sự giản lược (Subtraction). Bạn cần 'cởi bỏ' những tà kiến và nỗi sợ, thay vì 'khoác thêm' áo giáp kỹ năng.",
+        "mechanism": "Manifestation State Shift."
+    },
+    {
+        "id": "ins-3",
+        "title": "The Price of Success (Cái giá của Thành công)",
+        "tension": "Bạn tin rằng để giữ được thành công hiện tại, bạn phải đánh đổi bằng sức khỏe và sự bình yên. 'Thuyền to thì sóng lớn'.",
+        "belief": "Hy sinh và khổ luyện là điều bắt buộc để duy trì thành công.",
+        "core": "Đây là tư duy khan hiếm (Scarcity Mindset). Thành công bền vững phải thuận tự nhiên (Vô vi), không phải gồng mình chống đỡ.",
+        "reframe": "Thành công thực sự là khi bạn đạt được mục tiêu trong sự thong dong, không phải sự lao lực.",
+        "mechanism": "Luật Hấp dẫn & Nhân quả."
+    },
+    {
+        "id": "ins-4",
+        "title": "Root Cause vs Symptom (Gốc rễ và Triệu chứng)",
+        "tension": "Khi stress, bạn đi Spa, đi nghỉ dưỡng, nghe nhạc thiền. Bạn thấy đỡ hơn, nhưng thứ Hai quay lại văn phòng, áp lực lại ập đến y nguyên.",
+        "belief": "Tôi chỉ cần thư giãn chút là ổn.",
+        "core": "Bạn đang dùng thuốc giảm đau (Painkillers) cho một căn bệnh cần phẫu thuật (Surgery). Nỗi lo âu đến từ hệ tư tưởng sai lệch, không phải do thiếu nghỉ ngơi.",
+        "reframe": "Chữa lành tận gốc là thay đổi 'Hệ điều hành' tâm trí của bạn, để nghịch cảnh không còn là nghịch cảnh nữa.",
+        "mechanism": "Wisdom Root Cause Analysis."
+    },
+    {
+        "id": "ins-5",
+        "title": "Sustainable Ambition (Tham vọng Bền vững)",
+        "tension": "Động lực làm giàu của bạn đến từ nỗi sợ: sợ nghèo, sợ thua kém, sợ mất vị thế. Năng lượng sợ hãi này đang ăn mòn bạn.",
+        "belief": "Nếu không lo sợ, tôi sẽ mất động lực phấn đấu.",
+        "core": "Lãnh đạo bằng nỗi sợ (Fear-driven) sẽ tạo ra kết quả ngắn hạn nhưng phá hủy con người bạn trong dài hạn.",
+        "reframe": "Lãnh đạo bằng Trí tuệ và Tình yêu thương (Wisdom-driven) tạo ra sự thịnh vượng bền vững và niềm vui trong từng khoảnh khắc.",
+        "mechanism": "Abundance Mindset."
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": "ins-1",
+        "title": "The 'Bad Mom' Spiral (Vòng xoáy Người mẹ tồi)",
+        "tension": "Bạn cáu gắt với con vì quá mệt, sau đó lại dằn vặt bản thân vì đã nổi nóng. Càng dằn vặt càng mất ngủ, càng mất ngủ càng dễ nổi nóng.",
+        "belief": "Mình là một người mẹ tồi, không biết kiềm chế cảm xúc.",
+        "core": "Đó không phải là vấn đề đạo đức hay tình thương, đó là vấn đề sinh học. Một bộ não kiệt sức (Depleted Brain) không có khả năng điều tiết cảm xúc.",
+        "reframe": "Bạn không hề tồi tệ, bạn chỉ đang 'hết pin'. Hãy sạc lại não bộ trước khi cố gắng yêu thương.",
+        "mechanism": "Brain Energy Restoration."
+    },
+    {
+        "id": "ins-2",
+        "title": "Information Toxicity (Ngộ độc Thông tin)",
+        "tension": "Bạn lên mạng tìm cách chữa mất ngủ/stress, hàng ngàn lời khuyên trái ngược đổ xuống đầu. Bạn càng đọc càng hoang mang và lo âu hơn.",
+        "belief": "Mình cần tìm thêm thông tin để có giải pháp tốt nhất.",
+        "core": "Hệ thần kinh của bạn đang ở trạng thái 'Báo động' (Fight or Flight). Việc tiếp nhận quá nhiều thông tin hỗn loạn chỉ làm nó căng thẳng thêm.",
+        "reframe": "Bạn không thiếu lời khuyên, bạn thiếu một Lộ trình Y khoa được cá nhân hóa để tắt chuông báo động trong đầu.",
+        "mechanism": "Nervous System Regulation."
+    },
+    {
+        "id": "ins-3",
+        "title": "Sleep Amnesia (Chứng quên ngủ)",
+        "tension": "Cơ thể rã rời nhưng đặt lưng xuống là mắt thao láo, suy nghĩ chạy trong đầu không dừng được. Bạn cố ngủ nhưng càng cố càng tỉnh.",
+        "belief": "Chắc do mình suy nghĩ nhiều quá.",
+        "core": "Não bộ của bạn đã 'quên' mất cơ chế chuyển sang trạng thái nghỉ ngơi tự nhiên (Sleep Switch Malfunction) do căng thẳng kéo dài.",
+        "reframe": "Giấc ngủ không phải thứ để 'cố', mà là thứ để 'về'. Bạn cần được 'bảo dưỡng' để não học lại cách tự tắt nguồn.",
+        "mechanism": "Sleep Retraining Protocol."
+    },
+    {
+        "id": "ins-4",
+        "title": "The 'Normal' Trap (Cái bẫy Bình thường hóa)",
+        "tension": "Mọi người bảo 'Mẹ bỉm sữa nào chả thiếu ngủ, chả stress, cố lên con lớn rồi hết'. Bạn cảm thấy nỗi đau của mình bị xem nhẹ.",
+        "belief": "Chịu đựng là bổn phận của người làm mẹ.",
+        "core": "Thiếu ngủ và stress có thể phổ biến, nhưng nó KHÔNG bình thường và KHÔNG tốt cho sự phát triển của con bạn.",
+        "reframe": "Mẹ hạnh phúc thì con mới hạnh phúc. Chăm sóc bản thân không phải là ích kỷ, mà là trách nhiệm cao cả nhất.",
+        "mechanism": "Maternal Mental Health."
+    },
+    {
+        "id": "ins-5",
+        "title": "Somatic Connection (Kết nối Thân-Tâm)",
+        "tension": "Bạn đi khám nhiều nơi, xét nghiệm bình thường nhưng người lúc nào cũng đau nhức, hụt hơi, tim đập nhanh.",
+        "belief": "Mình bị bệnh gì đó mà bác sĩ không tìm ra.",
+        "core": "Nỗi lo âu tâm lý đã chuyển hóa thành triệu chứng vật lý (Somatic Symptoms). Tâm bệnh sinh thân bệnh.",
+        "reframe": "Giải quyết vấn đề từ gốc rễ Tâm - Thể đồng nhất. Khi não bộ được bảo dưỡng, cơ thể sẽ tự hồi phục.",
+        "mechanism": "Mind-Body Medicine."
+    }
+]

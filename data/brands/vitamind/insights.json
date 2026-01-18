@@ -1,0 +1,47 @@
+[
+    {
+        "id": "ins-1",
+        "title": "The Information Paradox (Nghịch lý Thông tin)",
+        "tension": "Bạn lên mạng tìm cách giảm stress, nhưng việc phải lọc giữa hàng ngàn lời khuyên trái ngược nhau lại khiến bạn stress thêm (Analysis Paralysis).",
+        "belief": "Càng biết nhiều càng tốt.",
+        "core": "Thứ bạn cần không phải là thêm thông tin, mà là sự tinh gọn và được dẫn dắt (Curated Guidance).",
+        "reframe": "Từ việc 'tự bơi' giữa biển kiến thức sang 'được dìu dắt' trong khu vườn bình yên.",
+        "mechanism": "Curated Resource Library."
+    },
+    {
+        "id": "ins-2",
+        "title": "The 'Lonely' Crowd (Đám đông Cô đơn)",
+        "tension": "Bạn có hàng ngàn bạn bè trên Facebook, nhưng khi buồn thì không biết gọi cho ai vì sợ bị phán xét hoặc làm phiền họ.",
+        "belief": "Mạng xã hội giúp kết nối mọi người.",
+        "core": "Kết nối ảo càng nhiều, kết nối thật càng ít. Bạn cần một không gian an toàn (Safe Space) để được là chính mình, dù chỉ là với một giọng nói trong app.",
+        "reframe": "VitaMind là người bạn tri kỷ kỹ thuật số, luôn lắng nghe và không bao giờ phán xét.",
+        "mechanism": "Digital Sanctuary."
+    },
+    {
+        "id": "ins-3",
+        "title": "Discipline vs. Design (Kỷ luật và Thiết kế)",
+        "tension": "Bạn tự trách mình lười biếng vì không duy trì được thói quen thiền/tập thể dục. Bạn cố gắng ép mình vào khuôn khổ nhưng thất bại.",
+        "belief": "Mình thiếu ý chí.",
+        "core": "Vấn đề không phải do bạn lười, mà do rào cản tiếp cận quá lớn. Sức khỏe phải dễ dàng và thú vị như một trò chơi thì mới bền vững.",
+        "reframe": "Đừng cố gắng kỷ luật, hãy thiết kế môi trường để hành vi tốt diễn ra tự nhiên.",
+        "mechanism": "Gamified Wellness."
+    },
+    {
+        "id": "ins-4",
+        "title": "Quick Fix Trap (Bẫy Mì ăn liền)",
+        "tension": "Bạn xem Tarot, Horoscope để tìm sự an ủi tức thời khi lo lắng. Nó giúp bạn đỡ ngay lúc đó, nhưng vấn đề gốc rễ vẫn còn nguyên.",
+        "belief": "Tâm linh sẽ giải quyết vấn đề của tôi.",
+        "core": "Đó là 'kẹo ngọt' cho tinh thần (Mental Candy), ăn nhiều sẽ sâu răng. Bạn cần 'dinh dưỡng' (Mental Nutrition) để khỏe từ bên trong.",
+        "reframe": "Thay thế sự mê tín bằng sự thấu hiểu bản thân dựa trên khoa học.",
+        "mechanism": "Scientific Self-Discovery."
+    },
+    {
+        "id": "ins-5",
+        "title": "Holistic Disconnect (Sự ngắt kết nối Tổng thể)",
+        "tension": "Bạn uống thuốc ngủ để ngủ, uống cà phê để tỉnh, ăn kiêng để giảm cân. Bạn xử lý từng bộ phận cơ thể như những cỗ máy riêng biệt.",
+        "belief": "Hỏng đâu sửa đó.",
+        "core": "Cơ thể là một hệ sinh thái thống nhất. Mất ngủ có thể do ăn uống, stress do thiếu vận động.",
+        "reframe": "Chăm sóc toàn diện (Holistic) là chìa khóa để giải quyết vấn đề triệt để.",
+        "mechanism": "Integrated Ecosystem."
+    }
+]

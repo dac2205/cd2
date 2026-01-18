@@ -1,0 +1,215 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Life Audit (Kiểm toán Cuộc đời)",
+            "description": "Nhìn nhận rõ ràng hiện trạng cuộc sống, nhận diện đâu là lỗ hổng năng lượng và thời gian.",
+            "situation": "Ngồi xuống rà soát lại bánh xe cuộc đời và giật mình nhận ra mình đã bỏ bê bản thân quá lâu.",
+            "context": "Sự mơ hồ (Ambiguity) là kẻ thù của thay đổi. Cần sự minh bạch để bắt đầu.",
+            "triggers": [
+                "Cảm thấy cuộc sống rối tung.",
+                "Không biết bắt đầu gỡ rối từ đâu.",
+                "Cần một cái nhìn khách quan từ chuyên gia."
+            ],
+            "desiredOutcome": [
+                "Thấy rõ bức tranh toàn cảnh.",
+                "Xác định được điểm nghẽn cốt lõi.",
+                "Có lộ trình hành động cụ thể."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Conflict De-escalation (Hạ nhiệt Xung đột)",
+            "description": "Giải quyết các mâu thuẫn gia đình (vợ chồng, con cái) mà không tạo ra thêm tổn thương (No Drama).",
+            "situation": "Chồng về trễ, thay vì cằn nhằn gây chiến, bạn chọn cách giao tiếp khiến anh ấy tự nhận ra và sửa đổi.",
+            "context": "Phản ứng tự động (Reaction) thường đổ thêm dầu vào lửa.",
+            "triggers": [
+                "Cãi vã liên miên không hồi kết.",
+                "Không khí gia đình ngột ngạt.",
+                "Sợ con cái bị ảnh hưởng tâm lý."
+            ],
+            "desiredOutcome": [
+                "Giao tiếp hiệu quả, ôn hòa.",
+                "Chuyển hóa xung đột thành sự thấu hiểu.",
+                "Giữ gìn hòa khí gia đình."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Sustainable Schedule (Lịch trình Bền vững)",
+            "description": "Thiết kế lại nhịp sống để có thời gian cho công việc, gia đình VÀ bản thân (Me Time).",
+            "situation": "Sắp xếp được 1 tiếng mỗi ngày để tập yoga/đọc sách mà không làm ảnh hưởng đến việc khác.",
+            "context": "Quản lý thời gian không bằng quản lý sự ưu tiên.",
+            "triggers": [
+                "Luôn trong trạng thái vội vã.",
+                "Không có thời gian thở.",
+                "Bỏ bê sở thích cá nhân."
+            ],
+            "desiredOutcome": [
+                "Làm chủ thời gian.",
+                "Sống ung dung, thong thả.",
+                "Tận hưởng từng khoảnh khắc."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Guilt-Free Living (Sống không dằn vặt)",
+            "description": "Cho phép bản thân tận hưởng thành quả lao động, nghỉ ngơi mà không cảm thấy tội lỗi hay ích kỷ.",
+            "situation": "Tự thưởng cho mình một món quà đắt tiền hoặc một chuyến đi chơi riêng mà lòng đầy hân hoan.",
+            "context": "Cảm giác tội lỗi là rào cản lớn nhất của hạnh phúc phụ nữ Á Đông.",
+            "triggers": [
+                "Thấy tiếc tiền khi tiêu cho mình.",
+                "Áy náy khi không ở bên con 24/7.",
+                "Sợ bị đánh giá là ham chơi."
+            ],
+            "desiredOutcome": [
+                "Thỏa mãn và hạnh phúc.",
+                "Yêu thương bản thân vô điều kiện.",
+                "Tâm lý thoải mái, phóng khoáng."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Deep Self-Love (Tự yêu bản thân Sâu sắc)",
+            "description": "Xây dựng mối quan hệ yêu thương bền chặt với chính mình, chấp nhận cả những điểm chưa hoàn hảo.",
+            "situation": "Nhìn vào gương và mỉm cười với người phụ nữ trong đó với đầy sự trân trọng.",
+            "context": "Bạn không thể yêu ai khác nếu chưa yêu chính mình.",
+            "triggers": [
+                "Tự ti về ngoại hình/năng lực.",
+                "Luôn chỉ trích bản thân (Inner Critical Voice).",
+                "Tìm kiếm sự công nhận từ bên ngoài."
+            ],
+            "desiredOutcome": [
+                "Tự tin nội tại vững vàng.",
+                "Ngừng so sánh với người khác.",
+                "Trở thành người bạn tốt nhất của chính mình."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Overflowing Joy (Niềm vui Tràn đầy)",
+            "description": "Cảm nhận niềm hạnh phúc tự thân (Inner Joy) không phụ thuộc vào hoàn cảnh bên ngoài.",
+            "situation": "Thức dậy buổi sáng thấy lòng vui phơi phới dù hôm nay trời mưa hay nắng.",
+            "context": "Hạnh phúc là một lựa chọn, không phải là đích đến.",
+            "triggers": [
+                "Cảm thấy trống rỗng, vô vị.",
+                "Hạnh phúc trồi sụt thất thường.",
+                "Chờ đợi người khác mang niềm vui đến."
+            ],
+            "desiredOutcome": [
+                "Luôn lạc quan, yêu đời.",
+                "Lan tỏa năng lượng tích cực.",
+                "Thu hút những điều tốt đẹp."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Magnetic Presence (Sự hiện diện Từ tính)",
+            "description": "Trở thành người phụ nữ có sức hút, khiến chồng con luôn muốn ở gần vì cảm giác bình an tỏa ra từ bạn.",
+            "situation": "Chồng đi làm về chỉ muốn ngồi cạnh vợ trò chuyện, con cái thích sà vào lòng mẹ.",
+            "context": "Năng lượng bình an có sức hút mạnh mẽ hơn bất kỳ nhan sắc nào.",
+            "triggers": [
+                "Chồng hay đi nhậu, ít về nhà.",
+                "Con cái xa cách mẹ.",
+                "Cảm thấy mình bị ra rìa."
+            ],
+            "desiredOutcome": [
+                "Gia đình gắn kết bền chặt.",
+                "Trở thành trung tâm yêu thương của nhà.",
+                "Chồng yêu chiều, con quấn quýt."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Inspiring Leadership (Lãnh đạo Truyền cảm hứng)",
+            "description": "Mang sự tỉnh thức vào công việc, lãnh đạo đội ngũ bằng sự thấu hiểu và tiềm năng con người.",
+            "situation": "Nhân viên nể phục và cống hiến hết mình vì sếp không chỉ giỏi mà còn tâm lý.",
+            "context": "Lãnh đạo bằng nỗi sợ (Fear) đã lỗi thời, lãnh đạo bằng Tỉnh thức (Mindfulness) là tương lai.",
+            "triggers": [
+                "Nhân viên làm việc đối phó.",
+                "Căng thẳng trong quan hệ sếp - lính.",
+                "Muốn xây dựng văn hóa làm việc hạnh phúc."
+            ],
+            "desiredOutcome": [
+                "Đội ngũ trung thành, hiệu quả.",
+                "Môi trường làm việc ít stress.",
+                "Được kính trọng thực sự."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Authentic Relationships (Mối quan hệ Chân thật)",
+            "description": "Xây dựng những tình bạn chân thành, nơi bạn được sống thật là mình mà không cần đeo mặt nạ 'hoàn hảo'.",
+            "situation": "Có những buổi gặp gỡ bạn bè chia sẻ sâu sắc, cùng khóc cùng cười, không phán xét.",
+            "context": "Sự cô đơn lớn nhất là cô đơn giữa đám đông.",
+            "triggers": [
+                "Mệt mỏi vì phải xã giao giả tạo.",
+                "Sợ bị người khác đánh giá.",
+                "Khao khát sự kết nối tâm giao."
+            ],
+            "desiredOutcome": [
+                "Có những người bạn tri kỷ.",
+                "Được chấp nhận và thấu hiểu.",
+                "Cuộc sống xã hội phong phú, ý nghĩa."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Spiritual Grounding (Điểm tựa Tâm linh)",
+            "description": "Kết nối với những giá trị tinh thần cao đẹp, tìm thấy ý nghĩa sâu sắc của cuộc đời.",
+            "situation": "Cảm thấy được vũ trụ che chở và dẫn lối trên mọi hành trình.",
+            "context": "Khi con người có Đức tin (vào bản thân/vũ trụ), họ trở nên bất khả chiến bại.",
+            "triggers": [
+                "Cảm thấy lạc lối, mất phương hướng.",
+                "Khủng hoảng hiện sinh.",
+                "Muốn tìm về chốn bình yên tâm hồn."
+            ],
+            "desiredOutcome": [
+                "Vững chãi trước sóng gió.",
+                "Sống có mục đích (Purpose).",
+                "Tâm hồn thanh cao, rộng mở."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Energy Shift (Chuyển hóa Năng lượng)",
+            "description": "Thay đổi tần số rung động từ sợ hãi/lo âu sang yêu thương/biết ơn.",
+            "situation": "Gặp chuyện xui xẻo nhưng nhanh chóng chuyển hóa góc nhìn và tìm thấy bài học tích cực.",
+            "context": "Luật Hấp dẫn: Bạn thu hút những gì bạn tỏa ra.",
+            "triggers": [
+                "Hay gặp xui xẻo, trục trặc.",
+                "Suy nghĩ tiêu cực ám ảnh.",
+                "Muốn thay đổi vận mệnh."
+            ],
+            "desiredOutcome": [
+                "Thu hút may mắn, thuận lợi.",
+                "Cuộc sống trôi chảy (Flow).",
+                "Làm chủ vận mệnh của mình."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Intuitive Living (Sống theo Trực giác)",
+            "description": "Đánh thức trực giác nữ tính thiêng liêng, ra quyết định dựa trên sự mách bảo của trái tim.",
+            "situation": "Nghe theo tiếng gọi bên trong để đưa ra những lựa chọn đúng đắn cho bản thân và gia đình.",
+            "context": "Phụ nữ có trực giác trời phú, nhưng cuộc sống bận rộn làm nó bị lu mờ.",
+            "triggers": [
+                "Đắn đo, do dự quá nhiều.",
+                "Sợ sai lầm.",
+                "Mất kết nối với bản năng.",
+                "Cần sự dẫn đường sáng suốt."
+            ],
+            "desiredOutcome": [
+                "Quyết định sáng suốt, tự tin.",
+                "Đi đúng con đường dành cho mình.",
+                "Sống thuận tự nhiên."
+            ]
+        }
+    ]
+}

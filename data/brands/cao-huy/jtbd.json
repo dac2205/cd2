@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Instant Gifting (Tặng quà Tức thì)",
+            "description": "Giải quyết bài toán quà tặng chỉ trong 5 phút với các set quà được phối sẵn hoàn hảo.",
+            "situation": "Sáng mai là sinh nhật sếp/đối tác mà tối nay mới nhớ ra, cần một phương án cứu cánh ngay lập tức.",
+            "context": "Cuộc sống bận rộn khiến chúng ta hay quên những dịp quan trọng.",
+            "triggers": [
+                "Sắp đến giờ G mà chưa có quà.",
+                "Quá mệt để đi shopping.",
+                "Cần ship gấp."
+            ],
+            "desiredOutcome": [
+                "Có quà đẹp kịp thời.",
+                "Không bị trách móc là vô tâm.",
+                "Nhẹ đầu vì đã xong việc."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Budget Optimization (Tối ưu Ngân sách)",
+            "description": "Sở hữu set quà nhìn như tiền triệu với mức giá bình dân.",
+            "situation": "Cần tặng quà cho cả phòng ban/nhiều người thân dịp Tết mà ngân sách có hạn.",
+            "context": "Lạm phát khiến ví tiền eo hẹp nhưng nhu cầu quan hệ xã hội không giảm.",
+            "triggers": [
+                "Lo lắng 'cháy túi' vì quà cáp.",
+                "Sợ quà rẻ nhìn 'bèo'.",
+                "Muốn chi ít nhưng được tiếng thơm."
+            ],
+            "desiredOutcome": [
+                "Tiết kiệm chi phí đáng kể.",
+                "Người nhận trầm trồ vì độ sang.",
+                "Cân đối tài chính hiệu quả."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Health Safe (An toàn Sức khỏe)",
+            "description": "Đảm bảo quà tặng 100% tự nhiên, không hóa chất, an toàn cho cả bà bầu và người già.",
+            "situation": "Tặng quà cho người khó tính, kén chọn hoặc có vấn đề sức khỏe.",
+            "context": "Xu hướng tiêu dùng xanh và lo ngại về thực phẩm bẩn.",
+            "triggers": [
+                "Sợ tặng nhầm đồ dởm gây hại.",
+                "Người nhận là người sành sỏi.",
+                "Muốn thể hiện sự am hiểu."
+            ],
+            "desiredOutcome": [
+                "Yên tâm tuyệt đối về chất lượng.",
+                "Được khen là người biết chọn đồ.",
+                "Góp phần bảo vệ sức khỏe người nhận."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Pride of Taste (Niềm tự hào về Gu)",
+            "description": "Được người nhận và mọi người xung quanh khen ngợi vì sự tinh tế và gu thẩm mỹ cao.",
+            "situation": "Mở món quà ra trước mặt mọi người và ai cũng phải 'Wow' vì cách đóng gói đẹp mắt.",
+            "context": "Món quà là đại diện cho hình ảnh cá nhân của người tặng.",
+            "triggers": [
+                "Sợ bị chê là sến súa, quê mùa.",
+                "Muốn khẳng định đẳng cấp cá nhân.",
+                "Thích được công nhận."
+            ],
+            "desiredOutcome": [
+                "Nở mày nở mặt.",
+                "Xây dựng hình ảnh thanh lịch.",
+                "Tự tin trong giao tiếp."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Connector's Joy (Niềm vui Kết nối)",
+            "description": "Cảm nhận sự ấm áp và gắn kết tình cảm khi thấy người nhận thực sự xúc động.",
+            "situation": "Nhận được tin nhắn cảm ơn dài dằng dặc và chân thành từ người nhận.",
+            "context": "Tặng quà là ngôn ngữ của tình yêu (Love Language).",
+            "triggers": [
+                "Cảm thấy xa cách với người thân.",
+                "Muốn hâm nóng tình cảm.",
+                "Muốn chuộc lỗi/làm hòa."
+            ],
+            "desiredOutcome": [
+                "Mối quan hệ khăng khít hơn.",
+                "Cảm thấy mình là người tốt/có ích.",
+                "Hạnh phúc khi trao đi."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Stress Relief (Giải tỏa Căng thẳng)",
+            "description": "Mua quà cho chính mình (Self-gifting) để tự thưởng và thư giãn sau những ngày làm việc vất vả.",
+            "situation": "Order một set trà và nến thơm về để chill cuối tuần một mình.",
+            "context": "Nhu cầu tự chăm sóc bản thân (Self-care) ngày càng cao.",
+            "triggers": [
+                "Thấy mình xứng đáng được yêu thương.",
+                "Cần nạp lại năng lượng.",
+                "Buồn chán muốn tìm niềm vui nhỏ."
+            ],
+            "desiredOutcome": [
+                "Thư giãn, yêu đời.",
+                "Tăng cảm hứng sống.",
+                "Tái tạo sức lao động."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Thoughtful Image (Hình ảnh Chu đáo)",
+            "description": "Được định vị là người luôn quan tâm, chu đáo và biết cách chăm sóc người khác.",
+            "situation": "Bạn bè luôn hỏi ý kiến bạn khi họ cần mua quà vì tin tưởng gu của bạn.",
+            "context": "Thương hiệu cá nhân được xây dựng từ những hành động nhỏ.",
+            "triggers": [
+                "Muốn xây dựng uy tín.",
+                "Muốn được yêu mến.",
+                "Muốn trở thành người có ảnh hưởng tích cực."
+            ],
+            "desiredOutcome": [
+                "Được mọi người quý trọng.",
+                "Dễ dàng nhờ vả/hợp tác sau này.",
+                "Là tâm điểm của sự tin cậy."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Diplomatic Warmth (Ngoại giao nồng ấm)",
+            "description": "Làm mềm hóa các mối quan hệ công việc khô khan bằng những món quà mang tính cá nhân hóa.",
+            "situation": "Tặng quà cho đối tác khó tính và nhận được sự cởi mở bất ngờ.",
+            "context": "Quà tặng là chất xúc tác cho các thương vụ thành công.",
+            "triggers": [
+                "Hợp đồng đang bị tắc.",
+                "Đối tác lạnh nhạt.",
+                "Cần tạo thiện cảm ban đầu."
+            ],
+            "desiredOutcome": [
+                "Ký được hợp đồng.",
+                "Công việc trôi chảy.",
+                "Có thêm đồng minh."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Green Status (Vị thế Sống xanh)",
+            "description": "Khéo léo thể hiện lối sống văn minh, bảo vệ môi trường thông qua việc chọn quà không rác thải nhựa.",
+            "situation": "Tặng quà gói bằng vải/giấy kraft thay vì nilon và được khen là có ý thức.",
+            "context": "Sống xanh là xu hướng của tầng lớp tri thức mới.",
+            "triggers": [
+                "Ngại dùng đồ nhựa dùng một lần.",
+                "Muốn lan tỏa lối sống xanh.",
+                "Khẳng định giá trị bản thân."
+            ],
+            "desiredOutcome": [
+                "Được đánh giá là người văn minh.",
+                "Thu hút những người cùng tần số.",
+                "Góp phần bảo vệ trái đất."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Unboxing Therapy (Trị liệu Mở hộp)",
+            "description": "Tạo ra trải nghiệm mở quà đầy háo hức và thỏa mãn thị giác/xúc giác.",
+            "situation": "Người nhận quay video unboxing up story vì gói quà quá đẹp.",
+            "context": "Unboxing là một nghi thức mang lại dopamine.",
+            "triggers": [
+                "Thích những thứ xinh đẹp.",
+                "Muốn tạo bất ngờ.",
+                "Tăng giá trị cảm xúc cho món quà."
+            ],
+            "desiredOutcome": [
+                "Sự phấn khích tột độ.",
+                "Ấn tượng khó phai.",
+                "Lan tỏa niềm vui."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Lasting Memory (Ký ức Bền lâu)",
+            "description": "Món quà khơi gợi lại kỷ niệm mỗi khi sử dụng (mùi hương, vị trà).",
+            "situation": "Mỗi lần uống trà là nhớ đến người tặng.",
+            "context": "Khứu giác và vị giác gắn liền với ký ức.",
+            "triggers": [
+                "Sợ quà bị lãng quên.",
+                "Muốn hiện diện trong cuộc sống người nhận.",
+                "Tạo dấu ấn cá nhân."
+            ],
+            "desiredOutcome": [
+                "Được nhớ đến thường xuyên.",
+                "Trở thành một phần ký ức đẹp.",
+                "Sự gắn kết vô hình."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Ritual Creation (Kiến tạo Nghi thức)",
+            "description": "Giúp người nhận xây dựng thói quen chăm sóc bản thân lành mạnh thông qua set quà.",
+            "situation": "Tặng set ngâm chân và người nhận bắt đầu thói quen ngâm chân mỗi tối.",
+            "context": "Tặng thói quen tốt quý hơn tặng vàng.",
+            "triggers": [
+                "Muốn người thân khỏe mạnh hơn.",
+                "Góp ý tinh tế về lối sống.",
+                "Mang lại giá trị lâu dài."
+            ],
+            "desiredOutcome": [
+                "Cải thiện sức khỏe người nhận.",
+                "Được biết ơn vì sự thay đổi tích cực.",
+                "Lan tỏa giá trị sống khỏe."
+            ]
+        }
+    ]
+}

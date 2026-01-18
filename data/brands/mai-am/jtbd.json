@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Pain Management (Quản lý Đau)",
+            "description": "Sử dụng các kỹ thuật thiền, thở và thư giãn để giảm bớt cảm giác đau đớn khó chịu do bệnh và tác dụng phụ của thuốc.",
+            "situation": "Đau nhức không ngủ được, thực hành bài tập thở 10 phút thấy dịu lại và chợp mắt được.",
+            "context": "Đau đớn vật lý được khuếch đại bởi căng thẳng tâm lý.",
+            "triggers": [
+                "Đau đớn hành hạ thể xác.",
+                "Phụ thuộc quá nhiều vào thuốc giảm đau.",
+                "Mệt mỏi, cáu gắt."
+            ],
+            "desiredOutcome": [
+                "Giảm đau tự nhiên.",
+                "Cơ thể dễ chịu hơn.",
+                "Ngủ ngon hơn."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Immunity Boost (Tăng cường Miễn dịch)",
+            "description": "Xây dựng chế độ dinh dưỡng và vận động nhẹ nhàng phù hợp để nâng cao thể trạng, giúp cơ thể đáp ứng tốt với điều trị.",
+            "situation": "Ăn uống ngon miệng hơn, giảm nôn ói, các chỉ số máu cải thiện.",
+            "context": "Hệ miễn dịch là bác sĩ tốt nhất của cơ thể.",
+            "triggers": [
+                "Cơ thể suy kiệt, sụt cân.",
+                "Dễ bị nhiễm trùng.",
+                "Bác sĩ hoãn truyền hóa chất vì yếu."
+            ],
+            "desiredOutcome": [
+                "Đủ sức khỏe để theo hết phác đồ.",
+                "Phục hồi nhanh sau mỗi đợt thuốc.",
+                "Tăng sức đề kháng."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Sleep Support (Hỗ trợ Giấc ngủ)",
+            "description": "Cải thiện chất lượng giấc ngủ để cơ thể có thời gian tự sửa chữa và tái tạo tế bào.",
+            "situation": "Không còn thức trắng đêm nhìn trần nhà, ngủ được những giấc sâu phục hồi.",
+            "context": "Giấc ngủ là liều thuốc tiên.",
+            "triggers": [
+                "Mất ngủ triền miên do lo lắng/đau.",
+                "Dùng thuốc ngủ vẫn không ngủ được.",
+                "Sức khỏe giảm sút nhanh."
+            ],
+            "desiredOutcome": [
+                "Ngủ sâu, ít mộng mị.",
+                "Sáng dậy có sức sống.",
+                "Tinh thần minh mẫn."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Fear Reduction (Giảm sợ hãi)",
+            "description": "Kiểm soát nỗi sợ hãi về cái chết và sự tái phát, tìm lại sự bình tĩnh nội tâm.",
+            "situation": "Khi cơn sợ ập đến, biết cách 'quan sát' nó thay vì để nó nhấn chìm.",
+            "context": "Nỗi sợ giết chết niềm vui sống.",
+            "triggers": [
+                "Ám ảnh về cái chết.",
+                "Lo lắng bệnh di căn.",
+                "Sống trong nơm nớp lo sợ."
+            ],
+            "desiredOutcome": [
+                "Tâm an, trí sáng.",
+                "Sống trọn vẹn từng ngày.",
+                "Dũng cảm đối mặt."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Acceptance (Sự Chấp nhận)",
+            "description": "Học cách chấp nhận thực tại căn bệnh như một phần của cuộc sống, ngừng dằn vặt 'Tại sao?'.",
+            "situation": "Không còn oán trách số phận, bắt đầu trân trọng những gì mình đang có.",
+            "context": "Chấp nhận không phải là bỏ cuộc, mà là ngừng kháng cự để bắt đầu chữa lành.",
+            "triggers": [
+                "Tức giận, oán trách.",
+                "Phủ nhận thực tế.",
+                "Trầm cảm."
+            ],
+            "desiredOutcome": [
+                "Nhẹ lòng, thanh thản.",
+                "Tìm thấy ý nghĩa trong nghịch cảnh.",
+                "Hòa bình với bản thân."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Dignity (Phẩm giá)",
+            "description": "Cảm thấy mình vẫn là một con người có giá trị, được yêu thương và tôn trọng, không chỉ là một 'bệnh nhân'.",
+            "situation": "Mặc một bộ đồ đẹp, trang điểm nhẹ và cảm thấy mình vẫn xinh đẹp.",
+            "context": "Bệnh tật thường lấy đi sự tự tin và danh tính của con người.",
+            "triggers": [
+                "Cảm thấy mình vô dụng, là gánh nặng.",
+                "Mặc cảm ngoại hình (rụng tóc, sẹo).",
+                "Tự ti, thu mình."
+            ],
+            "desiredOutcome": [
+                "Tự tin, yêu đời.",
+                "Được tôn trọng.",
+                "Khẳng định giá trị bản thân."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Family Harmony (Hòa khí Gia đình)",
+            "description": "Giảm bớt gánh nặng tâm lý cho người chăm sóc, tạo không khí gia đình yêu thương, tích cực.",
+            "situation": "Cả nhà cùng nhau tập thở, cùng nhau cười nói thay vì không khí u ám.",
+            "context": "Ung thư là bệnh của cả gia đình.",
+            "triggers": [
+                "Người nhà căng thẳng, kiệt sức.",
+                "Cảm thấy có lỗi với người thân.",
+                "Gia đình lục đục."
+            ],
+            "desiredOutcome": [
+                "Gắn kết yêu thương.",
+                "Người chăm sóc cũng được chữa lành.",
+                "Gia đình là điểm tựa vững chắc."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Connection (Sự Kết nối)",
+            "description": "Kết nối với cộng đồng những người chiến thắng bệnh tật để tiếp thêm hy vọng và nghị lực.",
+            "situation": "Tham gia CLB Mái Ấm, nghe chuyện của những người đã sống khỏe 10-20 năm với K.",
+            "context": "Đồng bệnh tương lân.",
+            "triggers": [
+                "Cảm thấy cô độc.",
+                "Không ai hiểu nỗi đau của mình.",
+                "Cần tấm gương hy vọng."
+            ],
+            "desiredOutcome": [
+                "Có thêm niềm tin.",
+                "Không còn đơn độc.",
+                "Học hỏi kinh nghiệm sống khỏe."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Normalcy (Sự Bình thường)",
+            "description": "Có những khoảnh khắc sống một cuộc đời bình thường, quên đi mình là bệnh nhân.",
+            "situation": "Đi cafe với bạn bè, nói chuyện về phim ảnh, thời trang chứ không phải chuyện thuốc men.",
+            "context": "Bệnh nhân khao khát được đối xử bình thường.",
+            "triggers": [
+                "Đi đâu cũng bị hỏi thăm bệnh tình.",
+                "Cuộc sống chỉ xoay quanh bệnh viện.",
+                "Nhớ cuộc sống cũ."
+            ],
+            "desiredOutcome": [
+                "Tận hưởng niềm vui đời thường.",
+                "Cân bằng cuộc sống.",
+                "Sống như người khỏe mạnh."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Spiritual Anchor (Neo Tâm linh)",
+            "description": "Tìm thấy một đức tin hoặc triết lý sống làm điểm tựa tinh thần vững chắc.",
+            "situation": "Mỗi khi hoang mang, niệm một câu chú hoặc nhớ về một lời dạy để lấy lại thăng bằng.",
+            "context": "Khi con người đối mặt với cái chết, tâm linh là cứu cánh.",
+            "triggers": [
+                "Chông chênh, vô định.",
+                "Sợ hãi thế giới bên kia.",
+                "Cần sự che chở vô hình."
+            ],
+            "desiredOutcome": [
+                "Vững tâm bền chí.",
+                "Bình thản trước vô thường.",
+                "Sức mạnh nội tâm."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Body Listening (Lắng nghe Cơ thể)",
+            "description": "Học cách giao tiếp và hiểu những tín hiệu của cơ thể để chăm sóc kịp thời.",
+            "situation": "Biết khi nào cơ thể cần nghỉ, khi nào cần ăn, không ép uổng nó.",
+            "context": "Chúng ta thường bỏ mặc cơ thể cho đến khi nó 'biểu tình'.",
+            "triggers": [
+                "Mù mờ về sức khỏe bản thân.",
+                "Phó mặc cho bác sĩ.",
+                "Cư xử thô bạo với cơ thể."
+            ],
+            "desiredOutcome": [
+                "Thấu hiểu bản thân.",
+                "Hợp tác với cơ thể.",
+                "Nhạy bén với các dấu hiệu."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Legacy (Di sản)",
+            "description": "Tập trung vào những điều ý nghĩa, để lại giá trị tốt đẹp cho đời, sống một cuộc đời không hối tiếc.",
+            "situation": "Viết nhật ký, làm việc thiện, dành thời gian chất lượng cho con cái.",
+            "context": "Cái chết nhắc nhở ta về ý nghĩa của sự sống.",
+            "triggers": [
+                "Sợ cuộc đời vô nghĩa.",
+                "Tiếc nuối những điều chưa làm.",
+                "Muốn để lại tiếng thơm."
+            ],
+            "desiredOutcome": [
+                "Sống ý nghĩa.",
+                "Hoàn thành tâm nguyện.",
+                "Ra đi thanh thản (nếu đến lúc)."
+            ]
+        }
+    ]
+}

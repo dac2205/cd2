@@ -1,0 +1,47 @@
+[
+    {
+        "id": "ins-1",
+        "title": "The 'Stuff' Burden (Gánh nặng Vật chất)",
+        "tension": "Bạn tặng một món đồ trang trí đắt tiền, người nhận phải tìm chỗ để, lau chùi, và cảm thấy áy náy nếu vứt đi dù không thích. Món quà trở thành gánh nặng.",
+        "belief": "Quà càng to, càng bền thì càng giá trị.",
+        "core": "Món quà tuyệt vời nhất là món quà giúp giải phóng (Relief) người nhận khỏi áp lực, không phải thêm đồ đạc vào cuộc sống của họ.",
+        "reframe": "Tặng sự thư thái, nhẹ nhõm (Trải nghiệm) thay vì tặng đồ vật (Sở hữu).",
+        "mechanism": "Wellness Experience Gift."
+    },
+    {
+        "id": "ins-2",
+        "title": "Price Tag vs. Value (Giá cả và Giá trị)",
+        "tension": "Bạn ngại tặng quà giá rẻ vì sợ bị đánh giá là keo kiệt, nhưng tài chính không cho phép tặng quà xa xỉ.",
+        "belief": "Chỉ có đồ hiệu mới thể hiện được đẳng cấp.",
+        "core": "Sự sang trọng (Luxury) đến từ sự thấu hiểu và câu chuyện phía sau món quà, không phải từ tem giá. Một món quà chạm đúng nhu cầu 'đang đau' của người nhận vô giá hơn kim cương.",
+        "reframe": "Luxury of Care - Sự sang trọng của sự quan tâm chân thành.",
+        "mechanism": "Curated Storytelling."
+    },
+    {
+        "id": "ins-3",
+        "title": "The 5-Minute Miracle (Phép màu 5 phút)",
+        "tension": "Bạn trì hoãn việc mua quà đến phút chót vì nghĩ đến cảnh phải lội giữa rừng hàng hóa mà không biết chọn gì. Cuối cùng mua đại một thứ vô hồn.",
+        "belief": "Chọn quà có tâm thì phải mất cả ngày.",
+        "core": "Sự chần chừ đến từ việc thiếu Tự tin vào lựa chọn của mình (Decision Fatigue).",
+        "reframe": "Chỉ cần 5 phút để chọn một món quà gói trọn tâm ý, để bạn có thêm thời gian viết một tấm thiệp thật hay.",
+        "mechanism": "Curated Gift Sets."
+    },
+    {
+        "id": "ins-4",
+        "title": "Sustainable Care (Sự quan tâm Bền vững)",
+        "tension": "Bạn muốn tặng thực phẩm chức năng nhưng sợ người nhận dị ứng hoặc không dám uống thuốc lạ.",
+        "belief": "Tặng thuốc bổ là thiết thực nhất.",
+        "core": "Sử dụng sản phẩm tự nhiên, lành tính (trà, tinh dầu, thảo mộc) là cách an toàn và tinh tế nhất để nói 'Tôi mong bạn khỏe mạnh'.",
+        "reframe": "Không phải 'thuốc', mà là 'liệu pháp' thiên nhiên nuôi dưỡng cơ thể.",
+        "mechanism": "Natural Healing."
+    },
+    {
+        "id": "ins-5",
+        "title": "The Receiver's Tear (Giọt nước mắt người nhận)",
+        "tension": "Chúng ta thường nhận được những lời cảm ơn xã giao. Rất hiếm khi thấy mắt người nhận sáng lên hoặc rưng rưng xúc động.",
+        "belief": "Tặng quà là thủ tục ngoại giao.",
+        "core": "Mục đích tối thượng của tặng quà là kết nối cảm xúc (Emotional Connection). Nếu không chạm được vào trái tim, món quà đó thất bại.",
+        "reframe": "Đừng tặng quà, hãy tặng một khoảnh khắc rung động.",
+        "mechanism": "Emotional Packaging."
+    }
+]

@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "First Sale (Đơn hàng Đầu tiên)",
+            "description": "Tạo ra thu nhập đầu tiên từ coaching, dù chỉ là 500k, để phá băng tâm lý.",
+            "situation": "Ting ting! Tài khoản báo có tiền từ khách hàng lạ. Cảm giác sung sướng tột độ.",
+            "context": "Số 0 và số 1 cách nhau một vực thẳm. Vượt qua số 1 là vượt qua giới hạn bản thân.",
+            "triggers": [
+                "Làm mãi không ra tiền.",
+                "Sốt ruột vì chi phí sinh hoạt.",
+                "Cần bằng chứng để tin vào con đường này."
+            ],
+            "desiredOutcome": [
+                "Có tiền thật.",
+                "Xác nhận mô hình hoạt động.",
+                "Động lực mạnh mẽ để đi tiếp."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Offer Creation (Đóng gói Sản phẩm)",
+            "description": "Biến kỹ năng vô hình thành một sản phẩm hữu hình (Gói coaching, Thử thách) có tên gọi, bao bì và giá bán rõ ràng.",
+            "situation": "Có một đường link hoặc file PDF mô tả sản phẩm để gửi ngay khi khách hỏi, thay vì ấp úng.",
+            "context": "Khách hàng không mua 'coaching', họ mua 'kết quả' được đóng gói.",
+            "triggers": [
+                "Khách hỏi giá thì lúng túng.",
+                "Không biết mình bán cái gì.",
+                "Sản phẩm mơ hồ."
+            ],
+            "desiredOutcome": [
+                "Sản phẩm rõ ràng, chuyên nghiệp.",
+                "Dễ dàng tư vấn và chốt sale.",
+                "Tăng giá trị cảm nhận."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Daily Action (Hành động Mỗi ngày)",
+            "description": "Biết chính xác hôm nay cần viết gì, inbox cho ai, làm việc gì. Không còn cảnh ngồi nhìn màn hình trắng.",
+            "situation": "Thức dậy với to-do list cụ thể: 'Viết 1 bài, tương tác 5 người, gửi 3 offer'.",
+            "context": "Sự tự do hóa ra là kỷ luật. Cần quy trình để không bị lười.",
+            "triggers": [
+                "Hoang mang không biết bắt đầu từ đâu.",
+                "Lãng phí thời gian lướt mạng.",
+                "Cần ai đó thúc đít."
+            ],
+            "desiredOutcome": [
+                "Làm việc năng suất.",
+                "Tiến bộ mỗi ngày.",
+                "Không còn trì hoãn."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Confidence Boost (Tăng sự Tự tin)",
+            "description": "Xóa bỏ tiếng nói nhỏ trong đầu (Inner Critic) bảo rằng bạn không đủ giỏi.",
+            "situation": "Dám livestream chia sẻ quan điểm, dám inbox mời khách hàng mà không sợ run tay.",
+            "context": "Nỗi sợ lớn nhất là sợ mình không đủ tốt (Not Good Enough).",
+            "triggers": [
+                "Sợ bị phán xét.",
+                "Sợ thất bại.",
+                "Nghi ngờ năng lực bản thân."
+            ],
+            "desiredOutcome": [
+                "Tin tưởng vào giá trị của mình.",
+                "Thần thái chuyên gia.",
+                "Dám dấn thân."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Fear Conquest (Chinh phục Nỗi sợ)",
+            "description": "Vượt qua nỗi sợ bị từ chối, sợ bán hàng, xem lời từ chối là một phần của cuộc chơi.",
+            "situation": "Khách hàng nói 'Không', bạn mỉm cười và đi tiếp tìm người tiếp theo, không còn suy sụp.",
+            "context": "Bán hàng là trò chơi của xác suất. Càng nhận nhiều lời từ chối càng gần lời đồng ý.",
+            "triggers": [
+                "Bị từ chối một lần là buồn cả tuần.",
+                "Sợ làm phiền người khác.",
+                "Sợ mất mặt."
+            ],
+            "desiredOutcome": [
+                "Tâm thế vững vàng.",
+                "Lì đòn hơn.",
+                "Xem bán hàng là niềm vui."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Professional Pride (Niềm tự hào Nghề nghiệp)",
+            "description": "Tự hào giới thiệu 'Tôi là Coach' trong các buổi gặp gỡ, không còn ấp úng hay nói tránh.",
+            "situation": "Đổi bio Facebook, in card visit với danh xưng Coach một cách hãnh diện.",
+            "context": "Danh phận (Identity) quyết định hành vi.",
+            "triggers": [
+                "Ngại khi người quen hỏi làm gì.",
+                "Cảm thấy như đang làm chui.",
+                "Muốn được công nhận."
+            ],
+            "desiredOutcome": [
+                "Được xã hội tôn trọng.",
+                "Gia đình ủng hộ.",
+                "Yêu nghề hơn."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Credibility (Uy tín)",
+            "description": "Có những feedback, testimonial thật từ khách hàng để chứng minh năng lực.",
+            "situation": "Đăng ảnh chụp màn hình feedback của khách lên trang cá nhân.",
+            "context": "Bằng chứng xã hội (Social Proof) là vũ khí bán hàng mạnh nhất.",
+            "triggers": [
+                "Nói hay nhưng không ai tin.",
+                "Chưa có kết quả thực tế.",
+                "Cần minh chứng."
+            ],
+            "desiredOutcome": [
+                "Khách hàng tin tưởng.",
+                "Dễ dàng chốt sale hơn.",
+                "Thương hiệu cá nhân uy tín."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Family Respect (Gia đình Tôn trọng)",
+            "description": "Chứng minh cho gia đình thấy đây là một nghề nghiệp nghiêm túc có thể nuôi sống bản thân, không phải mộng mơ hão huyền.",
+            "situation": "Đóng góp tiền sinh hoạt phí từ thu nhập coaching.",
+            "context": "Áp lực từ gia đình thường là rào cản lớn nhất của coach mới.",
+            "triggers": [
+                "Bị chồng/vợ cằn nhằn.",
+                "Bố mẹ lo lắng.",
+                "Bị coi là ăn bám."
+            ],
+            "desiredOutcome": [
+                "Gia đình yên tâm, ủng hộ.",
+                "Có tiếng nói trong nhà.",
+                "Hạnh phúc trọn vẹn."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Community (Cộng đồng)",
+            "description": "Tham gia vào một biệt đội cũng đang 'chiến' như mình, cùng nhau thúc đẩy và ăn mừng chiến thắng.",
+            "situation": "Khoe đơn hàng đầu tiên trong nhóm chat và được mọi người chúc mừng.",
+            "context": "Muốn đi nhanh đi một mình, muốn đi xa đi cùng nhau.",
+            "triggers": [
+                "Làm việc một mình buồn chán.",
+                "Dễ nản chí khi gặp khó.",
+                "Cần môi trường tích cực."
+            ],
+            "desiredOutcome": [
+                "Có bạn đồng hành.",
+                "Vui vẻ, khí thế.",
+                "Học hỏi lẫn nhau."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Momentum (Đà phát triển)",
+            "description": "Tạo ra cú hích ban đầu để bánh xe sự nghiệp bắt đầu lăn. Khi đã có đà thì mọi thứ sẽ dễ dàng hơn.",
+            "situation": "Sau 14 ngày thử thách, guồng quay công việc đã vào nếp, cứ thế mà chạy.",
+            "context": "Vạn sự khởi đầu nan.",
+            "triggers": [
+                "Ì ạch mãi không xong.",
+                "Cảm thấy nặng nề.",
+                "Cần cú hích mạnh."
+            ],
+            "desiredOutcome": [
+                "Công việc trôi chảy.",
+                "Tốc độ phát triển nhanh.",
+                "Cảm giác lướt đi."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Financial Hope (Hy vọng Tài chính)",
+            "description": "Nhìn thấy ánh sáng cuối đường hầm, tin rằng mình hoàn toàn có thể sống tốt và giàu có với nghề.",
+            "situation": "Lập bảng kế hoạch tài chính cho năm sau với những con số khả thi.",
+            "context": "Hy vọng là yak liều doping mạnh nhất.",
+            "triggers": [
+                "Tuyệt vọng về tương lai.",
+                "Lo lắng cơm áo gạo tiền.",
+                "Muốn đổi đời."
+            ],
+            "desiredOutcome": [
+                "Lạc quan, phấn chấn.",
+                "Có mục tiêu phấn đấu.",
+                "An tâm cống hiến."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Role Clarity (Rõ ràng Vai trò)",
+            "description": "Hiểu rõ 3 chiếc mũ phải đội: Người làm chuyên môn (Coach), Người quản lý (Manager), Người kinh doanh (Entrepreneur).",
+            "situation": "Biết lúc nào cần bay bổng với khách, lúc nào cần thực tế với con số.",
+            "context": "Nhầm lẫn vai trò dẫn đến thất bại.",
+            "triggers": [
+                "Làm việc theo cảm hứng.",
+                "Thiếu tư duy hệ thống.",
+                "Bị cuốn vào tiểu tiết."
+            ],
+            "desiredOutcome": [
+                "Làm chủ cuộc chơi.",
+                "Cân bằng các vai trò.",
+                "Phát triển toàn diện."
+            ]
+        }
+    ]
+}

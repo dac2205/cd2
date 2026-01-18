@@ -1,0 +1,214 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Instant Calm (Bình tĩnh Tức thì)",
+            "description": "Cắt cơn hoảng loạn (Panic Attack) hoặc cơn giận dữ ngay lập tức bằng các bài tập thở/âm thanh dẫn thiền ngắn.",
+            "situation": "Đang chuẩn bị thuyết trình hoặc vừa cãi nhau xong tim đập nhanh, cần lấy lại bình tĩnh trong 3 phút.",
+            "context": "Cảm xúc tiêu cực thường đến bất chợt và cần xử lý ngay (First Aid).",
+            "triggers": [
+                "Tim đập nhanh, khó thở.",
+                "Đầu óc quay cuồng.",
+                "Sắp bùng nổ cảm xúc."
+            ],
+            "desiredOutcome": [
+                "Nhịp tim ổn định trở lại.",
+                "Đầu óc minh mẫn.",
+                "Kiểm soát được hành vi."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Sleep Aid (Hỗ trợ Giấc ngủ)",
+            "description": "Thay thế thói quen lướt TikTok trước khi ngủ bằng nội dung êm dịu giúp đi vào giấc ngủ tự nhiên.",
+            "situation": "Nằm trằn trọc không ngủ được, thay vì đếm cừu thì bật VitaMind nghe kể chuyện đêm khuya.",
+            "context": "Ánh sáng xanh và nội dung nhanh (Reels/Shorts) là kẻ thù của giấc ngủ.",
+            "triggers": [
+                "Mắt mỏi nhưng não không chịu nghỉ.",
+                "Sợ cảm giác im lặng trong bóng tối.",
+                "Cần âm thanh trắng (White Noise) để ngủ."
+            ],
+            "desiredOutcome": [
+                "Ngủ nhanh và sâu.",
+                "Không bị mộng mị.",
+                "Sáng dậy tỉnh táo."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Focus Booster (Tăng cường Tập trung)",
+            "description": "Tạo ra môi trường âm thanh giúp não bộ đi vào trạng thái tập trung sâu (Deep Work/Flow) để hoàn thành công việc.",
+            "situation": "Ngồi làm việc ở quán cafe ồn ào hoặc văn phòng xao nhãng, đeo tai nghe vào là 'nhập định'.",
+            "context": "Sự xao nhãng là căn bệnh của thời đại số.",
+            "triggers": [
+                "Không thể tập trung quá 15 phút.",
+                "Bị tiếng ồn xung quanh làm phiền.",
+                "Muốn hoàn thành deadline gấp."
+            ],
+            "desiredOutcome": [
+                "Hiệu suất làm việc x3.",
+                "Hoàn thành công việc sớm.",
+                "Cảm thấy thỏa mãn vì làm việc hiệu quả."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Safe Space (Không gian An toàn)",
+            "description": "Cảm thấy được che chở, vỗ về và thấu hiểu khi đang ở trạng thái yếu đuối nhất.",
+            "situation": "Vừa chia tay người yêu, cảm thấy cả thế giới sụp đổ, tìm đến VitaMind như một cái ôm ảo.",
+            "context": "Ai cũng có những lúc yếu lòng cần nơi nương tựa.",
+            "triggers": [
+                "Cảm thấy bị bỏ rơi.",
+                "Buồn bã, tủi thân.",
+                "Cần sự an ủi nhẹ nhàng."
+            ],
+            "desiredOutcome": [
+                "Vơi bớt nỗi buồn.",
+                "Cảm thấy ấm áp hơn.",
+                "Có thêm niềm tin để bước tiếp."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Self-Trust (Tin tưởng Bản thân)",
+            "description": "Xây dựng niềm tin rằng mình có khả năng tự chăm sóc và chữa lành cho chính mình.",
+            "situation": "Tự mình vượt qua cơn lo âu nhờ hướng dẫn của app và cảm thấy tự hào 'Mình làm được rồi!'.",
+            "context": "Sự tự chủ (Agency) là liều thuốc giải độc cho sự bất lực.",
+            "triggers": [
+                "Cảm thấy mình vô dụng/yếu đuối.",
+                "Phụ thuộc vào người khác.",
+                "Sợ mình không vượt qua nổi."
+            ],
+            "desiredOutcome": [
+                "Tự tin, mạnh mẽ.",
+                "Yêu thương bản thân.",
+                "Độc lập cảm xúc."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Mental Clarity (Sự sáng suốt)",
+            "description": "Lau sạch lớp sương mù trong tâm trí để nhìn nhận vấn đề một cách khách quan và sáng suốt.",
+            "situation": "Đang rối bời vì mâu thuẫn gia đình, sau khi nghe một bài podcast thì nhận ra giải pháp.",
+            "context": "Cảm xúc mạnh thường làm mờ lý trí.",
+            "triggers": [
+                "Rối rắm, bế tắc.",
+                "Không biết quyết định thế nào.",
+                "Cảm xúc chi phối lý trí."
+            ],
+            "desiredOutcome": [
+                "Đầu óc thông thoáng.",
+                "Nhìn thấy bản chất vấn đề.",
+                "Ra quyết định đúng đắn."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Better Partner (Bạn đời Tốt hơn)",
+            "description": "Trở thành người bạn đời/người yêu dễ chịu hơn nhờ biết cách tự quản lý cảm xúc của mình.",
+            "situation": "Không trút giận vô cớ lên người yêu sau một ngày làm việc tồi tệ.",
+            "context": "Mối quan hệ tan vỡ thường do những cảm xúc tiêu cực không được xử lý.",
+            "triggers": [
+                "Hay cáu gắt với người thân.",
+                "Mối quan hệ căng thẳng.",
+                "Sợ làm tổn thương người mình yêu."
+            ],
+            "desiredOutcome": [
+                "Mối quan hệ bền vững, hạnh phúc.",
+                "Được đối phương trân trọng.",
+                "Không khí gia đình vui vẻ."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Community Belonging (Thuộc về Cộng đồng)",
+            "description": "Tìm thấy sự đồng cảm khi biết rằng có hàng ngàn người khác cũng đang gặp vấn đề giống mình.",
+            "situation": "Đọc bình luận hoặc câu chuyện của người khác và thấy 'À, mình không cô độc'.",
+            "context": "Nỗi đau trở nên nhẹ nhàng hơn khi được sẻ chia (Shared Humanity).",
+            "triggers": [
+                "Nghĩ rằng chỉ mình mình bị như thế này.",
+                "Cảm thấy lạc loài, dị biệt.",
+                "Khao khát tìm người đồng cảnh ngộ."
+            ],
+            "desiredOutcome": [
+                "Bớt cô đơn.",
+                "Có thêm động lực từ cộng đồng.",
+                "Cảm giác thuộc về."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Sharable Wisdom (Chia sẻ Trí tuệ)",
+            "description": "Có công cụ để giúp đỡ người thân/bạn bè đang gặp khó khăn bằng cách chia sẻ nội dung hữu ích.",
+            "situation": "Gửi một bài tập thở cho đứa bạn đang bị stress vì deadline thay vì chỉ nói 'Cố lên'.",
+            "context": "Chúng ta luôn muốn giúp người khác nhưng không phải lúc nào cũng biết cách.",
+            "triggers": [
+                "Thấy bạn bè đau khổ mà bất lực.",
+                "Muốn giúp đỡ một cách tinh tế.",
+                "Lan tỏa giá trị tích cực."
+            ],
+            "desiredOutcome": [
+                "Giúp được người khác.",
+                "Được xem là người tinh tế, sâu sắc.",
+                "Gắn kết tình bạn."
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "other-1",
+            "title": "Aesthetic Healing (Chữa lành Thẩm mỹ)",
+            "description": "Trải nghiệm rùng mình (Frisson) trước cái đẹp của âm thanh và hình ảnh, giúp nâng cao tần số rung động.",
+            "situation": "Nghe một bản nhạc ASMR chất lượng cao và cảm thấy nổi da gà vì sướng.",
+            "context": "Cái đẹp có khả năng chữa lành tự nhiên.",
+            "triggers": [
+                "Chán ngấy nội dung rác.",
+                "Khao khát cái đẹp.",
+                "Muốn nuôi dưỡng tâm hồn."
+            ],
+            "desiredOutcome": [
+                "Thỏa mãn giác quan.",
+                "Tâm hồn phong phú.",
+                "Cảm xúc thăng hoa."
+            ]
+        },
+        {
+            "id": "other-2",
+            "title": "Scientific Grounding (Nền tảng Khoa học)",
+            "description": "Yên tâm thực hành vì biết mọi phương pháp đều dựa trên cơ chế thần kinh học, không phải mê tín.",
+            "situation": "Hiểu tại sao hít thở lại giúp giảm nhịp tim và tin tưởng làm theo.",
+            "context": "Niềm tin vào phương pháp (Placebo Effect) giúp tăng hiệu quả chữa lành.",
+            "triggers": [
+                "Hoài nghi các phương pháp 'tâm linh'.",
+                "Cần bằng chứng khoa học.",
+                "Muốn hiểu rõ cơ chế."
+            ],
+            "desiredOutcome": [
+                "Tin tưởng tuyệt đối.",
+                "Thực hành hiệu quả.",
+                "Có kiến thức đúng đắn."
+            ]
+        },
+        {
+            "id": "other-3",
+            "title": "Micro-Habits (Thói quen Vi mô)",
+            "description": "Xây dựng lối sống lành mạnh từ những hành động nhỏ 1 phút mỗi ngày, không tốn sức.",
+            "situation": "Tập hít thở 1 phút trong khi chờ thang máy.",
+            "context": "Thói quen nhỏ dễ duy trì hơn là nỗ lực lớn đột xuất.",
+            "triggers": [
+                "Bận rộn không có thời gian tập luyện.",
+                "Dễ bỏ cuộc giữa chừng.",
+                "Muốn thay đổi bản thân từ từ."
+            ],
+            "desiredOutcome": [
+                "Hình thành nếp sống tốt.",
+                "Thay đổi lớn từ tích lũy nhỏ.",
+                "Sống khỏe mỗi ngày."
+            ]
+        }
+    ]
+}
