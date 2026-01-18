@@ -41,6 +41,23 @@ brands.forEach(brand => {
         allPas = false;
     }
 
+    // Check Audience
+    const audiencePath = path.join(baseDir, brand, 'audience.json');
+    try {
+        if (fs.existsSync(audiencePath)) {
+            const content = JSON.parse(fs.readFileSync(audiencePath, 'utf8'));
+            if (!Array.isArray(content)) {
+                console.error(`    [FAIL] Audience for ${brand} is NOT an array`);
+                allPas = false;
+            } else {
+                console.log(`  - Audience: ${content.length} segments`);
+            }
+        }
+    } catch (e) {
+        console.error(`  [ERROR] Invalid JSON in ${audiencePath}: ${e.message}`);
+        allPas = false;
+    }
+
     // Check JTBD
     const jtbdPath = path.join(baseDir, brand, 'jtbd.json');
     try {

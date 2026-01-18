@@ -1,18 +1,14 @@
-{
-    "profile": "Success Trap (Bẫy thành công)",
-    "demographics": "Doanh nhân, Lãnh đạo văn phòng thành đạt (35 - 45 tuổi). Đã có tài sản và vị thế xã hội.",
-    "psychographics": "Bề ngoài thành công rực rỡ nhưng bên trong đầy rẫy bất an. Luôn trong trạng thái gồng mình để kiểm soát và giữ gìn thành quả. Sợ hãi sự mất mát và thất bại.",
+[
+  {
+    "id": "segment-primary",
+    "title": "Success Trap (Bẫy thành công)",
+    "isPrimary": true,
+    "description": "**Demographics:** Doanh nhân, Lãnh đạo văn phòng thành đạt (35 - 45 tuổi). Đã có tài sản và vị thế xã hội.\n\n**Psychographics:** Bề ngoài thành công rực rỡ nhưng bên trong đầy rẫy bất an. Luôn trong trạng thái gồng mình để kiểm soát và giữ gìn thành quả. Sợ hãi sự mất mát và thất bại.\n\n**Desires:**\n- Trạng thái bình an, thong dong giữa biến động.\n- Sự tự tin nội tại để đối mặt với mọi nghịch cảnh.\n- Giải quyết vấn đề tận gốc rễ bằng trí tuệ, không phải kỹ năng hời hợt.\n- Chuyển từ trạng thái 'Gồng' (Force) sang 'Thuận dòng' (Flow).\n\n**Quote:** \"Tôi có tất cả những gì người khác mơ ước, nhưng tại sao tôi chưa bao giờ cảm thấy thực sự an toàn?\"",
     "painPoints": [
-        "Làm việc lao lực, kiệt sức để duy trì vị thế.",
-        "Thường xuyên cảm thấy lo lắng, bồn chồn không rõ lý do.",
-        "Bị ám ảnh bởi việc kiểm soát kết quả, sợ rủi ro.",
-        "Đã thử yoga, thiền, du lịch nhưng chỉ thấy đỡ nhất thời, quay lại công việc lại stress."
-    ],
-    "desires": [
-        "Trạng thái bình an, thong dong giữa biến động.",
-        "Sự tự tin nội tại để đối mặt với mọi nghịch cảnh.",
-        "Giải quyết vấn đề tận gốc rễ bằng trí tuệ, không phải kỹ năng hời hợt.",
-        "Chuyển từ trạng thái 'Gồng' (Force) sang 'Thuận dòng' (Flow)."
-    ],
-    "quote": "Tôi có tất cả những gì người khác mơ ước, nhưng tại sao tôi chưa bao giờ cảm thấy thực sự an toàn?"
-}
+      "Làm việc lao lực, kiệt sức để duy trì vị thế.",
+      "Thường xuyên cảm thấy lo lắng, bồn chồn không rõ lý do.",
+      "Bị ám ảnh bởi việc kiểm soát kết quả, sợ rủi ro.",
+      "Đã thử yoga, thiền, du lịch nhưng chỉ thấy đỡ nhất thời, quay lại công việc lại stress."
+    ]
+  }
+]

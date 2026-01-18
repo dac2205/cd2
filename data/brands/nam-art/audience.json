@@ -1,18 +1,14 @@
-{
-    "profile": "The Aesthetic Soul (Tâm hồn duy mỹ)",
-    "demographics": "Người có thu nhập cao, chủ doanh nghiệp, nhà sưu tập, người yêu nghệ thuật. Có gu thẩm mỹ riêng, sở hữu không gian sống sang trọng.",
-    "psychographics": "Yêu cái đẹp, tìm kiếm chiều sâu tâm hồn và sự rung cảm nghệ thuật. Thích sự độc bản, phóng khoáng, ghét sự rập khuôn. Muốn không gian sống phản chiếu cá tính của mình.",
+[
+  {
+    "id": "segment-primary",
+    "title": "The Aesthetic Soul (Tâm hồn duy mỹ)",
+    "isPrimary": true,
+    "description": "**Demographics:** Người có thu nhập cao, chủ doanh nghiệp, nhà sưu tập, người yêu nghệ thuật. Có gu thẩm mỹ riêng, sở hữu không gian sống sang trọng.\n\n**Psychographics:** Yêu cái đẹp, tìm kiếm chiều sâu tâm hồn và sự rung cảm nghệ thuật. Thích sự độc bản, phóng khoáng, ghét sự rập khuôn. Muốn không gian sống phản chiếu cá tính của mình.\n\n**Desires:**\n- Sở hữu những tác phẩm nghệ thuật độc đáo, có năng lượng (Vibrant) và câu chuyện riêng.\n- Biến ngôi nhà thành một không gian triển lãm cá nhân đầy cảm hứng.\n- Nâng tầm gu thẩm mỹ và phong cách sống.\n- Tìm được sự rung động sâu sắc và thỏa mãn thị giác mỗi khi ngắm tranh.\n\n**Quote:** \"Tôi không mua tranh để trang trí, tôi mua cảm xúc và linh hồn cho ngôi nhà.\"",
     "painPoints": [
-        "Có nhà đẹp, nội thất sang nhưng tường vẫn trống hoặc treo tranh chép vô hồn.",
-        "Muốn mua tranh thật nhưng không biết mua ở đâu, sợ mua hớ hoặc mua phải tranh kém chất lượng.",
-        "Thấy thị trường tranh bát nháo, thiếu những tác phẩm đương đại có chiều sâu và 'Vibrance'.",
-        "Muốn đưa nghệ thuật vào đời sống nhưng cảm thấy nghệ thuật xa vời, khó hiểu."
-    ],
-    "desires": [
-        "Sở hữu những tác phẩm nghệ thuật độc đáo, có năng lượng (Vibrant) và câu chuyện riêng.",
-        "Biến ngôi nhà thành một không gian triển lãm cá nhân đầy cảm hứng.",
-        "Nâng tầm gu thẩm mỹ và phong cách sống.",
-        "Tìm được sự rung động sâu sắc và thỏa mãn thị giác mỗi khi ngắm tranh."
-    ],
-    "quote": "Tôi không mua tranh để trang trí, tôi mua cảm xúc và linh hồn cho ngôi nhà."
-}
+      "Có nhà đẹp, nội thất sang nhưng tường vẫn trống hoặc treo tranh chép vô hồn.",
+      "Muốn mua tranh thật nhưng không biết mua ở đâu, sợ mua hớ hoặc mua phải tranh kém chất lượng.",
+      "Thấy thị trường tranh bát nháo, thiếu những tác phẩm đương đại có chiều sâu và 'Vibrance'.",
+      "Muốn đưa nghệ thuật vào đời sống nhưng cảm thấy nghệ thuật xa vời, khó hiểu."
+    ]
+  }
+]
