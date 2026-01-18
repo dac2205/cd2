@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
+import mixpanel from "mixpanel-browser";
 
 interface User {
     name: string;
@@ -54,12 +55,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         const newUser = { email, name };
         setUser(newUser);
         localStorage.setItem("app_user", JSON.stringify(newUser));
+        mixpanel.identify(email);
+        mixpanel.people.set({ $name: name, $email: email });
+        mixpanel.track("Sign In", { login_method: "email" });
         router.push("/");
     };
 
     const logout = () => {
         setUser(null);
         localStorage.removeItem("app_user");
+        mixpanel.reset();
         router.push("/login");
     };
 
