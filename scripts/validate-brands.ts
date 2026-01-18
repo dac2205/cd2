@@ -101,6 +101,15 @@ function validateBrand(brandSlug: string): ValidationResult {
                     if (hasPlaceholder) {
                         result.warnings.push(`jtbd.json category "${category}" contains placeholder content`);
                     }
+
+                    // Strict Field Check
+                    jtbd[category].forEach((item: any, idx: number) => {
+                        const requiredFields = ['id', 'title', 'description', 'situation', 'context', 'triggers', 'desiredOutcome'];
+                        const missing = requiredFields.filter(k => !item[k] || (Array.isArray(item[k]) && item[k].length === 0));
+                        if (missing.length > 0) {
+                            result.errors.push(`jtbd.json category "${category}" item [${idx}] missing: ${missing.join(', ')}`);
+                        }
+                    });
                 }
             });
         }
