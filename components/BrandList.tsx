@@ -27,7 +27,7 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     }, []);
 
     const toggleFavorite = (e: React.MouseEvent, slug: string) => {
-        e.preventDefault(); // Prevent link navigation
+        e.preventDefault();
         e.stopPropagation();
 
         setFavorites((prev) => {
@@ -36,7 +36,7 @@ export default function BrandList({ initialBrands }: BrandListProps) {
                 newFavorites = prev.filter((s) => s !== slug);
             } else {
                 if (prev.length >= 3) {
-                    // Optional: Add visual feedback like a toast here if needed
+                    window.alert("Chỉ được chọn tối đa 3 brands yêu thích. Hãy bỏ một brand đi để thêm brand mới.");
                     return prev;
                 }
                 newFavorites = [...prev, slug];
@@ -46,20 +46,54 @@ export default function BrandList({ initialBrands }: BrandListProps) {
         });
     };
 
-    const sortedBrands = [...initialBrands].sort((a, b) => {
-        const aFav = favorites.includes(a.slug);
-        const bFav = favorites.includes(b.slug);
-        if (aFav && !bFav) return -1;
-        if (!aFav && bFav) return 1;
-        return 0; // Maintain original order otherwise
-    });
+    const favoriteBrands = initialBrands.filter(b => favorites.includes(b.slug));
+    // Sort favorites by the order they were added (or just by slug if order doesn't matter much, 
+    // but preserving inclusion order in favorites array might be nice. 
+    // For simplicity, we just filter. If we want them sorted by how they are in the favorites array:
+    // favoriteBrands.sort((a, b) => favorites.indexOf(a.slug) - favorites.indexOf(b.slug));
 
-    // Hydration mismatch prevention: render standard list until mounted on client
+    const otherBrands = initialBrands.filter(b => !favorites.includes(b.slug));
+
+    const renderCard = (brand: Brand, isFavorite: boolean) => (
+        <Link key={brand.slug} href={`/brands/${brand.slug}`} style={{ textDecoration: 'none' }}>
+            <Card style={{ height: '100%', transition: 'transform 0.2s', cursor: 'pointer', position: 'relative' }}>
+                <div
+                    onClick={(e) => toggleFavorite(e, brand.slug)}
+                    style={{
+                        position: 'absolute',
+                        top: '1rem',
+                        right: '1rem',
+                        zIndex: 10,
+                        cursor: 'pointer',
+                        padding: '4px',
+                    }}
+                >
+                    <Heart
+                        size={20}
+                        fill={isFavorite ? "#ef4444" : "none"}
+                        color={isFavorite ? "#ef4444" : "currentColor"}
+                        className="text-muted-foreground hover:text-red-500 transition-colors"
+                    />
+                </div>
+                <CardHeader>
+                    <CardTitle style={{ paddingRight: '2rem' }}>{brand.meta.name}</CardTitle>
+                    <p style={{ fontSize: '0.875rem', color: 'hsl(var(--ink-brown) / 0.6)' }}>
+                        {brand.meta.owner}
+                    </p>
+                </CardHeader>
+                <CardContent>
+                    {/* Content removed */}
+                </CardContent>
+            </Card>
+        </Link>
+    );
+
     if (!mounted) {
+        // Server-side / Hydration fallback: just show all in one grid
         return (
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
                 {initialBrands.map((brand) => (
-                    <Card key={brand.slug} style={{ height: '100%', transition: 'transform 0.2s', cursor: 'pointer' }}>
+                    <Card key={brand.slug} style={{ height: '100%', transition: 'transform 0.2s' }}>
                         <CardHeader>
                             <CardTitle>{brand.meta.name}</CardTitle>
                             <p style={{ fontSize: '0.875rem', color: 'hsl(var(--ink-brown) / 0.6)' }}>
@@ -73,43 +107,33 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     }
 
     return (
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
-            {sortedBrands.map((brand) => {
-                const isFavorite = favorites.includes(brand.slug);
-                return (
-                    <Link key={brand.slug} href={`/brands/${brand.slug}`} style={{ textDecoration: 'none' }}>
-                        <Card style={{ height: '100%', transition: 'transform 0.2s', cursor: 'pointer', position: 'relative' }}>
-                            <div
-                                onClick={(e) => toggleFavorite(e, brand.slug)}
-                                style={{
-                                    position: 'absolute',
-                                    top: '1rem',
-                                    right: '1rem',
-                                    zIndex: 10,
-                                    cursor: 'pointer',
-                                    padding: '4px',
-                                }}
-                            >
-                                <Heart
-                                    size={20}
-                                    fill={isFavorite ? "#ef4444" : "none"}
-                                    color={isFavorite ? "#ef4444" : "currentColor"}
-                                    className="text-muted-foreground hover:text-red-500 transition-colors"
-                                />
-                            </div>
-                            <CardHeader>
-                                <CardTitle style={{ paddingRight: '2rem' }}>{brand.meta.name}</CardTitle>
-                                <p style={{ fontSize: '0.875rem', color: 'hsl(var(--ink-brown) / 0.6)' }}>
-                                    {brand.meta.owner}
-                                </p>
-                            </CardHeader>
-                            <CardContent>
-                                {/* "View Analysis" removed per requirements */}
-                            </CardContent>
-                        </Card>
-                    </Link>
-                );
-            })}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+
+            {/* Favorites Section */}
+            {favoriteBrands.length > 0 && (
+                <div className="animate-in fade-in slide-in-from-top-4 duration-500">
+                    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+                        {favoriteBrands.map(brand => renderCard(brand, true))}
+                    </div>
+
+                    <div style={{
+                        marginTop: '3rem',
+                        marginBottom: '1rem',
+                        width: '100%',
+                        height: '1px',
+                        backgroundColor: 'hsl(var(--border))',
+                        position: 'relative'
+                    }}>
+                        {/* Optional: Add a text label on the divider if desired, but user just said "short separator" */}
+                    </div>
+                </div>
+            )}
+
+            {/* Other Brands Section */}
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+                {otherBrands.map(brand => renderCard(brand, false))}
+            </div>
+
         </div>
     );
 }
