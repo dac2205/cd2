@@ -18,6 +18,23 @@
             ]
         },
         {
+            "id": "func-2",
+            "title": "Investment Potential (Tiềm năng Đầu tư)",
+            "description": "Mua được tác phẩm có khả năng tăng giá trong tương lai nhờ con mắt chọn lọc của curator.",
+            "situation": "Quyết định mua một bức tranh của họa sĩ trẻ đang lên và sau vài năm giá trị của nó tăng gấp đôi.",
+            "context": "Nghệ thuật cũng là một kênh đầu tư tài sản (Alternative Investment).",
+            "triggers": [
+                "Muốn đa dạng hóa danh mục đầu tư.",
+                "Tìm kiếm tài sản tích trữ giá trị.",
+                "Thích cảm giác 'đãi cát tìm vàng'."
+            ],
+            "desiredOutcome": [
+                "Tài sản tăng giá trị.",
+                "Sở hữu danh mục đầu tư nghệ thuật tiềm năng.",
+                "Cảm giác thành công về tài chính."
+            ]
+        },
+        {
             "id": "func-3",
             "title": "Discovery Access (Tiếp cận Khám phá)",
             "description": "Được giới thiệu những gương mặt nghệ sĩ mới, những phong cách lạ mà thị trường đại chúng chưa biết đến.",
@@ -54,6 +71,23 @@
             ]
         },
         {
+            "id": "emo-2",
+            "title": "Daily Inspiration (Cảm hứng Mỗi ngày)",
+            "description": "Được tiếp thêm năng lượng sáng tạo và niềm vui sống mỗi khi nhìn ngắm tác phẩm.",
+            "situation": "Uống cafe sáng ngắm tranh và nảy ra những ý tưởng tuyệt vời cho công việc.",
+            "context": "Môi trường sống ảnh hưởng trực tiếp đến tâm trạng và hiệu suất.",
+            "triggers": [
+                "Cảm thấy cuộc sống tẻ nhạt.",
+                "Cần 'vitamin' cho tâm hồn.",
+                "Muốn nuôi dưỡng sự sáng tạo."
+            ],
+            "desiredOutcome": [
+                "Tràn đầy năng lượng tích cực.",
+                "Yêu đời, yêu không gian sống.",
+                "Kích thích tư duy sáng tạo."
+            ]
+        },
+        {
             "id": "emo-3",
             "title": "Pride of Ownership (Niềm kiêu hãnh Sở hữu)",
             "description": "Cảm giác tự hào khi là chủ nhân của một tác phẩm đẹp, độc bản, thể hiện đẳng cấp văn hóa.",
@@ -72,6 +106,23 @@
         }
     ],
     "social": [
+        {
+            "id": "soc-1",
+            "title": "Trendsetter (Người dẫn đầu xu hướng)",
+            "description": "Được công nhận là người có gu thẩm mỹ tiên phong, đi trước thời đại.",
+            "situation": "Được bạn bè hỏi ý kiến về việc mua tranh, trang trí nhà cửa.",
+            "context": "Trong giới mộ điệu, người phát hiện ra cái đẹp mới là người có quyền uy.",
+            "triggers": [
+                "Muốn tạo ảnh hưởng.",
+                "Thích chia sẻ kiến thức.",
+                "Xây dựng thương hiệu cá nhân sành điệu."
+            ],
+            "desiredOutcome": [
+                "Được xem là KOLs trong nhóm.",
+                "Dẫn dắt câu chuyện văn hóa.",
+                "Được ngưỡng mộ về sự tinh tế."
+            ]
+        },
         {
             "id": "soc-2",
             "title": "Cultural Status (Vị thế Văn hóa)",

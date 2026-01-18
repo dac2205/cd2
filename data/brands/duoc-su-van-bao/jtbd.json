@@ -33,6 +33,23 @@
                 "Giữ được cái đầu lạnh.",
                 "Nhân viên tin tưởng và đồng lòng."
             ]
+        },
+        {
+            "id": "func-3",
+            "title": "Strategic Vision (Tầm nhìn Chiến lược)",
+            "description": "Nhìn thấy bức tranh lớn (Big Picture) và các xu hướng tương lai mà người khác chưa thấy.",
+            "situation": "Hoạch định chiến lược 5-10 năm cho tập đoàn trong khi đối thủ vẫn loay hoay với cái trước mắt.",
+            "context": "Lãnh đạo là người đứng trên cột buồm nhìn ra xa.",
+            "triggers": [
+                "Cảm thấy công ty đang đi vào lối mòn.",
+                "Muốn bứt phá khỏi đối thủ cạnh tranh.",
+                "Cần khai phá thị trường mới."
+            ],
+            "desiredOutcome": [
+                "Đi đầu thị trường.",
+                "Tạo ra lợi thế cạnh tranh bền vững.",
+                "Định hình luật chơi mới."
+            ]
         }
     ],
     "emotional": [

@@ -139,6 +139,23 @@
                 "Được khen ngợi và ngưỡng mộ.",
                 "Truyền cảm hứng cho người khác."
             ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Wise Caregiver (Người chăm sóc thông thái)",
+            "description": "Được gia đình tin tưởng tuyệt đối trong việc lựa chọn sản phẩm chăm sóc sức khỏe.",
+            "situation": "Khi con cái/bố mẹ bị ốm, mọi người đều hỏi ý kiến bạn nên dùng gì.",
+            "context": "Kiến thức về sức khỏe tự nhiên là một dạng quyền lực mềm trong gia đình.",
+            "triggers": [
+                "Muốn bảo vệ gia đình khỏi hóa chất.",
+                "Sợ người thân dùng sai thuốc.",
+                "Muốn trở thành chỗ dựa sức khỏe cho cả nhà."
+            ],
+            "desiredOutcome": [
+                "Được gia đình tin yêu.",
+                "Bảo vệ sức khỏe cho cả nhà.",
+                "Tự hào về sự hiểu biết của mình."
+            ]
         }
     ],
     "other": [
