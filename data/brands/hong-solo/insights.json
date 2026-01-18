@@ -1,0 +1,87 @@
+[
+    {
+        "id": "ins-1",
+        "title": "The 'Super-Teacher' Trap (Cái bẫy Siêu Giáo Viên)",
+        "tension": "Bạn nghĩ rằng 'Mình dạy tốt thì học viên sẽ tự đến và tự hài lòng', nhưng thực tế, học viên rời đi vì sự chăm sóc hời hợt và quy trình thiếu chuyên nghiệp.",
+        "belief": "Chất lượng chuyên môn là tất cả. Vận hành chỉ là phụ.",
+        "core": "Trải nghiệm học tập (Learning Experience) bắt đầu từ lúc họ inbox hỏi mua, chứ không phải lúc bạn bắt đầu giảng. Sự lộn xộn trong vận hành làm giảm giá trị chuyên môn của bạn.",
+        "reframe": "Đừng chỉ là Thầy giáo giỏi, hãy là một 'Học viện' chuyên nghiệp (dù chỉ có 1 người).",
+        "mechanism": "Professional Operation Flow.",
+        "hooks": [
+            "Dạy hay chưa đủ",
+            "Đừng để quy trình 'giết chết' cảm xúc",
+            "Thầy giáo hay Tạp vụ?"
+        ],
+        "angle": "Góc nhìn Trải nghiệm khách hàng",
+        "promise": "Nâng tầm hình ảnh chuyên gia nhờ quy trình vận hành điểm 10.",
+        "rtb": "Trợ lý am hiểu quy trình giáo dục và công cụ số."
+    },
+    {
+        "id": "ins-2",
+        "title": "Tech Paralysis (Tê liệt vì Công nghệ)",
+        "tension": "Bạn biết AI, Notion, Trello... rất tốt, nhưng mỗi lần mở ra là thấy 'nhức đầu'. Bạn thà làm thủ công còn hơn phải học cách dùng tool mới.",
+        "belief": "Công nghệ làm phức tạp hóa vấn đề. Mình làm tay cho nhanh.",
+        "core": "Công nghệ không sinh ra để làm khó bạn, nó sinh ra để làm nô lệ cho bạn. Bạn 'mệt' vì bạn đang cố làm chủ nó thay vì thuê người điều khiển nó.",
+        "reframe": "Bạn không cần giỏi công nghệ, bạn chỉ cần một 'thông dịch viên' giúp bạn giao tiếp với máy móc.",
+        "mechanism": "Human-AI Collaboration.",
+        "hooks": [
+            "Low-tech làm sao scale?",
+            "Nô lệ của Excel",
+            "Công nghệ là đòn bẩy"
+        ],
+        "angle": "Góc nhìn Hiệu suất",
+        "promise": "Hệ thống hóa mọi thứ mà bạn không cần động tay vào kỹ thuật.",
+        "rtb": "Ứng dụng AI và No-code tools."
+    },
+    {
+        "id": "ins-3",
+        "title": "Scaling Ceiling (Trần nhà Tăng trưởng)",
+        "tension": "Bạn muốn mở thêm lớp, nhận thêm học viên, nhưng nghĩ đến cảnh check bill, add Zalo, gửi mail nhắc lịch... là bạn 'ngán' và thôi không làm nữa.",
+        "belief": "Làm nhiều thì cực nhiều. Scale lên không quản nổi.",
+        "core": "Năng lực chuyên môn của bạn là vô hạn (Infinite), nhưng năng lực vận hành của con người là hữu hạn (Finite). Điểm nghẽn không nằm ở kiến thức, mà nằm ở đôi tay.",
+        "reframe": "Đừng để đôi tay bận rộn kìm hãm cái đầu thông thái. Tự động hóa là chìa khóa để nhân bản chính mình.",
+        "mechanism": "Automated Scaling.",
+        "hooks": [
+            "Tiền nhiều để làm gì nếu không có tgian tiêu?",
+            "Nhân bản lớp học",
+            "Thoát khỏi sự vụ"
+        ],
+        "angle": "Góc nhìn Tăng trưởng",
+        "promise": "Tăng quy mô lớp học gấp đôi mà thời gian làm việc giảm một nửa.",
+        "rtb": "Quy trình đóng gói sẵn."
+    },
+    {
+        "id": "ins-4",
+        "title": "Energy Drain (Lỗ rò Năng lượng)",
+        "tension": "Sau một ngày vật lộn với admin, support, content... bạn bước vào lớp học với cơ thể rã rời và năng lượng cạn kiệt. Bài giảng trở nên 'đuối'.",
+        "belief": "Đây là giai đoạn khởi nghiệp, mình phải 'cày' tất cả.",
+        "core": "Năng lượng của bạn là tài sản lớn nhất. Dùng năng lượng sáng tạo (High Vibe) cho những việc sự vụ (Low Value) là sự lãng phí tài nguyên khủng khiếp.",
+        "reframe": "Bảo toàn năng lượng cho sân khấu. Việc hậu trường hãy để người khác lo.",
+        "mechanism": "Energy Management.",
+        "hooks": [
+            "Đừng để 'sự vụ' bào mòn đam mê",
+            "Giữ lửa cho bài giảng",
+            "Sân khấu là của bạn"
+        ],
+        "angle": "Góc nhìn Năng lượng",
+        "promise": "Bạn chỉ cần tỏa sáng, mọi thứ còn lại đã có người lo.",
+        "rtb": "Trợ lý trẻ trung, tràn đầy năng lượng tích cực."
+    },
+    {
+        "id": "ins-5",
+        "title": "The Lonely Solopreneur (Độc hành)",
+        "tension": "Làm một mình rất tự do, nhưng đôi khi rất cô đơn. Không ai chia sẻ ý tưởng, không ai feedback, không ai cùng brainstorm.",
+        "belief": "Solo nghĩa là phải làm mọi thứ một mình.",
+        "core": "Solo không có nghĩa là cô độc. Bạn cần một 'Partner' (Cộng sự) có những kỹ năng bù khuyết cho bạn (Tech & Art) để cùng nhau đi xa hơn.",
+        "reframe": "Từ 'Tự làm' sang 'Cộng tác'. Tìm kiếm mảnh ghép còn thiếu của tuổi trẻ và công nghệ.",
+        "mechanism": "Complementary Partnership.",
+        "hooks": [
+            "Solo but not Alone",
+            "Mảnh ghép hoàn hảo",
+            "Trẻ hóa tư duy"
+        ],
+        "angle": "Góc nhìn Cộng sự",
+        "promise": "Người đồng hành thấu hiểu, có gu và nhạy bén.",
+        "rtb": "Tư duy service mindset."
+    }
+]

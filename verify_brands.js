@@ -15,7 +15,8 @@ const brands = [
     'vitamind',
     'dung-happy',
     'mai-am',
-    'nam-art'
+    'nam-art',
+    'hong-solo'
 ];
 
 const baseDir = '/Users/dac/ConanCode/conan.school websites/customer-decode-2/data/brands';

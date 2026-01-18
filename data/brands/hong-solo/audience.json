@@ -1,0 +1,14 @@
+[
+    {
+        "id": "segment-primary",
+        "title": "The Overwhelmed Expert (Chuyên gia 'Đa nhiệm')",
+        "isPrimary": true,
+        "description": "**Demographics:** Solo-Trainer, 30-50 tuổi. Ít nhất 10 năm kinh nghiệm chuyên môn (Ngoại ngữ, Kinh tế, Công nghệ...). Đã bán thành công ít nhất 2 khóa học.\n\n**Psychographics:** Kỹ tính, cầu toàn về chất lượng chuyên môn nhưng lúng túng về quy trình vận hành. 'Low-tech' hoặc ngại công nghệ phức tạp. Luôn cảm thấy thiếu thời gian.\n\n**Desires:**\n- Muốn tập trung hoàn toàn vào việc dạy và sáng tạo nội dung.\n- Mong muốn một luồng vận hành mượt mà, chuyên nghiệp như một 'Học viện' lớn.\n- Tìm kiếm người đồng hành trẻ trung, có gu thẩm mỹ và am hiểu công nghệ để bù đắp điểm yếu của mình.\n- Chuyển từ trạng thái 'đầu tắt mặt tối' sang 'thảnh thơi tận hưởng'.\n\n**Quote:** \"Tôi muốn dạy học, không muốn làm bảo mẫu hay trực page suốt ngày.\"",
+        "painPoints": [
+            "Quá tải vì phải kiêm nhiệm quá nhiều vai trò: Admin, Marketing, Sales, CSKH...",
+            "Quy trình lộn xộn, thủ công (Note, Zalo, Excel...), dễ sót thông tin học viên.",
+            "Không biết cách tự động hóa hoặc sử dụng công cụ tối ưu (Notion, AI) dù biết nó tốt.",
+            "Khó scale-up lớp học vì năng lực vận hành có hạn."
+        ]
+    }
+]

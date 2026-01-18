@@ -1,0 +1,114 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Quản lý học viên",
+            "description": "Lưu trữ, phân loại và cập nhật thông tin học viên chính xác, không dùng sổ sách thủ công.",
+            "context": "Khi số lượng học viên tăng lên trên 20 người."
+        },
+        {
+            "id": "func-2",
+            "title": "Tự động hóa lịch nhắc",
+            "description": "Gửi email/tin nhắn nhắc lịch học, gửi tài liệu, link Zoom tự động.",
+            "context": "Trước mỗi buổi học."
+        },
+        {
+            "id": "func-3",
+            "title": "Thiết kế tài liệu đẹp",
+            "description": "Chuyển hóa slide bài giảng thô sơ thành tài liệu có tính thẩm mỹ cao (Canva, PPT chuẩn).",
+            "context": "Khi chuẩn bị bài giảng mới."
+        },
+        {
+            "id": "func-4",
+            "title": "Hỗ trợ kỹ thuật Zoom/Live",
+            "description": "Quản lý phòng chờ, record, xử lý sự cố kỹ thuật trong giờ học.",
+            "context": "Trong các buổi dạy online."
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Cảm giác Thảnh thơi (Relief)",
+            "description": "Không còn lo lắng, giật mình thon thót vì sợ quên lịch hay sót tin nhắn của khách.",
+            "desiredOutcome": [
+                "Đầu óc trống rỗng để sáng tạo"
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Cảm giác Chuyên nghiệp (Professional)",
+            "description": "Tự hào khi học viên khen quy trình lớp học chỉn chu, xịn xò.",
+            "desiredOutcome": [
+                "Nâng cao vị thế chuyên gia"
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Cảm giác Được thấu hiểu (Understood)",
+            "description": "Có người chia sẻ gánh nặng, hiểu ý mình mà không cần nói nhiều.",
+            "desiredOutcome": [
+                "Bớt cô đơn trên hành trình Solo"
+            ]
+        },
+        {
+            "id": "emo-4",
+            "title": "Cảm giác Tươi mới (Rejuvenated)",
+            "description": "Được truyền năng lượng từ sự trẻ trung, nhiệt huyết của trợ lý.",
+            "desiredOutcome": [
+                "Yêu công việc dạy học trở lại"
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Hình ảnh Học viện bài bản",
+            "description": "Được nhìn nhận như một tổ chức giáo dục uy tín chứ không phải thầy dạy kèm tự phát.",
+            "situation": "Khi học viên giới thiệu cho bạn bè."
+        },
+        {
+            "id": "soc-2",
+            "title": "Chuyên gia 'High-tech'",
+            "description": "Được đồng nghiệp/đối thủ nể phục vì áp dụng công nghệ tiên tiến vào lớp học.",
+            "situation": "Trong cộng đồng chuyên môn."
+        },
+        {
+            "id": "soc-3",
+            "title": "Người thầy tận tâm",
+            "description": "Được học viên yêu quý vì chăm sóc quá kỹ càng (dù là do trợ lý làm).",
+            "situation": "Khi nhận feedback cuối khóa."
+        },
+        {
+            "id": "soc-4",
+            "title": "Doanh nhân giáo dục thành đạt",
+            "description": "Chứng minh được sự thành công và khả năng scale-up mô hình kinh doanh.",
+            "situation": "Khi chia sẻ câu chuyện thành công."
+        }
+    ],
+    "other": [
+        {
+            "id": "oth-1",
+            "title": "Tiết kiệm chi phí nhân sự",
+            "description": "Thuê 1 người làm được việc của 3 người (Admin + Tech + Design).",
+            "desiredOutcome": [
+                "Tối ưu hóa lợi nhuận"
+            ]
+        },
+        {
+            "id": "oth-2",
+            "title": "Cập nhật xu hướng Gen Z",
+            "description": "Hiểu ngôn ngữ và tư duy của thế hệ trẻ để dạy học tốt hơn.",
+            "desiredOutcome": [
+                "Bridge the generation gap"
+            ]
+        },
+        {
+            "id": "oth-3",
+            "title": "Bảo mật dữ liệu",
+            "description": "Đảm bảo data học viên và tài liệu giảng dạy được lưu trữ an toàn.",
+            "desiredOutcome": [
+                "Risk management"
+            ]
+        }
+    ]
+}
