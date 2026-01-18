@@ -33,182 +33,164 @@
                 "Giữ được cái đầu lạnh.",
                 "Nhân viên tin tưởng và đồng lòng."
             ]
-        },
-        {
-            "id": "func-3",
-            "title": "Conflict Resolution (Hóa giải Xung đột)",
-            "description": "Giải quyết các mâu thuẫn đối tác/cổ đông/nhân sự bằng năng lượng hòa giải, chuyển thù thành bạn, chuyển đối đầu thành đối thoại.",
-            "situation": "Cổ đông tranh chấp quyền lợi, không khí cuộc họp căng thẳng tột độ.",
-            "context": "Xung đột lợi ích là điều không thể tránh khỏi trong kinh doanh.",
-            "triggers": [
-                "Mệt mỏi vì đấu đá nội bộ.",
-                "Sợ sứt mẻ các mối quan hệ quan trọng.",
-                "Muốn tìm giải pháp Win-Win thực sự."
-            ],
-            "desiredOutcome": [
-                "Hóa giải mâu thuẫn êm đẹp.",
-                "Không khí làm việc trở lại hài hòa.",
-                "Giữ gìn được phước báu trong quan hệ."
-            ]
-        }
-    ],
-    "emotional": [
-        {
-            "id": "emo-1",
-            "title": "Unshakable Peace (Bình an Bất biến)",
-            "description": "Sở hữu một tâm thái bình an nội tại, không bị dao động bởi sự lên xuống của thị trường hay số dư tài khoản.",
-            "situation": "Thị trường chứng khoán đỏ lửa, tài sản bốc hơi tiền tỷ nhưng vẫn thản nhiên uống trà, ngủ ngon.",
-            "context": "Hạnh phúc phụ thuộc vào điều kiện bên ngoài (Conditional Happiness) rất mong manh.",
-            "triggers": [
-                "Tim đập chân run khi nhìn bảng điện.",
-                "Cảm xúc trồi sụt theo doanh số.",
-                "Muốn thoát khỏi sự nô lệ vào hoàn cảnh."
-            ],
-            "desiredOutcome": [
-                "Tâm bất biến giữa dòng đời vạn biến.",
-                "Ngủ ngon mỗi đêm bất chấp áp lực.",
-                "Hưởng thụ trọn vẹn thành quả hiện tại."
-            ]
-        },
-        {
-            "id": "emo-2",
-            "title": "Confidence of a Sage (Tự tin của bậc Hiền triết)",
-            "description": "Niềm tin tuyệt đối vào bản thân và quy luật vận hành của vũ trụ. Biết rằng 'mọi chuyện rồi sẽ ổn'.",
-            "situation": "Đối mặt với sự cố lớn nhưng không hoảng loạn, mà điềm tĩnh tìm giải pháp như thể đã nhìn thấy trước kết quả.",
-            "context": "Sự tự tin giả tạo (dựa vào Ego) dễ vỡ, sự tự tin chân thật (dựa vào Wisdom) thì không.",
-            "triggers": [
-                "Cảm thấy mình nhỏ bé trước số phận.",
-                "Hoài nghi năng lực bản thân khi thất bại.",
-                "Cần một niềm tin tâm linh/khoa học vững chắc."
-            ],
-            "desiredOutcome": [
-                "Phong thái điềm đạm, uy nghi.",
-                "Truyền cảm hứng và sự an tâm cho người khác.",
-                "Dám nghĩ lớn, làm lớn không sợ hãi."
-            ]
-        },
-        {
-            "id": "emo-3",
-            "title": "Freedom from Regret (Tự do khỏi Tiếc nuối)",
-            "description": "Sống và làm việc trọn vẹn, không còn dằn vặt về quá khứ hay lo sợ về tương lai.",
-            "situation": "Nhìn lại những thất bại cũ với lòng biết ơn bài học, thay vì tự trách móc 'giá như'.",
-            "context": "Gánh nặng tâm lý lớn nhất là sự dính mắc vào quá khứ.",
-            "triggers": [
-                "Hay dằn vặt về những quyết định sai lầm.",
-                "Cảm thấy tội lỗi với gia đình/bản thân.",
-                "Muốn giải phóng tâm trí cho những điều mới mẻ."
-            ],
-            "desiredOutcome": [
-                "Sống trọn vẹn trong hiện tại (Here & Now).",
-                "Tha thứ cho bản thân và người khác.",
-                "Tâm hồn nhẹ nhõm, thanh thản."
-            ]
-        }
-    ],
-    "social": [
-        {
-            "id": "soc-1",
-            "title": "The Calm Captain (Vị thuyền trưởng Điềm tĩnh)",
-            "description": "Trở thành điểm tựa tinh thần vững chãi cho gia đình và doanh nghiệp. Nơi mọi người tìm về khi bão tố.",
-            "situation": "Khi vợ con hoang mang, nhân viên lo sợ, sự hiện diện bình tĩnh của bạn làm tất cả an lòng.",
-            "context": "Người lãnh đạo không chỉ quản lý công việc, mà còn phải quản trị năng lượng cho tổ chức.",
-            "triggers": [
-                "Thấy người thân lo lắng vì mình.",
-                "Muốn che chở cho những người yêu thương.",
-                "Khẳng định bản lĩnh đàn ông/lãnh đạo."
-            ],
-            "desiredOutcome": [
-                "Được kính trọng và tin yêu tuyệt đối.",
-                "Xây dựng văn hóa doanh nghiệp hạnh phúc.",
-                "Gia đình hòa thuận, yên ấm."
-            ]
-        },
-        {
-            "id": "soc-2",
-            "title": "Legacy of Wisdom (Di sản Trí tuệ)",
-            "description": "Được nhớ đến không chỉ vì sự giàu có, mà vì nhân cách, tri thức và sự tử tế.",
-            "situation": "Được mời chia sẻ câu chuyện thành công không phải về tiền, mà về cách sống và vượt qua nghịch cảnh.",
-            "context": "Nhu cầu để lại di sản (Legacy) là đỉnh cao của tháp Maslow.",
-            "triggers": [
-                "Sợ bị lãng quên hoặc chỉ được nhớ đến là 'trọc phú'.",
-                "Muốn cống hiến cho xã hội.",
-                "Muốn con cái tự hào về cha mẹ."
-            ],
-            "desiredOutcome": [
-                "Danh tiếng thơm lây muôn đời.",
-                "Trở thành tấm gương (Role Model) cho thế hệ sau.",
-                "Sống một cuộc đời ý nghĩa."
-            ]
-        },
-        {
-            "id": "soc-3",
-            "title": "Elevated Network (Mạng lưới Tinh hoa)",
-            "description": "Kết nối với những người thành đạt khác ở tầng tâm thức cao, chia sẻ những giá trị sâu sắc thay vì chỉ xã giao bề nổi.",
-            "situation": "Tham gia một cộng đồng nơi mọi người bàn về thiền định, nhân quả trong kinh doanh thay vì chỉ khoe xe, khoe nhà.",
-            "context": "Mây tầng nào gặp mây tầng đó. Thay đổi tâm thức sẽ thay đổi vòng tròn quan hệ.",
-            "triggers": [
-                "Chán ngấy những buổi tiệc tùng vô bổ.",
-                "Cảm thấy lạc lõng giữa những người bạn cũ.",
-                "Tìm kiếm tri kỷ cùng hệ giá trị."
-            ],
-            "desiredOutcome": [
-                "Có những người bạn thâm giao chất lượng.",
-                "Học hỏi được từ những bậc thầy.",
-                "Môi trường sống tích cực, nâng đỡ."
-            ]
-        }
-    ],
-    "other": [
-        {
-            "id": "other-1",
-            "title": "Spiritual Hygiene (Vệ sinh Tâm thức)",
-            "description": "Thực hành dọn dẹp 'rác' trong tâm trí hàng ngày (stress, tiêu cực) giống như đánh răng rửa mặt.",
-            "situation": "Dành 30 phút mỗi sáng để thiền định/manifest, bắt đầu ngày mới với cái đầu trong veo.",
-            "context": "Tâm trí tích tụ độc tố cảm xúc mỗi ngày cần được thanh lọc.",
-            "triggers": [
-                "Đầu óc lúc nào cũng nặng trĩu.",
-                "Dễ nổi nóng, cáu gắt vô cớ.",
-                "Cần một nghi thức (ritual) để tái tạo năng lượng."
-            ],
-            "desiredOutcome": [
-                "Tinh thần sảng khoái, minh mẫn.",
-                "Tăng khả năng tập trung và sáng tạo.",
-                "Duy trì năng lượng tích cực cả ngày."
-            ]
-        },
-        {
-            "id": "other-2",
-            "title": "Energy Management (Quản trị Năng lượng)",
-            "description": "Học cách sử dụng và bảo toàn năng lượng sống, biết lúc nào nên 'xả' lúc nào nên 'nạp', tránh cạn kiệt.",
-            "situation": "Biết cách từ chối những cuộc gặp gỡ rút cạn năng lượng (energy vampires) mà không thấy áy náy.",
-            "context": "Năng lượng quý hơn thời gian. Quản lý thời gian tốt mà năng lượng thấp thì vẫn không hiệu quả.",
-            "triggers": [
-                "Cảm thấy 'hết pin' vào giữa ngày.",
-                "Làm việc nhiều nhưng hiệu quả thấp.",
-                "Dễ bị ảnh hưởng bởi cảm xúc tiêu cực của người khác."
-            ],
-            "desiredOutcome": [
-                "Luôn tràn đầy sức sống.",
-                "Hiệu suất làm việc đỉnh cao (Flow state).",
-                "Sống khỏe mạnh, ít ốm đau."
-            ]
-        },
-        {
-            "id": "other-3",
-            "title": "Intuition Access (Đánh thức Trực giác)",
-            "description": "Kết nối lại với trực giác bén nhạy - thứ vũ khí bí mật của mọi doanh nhân đại tài.",
-            "situation": "Có linh cảm mạnh mẽ về một deal đầu tư và quyết định nghe theo, kết quả thắng lớn.",
-            "context": "Dữ liệu và Logic là cần thiết, nhưng Trực giác là cú nhảy vọt (Quantum Leaps).",
-            "triggers": [
-                "Bị rối loạn giữa ma trận số liệu.",
-                "Mất kết nối với 'tiếng nói bên trong'.",
-                "Muốn ra quyết định nhanh và chính xác hơn."
-            ],
-            "desiredOutcome": [
-                "Sở hữu 'giác quan thứ 6' nhạy bén.",
-                "Đi trước thị trường một bước.",
-                "Ra quyết định dễ dàng, thuận tự nhiên."
-            ]
-        }
-    ]
-}
+        ],
+        "emotional": [
+            {
+                "id": "emo-1",
+                "title": "Unshakable Peace (Bình an Bất biến)",
+                "description": "Sở hữu một tâm thái bình an nội tại, không bị dao động bởi sự lên xuống của thị trường hay số dư tài khoản.",
+                "situation": "Thị trường chứng khoán đỏ lửa, tài sản bốc hơi tiền tỷ nhưng vẫn thản nhiên uống trà, ngủ ngon.",
+                "context": "Hạnh phúc phụ thuộc vào điều kiện bên ngoài (Conditional Happiness) rất mong manh.",
+                "triggers": [
+                    "Tim đập chân run khi nhìn bảng điện.",
+                    "Cảm xúc trồi sụt theo doanh số.",
+                    "Muốn thoát khỏi sự nô lệ vào hoàn cảnh."
+                ],
+                "desiredOutcome": [
+                    "Tâm bất biến giữa dòng đời vạn biến.",
+                    "Ngủ ngon mỗi đêm bất chấp áp lực.",
+                    "Hưởng thụ trọn vẹn thành quả hiện tại."
+                ]
+            },
+            {
+                "id": "emo-2",
+                "title": "Confidence of a Sage (Tự tin của bậc Hiền triết)",
+                "description": "Niềm tin tuyệt đối vào bản thân và quy luật vận hành của vũ trụ. Biết rằng 'mọi chuyện rồi sẽ ổn'.",
+                "situation": "Đối mặt với sự cố lớn nhưng không hoảng loạn, mà điềm tĩnh tìm giải pháp như thể đã nhìn thấy trước kết quả.",
+                "context": "Sự tự tin giả tạo (dựa vào Ego) dễ vỡ, sự tự tin chân thật (dựa vào Wisdom) thì không.",
+                "triggers": [
+                    "Cảm thấy mình nhỏ bé trước số phận.",
+                    "Hoài nghi năng lực bản thân khi thất bại.",
+                    "Cần một niềm tin tâm linh/khoa học vững chắc."
+                ],
+                "desiredOutcome": [
+                    "Phong thái điềm đạm, uy nghi.",
+                    "Truyền cảm hứng và sự an tâm cho người khác.",
+                    "Dám nghĩ lớn, làm lớn không sợ hãi."
+                ]
+            },
+            {
+                "id": "emo-3",
+                "title": "Freedom from Regret (Tự do khỏi Tiếc nuối)",
+                "description": "Sống và làm việc trọn vẹn, không còn dằn vặt về quá khứ hay lo sợ về tương lai.",
+                "situation": "Nhìn lại những thất bại cũ với lòng biết ơn bài học, thay vì tự trách móc 'giá như'.",
+                "context": "Gánh nặng tâm lý lớn nhất là sự dính mắc vào quá khứ.",
+                "triggers": [
+                    "Hay dằn vặt về những quyết định sai lầm.",
+                    "Cảm thấy tội lỗi với gia đình/bản thân.",
+                    "Muốn giải phóng tâm trí cho những điều mới mẻ."
+                ],
+                "desiredOutcome": [
+                    "Sống trọn vẹn trong hiện tại (Here & Now).",
+                    "Tha thứ cho bản thân và người khác.",
+                    "Tâm hồn nhẹ nhõm, thanh thản."
+                ]
+            }
+        ],
+        "social": [
+            {
+                "id": "soc-1",
+                "title": "The Calm Captain (Vị thuyền trưởng Điềm tĩnh)",
+                "description": "Trở thành điểm tựa tinh thần vững chãi cho gia đình và doanh nghiệp. Nơi mọi người tìm về khi bão tố.",
+                "situation": "Khi vợ con hoang mang, nhân viên lo sợ, sự hiện diện bình tĩnh của bạn làm tất cả an lòng.",
+                "context": "Người lãnh đạo không chỉ quản lý công việc, mà còn phải quản trị năng lượng cho tổ chức.",
+                "triggers": [
+                    "Thấy người thân lo lắng vì mình.",
+                    "Muốn che chở cho những người yêu thương.",
+                    "Khẳng định bản lĩnh đàn ông/lãnh đạo."
+                ],
+                "desiredOutcome": [
+                    "Được kính trọng và tin yêu tuyệt đối.",
+                    "Xây dựng văn hóa doanh nghiệp hạnh phúc.",
+                    "Gia đình hòa thuận, yên ấm."
+                ]
+            },
+            {
+                "id": "soc-2",
+                "title": "Legacy of Wisdom (Di sản Trí tuệ)",
+                "description": "Được nhớ đến không chỉ vì sự giàu có, mà vì nhân cách, tri thức và sự tử tế.",
+                "situation": "Được mời chia sẻ câu chuyện thành công không phải về tiền, mà về cách sống và vượt qua nghịch cảnh.",
+                "context": "Nhu cầu để lại di sản (Legacy) là đỉnh cao của tháp Maslow.",
+                "triggers": [
+                    "Sợ bị lãng quên hoặc chỉ được nhớ đến là 'trọc phú'.",
+                    "Muốn cống hiến cho xã hội.",
+                    "Muốn con cái tự hào về cha mẹ."
+                ],
+                "desiredOutcome": [
+                    "Danh tiếng thơm lây muôn đời.",
+                    "Trở thành tấm gương (Role Model) cho thế hệ sau.",
+                    "Sống một cuộc đời ý nghĩa."
+                ]
+            },
+            {
+                "id": "soc-3",
+                "title": "Elevated Network (Mạng lưới Tinh hoa)",
+                "description": "Kết nối với những người thành đạt khác ở tầng tâm thức cao, chia sẻ những giá trị sâu sắc thay vì chỉ xã giao bề nổi.",
+                "situation": "Tham gia một cộng đồng nơi mọi người bàn về thiền định, nhân quả trong kinh doanh thay vì chỉ khoe xe, khoe nhà.",
+                "context": "Mây tầng nào gặp mây tầng đó. Thay đổi tâm thức sẽ thay đổi vòng tròn quan hệ.",
+                "triggers": [
+                    "Chán ngấy những buổi tiệc tùng vô bổ.",
+                    "Cảm thấy lạc lõng giữa những người bạn cũ.",
+                    "Tìm kiếm tri kỷ cùng hệ giá trị."
+                ],
+                "desiredOutcome": [
+                    "Có những người bạn thâm giao chất lượng.",
+                    "Học hỏi được từ những bậc thầy.",
+                    "Môi trường sống tích cực, nâng đỡ."
+                ]
+            }
+        ],
+        "other": [
+            {
+                "id": "other-1",
+                "title": "Spiritual Hygiene (Vệ sinh Tâm thức)",
+                "description": "Thực hành dọn dẹp 'rác' trong tâm trí hàng ngày (stress, tiêu cực) giống như đánh răng rửa mặt.",
+                "situation": "Dành 30 phút mỗi sáng để thiền định/manifest, bắt đầu ngày mới với cái đầu trong veo.",
+                "context": "Tâm trí tích tụ độc tố cảm xúc mỗi ngày cần được thanh lọc.",
+                "triggers": [
+                    "Đầu óc lúc nào cũng nặng trĩu.",
+                    "Dễ nổi nóng, cáu gắt vô cớ.",
+                    "Cần một nghi thức (ritual) để tái tạo năng lượng."
+                ],
+                "desiredOutcome": [
+                    "Tinh thần sảng khoái, minh mẫn.",
+                    "Tăng khả năng tập trung và sáng tạo.",
+                    "Duy trì năng lượng tích cực cả ngày."
+                ]
+            },
+            {
+                "id": "other-2",
+                "title": "Energy Management (Quản trị Năng lượng)",
+                "description": "Học cách sử dụng và bảo toàn năng lượng sống, biết lúc nào nên 'xả' lúc nào nên 'nạp', tránh cạn kiệt.",
+                "situation": "Biết cách từ chối những cuộc gặp gỡ rút cạn năng lượng (energy vampires) mà không thấy áy náy.",
+                "context": "Năng lượng quý hơn thời gian. Quản lý thời gian tốt mà năng lượng thấp thì vẫn không hiệu quả.",
+                "triggers": [
+                    "Cảm thấy 'hết pin' vào giữa ngày.",
+                    "Làm việc nhiều nhưng hiệu quả thấp.",
+                    "Dễ bị ảnh hưởng bởi cảm xúc tiêu cực của người khác."
+                ],
+                "desiredOutcome": [
+                    "Luôn tràn đầy sức sống.",
+                    "Hiệu suất làm việc đỉnh cao (Flow state).",
+                    "Sống khỏe mạnh, ít ốm đau."
+                ]
+            },
+            {
+                "id": "other-3",
+                "title": "Intuition Access (Đánh thức Trực giác)",
+                "description": "Kết nối lại với trực giác bén nhạy - thứ vũ khí bí mật của mọi doanh nhân đại tài.",
+                "situation": "Có linh cảm mạnh mẽ về một deal đầu tư và quyết định nghe theo, kết quả thắng lớn.",
+                "context": "Dữ liệu và Logic là cần thiết, nhưng Trực giác là cú nhảy vọt (Quantum Leaps).",
+                "triggers": [
+                    "Bị rối loạn giữa ma trận số liệu.",
+                    "Mất kết nối với 'tiếng nói bên trong'.",
+                    "Muốn ra quyết định nhanh và chính xác hơn."
+                ],
+                "desiredOutcome": [
+                    "Sở hữu 'giác quan thứ 6' nhạy bén.",
+                    "Đi trước thị trường một bước.",
+                    "Ra quyết định dễ dàng, thuận tự nhiên."
+                ]
+            }
+        ]
+    }
