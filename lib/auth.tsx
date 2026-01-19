@@ -66,10 +66,24 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }, [user, isLoading, pathname, router]);
 
     const login = async () => {
+
+        const getRedirectUrl = () => {
+            const hostname = window.location.hostname;
+            const protocol = window.location.protocol;
+
+            // If logging in from root domain "conan.school", redirect to "www.conan.school"
+            if (hostname === 'conan.school') {
+                return `${protocol}//www.conan.school/`;
+            }
+
+            // Otherwise (cd2.conan.school, localhost, etc.), stay on current origin
+            return `${window.location.origin}/`;
+        };
+
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: `${window.location.protocol}//${window.location.host}/`,
+                redirectTo: getRedirectUrl(),
             }
         });
         if (error) {
