@@ -22,47 +22,37 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
 
     useEffect(() => {
-        // Check active session
-        const initSession = async () => {
-            try {
-                const { data: { session } } = await supabase.auth.getSession();
-                if (session?.user) {
-                    setUser(session.user);
-                    identifyMixpanel(session.user);
-                }
-            } catch (error) {
-                console.error("Error checking session:", error);
-            } finally {
-                setIsLoading(false);
-            }
-        };
-
-        const identifyMixpanel = (user: SupabaseUser) => {
-            mixpanel.identify(user.id);
-            mixpanel.people.set({
-                $email: user.email,
-                $name: user.user_metadata?.full_name || user.user_metadata?.name || user.email,
-                last_login: new Date().toISOString()
-            });
-        };
-
-        initSession();
+        let mounted = true;
 
         const { data: { subscription } } = supabase.auth.onAuthStateChange(
             async (_event, session) => {
-                if (session?.user) {
-                    setUser(session.user);
-                    identifyMixpanel(session.user);
-                } else {
-                    setUser(null);
-                    mixpanel.reset();
+                if (mounted) {
+                    if (session?.user) {
+                        setUser(session.user);
+                        identifyMixpanel(session.user);
+                    } else {
+                        setUser(null);
+                        mixpanel.reset();
+                    }
+                    setIsLoading(false);
                 }
-                setIsLoading(false);
             }
         );
 
-        return () => subscription.unsubscribe();
+        return () => {
+            mounted = false;
+            subscription.unsubscribe();
+        };
     }, []);
+
+    const identifyMixpanel = (user: SupabaseUser) => {
+        mixpanel.identify(user.id);
+        mixpanel.people.set({
+            $email: user.email,
+            $name: user.user_metadata?.full_name || user.user_metadata?.name || user.email,
+            last_login: new Date().toISOString()
+        });
+    };
 
     useEffect(() => {
         // Protect routes
