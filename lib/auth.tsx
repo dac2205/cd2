@@ -3,41 +3,65 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import mixpanel from "mixpanel-browser";
-
-interface User {
-    name: string;
-    email: string;
-}
+import { supabase } from "./supabase";
+import { User as SupabaseUser } from "@supabase/supabase-js";
 
 interface AuthContextType {
-    user: User | null;
-    login: (email: string) => void;
+    user: SupabaseUser | null;
+    login: () => void;
     logout: () => void;
-    updateUser: (name: string, email: string) => void;
-    isAuthenticated: boolean;
     isLoading: boolean;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-    const [user, setUser] = useState<User | null>(null);
+    const [user, setUser] = useState<SupabaseUser | null>(null);
     const [isLoading, setIsLoading] = useState(true);
     const router = useRouter();
     const pathname = usePathname();
 
     useEffect(() => {
-        // Initial check from local storage
-        const storedUser = localStorage.getItem("app_user");
-        if (storedUser) {
+        // Check active session
+        const initSession = async () => {
             try {
-                setUser(JSON.parse(storedUser));
-            } catch (e) {
-                console.error("Failed to parse user from local storage", e);
-                localStorage.removeItem("app_user");
+                const { data: { session } } = await supabase.auth.getSession();
+                if (session?.user) {
+                    setUser(session.user);
+                    identifyMixpanel(session.user);
+                }
+            } catch (error) {
+                console.error("Error checking session:", error);
+            } finally {
+                setIsLoading(false);
             }
-        }
-        setIsLoading(false);
+        };
+
+        const identifyMixpanel = (user: SupabaseUser) => {
+            mixpanel.identify(user.id);
+            mixpanel.people.set({
+                $email: user.email,
+                $name: user.user_metadata?.full_name || user.user_metadata?.name || user.email,
+                last_login: new Date().toISOString()
+            });
+        };
+
+        initSession();
+
+        const { data: { subscription } } = supabase.auth.onAuthStateChange(
+            async (_event, session) => {
+                if (session?.user) {
+                    setUser(session.user);
+                    identifyMixpanel(session.user);
+                } else {
+                    setUser(null);
+                    mixpanel.reset();
+                }
+                setIsLoading(false);
+            }
+        );
+
+        return () => subscription.unsubscribe();
     }, []);
 
     useEffect(() => {
@@ -45,37 +69,36 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         if (!isLoading) {
             if (!user && pathname !== "/login") {
                 router.push("/login");
+            } else if (user && pathname === "/login") {
+                router.push("/");
             }
         }
     }, [user, isLoading, pathname, router]);
 
-    const login = (email: string) => {
-        // Default name is the part before @
-        const name = email.split("@")[0];
-        const newUser = { email, name };
-        setUser(newUser);
-        localStorage.setItem("app_user", JSON.stringify(newUser));
-        mixpanel.identify(email);
-        mixpanel.people.set({ $name: name, $email: email });
-        mixpanel.track("Sign In", { login_method: "email" });
-        router.push("/");
+    const login = async () => {
+        const { error } = await supabase.auth.signInWithOAuth({
+            provider: 'google',
+            options: {
+                redirectTo: `${window.location.origin}/`,
+            }
+        });
+        if (error) {
+            console.error("Login error:", error);
+            mixpanel.track("Login Error", { error: error.message });
+        }
     };
 
-    const logout = () => {
-        setUser(null);
-        localStorage.removeItem("app_user");
-        mixpanel.reset();
-        router.push("/login");
-    };
-
-    const updateUser = (name: string, email: string) => {
-        const newUser = { name, email };
-        setUser(newUser);
-        localStorage.setItem("app_user", JSON.stringify(newUser));
+    const logout = async () => {
+        const { error } = await supabase.auth.signOut();
+        if (error) {
+            console.error("Logout error:", error);
+        } else {
+            router.push("/login");
+        }
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, logout, updateUser, isAuthenticated: !!user, isLoading }}>
+        <AuthContext.Provider value={{ user, login, logout, isLoading }}>
             {isLoading ? (
                 <div style={{
                     height: "100vh",
