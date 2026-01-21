@@ -49,32 +49,28 @@ const exercises = [
 
 export default function PracticePage() {
     return (
-        <div className="container mx-auto max-w-5xl px-4 py-12" style={{ backgroundColor: 'hsl(45 50% 96%)' }}>
+        <div className="container mx-auto max-w-5xl px-4 py-12 bg-paper-white min-h-screen">
             <div className="text-center mb-16">
-                <h1 className="text-4xl font-bold mb-4 tracking-tight" style={{ color: 'hsl(25 25% 24%)', fontFamily: 'Crimson Pro, serif' }}>Thực hành JTBD</h1>
-                <p className="text-lg max-w-2xl mx-auto" style={{ color: 'hsl(25 25% 24% / 0.8)' }}>
+                <h1 className="text-4xl font-bold mb-4 tracking-tight text-ink-brown font-serif">Thực hành JTBD</h1>
+                <p className="text-lg max-w-2xl mx-auto text-ink-brown/80">
                     6 bài tập được thiết kế để chuyển hóa lý thuyết thành phản xạ. Đi từ nhận thức cơ bản đến chiến lược nâng cao.
                 </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {exercises.map((ex) => (
-                    <Link href={`/practice/jtbd/${ex.id}`} key={ex.id} className="group no-underline block">
-                        <Card className="h-full p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style={{
-                            backgroundColor: 'hsl(45 50% 96%)',
-                            borderColor: 'hsl(28 42% 43% / 0.15)',
-                            borderRadius: '12px'
-                        }}>
-                            <div className="mb-4 p-3 rounded-2xl w-fit group-hover:scale-110 transition-transform" style={{ backgroundColor: 'hsl(38 60% 81%)' }}>
+                    <Link href={`/practice/jtbd/${ex.id}`} key={ex.id} className="group no-underline block h-full">
+                        <Card className="h-full p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm">
+                            <div className="mb-4 p-3 rounded-2xl w-fit group-hover:scale-110 transition-transform bg-maple-cream">
                                 {ex.icon}
                             </div>
-                            <h3 className={`text-xl font-bold mb-2 transition-colors ${ex.color}`} style={{ color: 'hsl(25 25% 24%)' }}>
+                            <h3 className={`text-xl font-bold mb-2 transition-colors text-ink-brown ${ex.color}`}>
                                 {ex.title}
                             </h3>
-                            <p className="text-sm leading-relaxed mb-6" style={{ color: 'hsl(25 25% 24% / 0.7)' }}>
+                            <p className="text-sm leading-relaxed mb-6 text-ink-brown/70">
                                 {ex.desc}
                             </p>
-                            <div className="flex items-center text-sm font-semibold mt-auto" style={{ color: 'hsl(33 62% 45%)' }}>
+                            <div className="flex items-center text-sm font-semibold mt-auto text-guitar-amber">
                                 Luyện tập ngay <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                             </div>
                         </Card>

@@ -107,7 +107,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
 
         return (
             <div className="max-w-2xl mx-auto p-6 animate-slide-in">
-                <div className="rounded-3xl p-8 shadow-xl text-center" style={{ backgroundColor: 'hsl(45 50% 96%)', borderColor: 'hsl(28 42% 43% / 0.15)', borderWidth: '1px' }}>
+                <div className="rounded-3xl p-8 shadow-xl text-center bg-paper-white border border-caramel-walnut/15 text-ink-brown">
                     <div className="mb-6 flex justify-center">
                         {isPass ? <Trophy className="w-16 h-16 text-yellow-500" /> : <RotateCcw className="w-16 h-16 text-blue-500" />}
                     </div>
@@ -143,11 +143,11 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
     }
 
     return (
-        <div className="max-w-2xl mx-auto p-4 sm:p-6" style={{ backgroundColor: 'hsl(45 50% 96%)' }}>
+        <div className="max-w-2xl mx-auto p-4 sm:p-6 bg-paper-white min-h-screen">
             {/* Header */}
             <div className="mb-8 flex items-center justify-between">
                 <div>
-                    <span className="text-sm font-medium uppercase tracking-wider" style={{ color: 'hsl(25 25% 24% / 0.6)' }}>
+                    <span className="text-sm font-medium uppercase tracking-wider text-ink-brown/60">
                         Vòng {currentRound} • Câu {currentIndex + 1}/{questions.length}
                     </span>
                     <div className="h-1.5 w-32 bg-zinc-100 rounded-full mt-2 overflow-hidden">
@@ -161,7 +161,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
             </div>
 
             {/* Question Card */}
-            <div className="rounded-2xl p-6 sm:p-8 shadow-sm min-h-[400px] flex flex-col" style={{ backgroundColor: 'hsl(45 50% 96%)', borderColor: 'hsl(28 42% 43% / 0.15)', borderWidth: '1px' }}>
+            <div className="rounded-2xl p-6 sm:p-8 shadow-sm min-h-[400px] flex flex-col bg-paper-white border border-caramel-walnut/15 text-ink-brown">
                 <h2 className="text-xl sm:text-2xl font-semibold mb-8 leading-relaxed">
                     {currentQ.question}
                 </h2>
@@ -173,31 +173,25 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                         const isSelected = selectedOption === originalIndex;
                         const isCorrect = originalIndex === currentQ.correctAnswer;
 
-                        let variantClass = "hover:bg-opacity-80 transition-colors";
-                        let borderStyle = "1px solid hsl(28 42% 43% / 0.2)";
-                        let bgStyle = "transparent";
-                        let textStyle = "hsl(25 25% 24%)";
+                        let variantClass = "hover:bg-opacity-80 transition-colors border-caramel-walnut/20 bg-transparent text-ink-brown";
 
                         if (showFeedback) {
                             if (isCorrect) {
-                                bgStyle = "hsl(8 60% 49% / 0.1)"; // Conan Red Soft Light
-                                borderStyle = "1px solid hsl(8 60% 49%)";
-                                textStyle = "hsl(8 60% 49%)";
+                                // Correct: Conan Red Light (wait, design system says green for correct usually, but let's follow the system colors. 
+                                // Actually better to stick to Green/Red for clear feedback even if strict palette differs. 
+                                // But let's use the palette colors if possible.
+                                // Let's use Standard Green/Red for clarity in quiz, or define success/error colors.
+                                // I will stick to the hardcoded Green/Red classes I had before but update them to be cleaner
+                                variantClass = "bg-green-50 border-green-200 text-green-800";
                             }
                             else if (isSelected) {
-                                bgStyle = "hsl(28 42% 43% / 0.1)"; // Caramel Walnut Light (for error/selected) - actually let's use Red for error to be clear, but design system says Red is Primary/Destructive.
-                                // Let's use Red for error as well.
-                                bgStyle = "hsl(8 60% 49% / 0.1)";
-                                borderStyle = "1px solid hsl(8 60% 49%)";
-                                textStyle = "hsl(8 60% 49%)";
+                                variantClass = "bg-conan-red/10 border-conan-red text-conan-red";
                             }
                             else {
-                                // Dimmed
-                                textStyle = "hsl(25 25% 24% / 0.5)";
+                                variantClass = "opacity-50 grayscale text-ink-brown/50";
                             }
                         } else if (isSelected) {
-                            bgStyle = "hsl(33 50% 56% / 0.2)"; // Honey Oak Light
-                            borderStyle = "2px solid hsl(33 62% 45%)"; // Guitar Amber
+                            variantClass = "bg-honey-oak/20 border-guitar-amber border-2";
                         }
 
                         return (
@@ -206,14 +200,9 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                                 onClick={() => handleSelectOption(index)}
                                 disabled={showFeedback}
                                 className={cn(
-                                    "w-full text-left p-4 rounded-xl transition-all duration-200 flex items-center gap-4 group",
+                                    "w-full text-left p-4 rounded-xl border transition-all duration-200 flex items-center gap-4 group",
                                     variantClass
                                 )}
-                                style={{
-                                    backgroundColor: bgStyle,
-                                    border: borderStyle,
-                                    color: textStyle
-                                }}
                             >
                                 <div className={cn(
                                     "w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-colors",
