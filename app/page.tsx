@@ -6,14 +6,15 @@ export default function Home() {
 
   return (
     <div className="container animate-slide-in">
-      <div style={{ padding: "4rem 0", textAlign: "center" }}>
-        <h1 style={{ marginBottom: "1rem" }}>Customer Decode</h1>
-        <p className="text-subtext" style={{ fontSize: "1.25rem", maxWidth: "600px", margin: "0 auto" }}>
-          Explore detailed customer insights, jobs to be done, and audience analysis for various brands.
-        </p>
-      </div>
+      <div className="container animate-slide-in py-16 text-center">
+        <div className="mb-16">
+          <h1 className="mb-4 text-ink-brown font-serif text-5xl font-bold tracking-tight">Customer Decode</h1>
+          <p className="text-xl max-w-2xl mx-auto text-ink-brown/80">
+            Explore detailed customer insights, jobs to be done, and audience analysis for various brands.
+          </p>
+        </div>
 
-      <BrandList initialBrands={brands} />
-    </div>
-  );
+        <BrandList initialBrands={brands} />
+      </div>
+      );
 }

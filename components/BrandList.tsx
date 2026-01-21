@@ -53,29 +53,22 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     const otherBrands = initialBrands.filter(b => !favorites.includes(b.slug));
 
     const renderCard = (brand: Brand, isFavorite: boolean) => (
-        <Link key={brand.slug} href={`/brands/${brand.slug}`} style={{ textDecoration: 'none' }}>
-            <Card style={{ height: '100%', transition: 'transform 0.2s', cursor: 'pointer', position: 'relative' }}>
+        <Link key={brand.slug} href={`/brands/${brand.slug}`} className="block group no-underline h-full">
+            <Card className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm relative overflow-hidden">
                 <div
                     onClick={(e) => toggleFavorite(e, brand.slug)}
-                    style={{
-                        position: 'absolute',
-                        top: '1rem',
-                        right: '1rem',
-                        zIndex: 10,
-                        cursor: 'pointer',
-                        padding: '4px',
-                    }}
+                    className="absolute top-4 right-4 z-10 cursor-pointer p-1 hover:bg-black/5 rounded-full transition-colors"
                 >
                     <Heart
                         size={20}
                         fill={isFavorite ? "#ef4444" : "none"}
                         color={isFavorite ? "#ef4444" : "currentColor"}
-                        className="text-muted-foreground hover:text-red-500 transition-colors"
+                        className="text-ink-brown/40 hover:text-red-500 transition-colors"
                     />
                 </div>
                 <CardHeader>
-                    <CardTitle style={{ paddingRight: '2rem' }}>{brand.meta.name}</CardTitle>
-                    <p style={{ fontSize: '0.875rem', color: 'hsl(var(--ink-brown) / 0.6)' }}>
+                    <CardTitle className="pr-8 text-xl text-ink-brown font-serif">{brand.meta.name}</CardTitle>
+                    <p className="text-sm text-ink-brown/60">
                         {brand.meta.owner}
                     </p>
                 </CardHeader>
@@ -89,12 +82,12 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     if (!mounted) {
         // Server-side / Hydration fallback
         return (
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "2rem" }}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {initialBrands.map((brand) => (
-                    <Card key={brand.slug} style={{ height: '100%', transition: 'transform 0.2s' }}>
+                    <Card key={brand.slug} className="h-full bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm">
                         <CardHeader>
-                            <CardTitle>{brand.meta.name}</CardTitle>
-                            <p style={{ fontSize: '0.875rem', color: 'hsl(var(--ink-brown) / 0.6)' }}>
+                            <CardTitle className="text-ink-brown">{brand.meta.name}</CardTitle>
+                            <p className="text-sm text-ink-brown/60">
                                 {brand.meta.owner}
                             </p>
                         </CardHeader>
@@ -105,29 +98,24 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     }
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+        <div className="flex flex-col gap-12">
 
             {/* Favorites Section */}
             {favoriteBrands.length > 0 && (
                 <div className="animate-in fade-in slide-in-from-top-4 duration-500">
-                    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "2rem" }}>
+                    <h2 className="text-xl font-bold mb-6 text-ink-brown flex items-center gap-2">
+                        <Heart className="w-5 h-5 text-red-500 fill-red-500" /> Brands yêu thích
+                    </h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {favoriteBrands.map(brand => renderCard(brand, true))}
                     </div>
 
-                    <div style={{
-                        marginTop: '3rem',
-                        marginBottom: '1rem',
-                        width: '100%',
-                        height: '1px',
-                        backgroundColor: 'hsl(var(--border))',
-                        position: 'relative'
-                    }}>
-                    </div>
+                    <div className="mt-12 mb-4 w-full h-px bg-caramel-walnut/20 relative" />
                 </div>
             )}
 
             {/* Other Brands Section */}
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "2rem" }}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {otherBrands.map(brand => renderCard(brand, false))}
             </div>
 
