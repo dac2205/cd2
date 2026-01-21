@@ -95,7 +95,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
         setCurrentRound(1);
     };
 
-    if (!questions.length) return <div>Loading...</div>;
+    if (!questions.length) return <div>Đang tải dữ liệu...</div>;
 
     const currentQ = questions[currentIndex];
     // Calculate Progress
@@ -113,7 +113,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                     </div>
 
                     <h2 className="text-3xl font-bold mb-2">
-                        {currentRound === 3 ? "Hoàn thành xuất sắc!" : `Hoàn thành Round ${currentRound}`}
+                        {currentRound === 3 ? "Hoàn thành xuất sắc!" : `Hoàn thành Vòng ${currentRound}`}
                     </h2>
 
                     <p className="text-zinc-500 mb-8">
@@ -123,7 +123,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                     <div className="flex flex-col gap-4 max-w-xs mx-auto">
                         {currentRound < 3 ? (
                             <Button onClick={handleNextRound} className="w-full h-12 text-lg rounded-full">
-                                Tiếp tục Round {currentRound + 1} <ArrowRight className="ml-2 w-5 h-5" />
+                                Tiếp tục Vòng {currentRound + 1} <ArrowRight className="ml-2 w-5 h-5" />
                             </Button>
                         ) : (
                             <Link href="/practice/jtbd">
@@ -148,7 +148,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
             <div className="mb-8 flex items-center justify-between">
                 <div>
                     <span className="text-sm font-medium text-zinc-500 uppercase tracking-wider">
-                        Round {currentRound} • Question {currentIndex + 1}/{questions.length}
+                        Vòng {currentRound} • Câu {currentIndex + 1}/{questions.length}
                     </span>
                     <div className="h-1.5 w-32 bg-zinc-100 rounded-full mt-2 overflow-hidden">
                         <div className="h-full bg-blue-600 transition-all duration-300" style={{ width: `${progress}%` }} />
@@ -228,7 +228,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                         </div>
 
                         <Button onClick={handlNext} className="w-full h-12 text-lg rounded-full animate-pulse shadow-lg shadow-blue-500/20">
-                            {currentIndex === questions.length - 1 ? "Hoàn thành Round" : "Câu tiếp theo"} <ArrowRight className="ml-2 w-5 h-5" />
+                            {currentIndex === questions.length - 1 ? "Hoàn thành Vòng" : "Câu tiếp theo"} <ArrowRight className="ml-2 w-5 h-5" />
                         </Button>
                     </div>
                 )}
