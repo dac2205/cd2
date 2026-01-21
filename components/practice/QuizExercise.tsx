@@ -107,7 +107,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
 
         return (
             <div className="max-w-2xl mx-auto p-6 animate-slide-in">
-                <div className="bg-white dark:bg-zinc-900 rounded-3xl p-8 border border-zinc-200 dark:border-zinc-800 shadow-xl text-center">
+                <div className="rounded-3xl p-8 shadow-xl text-center" style={{ backgroundColor: 'hsl(45 50% 96%)', borderColor: 'hsl(28 42% 43% / 0.15)', borderWidth: '1px' }}>
                     <div className="mb-6 flex justify-center">
                         {isPass ? <Trophy className="w-16 h-16 text-yellow-500" /> : <RotateCcw className="w-16 h-16 text-blue-500" />}
                     </div>
@@ -143,11 +143,11 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
     }
 
     return (
-        <div className="max-w-2xl mx-auto p-4 sm:p-6">
+        <div className="max-w-2xl mx-auto p-4 sm:p-6" style={{ backgroundColor: 'hsl(45 50% 96%)' }}>
             {/* Header */}
             <div className="mb-8 flex items-center justify-between">
                 <div>
-                    <span className="text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                    <span className="text-sm font-medium uppercase tracking-wider" style={{ color: 'hsl(25 25% 24% / 0.6)' }}>
                         Vòng {currentRound} • Câu {currentIndex + 1}/{questions.length}
                     </span>
                     <div className="h-1.5 w-32 bg-zinc-100 rounded-full mt-2 overflow-hidden">
@@ -161,7 +161,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
             </div>
 
             {/* Question Card */}
-            <div className="bg-white dark:bg-zinc-900 rounded-2xl p-6 sm:p-8 border border-zinc-200 dark:border-zinc-800 shadow-sm min-h-[400px] flex flex-col">
+            <div className="rounded-2xl p-6 sm:p-8 shadow-sm min-h-[400px] flex flex-col" style={{ backgroundColor: 'hsl(45 50% 96%)', borderColor: 'hsl(28 42% 43% / 0.15)', borderWidth: '1px' }}>
                 <h2 className="text-xl sm:text-2xl font-semibold mb-8 leading-relaxed">
                     {currentQ.question}
                 </h2>
@@ -173,14 +173,31 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                         const isSelected = selectedOption === originalIndex;
                         const isCorrect = originalIndex === currentQ.correctAnswer;
 
-                        let variantClass = "hover:bg-zinc-50 border-zinc-200 dark:border-zinc-700";
+                        let variantClass = "hover:bg-opacity-80 transition-colors";
+                        let borderStyle = "1px solid hsl(28 42% 43% / 0.2)";
+                        let bgStyle = "transparent";
+                        let textStyle = "hsl(25 25% 24%)";
 
                         if (showFeedback) {
-                            if (isCorrect) variantClass = "bg-green-50 border-green-200 dark:bg-green-900/20 dark:border-green-800";
-                            else if (isSelected) variantClass = "bg-red-50 border-red-200 dark:bg-red-900/20 dark:border-red-800";
-                            else variantClass = "opacity-50 grayscale";
+                            if (isCorrect) {
+                                bgStyle = "hsl(8 60% 49% / 0.1)"; // Conan Red Soft Light
+                                borderStyle = "1px solid hsl(8 60% 49%)";
+                                textStyle = "hsl(8 60% 49%)";
+                            }
+                            else if (isSelected) {
+                                bgStyle = "hsl(28 42% 43% / 0.1)"; // Caramel Walnut Light (for error/selected) - actually let's use Red for error to be clear, but design system says Red is Primary/Destructive.
+                                // Let's use Red for error as well.
+                                bgStyle = "hsl(8 60% 49% / 0.1)";
+                                borderStyle = "1px solid hsl(8 60% 49%)";
+                                textStyle = "hsl(8 60% 49%)";
+                            }
+                            else {
+                                // Dimmed
+                                textStyle = "hsl(25 25% 24% / 0.5)";
+                            }
                         } else if (isSelected) {
-                            variantClass = "border-blue-500 bg-blue-50 dark:bg-blue-900/20";
+                            bgStyle = "hsl(33 50% 56% / 0.2)"; // Honey Oak Light
+                            borderStyle = "2px solid hsl(33 62% 45%)"; // Guitar Amber
                         }
 
                         return (
@@ -189,9 +206,14 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                                 onClick={() => handleSelectOption(index)}
                                 disabled={showFeedback}
                                 className={cn(
-                                    "w-full text-left p-4 rounded-xl border-2 transition-all duration-200 flex items-center gap-4 group",
+                                    "w-full text-left p-4 rounded-xl transition-all duration-200 flex items-center gap-4 group",
                                     variantClass
                                 )}
+                                style={{
+                                    backgroundColor: bgStyle,
+                                    border: borderStyle,
+                                    color: textStyle
+                                }}
                             >
                                 <div className={cn(
                                     "w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-colors",
