@@ -1,0 +1,244 @@
+{
+    "id": "jtbd-06",
+    "title": "Bài 6: Phân Loại & Hệ Thống Job (Nâng Cao)",
+    "description": "Tư duy JTBD ở tầm chiến lược: Core Job, Related Job, và ma trận Now-Want-Keep-Stop.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Khởi động (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "'Core Job' (Job Cốt lõi) là gì?",
+                    "options": [
+                        "Tính năng quan trọng nhất",
+                        "Lý do bao trùm, cơ bản nhất mà khách hàng tìm kiếm giải pháp (VD: Truyền đạt thông tin)",
+                        "Job kiếm được nhiều tiền nhất",
+                        "Job của CEO"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Core Job là gốc rễ bền vững (VD: Di chuyển từ A đến B).",
+                        "incorrect": "Feature thay đổi, Core Job thì không."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "'Related Job' (Job Liên quan) đóng vai trò gì?",
+                    "options": [
+                        "Job không quan trọng",
+                        "Những việc khách hàng muốn thực hiện ĐỒNG THỜI với Core Job (VD: Trong khi chờ xe thì muốn nghe nhạc)",
+                        "Job của đối thủ",
+                        "Job tương lai"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Giải quyết được Related Job giúp tăng giá trị sản phẩm (Cross-selling/Upselling).",
+                        "incorrect": "Không quan trọng thì gọi là Noise."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "Ma trận 'Now - Want - Keep - Stop' dùng để làm gì?",
+                    "options": [
+                        "Đánh giá nhân viên",
+                        "Phân tích sự chuyển dịch nhu cầu từ trạng thái Hiện tại (As-is) sang Tương lai (To-be)",
+                        "Quản lý thời gian",
+                        "Lên lịch họp"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Now (Đang có) -> Want (Muốn mới). Keep (Giữ cái tốt cũ) -> Stop (Bỏ cái xấu cũ). Đây là bản đồ chuyển đổi toàn diện.",
+                        "incorrect": "Không liên quan nhân sự hay lịch họp."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "'Consumption Chain' (Chuỗi tiêu dùng) bao gồm những khâu nào?",
+                    "options": [
+                        "Chỉ lúc mua hàng",
+                        "Từ lúc Mua -> Nhận hàng -> Cài đặt -> Sử dụng -> Bảo trì -> Vứt bỏ",
+                        "Chỉ lúc sử dụng",
+                        "Chỉ lúc bảo hành"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Job xuất hiện ở MỌI điểm chạm (Touchpoint). Job 'Cài đặt dễ' (Install) cũng quan trọng như Job 'Dùng tốt' (Use).",
+                        "incorrect": "Nhìn cục bộ sẽ làm rơi rớt trải nghiệm."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Job Map (Bản đồ Job) khác gì với Customer Journey Map (CJM)?",
+                    "options": [
+                        "Giống hệt nhau",
+                        "Job Map tập trung vào việc khách hàng CẦN LÀM (bất kể giải pháp), CJM tập trung vào TƯƠNG TÁC với sản phẩm cụ thể",
+                        "Job Map ngắn hơn",
+                        "CJM quan trọng hơn"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Job Map độc lập với sản phẩm (việc 'đánh răng' có các bước chuẩn dù dùng bàn chải hay tay). CJM gắn với sản phẩm.",
+                        "incorrect": "Hai cái bổ trợ nhau, nhưng Job Map bền vững hơn."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Tăng tốc & Về đích (10 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Tình huống: A đang dùng xe máy (Now). A muốn mua ô tô (To-be). Yếu tố 'Keep' (Muốn giữ lại từ giải pháp cũ) của A là gì?",
+                    "options": [
+                        "Sự nắng mưa",
+                        "Sự linh hoạt luồn lách tắc đường và chi phí rẻ",
+                        "Sự nguy hiểm",
+                        "Sự ồn ào"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đây là những ưu điểm của xe máy mà ô tô KHÔNG có. A sẽ sợ mất đi sự linh hoạt này.",
+                        "incorrect": "Nắng mưa/Nguy hiểm là 'Stop' (Muốn bỏ)."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Trong cùng tình huống trên (Xe máy -> Ô tô). Yếu tố 'So I can Stop...' (Để tôi chấm dứt...) là gì?",
+                    "options": [
+                        "Chấm dứt việc hít bụi và mặc áo mưa",
+                        "Chấm dứt việc đi nhanh",
+                        "Chấm dứt việc tiết kiệm tiền",
+                        "Chấm dứt việc lái xe"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Đây là Push (Pain) mạnh nhất. Mua ô tô để 'Stop' sự khổ sở của thời tiết.",
+                        "incorrect": "Đi nhanh/Tiết kiệm là cái A mất đi (Trade-off)."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Khách hàng muốn mua máy ảnh xịn nhưng vẫn muốn 'chụp phát ăn ngay' như điện thoại. (Want: Chất lượng cao, Keep: Tiện lợi). Giải pháp tối ưu là?",
+                    "options": [
+                        "Máy ảnh chuyên nghiệp nút bấm phức tạp",
+                        "Điện thoại camera thường",
+                        "Điện thoại AI Camera xịn hoặc Compact cao cấp (Hybrid)",
+                        "Máy quay phim"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Để thỏa mãn cả Want (Chất lượng) và Keep (Tiện), lai ghép (Hybrid) là giải pháp tối ưu.",
+                        "incorrect": "A làm mất Keep. B làm mất Want."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Khi Job Map chỉ ra bước 'Chuẩn bị' (Preparation) quá phức tạp, cơ hội Innovation là gì?",
+                    "options": [
+                        "Làm bước đó nhanh hơn hoặc loại bỏ hoàn toàn (Simplify/Eliminate)",
+                        "Làm bước đó đẹp hơn",
+                        "Tăng giá bước đó",
+                        "Dạy khách hàng làm"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Sơn Dulux ra loại sơn 'Không cần pha chế' -> Loại bỏ bước 'Pha sơn' phức tạp -> Bán chạy.",
+                        "incorrect": "Dạy khách hàng tốn kém và khó."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Mì ly (Cup Noodle) ra đời giải quyết khâu nào trong Job Map ăn mì?",
+                    "options": [
+                        "Khâu Ăn",
+                        "Khâu Rửa bát (Eliminate) & Khâu Bóc gói (Simplify)",
+                        "Khâu Nấu nước",
+                        "Khâu Chờ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Mì ly ăn xong vứt luôn -> Loại bỏ Job 'Rửa bát' (Pain). Bột canh đổ sẵn -> Loại bỏ Job 'Xé gói'.",
+                        "incorrect": "Vẫn phải nấu nước và chờ."
+                    }
+                },
+                {
+                    "id": 11,
+                    "question": "Amazon Prime không chỉ giải quyết Job 'Ship nhanh' mà còn 'Nghe nhạc', 'Xem phim'. Đây là chiến lược gì?",
+                    "options": [
+                        "System of Jobs (Biến Amazon thành hệ điều hành cuộc sống)",
+                        "Bán bia kèm lạc",
+                        "Giảm giá",
+                        "Quảng cáo"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Amazon Prime thầu trọn gói các Job vệ tinh để khóa chặt (Lock-in) khách hàng.",
+                        "incorrect": "Nó cao cấp hơn bán kèm."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Chiến lược 'Unbundling' (Xé lẻ như Craigslist -> Airbnb, Tinder) thành công khi nào?",
+                    "options": [
+                        "Khi sản phẩm bao trùm (All-in-one) làm mọi thứ dở dang",
+                        "Khi khách hàng muốn mua nhiều món",
+                        "Khi muốn tăng giá",
+                        "Khi sản phẩm ế"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Khách hàng thường chỉ 'Hire' sản phẩm cho 1-2 Job cốt lõi. Tách ra bán riêng sẽ rẻ hơn và Focus hơn.",
+                        "incorrect": "All-in-one thường bị 'overserve' ở những chỗ không cần thiết."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Apple Watch chuyển từ định vị 'Thời trang' sang 'Sức khỏe'. Đây là hành động gì?",
+                    "options": [
+                        "Đổi màu dây",
+                        "Pivot (Chuyển hướng) sang một Core Job cấp thiết và chưa được đáp ứng tốt (Underserved)",
+                        "Giảm giá",
+                        "Tăng pin"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Job 'Theo dõi sức khỏe 24/7' là mỏ vàng chưa ai khai thác tốt lúc đó. Job Thời trang thì Rolex làm trùm rồi.",
+                        "incorrect": "Thay đổi tính năng là bề mặt, thay đổi Job mục tiêu mới là chiến lược."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "Thẻ tín dụng gây 'Pain of Paying'. Uber/Grab làm thanh toán 'Invisible'. Đây là chiến lược gì?",
+                    "options": [
+                        "Eliminate the Execute Step (Loại bỏ bước thực thi thủ công)",
+                        "Làm cho đẹp",
+                        "Trốn nợ",
+                        "Tăng bảo mật"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Thanh toán tự động ngầm loại bỏ hoàn toàn ma sát và nỗi đau tâm lý khi rút ví.",
+                        "incorrect": "Không liên quan trốn nợ."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tại sao Nokia 8800 (Điện thoại nghìn đô) chết khi iPhone ra đời?",
+                    "options": [
+                        "Vì iPhone nhiều tính năng hơn",
+                        "Vì iPhone tạo ra chuẩn mực 'Đẳng cấp' mới (Smart), biến Nokia 8800 thành biểu tượng 'Cổ lỗ sĩ' (Failed Social Job)",
+                        "Vì Nokia pin yếu",
+                        "Vì iPhone bền hơn"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "iPhone đánh cắp định nghĩa 'Cool/Rich'. Khi Social Job của 8800 bị vô hiệu hóa, nó chết.",
+                        "incorrect": "Nokia 8800 không bán tính năng, nó bán Đẳng cấp."
+                    }
+                }
+            ]
+        }
+    ]
+}

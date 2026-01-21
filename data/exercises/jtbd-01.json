@@ -1,0 +1,244 @@
+{
+    "id": "jtbd-01",
+    "title": "Bài 1: Tư duy nền tảng Jobs to be Done",
+    "description": "Hiểu bản chất cốt lõi: Khách hàng không mua sản phẩm, họ 'thuê' giải pháp để giải quyết việc cần làm.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Khởi động (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Trong tư duy Jobs to be Done, khách hàng 'mua' sản phẩm để làm gì?",
+                    "options": [
+                        "Để sở hữu quyền sử dụng vĩnh viễn",
+                        "Để ủng hộ thương hiệu họ yêu thích",
+                        "Để giải quyết một công việc (Job) cụ thể trong đời sống",
+                        "Để khoe với bạn bè"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Chính xác. Khách hàng 'thuê' sản phẩm để hoàn thành một việc họ cần làm.",
+                        "incorrect": "Khách hàng không mua vì sở hữu hay ủng hộ, họ mua để giúp họ tiến triển từ trạng thái A sang B."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "Yếu tố nào xác định một 'Job'?",
+                    "options": [
+                        "Độ tuổi và thu nhập của khách hàng (Persona)",
+                        "Hoàn cảnh (Situation) và mong muốn tiến triển (Progress)",
+                        "Tính năng nổi bật nhất của sản phẩm",
+                        "Giá tiền của sản phẩm"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chuẩn xác. Job luôn gắn liền với 'Khi nào' (Situation) và 'Để làm gì' (Progress).",
+                        "incorrect": "Persona (Ai) không quyết định Job, mà là Hoàn cảnh. Tính năng chỉ là giải pháp."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "Điền vào chỗ trống: 'Khách hàng _______ sản phẩm cũ để _______ sản phẩm mới.'",
+                    "options": [
+                        "vứt bỏ / mua",
+                        "ghét / thích",
+                        "sa thải (fire) / thuê (hire)",
+                        "quên / nhớ"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Đúng thuật ngữ JTBD. Họ Sa thải giải pháp cũ kém hiệu quả để Thuê giải pháp mới tốt hơn.",
+                        "incorrect": "'Vứt bỏ/Mua' chỉ là hành động vật lý. 'Sa thải/Thuê' mới thể hiện đúng tư duy chọn giải pháp."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "JTBD khác biệt lớn nhất với tư duy Marketing truyền thống ở điểm nào?",
+                    "options": [
+                        "Tập trung vào 'Ai mua' (Persona)",
+                        "Tập trung vào 'Tại sao họ mua trong hoàn cảnh đó' (Causality)",
+                        "Tập trung vào 'Sản phẩm có gì' (Features)",
+                        "Tập trung vào 'Đối thủ làm gì' (Competitors)"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chính xác. Nguyên nhân (Causality) thúc đẩy hành vi quan trọng hơn đặc điểm nhân khẩu học.",
+                        "incorrect": "Tư duy cũ tập trung vào Persona (Ai) hoặc Feature (Cái gì), JTBD tập trung vào Hoàn cảnh (Tại sao)."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Một chiếc khoan 5mm được khách hàng 'thuê' để làm gì?",
+                    "options": [
+                        "Để có một cái máy khoan xịn",
+                        "Để tạo ra một cái lỗ 5mm (hoặc treo bức tranh)",
+                        "Để tiêu tiền thừa",
+                        "Để lấp đầy tủ đồ nghề"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chuẩn. Khách hàng không cần máy khoan, họ cần cái lỗ (hoặc bức tranh được treo lên).",
+                        "incorrect": "Sở hữu máy khoan không phải mục đích cuối cùng, nó chỉ là phương tiện."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Tăng tốc & Về đích (10 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Tình huống: Anh Minh (35 tuổi, Hà Nội) mua vé xem phim Netflix vào tối thứ 7. Đối thủ cạnh tranh 'thực sự' của Netflix trong tình huống này có thể là gì?",
+                    "options": [
+                        "HBO Go và Disney+",
+                        "Rạp chiếu phim CGV",
+                        "Một giấc ngủ ngon hoặc một ván game",
+                        "Tất cả các phương án trên"
+                    ],
+                    "correctAnswer": 3,
+                    "feedback": {
+                        "correct": "Chính xác. Trong JTBD, đối thủ là BẤT KỲ giải pháp nào tranh giành việc 'giải trí/thư giãn tối thứ 7'.",
+                        "incorrect": "Đừng chỉ nhìn đối thủ cùng ngành (Direct Competitors). Cạnh tranh của Job rộng hơn nhiều."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Tình huống: Chị Lan mua một khóa học Tiếng Anh online giá 5 triệu đồng. Phát biểu nào dưới đây là Functional Job (Job Chức năng)?",
+                    "options": [
+                        "Tôi muốn cảm thấy tự tin khi nói chuyện với Tây",
+                        "Tôi muốn đạt chứng chỉ IELTS 6.5 để nộp hồ sơ du học",
+                        "Tôi muốn nở mày nở mặt với đồng nghiệp",
+                        "Tôi muốn không còn sợ hãi khi họp"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đây là việc cụ thể, đo lường được (chứng chỉ, nộp hồ sơ).",
+                        "incorrect": "Tự tin, sợ hãi là Job Cảm xúc (Emotional). Nở mày nở mặt là Job Xã hội (Social)."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Tình huống: Một người đàn ông mua milkshake (sữa lắc) vào lúc 6h sáng khi lái xe đi làm. Job chính của anh ta là gì?",
+                    "options": [
+                        "Thoả mãn cơn thèm ngọt",
+                        "Làm cho tay bận rộn và dạ dày no lâu để đỡ chán khi lái xe",
+                        "Thưởng thức hương vị sô-cô-la thượng hạng",
+                        "Ủng hộ cửa hàng thức ăn nhanh"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đây là Case Study kinh điển. Lúc 6h sáng, Job là 'giết thời gian và giữ bụng no' trên đường dài.",
+                        "incorrect": "Thèm ngọt hay thưởng thức thường là Job của buổi chiều hoặc đi chơi, không phải 6h sáng đi làm."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Tình huống: Zoom Video được 'thuê' rất nhiều trong đại dịch Covid-19. Đến khi hết dịch, nhiều người quay lại họp offline. Hiện tượng này được gọi là gì trong JTBD?",
+                    "options": [
+                        "Khách hàng thay đổi tính cách",
+                        "Zoom bị lỗi thời",
+                        "Hoàn cảnh thay đổi dẫn đến Job thay đổi, Zoom bị 'sa thải' ở một số tình huống",
+                        "Zoom tăng giá quá cao"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Situation thay đổi (hết giãn cách) -> Job 'họp từ xa bắt buộc' biến mất -> Giải pháp Zoom bị sa thải cho Job đó.",
+                        "incorrect": "Tính cách hay tính năng không đổi, cái thay đổi chính là Hoàn cảnh (Context)."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Câu nào sau đây mô tả đúng nhất về mối quan hệ giữa 'Job' và 'Sản phẩm'?",
+                    "options": [
+                        "Sản phẩm định nghĩa Job",
+                        "Job tồn tại độc lập, sản phẩm chỉ là ứng viên xin việc",
+                        "Job và Sản phẩm là một",
+                        "Sản phẩm quyết định Job nào quan trọng"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Job (nhu cầu liên lạc, giải trí) có trước khi iPhone ra đời. Sản phẩm chỉ đến để xin làm việc đó.",
+                        "incorrect": "Job luôn tồn tại trước. Sản phẩm chỉ là cách giải quyết mới."
+                    }
+                },
+                {
+                    "id": 11,
+                    "question": "Tình huống: Chị Hoa (30 tuổi) đang cân nhắc mua máy rửa bát. Cô ấy ghét việc rửa bát (Pain), nhưng lại sợ máy rửa không sạch và tốn điện (Anxiety). Chồng cô ấy bảo 'Rửa tay cho nhanh' (Habit). Quảng cáo máy rửa bát nói 'Tiết kiệm 1 tiếng mỗi ngày cho bản thân' (Pull). Đâu là lực cản lớn nhất (Blocking Force) khiến chị Hoa CHƯA mua máy?",
+                    "options": [
+                        "Pain (Ghét rửa bát)",
+                        "Habit (Chồng can ngăn) + Anxiety (Sợ không sạch/tốn điện)",
+                        "Pull (Tiết kiệm thời gian)",
+                        "Không có lực cản nào"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Hai lực 'kéo lui' (Drag) là Thói quen cũ và Nỗi lo âu mới. Đây là lý do khách hàng đứng yên.",
+                        "incorrect": "Pain và Pull là lực thúc đẩy (Push) đi tới, không phải lực cản."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Câu nào sau đây thể hiện 'Emotional Job' ẩn sau hành vi 'Mua đồng hồ Rolex'?",
+                    "options": [
+                        "Để xem giờ chính xác",
+                        "Để làm tài sản tích trữ",
+                        "Để cảm thấy mình thuộc về tầng lớp thượng lưu và thành đạt",
+                        "Để đeo cho nặng tay"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Rolex bán sự tự hào và cảm giác thuộc về (Belonging/Status). Xem giờ chỉ là Functional.",
+                        "incorrect": "Xem giờ là chức năng. Tích trữ là tài chính. Cảm xúc (Emotional/Social) mới là 'Core Job' của Rolex."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Tình huống: Một công ty bán phần mềm kế toán cho doanh nghiệp nhỏ. Họ quảng cáo: 'Phần mềm tích hợp AI, Cloud 4.0, Blockchain'. Doanh số rất thấp. Lỗi sai về JTBD ở đây là gì?",
+                    "options": [
+                        "Công nghệ chưa đủ hiện đại",
+                        "Tập trung quảng cáo Giải pháp (Solution) thay vì Job (Giúp chủ DN ngủ ngon, không lo thuế má)",
+                        "Giá quá cao",
+                        "Doanh nghiệp nhỏ không cần kế toán"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Khách hàng không mua AI/Blockchain. Họ mua 'sự yên tâm' và 'tiết kiệm thời gian'. Thông điệp sai lệch hoàn toàn.",
+                        "incorrect": "Công nghệ xịn không sai, nhưng cách nói phải hướng về Job của khách hàng."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "Tình huống: Anh Tùng muốn mua khoan để treo tranh. Nhưng anh sợ khoan hỏng tường (Anxiety). Giải pháp nào sau đây giải quyết đúng Anxiety này mà KHÔNG cần cải tiến máy khoan?",
+                    "options": [
+                        "Tăng công suất máy khoan",
+                        "Giảm giá máy khoan",
+                        "Bán kèm băng dính dán tường siêu dính (Command Strips) - không cần khoan",
+                        "Tặng kèm mũi khoan dự phòng"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Giải pháp này loại bỏ hoàn toàn Job 'khoan' và nỗi sợ 'hỏng tường', nhưng vẫn hoàn thành Job 'treo tranh'.",
+                        "incorrect": "Các phương án kia vẫn bắt người dùng phải khoan (vẫn còn Anxiety)."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tại sao JTBD khuyên nên phỏng vấn những người vừa MỚI mua hoặc vừa BỎ sản phẩm?",
+                    "options": [
+                        "Vì họ có trí nhớ tốt nhất về Struggle và Force thúc đẩy họ ra quyết định",
+                        "Vì họ rảnh rỗi",
+                        "Vì họ dễ tính",
+                        "Vì họ là khách hàng trung thành"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Khoảnh khắc chuyển đổi (Switch) là lúc các lực (Push/Pull/Anxiety) bộc lộ rõ nhất hay nhất.",
+                        "incorrect": "Không phải vì rảnh. Phỏng vấn Switch Interview là để tìm Causality (Nguyên nhân)."
+                    }
+                }
+            ]
+        }
+    ]
+}

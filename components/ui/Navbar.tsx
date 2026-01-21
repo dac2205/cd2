@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Home, BookOpen, Users, Award } from 'lucide-react';
+import { Home, BookOpen, Users, Award, Brain } from 'lucide-react';
 import UserMenu from "@/components/auth/UserMenu";
 
 export default function Navbar() {
@@ -30,6 +30,9 @@ export default function Navbar() {
                     </Link>
                     <Link href="/competency" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', color: 'hsl(var(--foreground))' }}>
                         <Award size={18} /> Competency
+                    </Link>
+                    <Link href="/practice/jtbd" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', color: 'hsl(var(--foreground))' }}>
+                        <Brain size={18} /> Practice
                     </Link>
                     <UserMenu />
                 </div>

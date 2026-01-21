@@ -1,0 +1,244 @@
+{
+    "id": "jtbd-04",
+    "title": "Bài 4: 4 Động Lực (The Four Forces)",
+    "description": "Thấu hiểu 4 Động lực (Push, Pull, Anxiety, Habit) để phân tích hành vi chuyển đổi.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Khái niệm (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "'Push of the Current Situation' (Lực đẩy từ hiện tại) là gì?",
+                    "options": [
+                        "Điều khách hàng thích ở sản phẩm cũ",
+                        "Những nỗi đau, sự bất tiện (Pain/Struggle) từ giải pháp hiện tại",
+                        "Lời khuyên của bạn bè",
+                        "Quảng cáo của sản phẩm mới"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Push là lực đẩy đi. 'Tôi chán cái máy cũ lắm rồi vì nó chậm'.",
+                        "incorrect": "Quảng cáo là Pull. Lời khuyên là Social."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "'Pull of the New Solution' (Lực kéo từ giải pháp mới) đến từ đâu?",
+                    "options": [
+                        "Sự hấp dẫn, lời hứa hẹn về tương lai tốt đẹp hơn của sản phẩm mới",
+                        "Thói quen sử dụng",
+                        "Nỗi sợ hãi",
+                        "Giá tiền đắt"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "'Máy mới này nhanh gấp đôi, màn hình đẹp quá' -> Hấp dẫn (Pull).",
+                        "incorrect": "Thói quen và Nỗi sợ là lực cản (Drag)."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "'Anxiety' (Nỗi lo âu) là lực tác động theo hướng nào?",
+                    "options": [
+                        "Thúc đẩy mua hàng",
+                        "Cản trở mua hàng (Blocking/Drag Force)",
+                        "Không ảnh hưởng gì",
+                        "Giúp khách hàng vui vẻ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Anxiety: 'Lỡ mua về không dùng được thì sao?'. Nó kéo khách hàng lùi lại.",
+                        "incorrect": "Push và Pull mới thúc đẩy."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "'Habit' (Thói quen) trong mô hình JTBD được hiểu là gì?",
+                    "options": [
+                        "Những hành động lặp đi lặp lại",
+                        "Sự quyến luyến, quen thuộc với 'Cách làm cũ' khiến khách hàng lười thay đổi",
+                        "Thói quen xấu",
+                        "Thói quen tốt"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "'Dùng Excel quen tay rồi, ngại học phần mềm mới lắm'. Habit là lực cản mạnh nhất.",
+                        "incorrect": "Không phân biệt tốt xấu, nó là sức ỳ (Inertia)."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Để khách hàng chuyển đổi (Switch), công thức nào sau đây phải đúng?",
+                    "options": [
+                        "(Push + Pull) > (Anxiety + Habit)",
+                        "(Push + Pull) < (Anxiety + Habit)",
+                        "Pull > Push",
+                        "Habit > Anxiety"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Tổng lực đẩy đi (Promoting) phải LỚN HƠN tổng lực níu lại (Blocking).",
+                        "incorrect": "Nếu nhỏ hơn, khách hàng sẽ đứng yên."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Nhận diện & Chiến lược (10 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Tình huống: Chị Lan muốn đi tập Gym để giảm cân (Push). Phòng Gym mới có máy lạnh (Pull). NHƯNG chị sợ tập đau cơ hôm sau không đi làm được. 'Sợ đau cơ' là lực nào?",
+                    "options": [
+                        "Habit",
+                        "Anxiety",
+                        "Push",
+                        "Pull"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đây là nỗi sợ về viễn cảnh tiêu cực trong tương lai (Anxiety of the new).",
+                        "incorrect": "Không phải thói quen."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Tình huống: Anh Tùng tính mua iPhone mới. Nhưng anh nghĩ: 'Chuyển dữ liệu từ Android sang iPhone chắc phức tạp lắm'. Suy nghĩ này là lực nào?",
+                    "options": [
+                        "Habit",
+                        "Anxiety (về nỗ lực học cái mới/chi phí chuyển đổi)",
+                        "Pull",
+                        "Push"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Nỗi sợ về Learning Curve hoặc Setup Cost là Anxiety điển hình.",
+                        "incorrect": "Habit là 'Quen dùng nút Back'. Anxiety là 'Sợ chuyển khó'."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Câu hỏi: Tại sao giảm giá (Discount) lại làm tăng lực Pull?",
+                    "options": [
+                        "Vì nó làm sản phẩm hấp dẫn hơn về mặt tài chính",
+                        "Vì nó làm người dùng sợ hết hàng (FOMO)",
+                        "Cả A và B",
+                        "Giảm giá không tăng Pull"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Giá rẻ = Pull. Hạn chót = Push (FOMO). Kết hợp lại tạo động lực mạnh.",
+                        "incorrect": "Giá luôn là một phần của độ hấp dẫn."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Tình huống: Bạn muốn bán phần mềm Chat mới. Nhân viên kêu: 'Dùng Zalo tiện hơn, ai cũng có Zalo rồi'. 'Ai cũng có Zalo rồi' là lực nào?",
+                    "options": [
+                        "Anxiety",
+                        "Habit (Network Effect & Familiarity)",
+                        "Push",
+                        "Pull"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Sự quen thuộc và tính phổ biến của giải pháp cũ tạo ra lực Habit khổng lồ.",
+                        "incorrect": "Zalo không làm họ sợ (Anxiety), Zalo làm họ thấy tiện (Habit)."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Tình huống: Mua hàng Online, Free Ship & Cho đồng kiểm (được xem hàng trước khi nhận). Chính sách này sinh ra để triệt tiêu lực nào?",
+                    "options": [
+                        "Habit",
+                        "Anxiety",
+                        "Push",
+                        "Pull"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Anxiety lớn nhất là 'Hàng không giống hình'. Cho xem hàng -> Hết sợ -> Hết Anxiety -> Mua.",
+                        "incorrect": "Nó không xử lý Habit."
+                    }
+                },
+                {
+                    "id": 11,
+                    "question": "Tình huống: Apple ra mắt App 'Move to iOS' (giúp chuyển dữ liệu từ Android sang iPhone dễ dàng). Apple đang tác động vào đâu?",
+                    "options": [
+                        "Tăng Pull",
+                        "Giảm Anxiety & Setup Cost",
+                        "Tăng Push",
+                        "Tăng Habit"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Làm cho việc chuyển đổi trở nên Dễ dàng là cách để giảm Anxiety 'Sợ phiền phức'.",
+                        "incorrect": "App này không làm iPhone đẹp hơn (Pull), nó làm việc chuyển nhà dễ hơn."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Tình huống: CRM Salesforce. Sếp muốn mua (Push/Pull cao) nhưng Nhân viên lười nhập liệu (Habit cao). Giải pháp nào tốt nhất?",
+                    "options": [
+                        "Giảm giá cho Sếp",
+                        "Thiết kế tính năng 'Tự động hút dữ liệu từ Email' (Giảm Habit/Inertia của User)",
+                        "Doạ đuổi việc nhân viên",
+                        "Tăng quảng cáo"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Rào cản nằm ở User (lười nhập). Giải pháp công nghệ phải loại bỏ hành vi này.",
+                        "incorrect": "Giảm giá không giải quyết vấn đề của User."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Tình huống: Xe hơi điện Tesla. Tesla đã làm gì để vượt qua Anxiety 'Sợ xe điện nhìn xấu/yếu'?",
+                    "options": [
+                        "Tạo ra Model S: Đẹp như siêu xe, Nhanh hơn Ferrari",
+                        "Bán thật rẻ",
+                        "Quảng cáo bảo vệ môi trường",
+                        "Tặng trạm sạc"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Tesla đập tan Anxiety bằng cách làm ra chiếc xe Tốt nhất lịch sử (Product Proof).",
+                        "incorrect": "Môi trường không khử được nỗi sợ 'Xấu/Yếu'."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "Câu hỏi: Chiến lược 'Freemium' (Dùng miễn phí bản cơ bản) lợi dụng lực nào?",
+                    "options": [
+                        "Tối đa hóa Pull, Tối thiểu hóa Anxiety",
+                        "Tăng Push",
+                        "Tăng Habit",
+                        "Bỏ qua Habit"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Miễn phí = Hấp dẫn (Pull). Không mất tiền = Không rủi ro (Zero Anxiety).",
+                        "incorrect": "Sau khi dùng quen rồi mới hình thành Habit."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tình huống: Grab. Khi Habit đặt xe đã hình thành, họ cắt khuyến mãi. Tại sao khách vẫn dùng?",
+                    "options": [
+                        "Vì khách hàng giàu",
+                        "Vì Habit (Thói quen) đã trở thành phản xạ không não (Mindless)",
+                        "Vì không có đối thủ",
+                        "Vì bị lừa"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Khi Habit đã hình thành, nó trở thành lực giữ chân (Retain) cực mạnh. Không cần Pull nhiều nữa.",
+                        "incorrect": "Vẫn có đối thủ, nhưng thói quen ăn sâu rồi."
+                    }
+                }
+            ]
+        }
+    ]
+}

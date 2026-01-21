@@ -1,0 +1,244 @@
+{
+    "id": "jtbd-05",
+    "title": "Bài 5: Pain, Struggle & Triggers",
+    "description": "Nhận diện 'Struggle' (Sự chật vật) và 'Trigger' (Yếu tố kích hoạt) dẫn đến hành vi mua.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Kiến thức cơ bản (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "'Trigger' (Điểm kích hoạt) trong JTBD là gì?",
+                    "options": [
+                        "Một tính năng mới",
+                        "Sự kiện, thời điểm, hoặc cảm xúc khiến khách hàng nhận ra vấn đề cần giải quyết ngay",
+                        "Khuyến mãi",
+                        "Lời phàn nàn"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Trigger là ngòi nổ làm vấn đề bùng nổ (Active). VD: Trời mưa to -> Cần taxi.",
+                        "incorrect": "Khuyến mãi là External. Trigger thường gắn với Context."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "Đâu là ví dụ về 'Time Trigger'?",
+                    "options": [
+                        "Khi tôi buồn chán",
+                        "Khi bị sếp mắng",
+                        "Ngày 14/2 sắp đến",
+                        "Khi xe hỏng"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Ngày lễ, Deadline là Trigger thời gian điển hình thúc đẩy mua sắm.",
+                        "incorrect": "Buồn (Emotion), Sếp mắng (Event), Xe hỏng (Event)."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "Tại sao 'Struggle' quan trọng hơn 'Need'?",
+                    "options": [
+                        "Vì Struggle thể hiện mức độ đau đớn và cấp thiết, là cơ hội bán hàng tốt nhất",
+                        "Vì Struggle nghe hay hơn",
+                        "Struggle không quan trọng bằng Need",
+                        "Vì khách hàng thích than vãn"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "'Đói lả mà quán đóng cửa' (Struggle) tạo cơ hội bán hàng tốt hơn 'Cần ăn' (Need).",
+                        "incorrect": "Need là trạng thái tĩnh. Struggle là động lực mua."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "'Event Trigger' nào mạnh nhất để mua Bảo hiểm nhân thọ?",
+                    "options": [
+                        "Sinh nhật tuổi 30",
+                        "Nhận chức vụ mới",
+                        "Vừa có con đầu lòng hoặc người thân qua đời",
+                        "Trúng số"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Sự kiện thay đổi cuộc đời (Life-changing events) kích hoạt Job Bảo vệ/Trách nhiệm.",
+                        "incorrect": "Sinh nhật hay trúng số hướng đến hưởng thụ."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Mối quan hệ giữa Pain và Trigger?",
+                    "options": [
+                        "Pain là thuốc nổ, Trigger là que diêm",
+                        "Pain là kết quả của Trigger",
+                        "Trigger quan trọng hơn Pain",
+                        "Hai cái là một"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Pain tích tụ năng lượng. Trigger châm ngòi cho năng lượng đó bùng nổ.",
+                        "incorrect": "Chúng khác nhau về chức năng."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Thực hành & Chiến lược (10 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Tình huống: Bán phần mềm Quản lý chi tiêu. Trigger: 'Cuối tháng hết sạch tiền mà không hiểu tiêu vào đâu'. Đây là loại Trigger nào?",
+                    "options": [
+                        "Positive Trigger",
+                        "Negative Event Trigger (Sự kiện tiêu cực lặp lại)",
+                        "Time Trigger thuần túy",
+                        "Social Trigger"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Sự kiện 'Hết tiền bí hiểm' tạo ra cảm giác Mất kiểm soát. Đây là thời điểm vàng.",
+                        "incorrect": "Time (Cuối tháng) chỉ là bối cảnh."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Tình huống: Mua Snickers lúc 3h chiều, mắt díp, đói. Struggle chính là gì?",
+                    "options": [
+                        "Thèm ngọt",
+                        "Energy Dip (Tụt năng lượng) làm giảm khả năng làm việc",
+                        "Muốn ăn quà vặt",
+                        "Thích sô-cô-la"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Struggle thực sự là 'Không thể tiếp tục làm việc'. Snickers giúp 'Nạp pin'.",
+                        "incorrect": "Thèm ngọt là sở thích, không phải Struggle cấp bách."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Câu hỏi: Đối với Job 'Tuyển dụng', Trigger nào khiến HR chốt mua LinkedIn Premium?",
+                    "options": [
+                        "Khi có ngân sách",
+                        "Khi sếp giục 'Phải có người tuần sau' mà đăng Facebook không hiệu quả",
+                        "Khi LinkedIn giảm giá",
+                        "Khi buồn chán"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Deadline + Sự bất lực của giải pháp cũ = Trigger hoàn hảo.",
+                        "incorrect": "Ngân sách là điều kiện, không phải Trigger."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Tình huống: GrabFood nổ thông báo: 'Trời mưa to quá, ngồi nhà ăn lẩu cho ấm nhé!'. Grab dùng Trigger nào?",
+                    "options": [
+                        "Time Trigger",
+                        "Contextual/Environmental Trigger (Bối cảnh môi trường)",
+                        "Social Trigger",
+                        "Không có Trigger"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Mưa tạo ra Struggle (Ngại ra đường) + Cảm giác (Lạnh). Grab gợi ý giải pháp phù hợp.",
+                        "incorrect": "Không hẳn là Time."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Pain nào sâu sắc hơn trong việc 'Lăn khử mùi cho nam'?",
+                    "options": [
+                        "Sợ áo ố vàng",
+                        "Sợ bị người yêu/đồng nghiệp chê 'có mùi', mất tự tin nam tính",
+                        "Sợ tốn tiền",
+                        "Sợ mùi nồng"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Social/Emotional Pain (Mất mặt) luôn thôi thúc mạnh hơn Functional Pain (Ố áo).",
+                        "incorrect": "Ố áo chỉ là phiền toái nhỏ."
+                    }
+                },
+                {
+                    "id": 11,
+                    "question": "Tình huống: Bán nệm (Đệm). Chu kỳ mua rất dài. Làm sao tạo Trigger mua sớm hơn?",
+                    "options": [
+                        "Đợi nệm hỏng",
+                        "Tạo ra Fear về sức khỏe (Đau lưng, Vi khuẩn) & Lifestyle Change (Cưới, Chuyển nhà)",
+                        "Giảm giá 90%",
+                        "Bán nệm cũ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Nệm rất khó hỏng. Phải kích hoạt bằng Emotional Pain hoặc Life Events.",
+                        "incorrect": "Đợi nệm hỏng thì 20 năm mới bán được 1 cái."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Tình huống: Netflix 'Autoplay' (Tự động phát tập tiếp theo). Tính năng này loại bỏ Trigger nào?",
+                    "options": [
+                        "Start Trigger",
+                        "Stop Trigger (Quyết định dừng lại)",
+                        "Cả A và B",
+                        "Không liên quan"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Nó xóa bỏ rào cản bắt đầu và làm mờ tín hiệu dừng, khiến người dùng xem liên tục.",
+                        "incorrect": "Nó loại bỏ điểm ra quyết định."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Hiện tượng 'Revenge Shopping' (Mua sắm trả thù) sau Covid kích hoạt bởi Pain nào?",
+                    "options": [
+                        "Thiếu thốn vật chất",
+                        "Cảm giác bị kìm kẹp, mất tự do (Loss of Agency)",
+                        "Giá giảm",
+                        "Mua dự trữ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Mua sắm để lấy lại quyền kiểm soát cuộc sống. Emotional Pain được giải phóng.",
+                        "incorrect": "Không phải vì thiếu đồ."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "IKEA thiết kế đường đi ngoằn ngoèo để làm gì?",
+                    "options": [
+                        "Tạo Impulse Triggers (Kích hoạt mua ngẫu hứng)",
+                        "Làm khách mỏi chân",
+                        "Tiết kiệm diện tích",
+                        "Giảm nhân viên"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Bắt khách nhìn thấy những món đồ Latent Need -> 'Ơ cái này hay nhỉ' -> Mua luôn.",
+                        "incorrect": "Mục tiêu là tăng doanh số qua ngẫu hứng."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tình huống: Uber hiển thị vị trí xe trên bản đồ. Nó giải quyết Anxiety nào?",
+                    "options": [
+                        "Sợ tốn tiền",
+                        "Sợ không chắc chắn (Uncertainty Anxiety) - 'Xe ở đâu? Bao giờ tới?'",
+                        "Sợ lái xe xấu",
+                        "Cho đẹp"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Thời gian chờ mà KHÔNG biết xe ở đâu cảm thấy rất dài. Nhìn thấy xe gỡ bỏ sự bất an.",
+                        "incorrect": "Tốn tiền thì đã biết giá rồi."
+                    }
+                }
+            ]
+        }
+    ]
+}

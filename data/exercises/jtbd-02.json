@@ -1,0 +1,244 @@
+{
+    "id": "jtbd-02",
+    "title": "Bài 2: 3 Lớp Jobs (Functional - Emotional - Social)",
+    "description": "Thành thạo việc phân loại và thấu hiểu 3 tầng lớp Jobs: Chức năng, Cảm xúc và Xã hội.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Nhận biết (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "'Functional Job' (Job Chức năng) trả lời cho câu hỏi nào?",
+                    "options": [
+                        "Tôi muốn cảm thấy thế nào?",
+                        "Người khác nghĩ gì về tôi?",
+                        "Tôi cần hoàn thành công việc cụ thể gì?",
+                        "Tôi muốn mua gì?"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Functional Job là các nhiệm vụ thực tế, chức năng thuần túy (VD: Cắt cỏ, Khoan lỗ).",
+                        "incorrect": "Cảm thấy là Emotional. Người khác nghĩ là Social. Mua gì là Solution."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "Khi một người mua kem đánh răng để 'ngăn ngừa sâu răng', đó là Job gì?",
+                    "options": [
+                        "Emotional Job",
+                        "Functional Job",
+                        "Social Job",
+                        "Financial Job"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Ngăn ngừa sâu răng là một nhiệm vụ sinh học/chức năng cụ thể.",
+                        "incorrect": "Nếu mua để 'tự tin cười' thì mới là Emotional/Social. Ngừa sâu răng là Function."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "'Tôi muốn được đồng nghiệp ngưỡng mộ vì gu thời trang tinh tế'. Đây là Job gì?",
+                    "options": [
+                        "Functional Job",
+                        "Emotional Job",
+                        "Social Job",
+                        "Technical Job"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Từ khóa 'người khác/đồng nghiệp' và 'ngưỡng mộ' là dấu hiệu của Social Job.",
+                        "incorrect": "Nó không phải chức năng (che thân) hay chỉ cảm xúc nội tại (thấy vui)."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "'Emotional Job' (Job Cảm xúc) tập trung vào điều gì?",
+                    "options": [
+                        "Trạng thái tâm lý nội tại của người dùng",
+                        "Cách người dùng thực hiện công việc",
+                        "Giá tiền sản phẩm",
+                        "Đánh giá của người ngoài"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Emotional Job là cảm giác họ muốn có: Yên tâm, Tự hào, Không lo lắng.",
+                        "incorrect": "Đánh giá của người ngoài là Social Job."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Tại sao chỉ tập trung vào Functional Job là sai lầm?",
+                    "options": [
+                        "Vì nó quá dễ làm",
+                        "Vì khách hàng thường quyết định mua bằng Cảm xúc (Emotional) và biện minh bằng Lý trí (Functional)",
+                        "Vì Functional Job không quan trọng",
+                        "Vì Functional Job không tồn tại"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Sản phẩm tốt về chức năng nhưng thất bại về cảm xúc sẽ không bán được.",
+                        "incorrect": "Functional vẫn quan trọng, nhưng chưa ĐỦ."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Phân loại & Ứng dụng (10 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Tình huống: Chị Mai mua túi Hermes Birkin giá 300 triệu. Functional Job chính ở đây là gì, và tại sao nó KHÔNG phải lý do chính để chị mua?",
+                    "options": [
+                        "Đựng đồ dùng cá nhân. Vì túi 100k cũng đựng được.",
+                        "Để khoe giàu. Vì khoe giàu là xấu.",
+                        "Để đầu tư. Vì túi mất giá.",
+                        "Để bền. Vì da Hermes bền nhất."
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Functional Job chỉ đơn giản là 'container' (đựng đồ). Chị Mai mua vì Social Job (Khoe đẳng cấp) và Emotional Job (Tự hào).",
+                        "incorrect": "Khoe giàu là Social Job, không phải Functional."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Tình huống: Anh Nam mua bảo hiểm nhân thọ cho con. Job Cảm xúc (Emotional Job) mạnh nhất ở đây là gì?",
+                    "options": [
+                        "Để có tiền lãi sau 18 năm",
+                        "Để giảm bớt 'Nỗi lo âu' (Anxiety) về tương lai nếu mình gặp rủi ro",
+                        "Để khoe với hàng xóm là mình lo cho con",
+                        "Để hoàn thành thủ tục giấy tờ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Bảo hiểm bán 'Sự yên tâm' (Peace of mind). Đây là cảm xúc nội tại cực mạnh.",
+                        "incorrect": "Tiền lãi là Functional. Khoe là Social."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Tình huống: Uống Starbucks thay vì cà phê vỉa hè khi đi gặp đối tác. Job nào đang chiếm ưu thế (Dominant Job)?",
+                    "options": [
+                        "Functional Job (Caffein nạp vào người)",
+                        "Social Job (Trông chuyên nghiệp, tôn trọng đối tác)",
+                        "Emotional Job (Yêu hương vị cà phê cháy)",
+                        "Economic Job (Tiết kiệm tiền)"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Cầm cốc Starbucks hoặc ngồi quán Starbucks khi gặp đối tác giúp định vị hình ảnh bản thân.",
+                        "incorrect": "Nếu chỉ cần Caffein (Functional), cà phê vỉa hè còn mạnh hơn và rẻ hơn."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Câu hỏi: Một phần mềm kế toán tự động giúp chủ doanh nghiệp 'Không còn lo bị phạt thuế'. 'Không còn lo' là Job gì?",
+                    "options": [
+                        "Functional",
+                        "Emotional/Anxiety Relief",
+                        "Social",
+                        "Technical"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Sự sợ hãi (Anxiety) là cảm xúc. Loại bỏ sự sợ hãi là một Emotional Job khổng lồ.",
+                        "incorrect": "'Tính toán thuế đúng' mới là Functional. 'Yên tâm không bị phạt' là Emotional."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Tình huống: Mua iPhone 15 Pro Max màu Titanium tự nhiên mới nhất ngay ngày mở bán. Job nào ít quan trọng nhất trong quyết định này?",
+                    "options": [
+                        "Social Job (Cho người ta biết mình dùng máy mới nhất)",
+                        "Emotional Job (Thoả mãn khao khát công nghệ)",
+                        "Functional Job (Nghe gọi nhắn tin cơ bản)",
+                        "Tất cả đều quan trọng như nhau"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Nếu chỉ để nghe gọi (Functional), iPhone 5 cũng làm được. Người ta mua vì Social & Emotional.",
+                        "incorrect": "Functional Job ở đây bị 'bão hòa', không phải động lực switch."
+                    }
+                },
+                {
+                    "id": 11,
+                    "question": "Tình huống: Một Giám đốc CNTT (CIO) chọn mua IBM Thay vì một Startup nọ rẻ hơn 30%. Có câu nói 'No one ever got fired for buying IBM' (Chưa ai bị đuổi việc vì mua IBM cả). Câu này ám chỉ Job nào đang chi phối?",
+                    "options": [
+                        "Functional Job (IBM tính năng tốt nhất)",
+                        "Financial Job (IBM giá tốt nhất)",
+                        "Social & Emotional Job (Sự an toàn cho sự nghiệp & uy tín cá nhân)",
+                        "Ecological Job (Bảo vệ môi trường)"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "CIO chọn IBM không phải vì nó tốt nhất, mà vì nó an toàn nhất cho ghế của ông ấy. 'Safety Job'.",
+                        "incorrect": "Startup rẻ hơn và có thể nhanh hơn nhưng thua ở 'Safety Job'."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Tình huống: Hãng xe Volvo định vị là 'Xe an toàn nhất thế giới'. Chiến lược này đánh vào đâu?",
+                    "options": [
+                        "Functional (Xe cứng)",
+                        "Social (Khoe trách nhiệm)",
+                        "Emotional (Cảm giác bình yên chở con)",
+                        "Cả A, B và C, nhưng Emotional là đích đến cuối cùng"
+                    ],
+                    "correctAnswer": 3,
+                    "feedback": {
+                        "correct": "Functional là nền tảng. Emotional (Bình yên/Giảm lo âu) mới là thứ khiến họ trả giá cao.",
+                        "incorrect": "Đừng tách rời. Job hoạt động theo hệ thống."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Tình huống: Ứng dụng hẹn hò Tinder. Job 'Emotional' của việc quẹt (swiping) liên tục mà không chat là gì?",
+                    "options": [
+                        "Tìm người yêu thật",
+                        "Cảm giác được khao khát (Validation) và giải trí (Entertainment)",
+                        "Luyện cơ ngón tay",
+                        "Tìm bạn tri kỷ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Nhiều người dùng để thấy 'Match' -> Cảm thấy mình vẫn hấp dẫn (Emotional Validation).",
+                        "incorrect": "Nếu chỉ tìm người yêu (Functional), họ sẽ chat và gặp ngay."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "Trong B2B Software, 'User' (người dùng) và 'Buyer' (người mua) thường có Job mâu thuẫn nhau. Ví dụ nào đúng?",
+                    "options": [
+                        "Buyer muốn giá rẻ / User muốn giá đắt",
+                        "Buyer muốn kiểm soát (Social/Functional) / User muốn dễ dùng (Functional/Emotional)",
+                        "Buyer muốn màu xanh / User muốn màu đỏ",
+                        "Buyer và User luôn cùng phe"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Sếp (Buyer) mua để quản lý. Nhân viên (User) ghét vì 'bị soi'. Xung đột này làm dự án thất bại.",
+                        "incorrect": "Hiếm khi là vấn đề màu sắc hay giá (với User)."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tình huống: Xe điện VinFast. Việc xây dựng trạm sạc phủ khắp các tỉnh thành giải quyết tầng Job nào quan trọng nhất?",
+                    "options": [
+                        "Functional (Sạc điện)",
+                        "Emotional (Giải quyết 'Range Anxiety' - Nỗi lo hết điện giữa đường)",
+                        "Social (Bảo vệ môi trường)",
+                        "Financial (Tiết kiệm xăng)"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Khách mua vì 'Yên tâm đi xa' (Emotional: Anxiety Relief). Có trạm sạc -> Hết lo âu -> Mới dám mua xe.",
+                        "incorrect": "Sạc là chức năng, nhưng Nỗi sợ mới là rào cản tâm lý."
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+{
+    "id": "jtbd-03",
+    "title": "Bài 3: Cấu Trúc Job Statement",
+    "description": "Thành thạo công thức 'When - I want - So I can' để diễn đạt Job một cách chuẩn xác.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Công thức cơ bản (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Công thức Job Statement chuẩn theo lý thuyết JTBD là gì?",
+                    "options": [
+                        "I want to [Làm gì], because I am [Ai]",
+                        "When [Situation], I want to [Motivation], So I can [Expected Outcome]",
+                        "I need [Sản phẩm], so I can [Tính năng]",
+                        "When [Thời gian], I want to [Mua hàng]"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Cấu trúc 3 phần: Hoàn cảnh (When) + Động lực (Want) + Kết quả mong đợi (So I can).",
+                        "incorrect": "Không bắt đầu bằng Persona (I am) hay Sản phẩm (I need)."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "Phần 'When' trong Job Statement mô tả điều gì?",
+                    "options": [
+                        "Thời gian trong ngày",
+                        "Bối cảnh hoặc tình huống kích hoạt nhu cầu",
+                        "Ngày tháng năm sinh",
+                        "Khi nào sản phẩm giảm giá"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "'When' là Context/Situation (VD: Khi tôi đang vội, Khi tôi bị đau lưng...).",
+                        "incorrect": "Thời gian (Time) chỉ là một phần nhỏ của Situation."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "Phần 'So I can' mô tả điều gì?",
+                    "options": [
+                        "Tính năng sản phẩm",
+                        "Điều tôi sẽ làm tiếp theo",
+                        "Tiến triển (Progress) hoặc lợi ích cuối cùng mà khách hàng mong muốn",
+                        "Giá tiền"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Đây là 'đích đến'. VD: So I can... cảm thấy tự hào, không bị trễ giờ.",
+                        "incorrect": "Tính năng là phương tiện, không phải đích đến."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "Câu nào sau đây là một Job Statement SAI (hoặc yếu)?",
+                    "options": [
+                        "Khi tôi đói bụng, tôi muốn ăn, để tôi no.",
+                        "Tôi muốn mua một cái máy khoan Makita 500W.",
+                        "Khi tôi đi làm xa, tôi muốn nghe podcast, để đỡ buồn ngủ.",
+                        "Khi tôi tổ chức tiệc, tôi muốn món ăn dọn ra nhanh, để khách không phải chờ."
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đây là 'Solution Statement' (mua máy khoan). Job phải là 'tạo lỗ' hoặc 'treo tranh'.",
+                        "incorrect": "Các câu còn lại đều có Structure (When - Want - So can) dù đơn giản."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Tại sao Job Statement không nên nhắc đến tên sản phẩm?",
+                    "options": [
+                        "Vì sản phẩm có thể thay đổi, nhưng Job thì bền vững",
+                        "Vì nhắc tên sản phẩm là quảng cáo",
+                        "Vì khách hàng không nhớ tên sản phẩm",
+                        "Vì tên sản phẩm không quan trọng"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Job 'Nghe nhạc' tồn tại độc lập với 'iPod'. Nếu gán chặt Job với iPod, khi iPod chết, bạn tưởng Job cũng chết (sai).",
+                        "incorrect": "Không phải vấn đề quảng cáo. Vấn đề là tư duy Solution-independent."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Tinh chỉnh & Phân tích sâu (10 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Statement: 'Khi tôi là phụ nữ 30 tuổi, tôi muốn mua mỹ phẩm, để đẹp hơn.' Lỗi sai lớn nhất của câu này là gì?",
+                    "options": [
+                        "'Phụ nữ 30 tuổi' là Persona, không phải Situation",
+                        "'Mua mỹ phẩm' là hành động, không phải Motivation",
+                        "'Đẹp hơn' quá chung chung",
+                        "Cả A, B và C"
+                    ],
+                    "correctAnswer": 3,
+                    "feedback": {
+                        "correct": "Statement này quá tệ. Nó dựa trên Nhân khẩu học và Sản phẩm, không có Context và Outcome cụ thể.",
+                        "incorrect": "Các lỗi đều đúng, nhưng D bao quát nhất."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Tình huống nào sau đây tạo ra Context (When) mạnh nhất cho Job 'Mua bảo hiểm du lịch'?",
+                    "options": [
+                        "Khi tôi là người thích đi du lịch",
+                        "Khi tôi vừa đặt vé máy bay đi Châu Âu và nghe tin hành lý hay bị thất lạc",
+                        "Khi tôi có thẻ Visa",
+                        "Khi tôi rảnh rỗi"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Context cụ thể (Đi Châu Âu) + Trigger (Sợ mất hành lý) tạo ra nhu cầu cấp thiết.",
+                        "incorrect": "'Thích đi du lịch' là sở thích (tĩnh). Job cần tình huống động (vừa đặt vé)."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Trong B2B, câu nào là Job của Người quản lý HR?",
+                    "options": [
+                        "Tôi muốn mua phần mềm Base.vn",
+                        "Khi công ty tăng lên 100 người, tôi muốn hệ thống hóa quy trình, để không bị sai sót lương.",
+                        "Tôi muốn phần mềm rẻ nhất",
+                        "Tôi muốn làm HR chuyên nghiệp"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Context (Tăng size lên 100) -> Motivation (Hệ thống hóa) -> Outcome (Không sai sót).",
+                        "incorrect": "A là Mua giải pháp. C là điều kiện."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Tình huống: Bán khoá học Yoga. Statement A: 'Khi đau lưng, tôi muốn tập Yoga, để hết đau.' Statement B: 'Khi tôi cảm thấy cơ thể già đi, tôi muốn tìm lại sự dẻo dai, để tự tin chơi với con.' Câu nào sâu sắc hơn?",
+                    "options": [
+                        "Câu A",
+                        "Câu B"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Câu B chạm đến Emotional (Già đi) và Social/Personal Outcome (Chơi với con). Câu A chỉ là Functional.",
+                        "incorrect": "Câu A đúng nhưng ở mức độ bề mặt."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Yếu tố 'Unexpected Event' (Sự kiện bất ngờ) thường nằm ở đâu trong Job Statement?",
+                    "options": [
+                        "Phần When (Situation)",
+                        "Phần I want",
+                        "Phần So I can",
+                        "Không nằm ở đâu cả"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "'Khi máy tính đột ngột bị hỏng...' -> Sự kiện bất ngờ tạo ra Context cực mạnh.",
+                        "incorrect": "Nó là ngòi nổ (Trigger) của tình huống."
+                    }
+                },
+                {
+                    "id": 11,
+                    "question": "Tình huống: GrabBike. Nếu Job là 'Di chuyển' thì đối thủ là Taxi. Nếu Job là 'Giao hàng gấp', thì đối thủ là ai?",
+                    "options": [
+                        "Bưu điện & Dịch vụ shipper",
+                        "Tự mình đi đưa",
+                        "Nhờ bạn bè tiện đường",
+                        "Tất cả các phương án trên"
+                    ],
+                    "correctAnswer": 3,
+                    "feedback": {
+                        "correct": "Khi Context đổi sang 'Giao hàng', bộ đối thủ thay đổi. Tự đi đưa hoặc nhờ bạn cũng là giải pháp thay thế.",
+                        "incorrect": "Đừng chỉ nhìn đối thủ trực tiếp."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Tình huống: Bán sữa cho người già (Ensure). Job A: 'Để bố mẹ khỏe'. Job B: 'Để con cái chuộc lỗi vì đi làm xa ít chăm sóc'. Insight nào bán được hàng giá cao?",
+                    "options": [
+                        "Job A",
+                        "Job B"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Ensure bán 'Sự chuộc lỗi' và 'Yên tâm' cho người con. Dinh dưỡng chỉ là nền tảng.",
+                        "incorrect": "Job A quá chung chung, sữa nào cũng làm được."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Tình huống: Airbnb. 'When I travel, I want to stay in a local's house, so I can live like a local.' Phần 'So I can live like a local' đánh vào điều gì?",
+                    "options": [
+                        "Tiết kiệm tiền khách sạn",
+                        "Trải nghiệm văn hóa & Cảm giác thuộc về (Experiential/Emotional Outcome)",
+                        "An toàn",
+                        "Sạch sẽ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Định vị 'Belong Anywhere' của Airbnb đánh trúng Outcome này. Khách sạn tiện hơn, nhưng không cho cảm giác 'Local'.",
+                        "incorrect": "Airbnb đôi khi đắt hơn khách sạn."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "Câu hỏi: Khi viết Job Statement, tại sao nên dùng động từ chỉ 'Tiến triển' (Improve, Reduce, Eliminate) thay vì động từ tĩnh (Have, Be)?",
+                    "options": [
+                        "Vì nghe hay hơn",
+                        "Vì Job là về sự thay đổi trạng thái (Movement/Progress)",
+                        "Vì bắt buộc",
+                        "Không quan trọng"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "From A to B. Động từ phải thể hiện hướng di chuyển. Khách hàng muốn 'Giảm lo âu', không chỉ muốn 'Có sản phẩm'.",
+                        "incorrect": "Dùng từ tĩnh dễ rơi vào bẫy 'Sở hữu'."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tình huống: Một người hút thuốc lá. Job: 'When stressed, want smoke, so can relax'. Đối thủ của thuốc lá trong Job này là gì?",
+                    "options": [
+                        "Kẹo cao su nicotine",
+                        "Đi dạo, Hít thở sâu, Lướt TikTok",
+                        "Miếng dán cai thuốc",
+                        "Tất cả các phương án trên"
+                    ],
+                    "correctAnswer": 3,
+                    "feedback": {
+                        "correct": "Bất cứ thứ gì giúp 'Relax' khi 'Stressed' đều là đối thủ. Đối thủ không chỉ là sản phẩm thay thế thuốc lá.",
+                        "incorrect": "Đừng hạn hẹp đối thủ."
+                    }
+                }
+            ]
+        }
+    ]
+}
