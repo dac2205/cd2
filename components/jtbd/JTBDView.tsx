@@ -154,7 +154,6 @@ export default function JTBDView({ data, htmlData }: JTBDViewProps) {
         { key: "functional", label: "Functional Jobs", icon: BookOpen, color: "hsl(var(--ink-brown))" },
         { key: "emotional", label: "Emotional Jobs", icon: Heart, color: "hsl(var(--primary))" },
         { key: "social", label: "Social Jobs", icon: Users, color: "hsl(var(--accent))" },
-        { key: "other", label: "Other Jobs", icon: Sparkles, color: "hsl(var(--secondary))" },
     ];
 
     const currentJobs = data?.[activeTab] || [];
@@ -165,7 +164,7 @@ export default function JTBDView({ data, htmlData }: JTBDViewProps) {
             {/* Tabs */}
             <div style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(4, 1fr)",
+                gridTemplateColumns: "repeat(3, 1fr)",
                 gap: "1rem",
                 marginBottom: "3rem"
             }}>
