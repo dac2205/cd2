@@ -37,8 +37,9 @@ export default function BrandList({ initialBrands }: BrandListProps) {
                 newFavorites = prev.filter((s) => s !== slug);
             } else {
                 if (prev.length >= 3) {
-                    toast.error("Chỉ được chọn tối đa 3 brands yêu thích", {
-                        description: "Hãy bỏ một brand đi để thêm brand mới."
+                    toast.info("Đã đạt giới hạn 3 brands yêu thích", {
+                        description: "Bạn cần bỏ một brand cũ để thêm brand mới.",
+                        style: { background: '#EFF6FF', color: '#1E40AF', border: '1px solid #DBEAFE' } // Blue theme
                     });
                     return prev;
                 }
@@ -50,27 +51,29 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     };
 
     // Combine and sort brands: Favorites first
-    const sortedBrands = [
-        ...initialBrands.filter(b => favorites.includes(b.slug)),
-        ...initialBrands.filter(b => !favorites.includes(b.slug))
-    ];
+    const favoritedBrands = initialBrands.filter(b => favorites.includes(b.slug));
+    const otherBrands = initialBrands.filter(b => !favorites.includes(b.slug));
 
     const renderCard = (brand: Brand, isFavorite: boolean) => (
         <Link key={brand.slug} href={`/brands/${brand.slug}`} className="block group no-underline h-full">
             <Card className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm relative overflow-hidden">
                 <div
-                    onClick={(e) => toggleFavorite(e, brand.slug)}
-                    className="absolute top-4 right-4 z-10 cursor-pointer p-1 hover:bg-black/5 rounded-full transition-colors"
+                    className="absolute top-0 w-full flex justify-center pt-2 z-10"
                 >
-                    <Heart
-                        size={20}
-                        fill={isFavorite ? "#ef4444" : "none"}
-                        color={isFavorite ? "#ef4444" : "currentColor"}
-                        className="text-ink-brown/40 hover:text-red-500 transition-colors"
-                    />
+                    <div
+                        onClick={(e) => toggleFavorite(e, brand.slug)}
+                        className="cursor-pointer p-2 hover:bg-black/5 rounded-full transition-colors flex items-center justify-center"
+                    >
+                        <Heart
+                            size={20}
+                            fill={isFavorite ? "#ef4444" : "none"}
+                            color={isFavorite ? "#ef4444" : "currentColor"}
+                            className="text-ink-brown/40 hover:text-red-500 transition-colors"
+                        />
+                    </div>
                 </div>
-                <CardHeader>
-                    <CardTitle className="pr-8 text-xl text-ink-brown font-serif">{brand.meta.name}</CardTitle>
+                <CardHeader className="pt-10">
+                    <CardTitle className=" text-xl text-ink-brown font-serif">{brand.meta.name}</CardTitle>
                     <p className="text-sm text-ink-brown/60">
                         {brand.meta.owner}
                     </p>
@@ -101,8 +104,36 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     }
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {sortedBrands.map(brand => renderCard(brand, favorites.includes(brand.slug)))}
+        <div className="space-y-12 animate-slide-in">
+            {/* Favorited Brands Section - Only show if there are favorites */}
+            {favoritedBrands.length > 0 && (
+                <div suppressHydrationWarning>
+                    <div className="flex items-center gap-4 mb-8">
+                        <Heart className="fill-red-500 text-red-500" size={24} />
+                        <h2 className="text-2xl font-serif font-bold text-ink-brown">Thương hiệu yêu thích</h2>
+                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-bold">
+                            {favoritedBrands.length}/3
+                        </span>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {favoritedBrands.map(brand => renderCard(brand, true))}
+                    </div>
+
+                    {/* Separator */}
+                    <div className="border-t border-ink-brown/10 my-12" />
+                </div>
+            )}
+
+            {/* Other Brands Section */}
+            <div>
+                {favoritedBrands.length > 0 && (
+                    <h2 className="text-2xl font-serif font-bold text-ink-brown mb-8 text-left">Khám phá các thương hiệu khác</h2>
+                )}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {otherBrands.map(brand => renderCard(brand, false))}
+                </div>
+            </div>
         </div>
     );
 }
