@@ -27,11 +27,6 @@
             "title": "Trạng thái ổn định cũ",
             "description": "Khách hàng đang dùng giải pháp hiện tại. Không yêu, nhưng chưa đủ khó chịu để đổi. Có inertia (quán tính).",
             "insight": "JTBD chưa tồn tại ở đây",
-            "interviewQuestions": [
-                "Trước khi dùng [sản phẩm/dịch vụ của chúng tôi], bạn đang làm gì để giải quyết vấn đề này?",
-                "Bạn cảm thấy thế nào về giải pháp cũ đó? Có điều gì bạn thích không?",
-                "Tại sao bạn vẫn tiếp tục dùng giải pháp đó dù biết nó không hoàn hảo?"
-            ],
             "examples": {
                 "ngoc-cis": "Mẹ bỉm lướt điện thoại đến 2h sáng mỗi đêm để ngủ được. Biết không tốt nhưng 'cũng được', chấp nhận thiếu ngủ là bình thường của mẹ bỉm.",
                 "aurora-english": "Dùng Google Dịch khi cần giao tiếp với đối tác nước ngoài. Hơi ngại nhưng 'tạm được', công việc vẫn chạy.",
@@ -45,11 +40,6 @@
             "title": "Dấu hiệu bất ổn đầu tiên",
             "description": "Một chuyện nhỏ xảy ra. Hơi khó chịu, hơi lệch nhịp. Nhưng chưa hành động.",
             "insight": "Dấu hiệu đầu tiên thường bị bỏ qua",
-            "interviewQuestions": [
-                "Bạn có nhớ lần đầu tiên bạn nghĩ 'Hmm, có gì đó không ổn' không? Chuyện gì đã xảy ra?",
-                "Lúc đó bạn nghĩ gì? Bạn có làm gì để thay đổi không?",
-                "Tại sao bạn không hành động ngay lúc đó?"
-            ],
             "examples": {
                 "ngoc-cis": "Một buổi sáng thức dậy thấy đau đầu dữ dội, mắt sưng húp. Nghĩ thầm 'hôm nay mệt quá', nhưng vẫn cố gắng đi làm.",
                 "aurora-english": "Trong cuộc họp, không hiểu đối tác nói gì, phải nhờ đồng nghiệp dịch. Hơi xấu hổ nhưng nghĩ 'lần sau chuẩn bị kỹ hơn'.",
@@ -63,11 +53,6 @@
             "title": "Tích tụ khó chịu",
             "description": "Những bất tiện lặp lại. Cảm xúc âm ỉ (mệt, cáu, bất an, ngại). Bắt đầu so sánh trong đầu, dù chưa nói ra.",
             "insight": "Đây là lúc Emotional Job bắt đầu hình thành",
-            "interviewQuestions": [
-                "Sau đó, tình hình có trở nên tệ hơn không? Những gì lặp lại khiến bạn khó chịu?",
-                "Bạn cảm thấy thế nào về bản thân khi vấn đề cứ lặp đi lặp lại?",
-                "Bạn có bắt đầu so sánh mình với người khác không? Nghĩ gì?"
-            ],
             "examples": {
                 "ngoc-cis": "3 đêm liên tiếp mất ngủ. Sáng dậy cáu gắt với con vì chuyện nhỏ. Thấy bạn bè đăng ảnh tươi tắn, tự hỏi 'sao mình lại kiệt sức thế này?'",
                 "aurora-english": "Nhiều lần bị bỏ qua trong cuộc họp vì không dám phát biểu. Thấy đồng nghiệp trẻ tuổi thuyết trình tiếng Anh trôi chảy, cảm thấy mình 'lỗi thời'.",
@@ -81,11 +66,6 @@
             "title": "Giọt nước tràn ly",
             "description": "Một sự kiện rất cụ thể. Làm họ không chịu được nữa. Quyết định: 'Phải đổi'.",
             "insight": "JTBD luôn gắn với trigger thật",
-            "interviewQuestions": [
-                "Kể cho tôi nghe về khoảnh khắc bạn quyết định 'Đủ rồi, phải thay đổi ngay'. Chuyện gì đã xảy ra?",
-                "Ngày đó là ngày nào? Bạn đang ở đâu? Bạn cảm thấy thế nào?",
-                "Điều gì khác biệt giữa lần này và những lần trước khiến bạn THỰC SỰ quyết định hành động?"
-            ],
             "examples": {
                 "ngoc-cis": "Đêm thứ 4 mất ngủ, ngồi khóc một mình lúc 3h sáng. Sáng hôm sau suýt gây tai nạn vì buồn ngủ khi lái xe. Nghĩ: 'Không thể tiếp tục thế này!'",
                 "aurora-english": "Sếp thông báo cơ hội thăng chức nhưng yêu cầu tiếng Anh tốt. Nếu không cải thiện trong 3 tháng, vị trí sẽ cho người khác. Nghĩ: 'Đủ rồi, phải học ngay!'",
@@ -99,11 +79,6 @@
             "title": "Bắt đầu tìm giải pháp",
             "description": "Lên Google, hỏi bạn bè, nhớ lại lựa chọn cũ. Không tìm 'tốt nhất', mà tìm 'đỡ đau nhất lúc này'.",
             "insight": "Người ta hire solution, không mua sản phẩm",
-            "interviewQuestions": [
-                "Sau khi quyết định thay đổi, điều đầu tiên bạn làm là gì? Bạn tìm kiếm ở đâu?",
-                "Bạn search Google từ khóa gì? Hoặc hỏi ai?",
-                "Lúc đó bạn đang tìm kiếm điều gì cụ thể? (Không phải sản phẩm, mà là kết quả)"
-            ],
             "examples": {
                 "ngoc-cis": "Google: 'cách chữa mất ngủ cho mẹ bỉm'. Hỏi nhóm mẹ bỉm trên Facebook. Thấy quảng cáo Ngoc CIS: 'Ngủ sâu 15 phút không cần thuốc'.",
                 "aurora-english": "Google: 'học tiếng Anh giao tiếp cho người đi làm'. Hỏi đồng nghiệp học ở đâu. Thấy Aurora English quảng cáo: 'Tự tin thuyết trình sau 3 tháng'.",
@@ -117,11 +92,6 @@
             "title": "Cân nhắc đánh đổi",
             "description": "So sánh 2-3 phương án. Luôn có nỗi sợ kèm theo. 'Lỡ không như kỳ vọng thì sao?'",
             "insight": "Đây là nơi insight sâu nhất nằm",
-            "interviewQuestions": [
-                "Bạn đã cân nhắc những lựa chọn nào? Ưu nhược điểm của từng cái là gì?",
-                "Điều gì khiến bạn lo lắng nhất khi nghĩ đến việc thử cái mới?",
-                "Bạn sợ mất gì nếu quyết định sai?"
-            ],
             "examples": {
                 "ngoc-cis": "So sánh: Thuốc ngủ (nhanh nhưng sợ phụ thuộc) vs Yoga (tự nhiên nhưng tốn thời gian) vs Ngoc CIS (hứa hẹn nhưng chưa biết). Lo: 'Mất tiền mà vẫn mất ngủ thì sao?'",
                 "aurora-english": "So sánh: Trung tâm truyền thống (rẻ nhưng nhàm chán) vs Gia sư 1-1 (hiệu quả nhưng đắt) vs Aurora (mindset-first nhưng lạ). Lo: 'Học xong vẫn không dám nói thì sao?'",
@@ -135,11 +105,6 @@
             "title": "Khoảnh khắc ra quyết định",
             "description": "Một lý do rất nhỏ nhưng quyết định. Có thể là lời nói của ai đó, hình ảnh, cam kết, hoặc trải nghiệm chạm đầu tiên.",
             "insight": "Brand mạnh = giảm lo lắng tại khoảnh khắc này",
-            "interviewQuestions": [
-                "Điều gì cuối cùng thuyết phục bạn chọn [sản phẩm/dịch vụ này]?",
-                "Có một khoảnh khắc, một câu nói, hay một hình ảnh cụ thể nào 'chốt' quyết định của bạn không?",
-                "Nếu phải nói một lý do DUY NHẤT khiến bạn chọn, đó là gì?"
-            ],
             "examples": {
                 "ngoc-cis": "Đọc review: 'Tôi ngủ được từ đêm đầu tiên'. Thấy cam kết: 'Hoàn tiền 100% nếu không hiệu quả'. Nghĩ: 'Thử thôi, không mất gì!'",
                 "aurora-english": "Bạn đồng nghiệp nói: 'Tôi học Aurora 2 tháng, giờ tự tin thuyết trình rồi'. Thấy lớp có 'Zone an toàn để dám sai'. Nghĩ: 'Đây là cái tôi cần!'",
@@ -153,11 +118,6 @@
             "title": "Trải nghiệm lần đầu",
             "description": "So với kỳ vọng trong đầu. Rất nhạy cảm. Mọi chi tiết nhỏ đều 'to'.",
             "insight": "Đây là lúc Job được 'thực thi'",
-            "interviewQuestions": [
-                "Kể cho tôi nghe về lần đầu tiên bạn dùng [sản phẩm/dịch vụ]. Bạn cảm thấy thế nào?",
-                "Có điều gì khác với kỳ vọng của bạn không? Tốt hơn hay tệ hơn?",
-                "Chi tiết nhỏ nào khiến bạn ấn tượng (hoặc thất vọng) nhất?"
-            ],
             "examples": {
                 "ngoc-cis": "Buổi tư vấn đầu tiên, bác sĩ hỏi kỹ về giấc ngủ, không chỉ kê đơn thuốc. Đêm đầu áp dụng, ngủ được sau 20 phút. Nghĩ: 'Ồ, có vẻ đúng!'",
                 "aurora-english": "Buổi học đầu, giáo viên giải thích 'tại sao' thay vì chỉ dạy ngữ pháp. Được khích lệ khi nói sai. Nghĩ: 'Khác hẳn trung tâm cũ!'",
@@ -171,11 +131,6 @@
             "title": "Kết quả + cảm xúc",
             "description": "Nhẹ nhõm? hài lòng? thất vọng? Có cảm giác 'Đúng là mình cần cái này' hoặc 'Biết thế...'",
             "insight": "Emotional Job được giải hoặc không",
-            "interviewQuestions": [
-                "Sau khi dùng một thời gian, bạn cảm thấy thế nào? Vấn đề đã được giải quyết chưa?",
-                "Bạn cảm thấy gì về bản thân sau khi dùng? (nhẹ nhõm, tự hào, thất vọng...)",
-                "Nếu so với kỳ vọng ban đầu, kết quả này là bao nhiêu phần trăm?"
-            ],
             "examples": {
                 "ngoc-cis": "Sau 1 tuần, ngủ sâu giấc mỗi đêm. Sáng dậy tươi tắn, vui vẻ với con. Cảm giác: 'Nhẹ nhõm! Cuối cùng cũng tìm được giải pháp!'",
                 "aurora-english": "Sau 1 tháng, tự tin phát biểu ý kiến trong cuộc họp tiếng Anh. Sếp khen. Cảm giác: 'Tự hào! Mình làm được!'",
@@ -189,11 +144,6 @@
             "title": "Gán ý nghĩa",
             "description": "Khách hàng tự kể lại câu chuyện cho mình. 'Tôi là người như thế nào vì đã chọn cái này?'",
             "insight": "Đây là Social Job",
-            "interviewQuestions": [
-                "Bây giờ khi nhìn lại, bạn nghĩ gì về quyết định này?",
-                "Bạn có kể câu chuyện này cho ai không? Bạn kể như thế nào?",
-                "Việc dùng [sản phẩm/dịch vụ này] nói gì về con người bạn?"
-            ],
             "examples": {
                 "ngoc-cis": "Kể với bạn bè: 'Tôi là người mẹ biết chăm sóc bản thân để chăm sóc con tốt hơn'. Tự nhận: 'Tôi thông minh vì đầu tư vào sức khỏe tinh thần'.",
                 "aurora-english": "Kể với đồng nghiệp: 'Tôi là người chủ động phát triển bản thân'. Tự nhận: 'Tôi là Global Citizen, không bị rào cản ngôn ngữ'.",
@@ -207,11 +157,6 @@
             "title": "Lặp lại hoặc rời bỏ",
             "description": "Nếu Job được giải tốt → thành thói quen. Nếu không → chu kỳ bắt đầu lại.",
             "insight": "JTBD là vòng lặp, không phải funnel",
-            "interviewQuestions": [
-                "Bạn có tiếp tục dùng không? Tại sao có/không?",
-                "Bạn có giới thiệu cho người khác không? Bạn nói gì với họ?",
-                "Nếu có vấn đề tương tự trong tương lai, bạn sẽ làm gì?"
-            ],
             "examples": {
                 "ngoc-cis": "Tiếp tục theo dõi định kỳ với Ngoc CIS. Giới thiệu cho bạn bè mẹ bỉm khác. Trở thành 'fan cứng', bảo vệ brand khi có người hỏi.",
                 "aurora-english": "Đăng ký khóa nâng cao. Tham gia cộng đồng học viên. Giới thiệu đồng nghiệp học. Trở thành 'đại sứ' của Aurora.",

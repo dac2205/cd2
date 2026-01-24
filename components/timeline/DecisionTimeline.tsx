@@ -17,6 +17,7 @@ interface TimelineStage {
     title: string;
     description: string;
     insight: string;
+    interviewQuestions: string[];
     examples: Record<string, string>;
 }
 
@@ -27,6 +28,7 @@ interface DecisionTimelineProps {
 
 export default function DecisionTimeline({ cases, stages }: DecisionTimelineProps) {
     const [selectedBrands, setSelectedBrands] = useState<string[]>([cases[0].id]);
+    const [showInterviewQuestions, setShowInterviewQuestions] = useState<boolean>(false);
 
     const toggleBrand = (brandId: string) => {
         if (selectedBrands.includes(brandId)) {
@@ -118,6 +120,39 @@ export default function DecisionTimeline({ cases, stages }: DecisionTimelineProp
                         );
                     })}
                 </div>
+
+                {/* Interview Questions Toggle */}
+                <div style={{
+                    marginTop: "1.5rem",
+                    paddingTop: "1.5rem",
+                    borderTop: "1px solid hsl(var(--border))"
+                }}>
+                    <label style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.75rem",
+                        cursor: "pointer"
+                    }}>
+                        <input
+                            type="checkbox"
+                            checked={showInterviewQuestions}
+                            onChange={(e) => setShowInterviewQuestions(e.target.checked)}
+                            style={{
+                                width: "20px",
+                                height: "20px",
+                                cursor: "pointer"
+                            }}
+                        />
+                        <div>
+                            <div style={{ fontWeight: "700", fontSize: "1rem" }}>
+                                Show Interview Questions
+                            </div>
+                            <div style={{ fontSize: "0.875rem", color: "hsl(var(--ink-brown) / 0.6)" }}>
+                                Display 3 key questions to ask customers at each stage
+                            </div>
+                        </div>
+                    </label>
+                </div>
             </div>
 
             {/* Timeline Table */}
@@ -159,12 +194,25 @@ export default function DecisionTimeline({ cases, stages }: DecisionTimelineProp
                                         textAlign: "left",
                                         padding: "1rem",
                                         backgroundColor: "hsl(var(--accent) / 0.1)",
-                                        borderRadius: "0 8px 8px 0",
+                                        borderRadius: showInterviewQuestions ? "0" : "0 8px 8px 0",
                                         minWidth: "300px",
                                         fontWeight: "700",
                                         color: "hsl(var(--accent))"
                                     }}>
                                         {brand2.name}
+                                    </th>
+                                )}
+                                {showInterviewQuestions && (
+                                    <th style={{
+                                        textAlign: "left",
+                                        padding: "1rem",
+                                        backgroundColor: "hsl(var(--secondary) / 0.1)",
+                                        borderRadius: "0 8px 8px 0",
+                                        minWidth: "350px",
+                                        fontWeight: "700",
+                                        color: "hsl(var(--secondary))"
+                                    }}>
+                                        Interview Questions
                                     </th>
                                 )}
                             </tr>
@@ -293,10 +341,11 @@ export default function DecisionTimeline({ cases, stages }: DecisionTimelineProp
                                             <td style={{
                                                 padding: "2rem",
                                                 backgroundColor: "hsl(var(--accent) / 0.03)",
-                                                borderRadius: "0 8px 8px 0",
+                                                borderRadius: showInterviewQuestions ? "0" : "0 8px 8px 0",
                                                 verticalAlign: "top",
                                                 border: "1px solid hsl(var(--border))",
-                                                borderLeft: "none"
+                                                borderLeft: "none",
+                                                borderRight: showInterviewQuestions ? "none" : "1px solid hsl(var(--border))"
                                             }}>
                                                 <div style={{
                                                     fontSize: "0.75rem",
@@ -319,12 +368,48 @@ export default function DecisionTimeline({ cases, stages }: DecisionTimelineProp
                                                 </p>
                                             </td>
                                         )}
+
+                                        {/* Interview Questions Column */}
+                                        {showInterviewQuestions && (
+                                            <td style={{
+                                                padding: "2rem",
+                                                backgroundColor: "hsl(var(--secondary) / 0.03)",
+                                                borderRadius: "0 8px 8px 0",
+                                                verticalAlign: "top",
+                                                border: "1px solid hsl(var(--border))",
+                                                borderLeft: "none"
+                                            }}>
+                                                <div style={{
+                                                    fontSize: "0.75rem",
+                                                    fontWeight: "700",
+                                                    textTransform: "uppercase",
+                                                    letterSpacing: "0.05em",
+                                                    color: "hsl(var(--secondary))",
+                                                    marginBottom: "0.75rem"
+                                                }}>
+                                                    ❓ Interview Questions
+                                                </div>
+                                                <ol style={{
+                                                    margin: 0,
+                                                    paddingLeft: "1.25rem",
+                                                    color: "hsl(var(--ink-brown))",
+                                                    fontSize: "0.95rem",
+                                                    lineHeight: "1.6"
+                                                }}>
+                                                    {stage.interviewQuestions.map((question, idx) => (
+                                                        <li key={idx} style={{ marginBottom: "0.75rem" }}>
+                                                            {question}
+                                                        </li>
+                                                    ))}
+                                                </ol>
+                                            </td>
+                                        )}
                                     </tr>
 
                                     {/* Connector Arrow */}
                                     {index < stages.length - 1 && (
                                         <tr>
-                                            <td colSpan={selectedBrands.length + 1} style={{ textAlign: "center", padding: "0.5rem 0" }}>
+                                            <td colSpan={selectedBrands.length + 1 + (showInterviewQuestions ? 1 : 0)} style={{ textAlign: "center", padding: "0.5rem 0" }}>
                                                 <ChevronDown size={32} style={{ color: "hsl(var(--primary))" }} />
                                             </td>
                                         </tr>
