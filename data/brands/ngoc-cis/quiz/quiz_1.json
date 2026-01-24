@@ -1,222 +1,222 @@
 [
     {
-        "question": "Bị đồng nghiệp xa lánh vì hay than thở.",
+        "question": "Sợ hãi mỗi khi đêm xuống vì biết mình sẽ mất ngủ.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là Functional Job - nhu cầu phục hồi giấc ngủ tự nhiên.",
         "id": "ngoc-cis-q1-1"
     },
     {
-        "question": "Con cái phát triển trong môi trường tích cực.",
+        "question": "Muốn xóa bỏ cảm giác tội lỗi khi dành thời gian cho bản thân.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là Emotional Job - giải phóng Mom Guilt và yêu thương bản thân.",
         "id": "ngoc-cis-q1-2"
     },
     {
-        "question": "Trở thành bến đỗ bình yên cho con.",
+        "question": "Muốn thay đổi không khí gia đình từ căng thẳng sang vui vẻ.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là Social Job - Happy Wife, Happy Mom, ảnh hưởng đến cả gia đình.",
         "id": "ngoc-cis-q1-3"
     },
     {
-        "question": "Muốn được công nhận giá trị trọn vẹn (Work-Life Integration).",
+        "question": "Cần giữ được sự bình tĩnh khi con quấy khóc thay vì hét lên.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là Functional Job - điều tiết cảm xúc trong tình huống cụ thể.",
         "id": "ngoc-cis-q1-4"
     },
     {
-        "question": "Làm việc hiệu quả, năng suất cao.",
+        "question": "Muốn kết nối lại với chính mình và tin tưởng vào bản năng làm mẹ.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là Emotional Job - tự kết nối và thăng hoa nội tâm.",
         "id": "ngoc-cis-q1-5"
     },
     {
-        "question": "Mất niềm tin vào các phòng khám/spa.",
+        "question": "Muốn trở thành tấm gương sống về tình yêu thương bản thân cho con.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là Social Job - làm Role Model cho con cái.",
         "id": "ngoc-cis-q1-6"
     },
     {
-        "question": "Khi có vấn đề sức khỏe, biết ngay mình có thể hỏi ai và tin tưởng vào câu trả lời.",
+        "question": "Cần duy trì năng lượng ổn định để vừa làm việc vừa chăm con.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là Functional Job - bảo toàn năng lượng cho Double Shift.",
         "id": "ngoc-cis-q1-7"
     },
     {
-        "question": "Cảm thấy 'bốc hỏa' vô cớ.",
+        "question": "Cần bến đỗ an toàn với đội ngũ bác sĩ chuyên môn để giao phó sức khỏe.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là Emotional Job - cảm giác an tâm và tin tưởng tuyệt đối.",
         "id": "ngoc-cis-q1-8"
     },
     {
-        "question": "Không khí gia đình trầm lắng, u ám.",
+        "question": "Muốn đi làm với tinh thần tích cực, không mang chuyện bực dọc ở nhà đến công ty.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "explanation": "Đây là Social Job - Sanity Saver, giữ mối quan hệ xã hội tốt.",
         "id": "ngoc-cis-q1-9"
     },
     {
-        "question": "Chồng quan tâm chia sẻ nhiều hơn.",
+        "question": "Muốn ngủ sâu giấc cả đêm và sáng dậy tỉnh táo sảng khoái.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là Functional Job - phục hồi giấc ngủ chất lượng.",
         "id": "ngoc-cis-q1-10"
     },
     {
-        "question": "Gia đình là bệ phóng vững chắc cho sự nghiệp.",
+        "question": "Muốn xóa bỏ định kiến 'phụ nữ có con thì công việc đi xuống'.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "explanation": "Đây là Emotional Job - kết nối lại với giá trị cốt lõi và thăng hoa.",
         "id": "ngoc-cis-q1-11"
     },
     {
-        "question": "Tự hào về phiên bản 'Người mẹ khí chất'.",
+        "question": "Muốn gia đình hòa thuận và chồng quan tâm chia sẻ nhiều hơn.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là Social Job - cải thiện không khí và mối quan hệ gia đình.",
         "id": "ngoc-cis-q1-12"
     },
     {
-        "question": "Muốn con trở thành người độc lập, hạnh phúc.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "ngoc-cis-q1-13"
-    },
-    {
-        "question": "Dạy con về tình yêu thương bản thân bằng cách làm gương (Leading by example).",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "ngoc-cis-q1-14"
-    },
-    {
-        "question": "Chỉ muốn nằm, không muốn làm gì.",
+        "question": "Cần phục hồi trí nhớ vì hay quên và nói trước quên sau.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "ngoc-cis-q1-15"
+        "explanation": "Đây là Functional Job - xóa tan Brain Fog, phục hồi khả năng ghi nhớ.",
+        "id": "ngoc-cis-q1-13"
     },
     {
-        "question": "Cần một chỗ dựa vững chắc về chuyên môn.",
+        "question": "Tìm kiếm sự an tâm dựa trên bằng chứng khoa học, không phải lời động viên sáo rỗng.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "explanation": "Đây là Emotional Job - sự an ủi khoa học và tin tưởng vào Evidence-based.",
+        "id": "ngoc-cis-q1-14"
+    },
+    {
+        "question": "Muốn được mọi người yêu mến thay vì bị xa lánh vì hay than thở.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là Social Job - cải thiện mối quan hệ xã hội và được yêu mến.",
+        "id": "ngoc-cis-q1-15"
+    },
+    {
+        "question": "Cần kiểm soát được cơn giận để không làm tổn thương con.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là Functional Job - điều tiết cảm xúc và xử lý tình huống thấu đáo.",
         "id": "ngoc-cis-q1-16"
     },
     {
-        "question": "Dễ mất kiểm soát khi con hư.",
+        "question": "Muốn tự tin vào bản năng làm mẹ và tâm hồn nhẹ nhõm.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là Emotional Job - giải phóng tội lỗi và yêu thương bản thân.",
         "id": "ngoc-cis-q1-17"
     },
     {
-        "question": "Con nhìn thấy mẹ chăm sóc bản thân và học được cách tự trân trọng mình.",
+        "question": "Muốn con cái phát triển trong môi trường tích cực và hạnh phúc.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "explanation": "Đây là Social Job - tạo môi trường gia đình tích cực cho con.",
         "id": "ngoc-cis-q1-18"
     },
     {
-        "question": "Vợ chồng hay cãi vã vì chuyện nhỏ nhặt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "ngoc-cis-q1-19"
-    },
-    {
-        "question": "Kiệt sức vào buổi chiều (tầm 4-5h).",
+        "question": "Cần chăm sóc sức khỏe toàn diện theo hướng Tâm-Thể kết hợp.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "explanation": "Đây là Functional Job - giải pháp sức khỏe Holistic, không tách rời.",
+        "id": "ngoc-cis-q1-19"
+    },
+    {
+        "question": "Muốn gia đình là bệ phóng vững chắc cho sự nghiệp thay vì đối đầu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là Emotional Job - Work-Life Integration và thăng hoa toàn diện.",
         "id": "ngoc-cis-q1-20"
     }
 ]
