@@ -9,7 +9,7 @@
             "triggers": [
                 "Bỏ lỡ cơ hội thăng tiến vì rào cản ngoại ngữ.",
                 "Cảm thấy xấu hổ khi phải dùng Google Dịch trước mặt đồng nghiệp.",
-                "Bị sếp phàn nàn về khả năng giao tiếp email tiếng Anh."
+                "Bị sếp phàn nàn về khả năng giao tiếp tiếng Anh."
             ],
             "desiredOutcome": [
                 "Có thể mở miệng nói tiếng Anh mà không cần dịch trong đầu.",
@@ -32,23 +32,6 @@
                 "Hiểu bản chất (root cause) của ngôn ngữ.",
                 "Tìm thấy niềm vui và động lực học tập nội tại.",
                 "Thay đổi tư duy (Mindset shift) về việc học."
-            ]
-        },
-        {
-            "id": "func-3",
-            "title": "Email Intelligence",
-            "description": "Viết email không chỉ 'đúng' mà còn phải 'khéo', thể hiện sự chuyên nghiệp, ngoại giao và vị thế của người gửi.",
-            "situation": "Viết mail từ chối đối tác nhưng không biết dùng từ sao cho lịch sự mà vẫn cứng rắn.",
-            "context": "Văn viết (Written communication) là bộ mặt của doanh nghiệp.",
-            "triggers": [
-                "Sợ viết mail nghe cộc lốc (rude).",
-                "Mất quá nhiều thời gian để soạn một email ngắn.",
-                "Bị hiểu lầm thái độ qua email."
-            ],
-            "desiredOutcome": [
-                "Email gãy gọn, tinh tế.",
-                "Đạt được mục đích giao tiếp.",
-                "Xây dựng hình ảnh chuyên nghiệp."
             ]
         }
     ],
@@ -86,23 +69,6 @@
                 "Cảm thấy nhẹ nhàng, không áp lực.",
                 "Dám là chính mình (Be Authentic) khi dùng ngôn ngữ khác."
             ]
-        },
-        {
-            "id": "emo-3",
-            "title": "Imposter Syndrome Relief",
-            "description": "Giải thoát khỏi cảm giác mình là kẻ giả mạo, không đủ giỏi, luôn lo sợ bị người khác phát hiện ra điểm yếu tiếng Anh.",
-            "situation": "Được khen tiếng Anh giỏi nhưng trong lòng vẫn lo nơm nớp vì biết mình chỉ học vẹt.",
-            "context": "Áp lực phải hoàn hảo khiến nhiều người không bao giờ dám mở miệng.",
-            "triggers": [
-                "Luôn so sánh mình với người khác.",
-                "Cảm thấy không xứng đáng với vị trí hiện tại.",
-                "Sợ bị 'bóc phốt' năng lực."
-            ],
-            "desiredOutcome": [
-                "Tự tin vào giá trị thực của bản thân.",
-                "Chấp nhận trình độ hiện tại và vui vẻ tiến bộ.",
-                "Thoát khỏi gánh nặng tâm lý."
-            ]
         }
     ],
     "social": [
@@ -138,23 +104,6 @@
                 "Thăng tiến lên vị trí cao hơn.",
                 "Thu nhập tăng trưởng đột phá.",
                 "Được săn đón (Headhunted)."
-            ]
-        },
-        {
-            "id": "soc-3",
-            "title": "Cultural Bridging",
-            "description": "Hiểu được các ẩn ý văn hóa (nuance), sự hài hước (humor) để kết nối sâu sắc người nước ngoài, chứ không chỉ giao tiếp bề mặt.",
-            "situation": "Mọi người cười ồ lên vì một câu đùa trong cuộc họp, còn mình thì ngơ ngác không hiểu gì.",
-            "context": "Ngôn ngữ chỉ là công cụ, văn hóa mới là cầu nối.",
-            "triggers": [
-                "Cảm thấy lạc lõng trong các buổi networking.",
-                "Không hiểu được 'ẩn ý' của đối tác.",
-                "Muốn có bạn bè quốc tế thực sự."
-            ],
-            "desiredOutcome": [
-                "Hòa nhập tự nhiên vào môi trường quốc tế.",
-                "Giao tiếp có duyên, thú vị.",
-                "Xây dựng mối quan hệ tin cậy."
             ]
         }
     ],
