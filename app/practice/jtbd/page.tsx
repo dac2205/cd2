@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Brain, Target, Users, Zap, Layers, Activity } from "lucide-react";
+import { ArrowRight, Brain, Target, Users, Zap, Layers, Activity, Scissors } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 
 const exercises = [
@@ -44,6 +44,13 @@ const exercises = [
         desc: "Core/Related Jobs, Job Map, Strategy",
         icon: <Target className="w-6 h-6 text-red-500" />,
         color: "group-hover:text-red-500"
+    },
+    {
+        id: "jtbd-separation",
+        title: "Tách JTBD khỏi Sản phẩm",
+        desc: "Phân biệt Job thực sự với Product/Service/Solution",
+        icon: <Scissors className="w-6 h-6 text-teal-500" />,
+        color: "group-hover:text-teal-500"
     }
 ];
 
@@ -53,7 +60,7 @@ export default function PracticePage() {
             <div className="text-center mb-16">
                 <h1 className="text-4xl font-bold mb-4 tracking-tight text-ink-brown font-serif">Thực hành JTBD</h1>
                 <p className="text-lg max-w-2xl mx-auto text-ink-brown/80">
-                    6 bài tập được thiết kế để chuyển hóa lý thuyết thành phản xạ. Đi từ nhận thức cơ bản đến chiến lược nâng cao.
+                    7 bài tập được thiết kế để chuyển hóa lý thuyết thành phản xạ. Đi từ nhận thức cơ bản đến chiến lược nâng cao.
                 </p>
             </div>
 

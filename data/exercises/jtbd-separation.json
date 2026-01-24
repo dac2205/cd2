@@ -1,0 +1,235 @@
+{
+    "id": "jtbd-separation",
+    "title": "Bài tập: Tách JTBD khỏi Sản phẩm/Dịch vụ",
+    "description": "Học cách phân biệt Jobs-to-be-Done (công việc thực sự) với Sản phẩm/Dịch vụ/Giải pháp mà khách hàng mua.",
+    "levels": [
+        {
+            "level": 1,
+            "title": "Round 1: Khởi động (5 Câu)",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Tôi cần iPhone 17 Pro Max. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Được người khác ngưỡng mộ và khẳng định đẳng cấp của mình",
+                        "Chụp ảnh đẹp và lưu trữ kỷ niệm gia đình",
+                        "Làm việc hiệu quả với hệ sinh thái Apple mà tôi đã đầu tư"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Đúng. Đây là Social Job - khẳng định địa vị xã hội. iPhone Pro Max không chỉ là công cụ, mà là biểu tượng đẳng cấp.",
+                        "incorrect": "Chụp ảnh và làm việc là Functional Jobs, nhưng với 'Pro Max' giá cao, Social Job (Status/Identity) thường là động lực chính."
+                    }
+                },
+                {
+                    "id": 2,
+                    "question": "Tôi tham gia khoá học Customer Decode. Thật ra tôi đang muốn...",
+                    "options": [
+                        "Hiểu sâu khách hàng để tăng doanh số và phát triển sản phẩm đúng hướng",
+                        "Có thêm một chứng chỉ để đẹp CV",
+                        "Gặp gỡ và kết nối với cộng đồng marketer chuyên nghiệp"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Chính xác. Đây là Functional Job cốt lõi - áp dụng framework JTBD để giải quyết bài toán kinh doanh thực tế.",
+                        "incorrect": "Chứng chỉ và networking có thể là lợi ích phụ, nhưng Job chính là 'decode khách hàng để tăng trưởng'."
+                    }
+                },
+                {
+                    "id": 3,
+                    "question": "Tôi cần mua thẻ tập gym. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Có nơi để thoát khỏi áp lực công việc và giải tỏa căng thẳng",
+                        "Giảm cân và có vóc dáng đẹp",
+                        "Có không gian riêng tư để nghe nhạc và suy nghĩ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đúng. Đây là Functional Job rõ ràng - thay đổi hình thể. Gym là công cụ để đạt mục tiêu này.",
+                        "incorrect": "Giải tỏa căng thẳng và không gian riêng tư là Emotional Jobs, nhưng với 'thẻ gym', mục tiêu Functional (giảm cân/tăng cơ) thường là lý do chính."
+                    }
+                },
+                {
+                    "id": 4,
+                    "question": "Tôi cần mua cà phê Starbucks mỗi sáng. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Tỉnh táo để bắt đầu ngày làm việc hiệu quả",
+                        "Có lý do để ra khỏi nhà và tránh giao tiếp với gia đình buổi sáng",
+                        "Được nhìn thấy với ly cà phê branded để thể hiện lifestyle"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chính xác. Đây là Emotional Job - tạo khoảng cách và thời gian riêng. 'Mỗi sáng' và 'Starbucks' (không phải cà phê nhà) là manh mối.",
+                        "incorrect": "Tỉnh táo có thể uống cà phê nhà. Lifestyle có thể đúng, nhưng 'mỗi sáng' gợi ý đây là ritual để có không gian cá nhân."
+                    }
+                },
+                {
+                    "id": 5,
+                    "question": "Tôi cần thuê gia sư dạy con toán. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Con tôi đạt điểm cao để vào được trường cấp 2 chất lượng",
+                        "Giảm bớt cảm giác tội lỗi vì không có thời gian dạy con",
+                        "Không phải cãi nhau với con mỗi tối về bài tập"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Đúng. Đây là Emotional Job - giải phóng căng thẳng trong mối quan hệ mẹ-con. Gia sư là 'người thay thế' để giữ hòa khí gia đình.",
+                        "incorrect": "Điểm cao là Functional, tội lỗi là Emotional, nhưng 'thuê gia sư' (outsource) thường để tránh conflict, không chỉ vì kết quả học tập."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "Round 2: Tăng tốc (5 Câu)",
+            "questions": [
+                {
+                    "id": 6,
+                    "question": "Tôi cần mua Tesla Model S. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Tiết kiệm tiền xăng và bảo vệ môi trường",
+                        "Là người tiên phong trong công nghệ và được công nhận là 'innovator'",
+                        "Có trải nghiệm lái xe êm ái và yên tĩnh"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chính xác. Tesla Model S (cao cấp) là Social Job - Identity và Status của 'Early Adopter'. Tiết kiệm xăng không phải lý do với xe giá 2+ tỷ.",
+                        "incorrect": "Tiết kiệm xăng và êm ái là Functional, nhưng với Model S (không phải Model 3), Job chính là 'tôi là ai' (Identity)."
+                    }
+                },
+                {
+                    "id": 7,
+                    "question": "Tôi cần đăng ký Spotify Premium. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Nghe nhạc không quảng cáo và tải offline khi đi làm",
+                        "Khám phá nghệ sĩ mới và mở rộng thị hiếu âm nhạc",
+                        "Ủng hộ nghệ sĩ yêu thích bằng cách trả tiền hợp pháp"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Đúng. Đây là Functional Job rõ ràng - loại bỏ gián đoạn (quảng cáo) và nghe offline. Premium giải quyết Pain cụ thể.",
+                        "incorrect": "Khám phá và ủng hộ nghệ sĩ là lợi ích phụ. Job chính của Premium là 'uninterrupted experience'."
+                    }
+                },
+                {
+                    "id": 8,
+                    "question": "Tôi cần mua MacBook Pro M3 Max. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Render video 4K nhanh để kịp deadline dự án",
+                        "Làm việc tại quán cà phê với chiếc laptop đẹp và sang trọng",
+                        "Tham gia hệ sinh thái Apple để đồng bộ với iPhone và iPad"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Chính xác. M3 Max (chip cao cấp nhất) là Functional Job - xử lý công việc nặng chuyên nghiệp. Đây là công cụ sản xuất.",
+                        "incorrect": "Làm việc tại quán cà phê là Social/Emotional. Đồng bộ là Functional nhưng không cần Max. M3 Max = Performance Job."
+                    }
+                },
+                {
+                    "id": 9,
+                    "question": "Tôi cần mua sách 'Atomic Habits'. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Có cảm giác tôi đang làm gì đó để cải thiện bản thân",
+                        "Xây dựng thói quen tốt và loại bỏ thói quen xấu một cách khoa học",
+                        "Có cuốn sách bestseller để đặt trên bàn làm việc"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Đúng. Đây là Emotional Job - 'cảm giác tiến bộ' mà không nhất thiết phải đọc xong. Mua sách ≠ Đọc sách ≠ Thay đổi.",
+                        "incorrect": "Nếu Job là 'xây dựng thói quen', họ sẽ tìm coach/course. Mua sách thường là để 'feel good about trying'."
+                    }
+                },
+                {
+                    "id": 10,
+                    "question": "Tôi cần đăng ký gói bảo hiểm sức khỏe cao cấp. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Được chăm sóc y tế tốt nhất khi ốm đau",
+                        "Ngủ ngon hơn vì biết gia đình được bảo vệ tài chính",
+                        "Chứng minh với bản thân rằng tôi là người trách nhiệm"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chính xác. Bảo hiểm là Emotional Job - 'Peace of Mind'. Họ mua sự yên tâm, không phải dịch vụ y tế (vì chưa chắc dùng).",
+                        "incorrect": "Chăm sóc y tế là Functional nhưng chỉ khi bệnh. Trách nhiệm là Social. Job chính của bảo hiểm là 'an tâm'."
+                    }
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "title": "Round 3: Về đích (5 Câu)",
+            "questions": [
+                {
+                    "id": 11,
+                    "question": "Tôi cần thuê coworking space thay vì làm việc tại nhà. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Tách biệt không gian sống và làm việc để tập trung hơn",
+                        "Gặp gỡ và networking với các founder/freelancer khác",
+                        "Có lý do chính đáng để ra khỏi nhà và tránh trách nhiệm gia đình"
+                    ],
+                    "correctAnswer": 0,
+                    "feedback": {
+                        "correct": "Đúng. Đây là Functional Job - tạo ranh giới vật lý để tăng năng suất. 'Thay vì làm tại nhà' là manh mối quan trọng.",
+                        "incorrect": "Networking là lợi ích phụ. Tránh trách nhiệm là Emotional nhưng quá tiêu cực. Job chính là 'focus mode'."
+                    }
+                },
+                {
+                    "id": 12,
+                    "question": "Tôi cần mua đồng hồ Apple Watch Ultra. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Theo dõi sức khỏe và nhận thông báo mà không cần lấy điện thoại ra",
+                        "Có vẻ ngoài của người năng động, thể thao và quan tâm sức khỏe",
+                        "Hoàn thiện bộ sưu tập Apple ecosystem"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chính xác. Apple Watch Ultra (phiên bản đắt nhất, thiết kế thể thao) là Social Job - Identity của 'active lifestyle person'.",
+                        "incorrect": "Theo dõi sức khỏe có thể dùng Watch SE rẻ hơn. Ultra = Statement về 'tôi là ai', không chỉ là Functional."
+                    }
+                },
+                {
+                    "id": 13,
+                    "question": "Tôi cần thuê tư vấn chiến lược McKinsey. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Có giải pháp chiến lược tốt nhất cho công ty",
+                        "Thuyết phục Hội đồng quản trị bằng uy tín của McKinsey",
+                        "Học hỏi phương pháp tư duy từ consultant hàng đầu"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Đúng. Thuê McKinsey thường là Social/Political Job - 'bảo hiểm quyết định'. 'McKinsey nói vậy' = Không ai dám phản đối.",
+                        "incorrect": "Giải pháp tốt có thể tìm ở nhiều nơi rẻ hơn. Học hỏi không phải lý do chính. Job thực sự là 'legitimacy'."
+                    }
+                },
+                {
+                    "id": 14,
+                    "question": "Tôi cần mua khóa học online về AI với giá $2,000. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Chuyển đổi nghề nghiệp sang AI Engineer với mức lương cao hơn",
+                        "Không bị bỏ lại phía sau trong cuộc cách mạng AI",
+                        "Có thể nói chuyện tự tin về AI trong các buổi gặp gỡ"
+                    ],
+                    "correctAnswer": 1,
+                    "feedback": {
+                        "correct": "Chính xác. Đây là Emotional Job - 'Fear of Missing Out' (FOMO). Giá $2,000 nhưng chưa chắc học xong = Mua sự an tâm.",
+                        "incorrect": "Chuyển nghề cần bootcamp thực hành, không chỉ course. Nói chuyện tự tin là Social nhưng FOMO là động lực mạnh hơn."
+                    }
+                },
+                {
+                    "id": 15,
+                    "question": "Tôi cần mua xe Mercedes S-Class. Thực ra tôi đang muốn...",
+                    "options": [
+                        "Có trải nghiệm lái xe êm ái và thoải mái nhất",
+                        "Chứng minh với bản thân rằng tôi đã thành công",
+                        "Gây ấn tượng với khách hàng và đối tác kinh doanh"
+                    ],
+                    "correctAnswer": 2,
+                    "feedback": {
+                        "correct": "Đúng. S-Class là Social Job - 'Business Status Symbol'. Xe này được mua để 'được nhìn thấy', không chỉ để lái.",
+                        "incorrect": "Êm ái là Functional, tự chứng minh là Emotional. Nhưng S-Class (xe công vụ CEO) = External Status, không phải Internal Validation."
+                    }
+                }
+            ]
+        }
+    ]
+}
