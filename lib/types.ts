@@ -53,15 +53,11 @@ export interface AudienceSegment {
 
 export interface BrandContent {
     meta: BrandMeta;
-    introduction: string; // New introduction field
-    jtbd: string;     // HTML/Markdown content
-    structuredJTBD?: JTBDData;
-    audience: string; // HTML/Markdown content
     structuredAudience?: AudienceSegment[];
-    insights: string; // HTML/Markdown content
     structuredInsights?: Insight[];
-    quiz: QuizQuestion[];
+    structuredJTBD?: JTBDData;
     description?: string[];
+    quizzes: { id: string, questions: QuizQuestion[] }[];
 }
 
 export interface Brand {

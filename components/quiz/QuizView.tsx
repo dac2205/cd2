@@ -9,10 +9,10 @@ import confetti from "canvas-confetti";
 import { useAuth } from "@/lib/auth"; // Import useAuth
 
 interface QuizViewProps {
-    questions: QuizQuestion[];
+    quizzes: { id: string, questions: QuizQuestion[] }[];
 }
 
-export default function QuizView({ questions }: QuizViewProps) {
+export default function QuizView({ quizzes }: QuizViewProps) {
     const { user } = useAuth(); // Get user from auth context
     const userDisplayName = user?.user_metadata?.full_name || user?.email || "Bạn";
 
@@ -27,6 +27,8 @@ export default function QuizView({ questions }: QuizViewProps) {
     const [gameState, setGameState] = useState<'selection' | 'playing'>('selection');
 
     // --- State: Data ---
+    const [questions, setQuestions] = useState<QuizQuestion[]>([]); // Selected Quiz Questions
+    const [activeQuizId, setActiveQuizId] = useState<string>("");
     const [sessionQuestions, setSessionQuestions] = useState<QuizQuestion[]>([]); // Shuffled & Processed
     const [currentRound, setCurrentRound] = useState(1);
     const [roundQuestions, setRoundQuestions] = useState<QuizQuestion[]>([]);
@@ -56,10 +58,17 @@ export default function QuizView({ questions }: QuizViewProps) {
     };
 
     const initSession = () => {
-        if (!questions || questions.length === 0) return;
+        if (!quizzes || quizzes.length === 0) return;
+
+        // Select a random quiz if we haven't or just re-select
+        const randomQuizIndex = Math.floor(Math.random() * quizzes.length);
+        const selectedQuiz = quizzes[randomQuizIndex];
+        const selectedQuestions = selectedQuiz.questions;
+
+        setActiveQuizId(selectedQuiz.id);
 
         // 1. Process Questions: Shuffle Options & Fix Answer Index
-        const processedQuestions = questions.map(q => {
+        const processedQuestions = selectedQuestions.map(q => {
             const originalOptions = q.options || ["Functional Job", "Emotional Job", "Social Job"];
 
             // Create pairs of [optionText, originalIndex]
@@ -188,7 +197,7 @@ export default function QuizView({ questions }: QuizViewProps) {
 
 
     // --- Guard ---
-    if (!questions || questions.length === 0) return <div className="text-center p-8 text-subtext">Đang tải...</div>;
+    if (!quizzes || quizzes.length === 0) return <div className="text-center p-8 text-subtext">Đang tải...</div>;
 
     // --- Render: Selection Screen ---
     if (gameState === 'selection') {
@@ -210,7 +219,8 @@ export default function QuizView({ questions }: QuizViewProps) {
                             Bắt đầu ngay
                         </button>
                         <div className="text-sm text-ink-light/60 mt-4">
-                            Gồm 3 vòng thi • 20 câu hỏi • Yêu cầu chính xác 100%
+                            Gồm 3 vòng thi • 20 câu hỏi • Yêu cầu chính xác 100% <br />
+                            (Random from {quizzes.length} available quizzes)
                         </div>
                     </div>
                 </div>

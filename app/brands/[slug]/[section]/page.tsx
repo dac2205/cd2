@@ -40,33 +40,7 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
         notFound();
     }
 
-    // Helper to parse JTBD content into 4 sections for the Tabbed View
-    const parseJTBDToTabs = () => {
-        // This parses the HTML content split by <h2> tags to map to our tabs
-        const parts = brand.jtbd.split("<h2>");
 
-        const mapping: Record<string, string> = {
-            "Functional Jobs": "functional",
-            "Emotional Jobs": "emotional",
-            "Social Jobs": "social",
-            "Other Jobs": "other"
-        };
-
-        const result: Record<string, string> = {};
-
-        Object.keys(mapping).forEach(title => {
-            const part = parts.find(p => p.includes(title));
-            if (part) {
-                // Extract content after the header
-                // part looks like: "Functional Jobs</h2><p>..." or just "Functional Jobs</h2>..."
-                // We want everything after "</h2>"
-                const content = part.substring(part.indexOf("</h2>") + 5);
-                result[mapping[title]] = content;
-            }
-        });
-
-        return result;
-    };
 
     return (
         <div className="container animate-slide-in">
@@ -91,34 +65,19 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
 
             <div style={{ padding: "1rem 0" }}>
                 {section === "jtbd" && (
-                    <JTBDView
-                        data={brand.structuredJTBD}
-                        htmlData={!brand.structuredJTBD ? parseJTBDToTabs() : undefined}
-                    />
+                    <JTBDView data={brand.structuredJTBD} />
                 )}
 
-                {section === "audience" && (
-                    brand.structuredAudience ? (
-                        <AudienceView data={brand.structuredAudience} />
-                    ) : (
-                        <div className="card-wood" style={{ padding: "2rem" }}>
-                            <div className="prose" dangerouslySetInnerHTML={{ __html: brand.audience }} />
-                        </div>
-                    )
+                {section === "audience" && brand.structuredAudience && (
+                    <AudienceView data={brand.structuredAudience} />
                 )}
 
-                {section === "insights" && (
-                    brand.structuredInsights && brand.structuredInsights.length > 0 ? (
-                        <InsightsExplorer insights={brand.structuredInsights} />
-                    ) : (
-                        <div className="card-wood" style={{ padding: "2rem" }}>
-                            <div className="prose" dangerouslySetInnerHTML={{ __html: brand.insights }} />
-                        </div>
-                    )
+                {section === "insights" && brand.structuredInsights && (
+                    <InsightsExplorer insights={brand.structuredInsights} />
                 )}
 
                 {section === "quiz" && (
-                    <QuizView questions={brand.quiz} />
+                    <QuizView quizzes={brand.quizzes} />
                 )}
             </div>
         </div>

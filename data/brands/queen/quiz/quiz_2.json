@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Cảm xúc thăng hoa trong mối quan hệ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "queen-q2-1"
+    },
+    {
+        "question": "Sợ người nhận nhận quà xong cất vào góc tủ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "queen-q2-2"
+    },
+    {
+        "question": "Món quà chỉn chu như đã chuẩn bị từ lâu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-3"
+    },
+    {
+        "question": "Sợ bị đánh giá là keo kiệt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-4"
+    },
+    {
+        "question": "Sợ các set quà công nghiệp nhìn rẻ tiền.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-5"
+    },
+    {
+        "question": "Cứu nguy cho những tình huống 'quên' ngày kỷ niệm hoặc cần quà gấp để ngoại giao.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-6"
+    },
+    {
+        "question": "Người nhận xúc động, có thể rơi nước mắt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "queen-q2-7"
+    },
+    {
+        "question": "Giữ được thể diện cho cả hai bên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-8"
+    },
+    {
+        "question": "Muốn món quà phải 'Độc bản' (Unique).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-9"
+    },
+    {
+        "question": "Gói quà đẹp, sang trọng, có sẵn thiệp viết tay.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-10"
+    },
+    {
+        "question": "Được đánh giá là người biết cư xử.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-11"
+    },
+    {
+        "question": "Muốn ai đó chọn hộ cho mình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "queen-q2-12"
+    },
+    {
+        "question": "Người nhận 'Wow' ngay khi mở hộp.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-13"
+    },
+    {
+        "question": "Tin tưởng vào sự lựa chọn của chuyên gia.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "queen-q2-14"
+    },
+    {
+        "question": "Facebook nhắc ngày sinh nhật bạn thân.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "queen-q2-15"
+    },
+    {
+        "question": "Sợ bị chê là 'khô khan', 'vô tâm'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "queen-q2-16"
+    },
+    {
+        "question": "Gương vỡ lại lành, tình cảm mặn nồng hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-17"
+    },
+    {
+        "question": "Xây dựng hình ảnh 'người đàn ông/đối tác lý tưởng'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-18"
+    },
+    {
+        "question": "Muốn giữ mối quan hệ ở mức 'đẹp'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-19"
+    },
+    {
+        "question": "Muốn khẳng định vị thế trong mắt bạn bè/đồng nghiệp.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "queen-q2-20"
+    }
+]

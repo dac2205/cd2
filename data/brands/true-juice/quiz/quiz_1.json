@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Tạo ra làn sóng sống khỏe quanh mình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "true-juice-q1-1"
+    },
+    {
+        "question": "Tìm kiếm giải pháp dinh dưỡng thay thế thuốc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "true-juice-q1-2"
+    },
+    {
+        "question": "Tin tưởng vào sự lựa chọn của mình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-3"
+    },
+    {
+        "question": "Nhìn thấy sự thay đổi tích cực của Founder và cộng đồng, nhen nhóm hy vọng mình cũng làm được.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-4"
+    },
+    {
+        "question": "Muốn dành điều tốt nhất cho bản thân/gia đình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-5"
+    },
+    {
+        "question": "Thấy mình đã bỏ bê bản thân quá lâu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-6"
+    },
+    {
+        "question": "Cần một nghi thức yêu thương bản thân mỗi sáng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-7"
+    },
+    {
+        "question": "Cung cấp nguồn dinh dưỡng enzyme tươi sống để cơ thể kích hoạt khả năng tự chữa lành tự nhiên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "true-juice-q1-8"
+    },
+    {
+        "question": "Thấy người thân ốm đau vì lối sống kém.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "true-juice-q1-9"
+    },
+    {
+        "question": "Trở thành nguồn cảm hứng sống khỏe cho gia đình và đồng nghiệp noi theo.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "true-juice-q1-10"
+    },
+    {
+        "question": "Cảm thấy mệt mỏi sau khi ăn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "true-juice-q1-11"
+    },
+    {
+        "question": "Tái tạo năng lượng từ bên trong.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "true-juice-q1-12"
+    },
+    {
+        "question": "Tự hào về lối sống kỷ luật.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-13"
+    },
+    {
+        "question": "Cảm giác được chữa lành tâm hồn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-14"
+    },
+    {
+        "question": "Lo lắng vì chế độ ăn thiếu rau trầm trọng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "true-juice-q1-15"
+    },
+    {
+        "question": "Cảm thấy đầy động lực và hy vọng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-16"
+    },
+    {
+        "question": "Hấp thụ trực tiếp vào máu nhanh chóng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "true-juice-q1-17"
+    },
+    {
+        "question": "Không muốn bị coi là người dễ dãi, xuề xòa.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "true-juice-q1-18"
+    },
+    {
+        "question": "Muốn xây dựng văn hóa sức khỏe tại công sở.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "true-juice-q1-19"
+    },
+    {
+        "question": "Tự thưởng cho mình một liệu trình Juice Cleanse như một món quà sau dự án căng thẳng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "true-juice-q1-20"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Mất niềm tin vào các phòng khám/spa.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-1"
+    },
+    {
+        "question": "Vẫn còn sức để chơi với con vui vẻ vào buổi tối sau một ngày làm việc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "ngoc-cis-q1-2"
+    },
+    {
+        "question": "So sánh mình với các mẹ bỉm sữa khác.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-3"
+    },
+    {
+        "question": "Sợ con lớn lên cũng hy sinh quên mình như mẹ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-4"
+    },
+    {
+        "question": "Tự hào về phiên bản 'Người mẹ khí chất'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-5"
+    },
+    {
+        "question": "Di sản tinh thần tích cực cho con.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-6"
+    },
+    {
+        "question": "Dạy con về tình yêu thương bản thân bằng cách làm gương (Leading by example).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-7"
+    },
+    {
+        "question": "Đi làm với tinh thần tích cực, không mang chuyện bực dọc ở nhà đến công ty.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-8"
+    },
+    {
+        "question": "Giữ được sự bình tĩnh (Calmness) khi đối mặt với tiếng khóc của con hoặc áp lực công việc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "ngoc-cis-q1-9"
+    },
+    {
+        "question": "Con cái phát triển trong môi trường tích cực.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-10"
+    },
+    {
+        "question": "Cảm thấy mình ích kỷ khi nghỉ ngơi.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-11"
+    },
+    {
+        "question": "Muốn con trở thành người độc lập, hạnh phúc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-12"
+    },
+    {
+        "question": "Con quấy khóc ăn vạ, mẹ hít thở sâu và dỗ dành con nhẹ nhàng thay vì hét lên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "ngoc-cis-q1-13"
+    },
+    {
+        "question": "Tự tin dành thời gian đi massage hoặc café với bạn bè mà không thấy có lỗi với con.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-14"
+    },
+    {
+        "question": "Cân bằng tốt giữa Công việc - Gia đình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-15"
+    },
+    {
+        "question": "Chồng quan tâm chia sẻ nhiều hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "ngoc-cis-q1-16"
+    },
+    {
+        "question": "Mất tập trung, hay quên (Brain Fog).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "ngoc-cis-q1-17"
+    },
+    {
+        "question": "Không muốn phải chọn giữa Gia đình và Sự nghiệp.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-18"
+    },
+    {
+        "question": "Cần một chỗ dựa vững chắc về chuyên môn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "ngoc-cis-q1-19"
+    },
+    {
+        "question": "Kiệt sức vào buổi chiều (tầm 4-5h).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "ngoc-cis-q1-20"
+    }
+]

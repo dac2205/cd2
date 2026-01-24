@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Cảm thấy mình đang 'ngược đãi' bản thân.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-1"
+    },
+    {
+        "question": "Sáng dậy lờ đờ, thiếu tỉnh táo.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-2"
+    },
+    {
+        "question": "Trút bỏ được gánh nặng, nhẹ nhõm cả đầu óc lẫn chân tay.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-3"
+    },
+    {
+        "question": "Bạn bè khen ngợi vì dạo này trông tươi tắn, trẻ trung hơn hẳn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q2-4"
+    },
+    {
+        "question": "Đọc tin tức về tác hại của thuốc giả/kém chất lượng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-5"
+    },
+    {
+        "question": "Không còn nỗi lo 'tiền mất tật mang'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-6"
+    },
+    {
+        "question": "Xử lý các cơn đau lưng, vai gáy, mệt mỏi do văn phòng hoặc stress.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-7"
+    },
+    {
+        "question": "Hết đau mỏi mà không cần uống thuốc giảm đau.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-8"
+    },
+    {
+        "question": "An lòng chăm sóc bản thân và gia đình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-9"
+    },
+    {
+        "question": "Yêu thương và trân trọng cơ thể hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-10"
+    },
+    {
+        "question": "Khi con cái/bố mẹ bị ốm, mọi người đều hỏi ý kiến bạn nên dùng gì.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q2-11"
+    },
+    {
+        "question": "Nằm trằn trọc đến 2-3h sáng, đầu óc quay cuồng với những suy nghĩ không tên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-12"
+    },
+    {
+        "question": "Người lúc nào cũng hâm hấp sốt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-13"
+    },
+    {
+        "question": "Da/cơ thể bị kích ứng với hóa chất.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-14"
+    },
+    {
+        "question": "Thả lỏng hoàn toàn trong không gian yên tĩnh, mùi thảo mộc thoang thoảng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-15"
+    },
+    {
+        "question": "Uống thuốc ngủ thì mệt, không uống thì không ngủ được.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-16"
+    },
+    {
+        "question": "Cứ trở trời là hắt hơi, sổ mũi, cảm cúm kéo dài cả tuần không khỏi.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q2-17"
+    },
+    {
+        "question": "Được ngưỡng mộ vì vẻ ngoài rạng rỡ, thần thái an nhiên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q2-18"
+    },
+    {
+        "question": "Không lo sợ về tác dụng phụ hay hóa chất độc hại.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-19"
+    },
+    {
+        "question": "Cảm nhận được sự chuyển hóa tích cực của cơ thể từng ngày, tự nhiên và êm ái.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q2-20"
+    }
+]

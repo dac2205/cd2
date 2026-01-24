@@ -50,34 +50,33 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
     const metaPath = path.join(brandDir, 'meta.json');
     const meta: BrandMeta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
 
-    // Helper to read and process markdown
-    async function readMarkdown(filename: string): Promise<string> {
-        const filePath = path.join(brandDir, filename);
-        if (!fs.existsSync(filePath)) return '';
-        const fileContent = fs.readFileSync(filePath, 'utf8');
-        const processedContent = await remark().use(html).process(fileContent);
-        return processedContent.toString();
+    // Load Structured Introduction/Description
+    const descriptionPath = path.join(brandDir, 'description.json');
+    let description: string[] | undefined = undefined;
+    if (fs.existsSync(descriptionPath)) {
+        try {
+            description = JSON.parse(fs.readFileSync(descriptionPath, 'utf8'));
+        } catch (e) {
+            console.error("Error parsing description.json", e);
+        }
     }
 
-    // Load Introduction
-    const introduction = await readMarkdown('introduction.md');
-
-    // Load standard markdown sections
-    const [jtbd, audience, insights] = await Promise.all([
-        readMarkdown('jtbd.md'),
-        readMarkdown('audience.md'),
-        readMarkdown('insights.md')
-    ]);
-
-    // Load Quiz
-    const quizPath = path.join(brandDir, 'quiz.json');
-    let quiz: QuizQuestion[] = [];
-    if (fs.existsSync(quizPath)) {
-        try {
-            quiz = JSON.parse(fs.readFileSync(quizPath, 'utf8'));
-        } catch (e) {
-            console.error("Error parsing quiz.json", e);
-        }
+    // Load Quizzes from subfolder
+    const quizDir = path.join(brandDir, 'quiz');
+    const quizzes: { id: string, questions: QuizQuestion[] }[] = [];
+    if (fs.existsSync(quizDir)) {
+        const quizFiles = fs.readdirSync(quizDir).filter(f => f.endsWith('.json'));
+        quizFiles.forEach(file => {
+            try {
+                const qContent = JSON.parse(fs.readFileSync(path.join(quizDir, file), 'utf8'));
+                quizzes.push({
+                    id: file.replace('.json', ''),
+                    questions: qContent
+                });
+            } catch (e) {
+                console.error(`Error parsing quiz ${file}`, e);
+            }
+        });
     }
 
     // Load Structured Insights
@@ -102,17 +101,6 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
         }
     }
 
-    // Load Structured Introduction/Description
-    const descriptionPath = path.join(brandDir, 'description.json');
-    let description: string[] | undefined = undefined;
-    if (fs.existsSync(descriptionPath)) {
-        try {
-            description = JSON.parse(fs.readFileSync(descriptionPath, 'utf8'));
-        } catch (e) {
-            console.error("Error parsing description.json", e);
-        }
-    }
-
     // Load Structured Audience
     const structuredAudiencePath = path.join(brandDir, 'audience.json');
     let structuredAudience: AudienceSegment[] | undefined = undefined;
@@ -126,14 +114,10 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
 
     return {
         meta,
-        introduction,
-        jtbd,
-        audience,
         structuredAudience,
-        insights,
-        quiz,
         structuredInsights,
         structuredJTBD,
-        description
+        description,
+        quizzes
     };
 }
