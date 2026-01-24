@@ -77,7 +77,7 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
                 )}
 
                 {section === "quiz" && (
-                    <QuizView quizzes={brand.quizzes} />
+                    <QuizView quizzes={brand.quizzes} brandName={brand.meta.name} />
                 )}
             </div>
         </div>

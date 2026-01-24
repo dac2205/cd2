@@ -10,9 +10,10 @@ import { useAuth } from "@/lib/auth"; // Import useAuth
 
 interface QuizViewProps {
     quizzes: { id: string, questions: QuizQuestion[] }[];
+    brandName: string;
 }
 
-export default function QuizView({ quizzes }: QuizViewProps) {
+export default function QuizView({ quizzes, brandName }: QuizViewProps) {
     const { user } = useAuth(); // Get user from auth context
     const userDisplayName = user?.user_metadata?.full_name || user?.email || "Bạn";
 
@@ -202,8 +203,7 @@ export default function QuizView({ quizzes }: QuizViewProps) {
                     <Trophy size={64} className="mx-auto text-primary mb-6" />
                     <h1 className="text-4xl font-serif font-bold text-ink mb-4">Thử thách Job Definition</h1>
                     <p className="text-ink-light text-xl mb-12 max-w-lg mx-auto leading-relaxed">
-                        Bạn đã sẵn sàng để kiểm tra kiến thức về <br />
-                        <strong>Functional</strong>, <strong>Emotional</strong> và <strong>Social Jobs</strong> chưa?
+                        Đóng vai khách hàng của brand để suy nghĩ và trả lời.
                     </p>
 
                     <div className="space-y-4">
@@ -214,8 +214,7 @@ export default function QuizView({ quizzes }: QuizViewProps) {
                             Bắt đầu ngay
                         </button>
                         <div className="text-sm text-ink-light/60 mt-4">
-                            Gồm 3 vòng thi • 30 câu hỏi • Yêu cầu chính xác 100% <br />
-                            (Random from {quizzes.length} available quizzes)
+                            3 vòng • Vòng 1 có 5 câu hỏi
                         </div>
                     </div>
                 </div>
@@ -420,6 +419,9 @@ export default function QuizView({ quizzes }: QuizViewProps) {
 
             {/* Content */}
             <div className="min-h-[160px] flex flex-col justify-center items-center text-center mb-10">
+                <p className="text-lg text-ink-light/70 mb-3 font-medium">
+                    Là khách hàng của brand {brandName}, tôi...
+                </p>
                 <h2 className="text-2xl md:text-3xl font-serif leading-relaxed text-ink font-medium">
                     {currentQuestion.question}
                 </h2>
