@@ -7,6 +7,21 @@
         "Nghệ thuật",
         "Đương đại",
         "Không gian sống",
-        "Vibrant"
+        "Vibrant",
+        "Curator",
+        "Đầu tư"
+    ],
+    "brandEssence": {
+        "coreBelief": "Nghệ thuật không phải là xa xỉ xa rời - đó là ngôn ngữ của tâm hồn và tài sản văn hóa có giá trị.",
+        "uniquePromise": "Giám tuyển nghệ thuật đương đại tiên phong, giúp bạn sở hữu tác phẩm vừa cộng hưởng cảm xúc vừa có tiềm năng đầu tư.",
+        "transformation": "Từ 'Không gian trống rỗng, thiếu hồn' → 'Ngôi nhà tràn đầy nghệ thuật, thể hiện đẳng cấp văn hóa'.",
+        "enemy": "Nghệ thuật đại trà nhàm chán, Trọc phú không gu, Không gian sống vô hồn.",
+        "signatureMethod": "Curator's Eye: Khám phá họa sĩ trẻ tiềm năng + Tư vấn bố cục không gian + Đầu tư nghệ thuật thông minh.",
+        "socialProof": "Được giới tinh hoa tin tưởng, dẫn đầu xu hướng nghệ thuật đương đại Việt Nam."
+    },
+    "description": [
+        "Giám tuyển nghệ thuật đương đại cho giới tinh hoa. Khám phá họa sĩ trẻ, tác phẩm độc bản, đầu tư thông minh.",
+        "Không chỉ bán tranh - Tư vấn bố cục không gian, kể câu chuyện nghệ sĩ, xây dựng bộ sưu tập có giá trị.",
+        "Từ không gian trống rỗng đến ngôi nhà tràn đầy nghệ thuật, thể hiện đẳng cấp văn hóa và gu thẩm mỹ tinh tường."
     ]
 }

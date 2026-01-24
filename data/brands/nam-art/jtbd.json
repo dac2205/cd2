@@ -157,58 +157,5 @@
                 "Tài sản truyền đời."
             ]
         }
-    ],
-    "other": [
-        {
-            "id": "other-1",
-            "title": "Vibrational Shift (Chuyển đổi Rung động)",
-            "description": "Thay đổi trường năng lượng của căn phòng từ trầm, tối sang sáng, cao.",
-            "situation": "Bước vào phòng cảm thấy nhẹ nhõm, vui vẻ ngay lập tức.",
-            "context": "Năng lượng là có thật.",
-            "triggers": [
-                "Nhà cửa u ám.",
-                "Cảm giác nặng nề.",
-                "Muốn đổi vận."
-            ],
-            "desiredOutcome": [
-                "Phong thủy tốt.",
-                "Sức khỏe cải thiện.",
-                "Tâm trạng thăng hoa."
-            ]
-        },
-        {
-            "id": "other-2",
-            "title": "Visual Meditation (Thiền Thị giác)",
-            "description": "Dùng việc ngắm tranh như một phương pháp thiền định, thả lỏng tâm trí.",
-            "situation": "Nhìn sâu vào các mảng màu và quên hết muộn phiền.",
-            "context": "Mắt là cửa sổ tâm hồn.",
-            "triggers": [
-                "Đầu óc căng thẳng.",
-                "Không ngồi thiền được.",
-                "Cần điểm neo thị giác."
-            ],
-            "desiredOutcome": [
-                "Tâm trí tĩnh lặng.",
-                "Giảm stress.",
-                "Thư giãn sâu."
-            ]
-        },
-        {
-            "id": "other-3",
-            "title": "Artist Connection (Kết nối Nghệ sĩ)",
-            "description": "Cảm thấy gắn bó với người nghệ sĩ đã tạo ra tác phẩm, hiểu câu chuyện đời họ.",
-            "situation": "Biết rằng mình đang ủng hộ một tài năng trẻ phát triển.",
-            "context": "Mua tranh là mua một phần cuộc đời họa sĩ.",
-            "triggers": [
-                "Muốn ủng hộ nghệ thuật.",
-                "Thích nghe chuyện đời tư.",
-                "Kết nối nhân văn."
-            ],
-            "desiredOutcome": [
-                "Làm việc thiện/có ý nghĩa.",
-                "Sự trân trọng.",
-                "Gắn kết con người."
-            ]
-        }
     ]
 }
