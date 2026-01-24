@@ -64,11 +64,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                     </div>
                 )}
 
-                {brand.introduction && !brand.description && (
-                    <div style={{ marginTop: "2rem", maxWidth: "800px", margin: "2rem auto 0", textAlign: "left", backgroundColor: "hsl(var(--paper-white))", padding: "2rem", borderRadius: "12px", border: "1px solid hsl(var(--border))" }}>
-                        <div className="prose" dangerouslySetInnerHTML={{ __html: brand.introduction }} />
-                    </div>
-                )}
+
             </div>
 
             <div style={{
