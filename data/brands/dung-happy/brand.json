@@ -2,11 +2,25 @@
     "id": "dung-happy",
     "name": "Dung Happy",
     "tagline": "Hành trình kiến tạo Coach chuyên nghiệp",
-    "owner": "Dung",
+    "owner": "Phạm Thị Thùy Dung",
     "keywords": [
         "Business Coach",
         "Khách hàng đầu tiên",
         "Hành động",
-        "Cấu trúc"
+        "Cấu trúc",
+        "Đồng hành"
+    ],
+    "brandEssence": {
+        "coreBelief": "Coaching không phải là nghề thanh cao xa rời tiền bạc - đó là một nghề kinh doanh nghiêm túc có thể nuôi sống bạn.",
+        "uniquePromise": "Cầm tay chỉ việc từng bước nhỏ để có khách hàng đầu tiên trong 14 ngày.",
+        "transformation": "Từ 'Biết mình có khả năng nhưng không biết bắt đầu' → 'Có khách hàng đầu tiên và dám đứng vai Coach'.",
+        "enemy": "Hội chứng 'Học mãi không làm' (Procrasti-learning), Nỗi sợ bán hàng, Coaching miễn phí tràn lan.",
+        "signatureMethod": "Hành Trình Kiến Tạo Framework: 14 Ngày - 1 Nhiệm vụ/Ngày - Live Coaching đồng hành.",
+        "socialProof": "Đồng hành tận tâm với coach mới, giúp họ tạo ra thu nhập đầu tiên và tự tin đứng vai."
+    },
+    "description": [
+        "Chương trình đồng hành cho Coach mới chuyển từ 'người học' sang 'người làm nghề' có thu nhập.",
+        "14 ngày cầm tay chỉ việc: Đóng gói sản phẩm, tiếp cận 10 khách hàng đầu tiên, vượt nỗi sợ bán hàng.",
+        "Không dạy thêm kiến thức - Buộc bạn hành động thật, tạo kết quả thật, có niềm tin thật."
     ]
 }

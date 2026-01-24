@@ -157,58 +157,5 @@
                 "Học hỏi lẫn nhau."
             ]
         }
-    ],
-    "other": [
-        {
-            "id": "other-1",
-            "title": "Momentum (Đà phát triển)",
-            "description": "Tạo ra cú hích ban đầu để bánh xe sự nghiệp bắt đầu lăn. Khi đã có đà thì mọi thứ sẽ dễ dàng hơn.",
-            "situation": "Sau 14 ngày thử thách, guồng quay công việc đã vào nếp, cứ thế mà chạy.",
-            "context": "Vạn sự khởi đầu nan.",
-            "triggers": [
-                "Ì ạch mãi không xong.",
-                "Cảm thấy nặng nề.",
-                "Cần cú hích mạnh."
-            ],
-            "desiredOutcome": [
-                "Công việc trôi chảy.",
-                "Tốc độ phát triển nhanh.",
-                "Cảm giác lướt đi."
-            ]
-        },
-        {
-            "id": "other-2",
-            "title": "Financial Hope (Hy vọng Tài chính)",
-            "description": "Nhìn thấy ánh sáng cuối đường hầm, tin rằng mình hoàn toàn có thể sống tốt và giàu có với nghề.",
-            "situation": "Lập bảng kế hoạch tài chính cho năm sau với những con số khả thi.",
-            "context": "Hy vọng là yak liều doping mạnh nhất.",
-            "triggers": [
-                "Tuyệt vọng về tương lai.",
-                "Lo lắng cơm áo gạo tiền.",
-                "Muốn đổi đời."
-            ],
-            "desiredOutcome": [
-                "Lạc quan, phấn chấn.",
-                "Có mục tiêu phấn đấu.",
-                "An tâm cống hiến."
-            ]
-        },
-        {
-            "id": "other-3",
-            "title": "Role Clarity (Rõ ràng Vai trò)",
-            "description": "Hiểu rõ 3 chiếc mũ phải đội: Người làm chuyên môn (Coach), Người quản lý (Manager), Người kinh doanh (Entrepreneur).",
-            "situation": "Biết lúc nào cần bay bổng với khách, lúc nào cần thực tế với con số.",
-            "context": "Nhầm lẫn vai trò dẫn đến thất bại.",
-            "triggers": [
-                "Làm việc theo cảm hứng.",
-                "Thiếu tư duy hệ thống.",
-                "Bị cuốn vào tiểu tiết."
-            ],
-            "desiredOutcome": [
-                "Làm chủ cuộc chơi.",
-                "Cân bằng các vai trò.",
-                "Phát triển toàn diện."
-            ]
-        }
     ]
 }
