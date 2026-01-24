@@ -1,73 +1,7 @@
 [
     {
-        "id": "50",
-        "question": "Mối quan hệ đang lạnh nhạt, cần hâm nóng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "22",
-        "question": "Món quà chỉn chu như đã chuẩn bị từ lâu.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "28",
-        "question": "Muốn thể hiện tình yêu/sự trân trọng không cần lời nói.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "70",
-        "question": "Mối quan hệ trở nên khăng khít hơn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "62",
-        "question": "Xây dựng hình ảnh 'người đàn ông/đối tác lý tưởng'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "7",
-        "question": "Người nhận 'Wow' ngay khi mở hộp.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "69",
-        "question": "Giữ được thể diện cho cả hai bên.",
+        "id": "59",
+        "question": "Muốn khẳng định vị thế trong mắt bạn bè/đồng nghiệp.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -88,19 +22,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "59",
-        "question": "Muốn khẳng định vị thế trong mắt bạn bè/đồng nghiệp.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "34",
-        "question": "Cảm thấy việc chọn quà là gánh nặng.",
+        "id": "26",
+        "question": "Sợ bị chê là 'khô khan', 'vô tâm'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -110,8 +33,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "10",
-        "question": "Sợ tặng bánh bị ngọt gắt, trà bị cũ.",
+        "id": "14",
+        "question": "Sự phối hợp màu sắc, mùi hương hài hòa.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -132,52 +55,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "68",
-        "question": "Muốn giữ mối quan hệ ở mức 'đẹp'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "11",
-        "question": "Sợ các set quà công nghiệp nhìn rẻ tiền.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "38",
-        "question": "Cảm giác kết nối cảm xúc mãnh liệt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "54",
-        "question": "Đối tác tin tưởng, ký hợp đồng suôn sẻ.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "31",
-        "question": "Cảm xúc thăng hoa trong mối quan hệ.",
+        "id": "35",
+        "question": "Sợ người nhận nhận quà xong cất vào góc tủ.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -198,6 +77,50 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
+        "id": "53",
+        "question": "Gương vỡ lại lành, tình cảm mặn nồng hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "22",
+        "question": "Món quà chỉn chu như đã chuẩn bị từ lâu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "68",
+        "question": "Muốn giữ mối quan hệ ở mức 'đẹp'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "62",
+        "question": "Xây dựng hình ảnh 'người đàn ông/đối tác lý tưởng'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
         "id": "58",
         "question": "Muốn mọi người thấy mình có gia đình hạnh phúc.",
         "options": [
@@ -209,8 +132,19 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "26",
-        "question": "Sợ bị chê là 'khô khan', 'vô tâm'.",
+        "id": "70",
+        "question": "Mối quan hệ trở nên khăng khít hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "34",
+        "question": "Cảm thấy việc chọn quà là gánh nặng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -218,5 +152,71 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "54",
+        "question": "Đối tác tin tưởng, ký hợp đồng suôn sẻ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "42",
+        "question": "Mệt mỏi, đau đầu vì phải so sánh giá/review.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "71",
+        "question": "Được đánh giá là người biết cư xử.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "27",
+        "question": "Muốn gây ấn tượng mạnh (Make a statement).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "6",
+        "question": "Gói quà đẹp, sang trọng, có sẵn thiệp viết tay.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "65",
+        "question": "Được mời đến nhà sếp ăn cơm, cần mang theo một chai rượu hoặc set quà vừa vặn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     }
 ]

@@ -1,51 +1,29 @@
 [
     {
-        "id": "42",
-        "question": "Hay dằn vặt về những quyết định sai lầm.",
+        "id": "58",
+        "question": "Sợ bị lãng quên hoặc chỉ được nhớ đến là 'trọc phú'.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "30",
-        "question": "Ngủ ngon mỗi đêm bất chấp áp lực.",
+        "id": "56",
+        "question": "Được nhớ đến không chỉ vì sự giàu có, mà vì nhân cách, tri thức và sự tử tế.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "1",
-        "question": "Đứng trước cơ hội đầu tư mạo hiểm hoặc thay đổi nhân sự chủ chốt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "43",
-        "question": "Cảm thấy tội lỗi với gia đình/bản thân.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "4",
-        "question": "Cần một điểm tựa tinh thần vững chắc.",
+        "id": "10",
+        "question": "Nguy cơ phá sản hoặc thua lỗ lớn.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -55,8 +33,19 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "34",
-        "question": "Cảm thấy mình nhỏ bé trước số phận.",
+        "id": "18",
+        "question": "Cảm thấy công ty đang đi vào lối mòn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "36",
+        "question": "Cần một niềm tin tâm linh/khoa học vững chắc.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -66,8 +55,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "45",
-        "question": "Sống trọn vẹn trong hiện tại (Here & Now).",
+        "id": "28",
+        "question": "Muốn thoát khỏi sự nô lệ vào hoàn cảnh.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -77,8 +66,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "31",
-        "question": "Hưởng thụ trọn vẹn thành quả hiện tại.",
+        "id": "44",
+        "question": "Muốn giải phóng tâm trí cho những điều mới mẻ.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -88,8 +77,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "35",
-        "question": "Hoài nghi năng lực bản thân khi thất bại.",
+        "id": "46",
+        "question": "Tha thứ cho bản thân và người khác.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -110,8 +99,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "10",
-        "question": "Nguy cơ phá sản hoặc thua lỗ lớn.",
+        "id": "22",
+        "question": "Tạo ra lợi thế cạnh tranh bền vững.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -119,6 +108,61 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "12",
+        "question": "Cảm thấy cô độc trên đỉnh vinh quang.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "66",
+        "question": "Chán ngấy những buổi tiệc tùng vô bổ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "19",
+        "question": "Muốn bứt phá khỏi đối thủ cạnh tranh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "0",
+        "question": "Ra quyết định kinh doanh lớn một cách dứt khoát, không còn sự do dự hay tiếc nuối (Second-guessing).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "53",
+        "question": "Được kính trọng và tin yêu tuyệt đối.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
         "id": "38",
@@ -132,15 +176,26 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "54",
-        "question": "Xây dựng văn hóa doanh nghiệp hạnh phúc.",
+        "id": "31",
+        "question": "Hưởng thụ trọn vẹn thành quả hiện tại.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "30",
+        "question": "Ngủ ngon mỗi đêm bất chấp áp lực.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
         "id": "26",
@@ -154,69 +209,14 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "60",
-        "question": "Muốn con cái tự hào về cha mẹ.",
+        "id": "42",
+        "question": "Hay dằn vặt về những quyết định sai lầm.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "68",
-        "question": "Tìm kiếm tri kỷ cùng hệ giá trị.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "16",
-        "question": "Nhìn thấy bức tranh lớn (Big Picture) và các xu hướng tương lai mà người khác chưa thấy.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "51",
-        "question": "Muốn che chở cho những người yêu thương.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "67",
-        "question": "Cảm thấy lạc lõng giữa những người bạn cũ.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "69",
-        "question": "Có những người bạn thâm giao chất lượng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
     }
 ]

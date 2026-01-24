@@ -1,5 +1,38 @@
 [
     {
+        "id": "8",
+        "question": "Giúp đi vào giấc ngủ dễ dàng hơn, ngủ sâu hơn, không mộng mị.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "40",
+        "question": "Cảm nhận được sự chăm sóc vỗ về từ thiên nhiên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "56",
+        "question": "Được ngưỡng mộ vì vẻ ngoài rạng rỡ, thần thái an nhiên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
         "id": "47",
         "question": "Yêu thương và trân trọng cơ thể hơn.",
         "options": [
@@ -11,8 +44,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "9",
-        "question": "Nằm trằn trọc đến 2-3h sáng, đầu óc quay cuồng với những suy nghĩ không tên.",
+        "id": "14",
+        "question": "Thức dậy với năng lượng tràn đầy.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -33,8 +66,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "14",
-        "question": "Thức dậy với năng lượng tràn đầy.",
+        "id": "6",
+        "question": "Hết đau mỏi mà không cần uống thuốc giảm đau.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -55,30 +88,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "3",
-        "question": "Cảm giác cơ thể nặng nề như đeo đá.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "65",
-        "question": "Khi con cái/bố mẹ bị ốm, mọi người đều hỏi ý kiến bạn nên dùng gì.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "24",
-        "question": "Không lo sợ về tác dụng phụ hay hóa chất độc hại.",
+        "id": "31",
+        "question": "An lòng chăm sóc bản thân và gia đình.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -88,85 +99,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "5",
-        "question": "Cơ thể nhẹ nhõm, linh hoạt trở lại.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "56",
-        "question": "Được ngưỡng mộ vì vẻ ngoài rạng rỡ, thần thái an nhiên.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "15",
-        "question": "Không còn phụ thuộc vào thuốc an thần.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "55",
-        "question": "Cảm thấy mình có ích cho xã hội.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
-        "id": "41",
-        "question": "Cảm nhận được sự chuyển hóa tích cực của cơ thể từng ngày, tự nhiên và êm ái.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "0",
-        "question": "Xử lý các cơn đau lưng, vai gáy, mệt mỏi do văn phòng hoặc stress.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "25",
-        "question": "Cầm trên tay sản phẩm/liệu trình biết rõ nguồn gốc tự nhiên, không hóa chất bảo quản.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "57",
-        "question": "Bạn bè khen ngợi vì dạo này trông tươi tắn, trẻ trung hơn hẳn.",
+        "id": "49",
+        "question": "Chia sẻ về thói quen sử dụng sản phẩm tự nhiên, không rác thải nhựa.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -187,8 +121,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "21",
-        "question": "Cơ thể vững vàng trước thời tiết.",
+        "id": "0",
+        "question": "Xử lý các cơn đau lưng, vai gáy, mệt mỏi do văn phòng hoặc stress.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -198,25 +132,91 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "27",
-        "question": "Da/cơ thể bị kích ứng với hóa chất.",
+        "id": "66",
+        "question": "Muốn bảo vệ gia đình khỏi hóa chất.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "30",
-        "question": "Không còn nỗi lo 'tiền mất tật mang'.",
+        "id": "65",
+        "question": "Khi con cái/bố mẹ bị ốm, mọi người đều hỏi ý kiến bạn nên dùng gì.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "15",
+        "question": "Không còn phụ thuộc vào thuốc an thần.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "64",
+        "question": "Được gia đình tin tưởng tuyệt đối trong việc lựa chọn sản phẩm chăm sóc sức khỏe.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "48",
+        "question": "Được nhìn nhận là người có lối sống văn minh, bảo vệ môi trường.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "10",
+        "question": "Uống thuốc ngủ thì mệt, không uống thì không ngủ được.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "19",
+        "question": "Người lúc nào cũng hâm hấp sốt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "3",
+        "question": "Cảm giác cơ thể nặng nề như đeo đá.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
     }
 ]

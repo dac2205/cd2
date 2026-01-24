@@ -1,7 +1,7 @@
 [
     {
-        "id": "37",
-        "question": "Cân bằng công việc - cuộc sống (Work-Life Balance).",
+        "id": "50",
+        "question": "Mệt mỏi vì phải giải thích nhiều cho nhân sự.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -11,8 +11,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "31",
-        "question": "Tâm lý thoải mái, thăng hoa khi giảng dạy.",
+        "id": "17",
+        "question": "Slide bài giảng cũ kỹ, nhiều chữ, nhìn kém chuyên nghiệp nhưng không có thời gian làm lại.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -22,19 +22,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "12",
-        "question": "Stress vì những đầu việc lặt vặt không tên.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "52",
-        "question": "Cần một cánh tay phải đắc lực (Right hand).",
+        "id": "57",
+        "question": "Được làm việc với đội ngũ Gen Z năng động, cập nhật trend mới, thấy mình trẻ ra.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -44,19 +33,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "25",
-        "question": "Đang dạy thì Zoom mất tiếng, mạng lag, học viên náo loạn, thầy giáo lúng túng xử lý.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "40",
-        "question": "Tự hào khi học viên khen quy trình lớp học chỉn chu, xịn xò.",
+        "id": "44",
+        "question": "Cần sự chỉn chu tuyệt đối trong mắt khách hàng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -77,8 +55,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "88",
-        "question": "Chứng minh được sự thành công và khả năng scale-up mô hình kinh doanh.",
+        "id": "74",
+        "question": "Bị đồng nghiệp coi thường là 'mù công nghệ'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -99,8 +77,8 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "66",
-        "question": "Mất khách vì quy trình lỏng lẻo, thiếu chuyên nghiệp.",
+        "id": "82",
+        "question": "Sợ bị mang tiếng là 'thu tiền xong đem con bỏ chợ'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -110,8 +88,19 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "80",
-        "question": "Được học viên yêu quý vì chăm sóc quá kỹ càng (dù là do trợ lý làm).",
+        "id": "8",
+        "question": "Gửi email/tin nhắn nhắc lịch học, gửi tài liệu, link Zoom tự động.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "93",
+        "question": "Được xã hội công nhận là doanh nhân thành đạt.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -121,41 +110,8 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "19",
-        "question": "Muốn lớp học trông xịn xò, hiện đại hơn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "17",
-        "question": "Slide bài giảng cũ kỹ, nhiều chữ, nhìn kém chuyên nghiệp nhưng không có thời gian làm lại.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "29",
-        "question": "Lớp học diễn ra suôn sẻ không gián đoạn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "35",
-        "question": "Không có thời gian chất lượng cho bản thân/gia đình.",
+        "id": "37",
+        "question": "Cân bằng công việc - cuộc sống (Work-Life Balance).",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -165,30 +121,30 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "9",
-        "question": "Suốt ngày phải canh giờ gửi link Zoom thủ công, rất mất thời gian và dễ quên.",
+        "id": "68",
+        "question": "Muốn xây dựng thương hiệu bền vững (Brand building).",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "20",
-        "question": "Không biết dùng công cụ thiết kế chuyên nghiệp.",
+        "id": "42",
+        "question": "Sợ bị đánh giá là nghiệp dư, tự phát.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "56",
-        "question": "Được truyền năng lượng từ sự trẻ trung, nhiệt huyết của trợ lý.",
+        "id": "32",
+        "question": "Không còn lo lắng, giật mình thon thót vì sợ quên lịch hay sót tin nhắn của khách.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -209,14 +165,58 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "50",
-        "question": "Mệt mỏi vì phải giải thích nhiều cho nhân sự.",
+        "id": "29",
+        "question": "Lớp học diễn ra suôn sẻ không gián đoạn.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "72",
+        "question": "Được đồng nghiệp/đối thủ nể phục vì áp dụng công nghệ tiên tiến vào lớp học.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "81",
+        "question": "Nhận được feedback cuối khóa khen ngợi sự tận tâm, chu đáo của đội ngũ hỗ trợ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "12",
+        "question": "Stress vì những đầu việc lặt vặt không tên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "16",
+        "question": "Chuyển hóa slide bài giảng thô sơ thành tài liệu có tính thẩm mỹ cao (Canva, PPT chuẩn).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
     }
 ]

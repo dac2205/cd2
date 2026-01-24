@@ -1,14 +1,14 @@
 [
     {
-        "id": "7",
-        "question": "Tự do về thời gian và địa điểm làm việc.",
+        "id": "28",
+        "question": "Khao khát được kết nối sâu sắc (Deep connection).",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
         "id": "21",
@@ -22,8 +22,8 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "35",
-        "question": "So sánh bản thân với những KOLs lớn.",
+        "id": "26",
+        "question": "Mệt mỏi vì phải đeo mặt nạ trên mạng xã hội.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -33,15 +33,15 @@
         "explanation": "Đây là ví dụ về Emotional Job."
     },
     {
-        "id": "38",
-        "question": "Dám đứng lên chia sẻ quan điểm đi ngược đám đông.",
+        "id": "65",
+        "question": "Một bài viết từ 2 năm trước vẫn được độc giả tìm đọc và chia sẻ lại.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
         "id": "13",
@@ -55,17 +55,6 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "58",
-        "question": "Cảm thấy lạc lõng giữa đám đông ồn ào.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job."
-    },
-    {
         "id": "60",
         "question": "Chán ngấy (Sick of) các mối quan hệ lợi dụng.",
         "options": [
@@ -77,8 +66,19 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "69",
-        "question": "Sở hữu tài sản số (Digital Assets) giá trị.",
+        "id": "23",
+        "question": "Giải phóng não bộ khỏi áp lực sáng tạo.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "68",
+        "question": "Muốn được nhớ đến như một người có chiều sâu.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -88,70 +88,15 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "44",
-        "question": "Sợ sai sót nhỏ sẽ làm mất uy tín.",
+        "id": "53",
+        "question": "Có một cộng đồng Loyal Followers chất lượng.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "43",
-        "question": "So sánh bản thân với các 'đàn anh' trong nghề.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "5",
-        "question": "Sở hữu sản phẩm số (Ebook, Course) bán tự động.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "34",
-        "question": "Luôn nghĩ mình chưa đủ giỏi (Not good enough).",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "26",
-        "question": "Mệt mỏi vì phải đeo mặt nạ trên mạng xã hội.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job."
-    },
-    {
-        "id": "15",
-        "question": "Được khán giả nhận diện ngay lập tức.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
     },
     {
         "id": "51",
@@ -165,30 +110,19 @@
         "explanation": "Đây là ví dụ về Social Job."
     },
     {
-        "id": "4",
-        "question": "Muốn có thu nhập thụ động từ tri thức của mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
-        "id": "14",
-        "question": "Xây dựng được tiếng nói (Voice) riêng biệt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job."
-    },
-    {
         "id": "11",
         "question": "Bế tắc trong việc tìm ý tưởng mới.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "3",
+        "question": "Bị kẹt trong vòng xoáy sản xuất nội dung (content hamster wheel).",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -209,8 +143,74 @@
         "explanation": "Đây là ví dụ về Functional Job."
     },
     {
-        "id": "71",
-        "question": "Kiến tạo di sản tri thức cho thế hệ sau.",
+        "id": "42",
+        "question": "Trì hoãn ra mắt sản phẩm vì cảm thấy chưa đủ tốt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "2",
+        "question": "Cảm thấy mình đang bán thời gian lấy tiền rẻ mạt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "62",
+        "question": "Môi trường sinh hoạt an toàn, nâng đỡ nhau.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "4",
+        "question": "Muốn có thu nhập thụ động từ tri thức của mình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job."
+    },
+    {
+        "id": "30",
+        "question": "Được yêu quý vì chính con người thật.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job."
+    },
+    {
+        "id": "69",
+        "question": "Sở hữu tài sản số (Digital Assets) giá trị.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job."
+    },
+    {
+        "id": "58",
+        "question": "Cảm thấy lạc lõng giữa đám đông ồn ào.",
         "options": [
             "Functional Job",
             "Emotional Job",
