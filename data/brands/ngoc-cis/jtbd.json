@@ -2,52 +2,52 @@
     "functional": [
         {
             "id": "func-1",
-            "title": "Sleep Restoration (Phục hồi Giấc ngủ)",
-            "description": "Đi vào giấc ngủ tự nhiên trong vòng 15-20 phút mà không cần dùng thuốc an thần.",
-            "situation": "Đặt lưng xuống giường sau khi con ngủ và có thể chìm vào giấc ngủ ngay, thay vì lướt điện thoại đến 2h sáng.",
-            "context": "Giấc ngủ là nền tảng của mọi hoạt động sống và phục hồi.",
+            "title": "Cần ngủ sâu giấc tự nhiên",
+            "description": "Tôi cần đi vào giấc ngủ tự nhiên trong 15-20 phút mà không cần dùng thuốc an thần.",
+            "situation": "Đặt lưng xuống giường sau khi con ngủ và muốn chìm vào giấc ngủ ngay, thay vì lướt điện thoại đến 2h sáng.",
+            "context": "Giấc ngủ là nền tảng của mọi hoạt động sống và phục hồi của tôi.",
             "triggers": [
-                "Sợ hãi mỗi khi đêm xuống.",
-                "Phụ thuộc vào thuốc ngủ/rượu.",
-                "Sáng dậy lờ đờ, đau đầu."
+                "Sợ hãi mỗi khi đêm xuống vì biết mình sẽ mất ngủ.",
+                "Phụ thuộc vào thuốc ngủ/rượu khiến tôi lo lắng.",
+                "Sáng dậy lờ đờ, đau đầu, không thể tập trung."
             ],
             "desiredOutcome": [
-                "Ngủ sâu giấc cả đêm.",
-                "Sáng dậy tỉnh táo, sảng khoái.",
+                "Ngủ sâu giấc cả đêm không bị tỉnh giấc.",
+                "Sáng dậy tỉnh táo, sảng khoái, đầy năng lượng.",
                 "Cơ thể nhẹ nhõm, hết đau mỏi."
             ]
         },
         {
             "id": "func-2",
-            "title": "Emotional Regulation (Điều tiết Cảm xúc)",
-            "description": "Giữ được sự bình tĩnh (Calmness) khi đối mặt với tiếng khóc của con hoặc áp lực công việc.",
-            "situation": "Con quấy khóc ăn vạ, mẹ hít thở sâu và dỗ dành con nhẹ nhàng thay vì hét lên.",
-            "context": "Trẻ nhỏ học cách điều tiết cảm xúc thông qua sự bình an của mẹ (Co-regulation).",
+            "title": "Cần kiểm soát cảm xúc khi con khóc",
+            "description": "Tôi cần giữ được sự bình tĩnh khi đối mặt với tiếng khóc của con hoặc áp lực công việc.",
+            "situation": "Con quấy khóc ăn vạ, tôi muốn hít thở sâu và dỗ dành con nhẹ nhàng thay vì hét lên.",
+            "context": "Con học cách điều tiết cảm xúc thông qua sự bình an của tôi.",
             "triggers": [
-                "Dễ mất kiểm soát khi con hư.",
-                "Cảm thấy 'bốc hỏa' vô cớ.",
-                "Sợ làm tổn thương con."
+                "Dễ mất kiểm soát khi con hư, sợ làm tổn thương con.",
+                "Cảm thấy 'bốc hỏa' vô cớ, không hiểu tại sao.",
+                "Sợ mình trở thành người mẹ tồi."
             ],
             "desiredOutcome": [
-                "Kiểm soát được cơn giận.",
-                "Xử lý tình huống thấu đáo.",
+                "Kiểm soát được cơn giận, không la hét con.",
+                "Xử lý tình huống thấu đáo, bình tĩnh.",
                 "Trở thành bến đỗ bình yên cho con."
             ]
         },
         {
             "id": "func-3",
-            "title": "Energy Conservation (Bảo toàn Năng lượng)",
-            "description": "Duy trì mức năng lượng ổn định suốt cả ngày để vừa làm việc vừa chăm con mà không bị sập nguồn (Crash).",
+            "title": "Cần năng lượng ổn định cả ngày",
+            "description": "Tôi cần duy trì mức năng lượng ổn định suốt cả ngày để vừa làm việc vừa chăm con mà không bị sập nguồn.",
             "situation": "Vẫn còn sức để chơi với con vui vẻ vào buổi tối sau một ngày làm việc.",
-            "context": "Mẹ bỉm sữa thường phải làm việc gấp đôi người thường (Double Shift).",
+            "context": "Tôi phải làm việc gấp đôi người thường (Double Shift) - vừa làm việc vừa chăm con.",
             "triggers": [
-                "Kiệt sức vào buổi chiều (tầm 4-5h).",
-                "Chỉ muốn nằm, không muốn làm gì.",
-                "Mất tập trung, hay quên (Brain Fog)."
+                "Kiệt sức vào buổi chiều (tầm 4-5h), chỉ muốn nằm.",
+                "Mất tập trung, hay quên (Brain Fog).",
+                "Không muốn làm gì, cảm thấy vô dụng."
             ],
             "desiredOutcome": [
                 "Làm việc hiệu quả, năng suất cao.",
-                "Tận hưởng thời gian bên con.",
+                "Tận hưởng thời gian bên con, chơi đùa vui vẻ.",
                 "Không còn cảm giác mệt mỏi mãn tính."
             ]
         }
@@ -55,10 +55,10 @@
     "emotional": [
         {
             "id": "emo-1",
-            "title": "Guilt Release (Giải phóng Tội lỗi)",
-            "description": "Xóa bỏ cảm giác mặc cảm tội lỗi (Mom Guilt), tin rằng mình là một người mẹ đủ tốt.",
+            "title": "Muốn xóa bỏ cảm giác tội lỗi",
+            "description": "Tôi muốn xóa bỏ cảm giác mặc cảm tội lỗi (Mom Guilt), tin rằng mình là một người mẹ đủ tốt.",
             "situation": "Tự tin dành thời gian đi massage hoặc café với bạn bè mà không thấy có lỗi với con.",
-            "context": "Áp lực xã hội về hình mẫu 'người mẹ hoàn hảo' gây tổn thương sâu sắc.",
+            "context": "Áp lực xã hội về hình mẫu 'người mẹ hoàn hảo' gây tổn thương sâu sắc cho tôi.",
             "triggers": [
                 "Luôn tự trách mình chưa chăm con tốt.",
                 "So sánh mình với các mẹ bỉm sữa khác.",
@@ -66,20 +66,20 @@
             ],
             "desiredOutcome": [
                 "Yêu thương và trân trọng bản thân.",
-                "Tự tin vào bản năng làm mẹ.",
+                "Tự tin vào bản năng làm mẹ của mình.",
                 "Tâm hồn nhẹ nhõm, vui vẻ."
             ]
         },
         {
             "id": "emo-2",
-            "title": "Self-Reconnection (Kết nối & Thăng hoa)",
-            "description": "Kết nối lại với những giá trị cốt lõi của bản thân để nâng cấp lên một tầng cao mới: dùng ưu thế vốn có để kiến tạo gia đình hạnh phúc, từ đó làm bệ phóng cho công việc.",
-            "situation": "Mang năng lượng tích cực và sự ổn định từ gia đình đến công sở, khiến đồng nghiệp nể trọng năng lực cân bằng cuộc sống thay vì lo ngại 'có con thì chểnh mảng'.",
-            "context": "Gia đình và Sự nghiệp không đối đầu, mà cộng hưởng (Synergy) để tạo nên phiên bản người phụ nữ trọn vẹn hơn.",
+            "title": "Muốn kết nối lại với chính mình",
+            "description": "Tôi muốn kết nối lại với những giá trị cốt lõi của bản thân để nâng cấp lên tầng cao mới.",
+            "situation": "Mang năng lượng tích cực từ gia đình đến công sở, khiến đồng nghiệp nể trọng năng lực cân bằng của tôi.",
+            "context": "Gia đình và Sự nghiệp không đối đầu, mà cộng hưởng để tạo nên phiên bản tôi trọn vẹn hơn.",
             "triggers": [
                 "Không muốn phải chọn giữa Gia đình và Sự nghiệp.",
                 "Muốn xóa bỏ định kiến 'phụ nữ có con thì công việc đi xuống'.",
-                "Muốn được công nhận giá trị trọn vẹn (Work-Life Integration)."
+                "Muốn được công nhận giá trị trọn vẹn."
             ],
             "desiredOutcome": [
                 "Gia đình là bệ phóng vững chắc cho sự nghiệp.",
@@ -89,17 +89,17 @@
         },
         {
             "id": "emo-3",
-            "title": "Safe Harbor (Bến đỗ An toàn)",
-            "description": "Cảm giác an tâm tuyệt đối khi được đồng hành bởi đội ngũ bác sĩ chuyên môn, không còn loay hoay tự chữa.",
-            "situation": "Khi có vấn đề sức khỏe, biết ngay mình có thể hỏi ai và tin tưởng vào câu trả lời.",
-            "context": "Sự tin tưởng (Trust) là liều thuốc an thần tốt nhất cho người lo âu.",
+            "title": "Muốn có bến đỗ an toàn",
+            "description": "Tôi muốn cảm giác an tâm tuyệt đối khi được đồng hành bởi đội ngũ bác sĩ chuyên môn, không còn loay hoay tự chữa.",
+            "situation": "Khi có vấn đề sức khỏe, tôi biết ngay mình có thể hỏi ai và tin tưởng vào câu trả lời.",
+            "context": "Sự tin tưởng là liều thuốc an thần tốt nhất cho tôi - người đang lo âu.",
             "triggers": [
-                "Hoang mang giữa biển thông tin.",
+                "Hoang mang giữa biển thông tin trên mạng.",
                 "Mất niềm tin vào các phòng khám/spa.",
                 "Cần một chỗ dựa vững chắc về chuyên môn."
             ],
             "desiredOutcome": [
-                "An tâm điều trị.",
+                "An tâm điều trị, không còn lo lắng.",
                 "Cảm thấy được che chở, quan tâm.",
                 "Giao phó sức khỏe đúng nơi."
             ]
@@ -108,14 +108,14 @@
     "social": [
         {
             "id": "soc-1",
-            "title": "Happy Wife, Happy Mom",
-            "description": "Thay đổi không khí gia đình từ căng thẳng, ngột ngạt sang vui vẻ, đầy tiếng cười.",
-            "situation": "Chồng về nhà thấy vợ tươi cười, không khí bữa cơm đầm ấm.",
-            "context": "Cảm xúc của người mẹ là 'thời tiết' của cả gia đình.",
+            "title": "Muốn gia đình hạnh phúc",
+            "description": "Tôi muốn thay đổi không khí gia đình từ căng thẳng, ngột ngạt sang vui vẻ, đầy tiếng cười.",
+            "situation": "Chồng về nhà thấy tôi tươi cười, không khí bữa cơm đầm ấm, cả nhà vui vẻ.",
+            "context": "Cảm xúc của tôi là 'thời tiết' của cả gia đình.",
             "triggers": [
                 "Vợ chồng hay cãi vã vì chuyện nhỏ nhặt.",
                 "Không khí gia đình trầm lắng, u ám.",
-                "Chồng ngại về nhà sớm."
+                "Chồng ngại về nhà sớm vì tôi hay cáu gắt."
             ],
             "desiredOutcome": [
                 "Gia đình hòa thuận, hạnh phúc.",
@@ -125,89 +125,36 @@
         },
         {
             "id": "soc-2",
-            "title": "Role Model (Tấm gương Sống)",
-            "description": "Dạy con về tình yêu thương bản thân bằng cách làm gương (Leading by example).",
-            "situation": "Con nhìn thấy mẹ chăm sóc bản thân và học được cách tự trân trọng mình.",
-            "context": "Trẻ con không nghe những gì bạn nói, chúng nhìn những gì bạn làm.",
+            "title": "Muốn làm tấm gương cho con",
+            "description": "Tôi muốn dạy con về tình yêu thương bản thân bằng cách làm gương.",
+            "situation": "Con nhìn thấy tôi chăm sóc bản thân và học được cách tự trân trọng mình.",
+            "context": "Trẻ con không nghe những gì tôi nói, chúng nhìn những gì tôi làm.",
             "triggers": [
-                "Sợ con lớn lên cũng hy sinh quên mình như mẹ.",
+                "Sợ con lớn lên cũng hy sinh quên mình như tôi.",
                 "Muốn con trở thành người độc lập, hạnh phúc.",
-                "Giáo dục con từ gốc rễ."
+                "Muốn giáo dục con từ gốc rễ."
             ],
             "desiredOutcome": [
-                "Con cái tự tin, vui vẻ.",
+                "Con cái tự tin, vui vẻ, yêu thương bản thân.",
                 "Hình ảnh người mẹ truyền cảm hứng.",
                 "Di sản tinh thần tích cực cho con."
             ]
         },
         {
             "id": "soc-3",
-            "title": "Sanity Saver (Người giữ sự Tỉnh táo)",
-            "description": "Trở thành người bạn, người đồng nghiệp dễ mến, không phải là 'bà cô khó tính' hay than vãn.",
+            "title": "Muốn được mọi người yêu mến",
+            "description": "Tôi muốn trở thành người bạn, đồng nghiệp dễ mến, không phải là 'bà cô khó tính' hay than vãn.",
             "situation": "Đi làm với tinh thần tích cực, không mang chuyện bực dọc ở nhà đến công ty.",
-            "context": "Sức khỏe tinh thần ảnh hưởng trực tiếp đến các mối quan hệ xã hội.",
+            "context": "Sức khỏe tinh thần của tôi ảnh hưởng trực tiếp đến các mối quan hệ xã hội.",
             "triggers": [
                 "Bị đồng nghiệp xa lánh vì hay than thở.",
-                "Mất kết nối với bạn bè.",
-                "Không muốn gặp gỡ ai."
+                "Mất kết nối với bạn bè, không muốn gặp ai.",
+                "Cảm thấy cô đơn, bị cô lập."
             ],
             "desiredOutcome": [
-                "Được mọi người yêu mến.",
+                "Được mọi người yêu mến, trân trọng.",
                 "Mở rộng các mối quan hệ xã hội.",
                 "Cân bằng tốt giữa Công việc - Gia đình."
-            ]
-        }
-    ],
-    "other": [
-        {
-            "id": "other-1",
-            "title": "Brain Fog Clearance (Xóa tan Sương mù não)",
-            "description": "Phục hồi khả năng ghi nhớ và sự minh mẫn, sắc bén của trí não.",
-            "situation": "Không còn cảnh định làm gì rồi quên ngay, hay nói trước quên sau.",
-            "context": "Hội chứng 'Não cá vàng' sau sinh thực chất là do thiếu ngủ và thiếu chất.",
-            "triggers": [
-                "Làm việc hay sai sót.",
-                "Quên lịch tiêm phòng cho con.",
-                "Cảm thấy mình đần đi."
-            ],
-            "desiredOutcome": [
-                "Trí nhớ phục hồi.",
-                "Tư duy mạch lạc.",
-                "Xử lý đa nhiệm (Multitasking) tốt."
-            ]
-        },
-        {
-            "id": "other-2",
-            "title": "Scientific Comfort (Sự an ủi Khoa học)",
-            "description": "Tìm kiếm sự an tâm dựa trên bằng chứng khoa học (Evidence-based), không phải lời động viên sáo rỗng.",
-            "situation": "Hiểu rõ cơ chế tại sao mình mất ngủ và biết cách khắc phục theo y học.",
-            "context": "Nhóm khách hàng trí thức cần sự logic và khoa học để tin tưởng.",
-            "triggers": [
-                "Hoài nghi các phương pháp tâm linh/mẹo vặt.",
-                "Muốn hiểu rõ cơ thể mình.",
-                "Tìm kiếm giải pháp chuẩn y khoa."
-            ],
-            "desiredOutcome": [
-                "Tin tưởng tuyệt đối vào lộ trình.",
-                "Kiến thức chăm sóc sức khỏe chuẩn.",
-                "Trở thành 'bác sĩ' của chính mình."
-            ]
-        },
-        {
-            "id": "other-3",
-            "title": "Holistic Health (Sức khỏe Toàn diện)",
-            "description": "Chăm sóc sức khỏe theo hướng Tâm - Thể kết hợp, không tách rời.",
-            "situation": "Vừa được trị liệu tâm lý, vừa được hướng dẫn dinh dưỡng/vận động.",
-            "context": "Sức khỏe là một tổng thể thống nhất.",
-            "triggers": [
-                "Chữa đầu đau đầu, chữa chân đau chân.",
-                "Bệnh tái đi tái lại.",
-                "Muốn khỏe đẹp từ trong ra ngoài."
-            ],
-            "desiredOutcome": [
-                "Cơ thể khỏe mạnh, dẻo dai.",
-                "Tinh thần vững vàng.",
-                "Vẻ đẹp rạng ngời, tự nhiên."
             ]
         }
     ]
