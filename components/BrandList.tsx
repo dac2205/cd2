@@ -49,8 +49,11 @@ export default function BrandList({ initialBrands }: BrandListProps) {
         });
     };
 
-    const favoriteBrands = initialBrands.filter(b => favorites.includes(b.slug));
-    const otherBrands = initialBrands.filter(b => !favorites.includes(b.slug));
+    // Combine and sort brands: Favorites first
+    const sortedBrands = [
+        ...initialBrands.filter(b => favorites.includes(b.slug)),
+        ...initialBrands.filter(b => !favorites.includes(b.slug))
+    ];
 
     const renderCard = (brand: Brand, isFavorite: boolean) => (
         <Link key={brand.slug} href={`/brands/${brand.slug}`} className="block group no-underline h-full">
@@ -82,7 +85,7 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     if (!mounted) {
         // Server-side / Hydration fallback
         return (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {initialBrands.map((brand) => (
                     <Card key={brand.slug} className="h-full bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm">
                         <CardHeader>
@@ -98,27 +101,8 @@ export default function BrandList({ initialBrands }: BrandListProps) {
     }
 
     return (
-        <div className="flex flex-col gap-12">
-
-            {/* Favorites Section */}
-            {favoriteBrands.length > 0 && (
-                <div className="animate-in fade-in slide-in-from-top-4 duration-500">
-                    <h2 className="text-xl font-bold mb-6 text-ink-brown flex items-center gap-2">
-                        <Heart className="w-5 h-5 text-red-500 fill-red-500" /> Brands yêu thích
-                    </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {favoriteBrands.map(brand => renderCard(brand, true))}
-                    </div>
-
-                    <div className="mt-12 mb-4 w-full h-px bg-caramel-walnut/20 relative" />
-                </div>
-            )}
-
-            {/* Other Brands Section */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {otherBrands.map(brand => renderCard(brand, false))}
-            </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {sortedBrands.map(brand => renderCard(brand, favorites.includes(brand.slug)))}
         </div>
     );
 }
