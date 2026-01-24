@@ -3,52 +3,52 @@
         {
             "id": "func-1",
             "title": "First Sale (Đơn hàng Đầu tiên)",
-            "description": "Tạo ra thu nhập đầu tiên từ coaching, dù chỉ là 500k, để phá băng tâm lý.",
-            "situation": "Ting ting! Tài khoản báo có tiền từ khách hàng lạ. Cảm giác sung sướng tột độ.",
-            "context": "Số 0 và số 1 cách nhau một vực thẳm. Vượt qua số 1 là vượt qua giới hạn bản thân.",
+            "description": "Tạo ra thu nhập đầu tiên từ coaching trong vòng 14 ngày, dù chỉ là 500k, để phá băng tâm lý và chứng minh mô hình hoạt động.",
+            "situation": "Ngày thứ 14 của 'Hành Trình Kiến Tạo', điện thoại rung lên: 'Ting ting! Tài khoản +500.000đ'. Cảm giác sung sướng tột độ - đây là tiền thật từ khách hàng lạ, không phải bạn bè cho qua loa.",
+            "context": "Số 0 và số 1 cách nhau một vực thẳm. Vượt qua số 1 là vượt qua giới hạn bản thân. Đây là bằng chứng cụ thể nhất rằng coaching có thể nuôi sống mình.",
             "triggers": [
-                "Làm mãi không ra tiền.",
-                "Sốt ruột vì chi phí sinh hoạt.",
-                "Cần bằng chứng để tin vào con đường này."
+                "Làm coaching miễn phí mãi mà không ra tiền, bắt đầu nghi ngờ con đường đã chọn.",
+                "Sốt ruột vì chi phí sinh hoạt đang cạn, áp lực từ gia đình ngày càng lớn.",
+                "Cần bằng chứng cụ thể để tin vào con đường coaching, không chỉ là lý thuyết suông."
             ],
             "desiredOutcome": [
-                "Có tiền thật.",
-                "Xác nhận mô hình hoạt động.",
-                "Động lực mạnh mẽ để đi tiếp."
+                "Có tiền thật trong tài khoản từ khách hàng trả phí, không phải từ bạn bè.",
+                "Xác nhận mô hình kinh doanh coaching hoạt động được trong thực tế.",
+                "Động lực mạnh mẽ để đi tiếp, tự tin rằng mình đã chọn đúng nghề."
             ]
         },
         {
             "id": "func-2",
             "title": "Offer Creation (Đóng gói Sản phẩm)",
-            "description": "Biến kỹ năng vô hình thành một sản phẩm hữu hình (Gói coaching, Thử thách) có tên gọi, bao bì và giá bán rõ ràng.",
-            "situation": "Có một đường link hoặc file PDF mô tả sản phẩm để gửi ngay khi khách hỏi, thay vì ấp úng.",
-            "context": "Khách hàng không mua 'coaching', họ mua 'kết quả' được đóng gói.",
+            "description": "Biến kỹ năng coaching vô hình thành sản phẩm hữu hình có tên gọi, giá bán rõ ràng và mô tả chuyên nghiệp trong vòng 3 ngày đầu.",
+            "situation": "Khách hàng inbox hỏi: 'Chị làm coaching à? Giá bao nhiêu?'. Thay vì lúng túng, bạn tự tin gửi ngay link Landing Page hoặc file PDF mô tả 'Gói Coaching 3 Tháng - Breakthrough' với giá 5.000.000đ, nội dung rõ ràng.",
+            "context": "Khách hàng không mua 'coaching' - họ mua 'kết quả' được đóng gói. Sản phẩm mơ hồ = Không bán được. Sản phẩm rõ ràng = Dễ chốt sale.",
             "triggers": [
-                "Khách hỏi giá thì lúng túng.",
-                "Không biết mình bán cái gì.",
-                "Sản phẩm mơ hồ."
+                "Khách hỏi giá thì ấp úng, không biết trả lời bao nhiêu là hợp lý.",
+                "Không biết mình đang bán cái gì - chỉ biết mình 'làm coaching'.",
+                "Sản phẩm mơ hồ khiến khách hàng không hiểu giá trị, dễ bị chê đắt."
             ],
             "desiredOutcome": [
-                "Sản phẩm rõ ràng, chuyên nghiệp.",
-                "Dễ dàng tư vấn và chốt sale.",
-                "Tăng giá trị cảm nhận."
+                "Có sản phẩm rõ ràng với tên gọi, giá bán và mô tả chuyên nghiệp.",
+                "Dễ dàng tư vấn và chốt sale vì khách hàng hiểu rõ họ nhận được gì.",
+                "Tăng giá trị cảm nhận, khách hàng sẵn sàng trả tiền vì thấy xứng đáng."
             ]
         },
         {
             "id": "func-3",
             "title": "Daily Action (Hành động Mỗi ngày)",
-            "description": "Biết chính xác hôm nay cần viết gì, inbox cho ai, làm việc gì. Không còn cảnh ngồi nhìn màn hình trắng.",
-            "situation": "Thức dậy với to-do list cụ thể: 'Viết 1 bài, tương tác 5 người, gửi 3 offer'.",
-            "context": "Sự tự do hóa ra là kỷ luật. Cần quy trình để không bị lười.",
+            "description": "Biết chính xác hôm nay cần làm gì - viết bài gì, inbox cho ai, nhiệm vụ nào - theo lộ trình 14 ngày rõ ràng, không còn hoang mang.",
+            "situation": "Thức dậy sáng thứ 5, mở Notion/Trello thấy to-do list: 'Ngày 5: Viết 1 bài về Pain Point, Tương tác 5 người trong Group Coach, Gửi Offer cho 3 người đã chat'. Làm xong tích dấu, cảm giác tiến bộ rõ ràng.",
+            "context": "Sự tự do hóa ra là kỷ luật. Không có cấu trúc = Lãng phí thời gian lướt mạng. Có quy trình = Năng suất cao, tiến bộ mỗi ngày.",
             "triggers": [
-                "Hoang mang không biết bắt đầu từ đâu.",
-                "Lãng phí thời gian lướt mạng.",
-                "Cần ai đó thúc đít."
+                "Hoang mang không biết bắt đầu từ đâu, ngồi nhìn màn hình trắng cả ngày.",
+                "Lãng phí thời gian lướt Facebook/TikTok vì không có kế hoạch cụ thể.",
+                "Cần ai đó 'thúc đít' mỗi ngày để không bị trì hoãn."
             ],
             "desiredOutcome": [
-                "Làm việc năng suất.",
-                "Tiến bộ mỗi ngày.",
-                "Không còn trì hoãn."
+                "Làm việc năng suất với to-do list rõ ràng từng ngày.",
+                "Tiến bộ mỗi ngày, thấy rõ mình đang đi đúng hướng.",
+                "Không còn trì hoãn, hành động đều đặn như một chuyên gia."
             ]
         }
     ],
@@ -56,52 +56,52 @@
         {
             "id": "emo-1",
             "title": "Confidence Boost (Tăng sự Tự tin)",
-            "description": "Xóa bỏ tiếng nói nhỏ trong đầu (Inner Critic) bảo rằng bạn không đủ giỏi.",
-            "situation": "Dám livestream chia sẻ quan điểm, dám inbox mời khách hàng mà không sợ run tay.",
-            "context": "Nỗi sợ lớn nhất là sợ mình không đủ tốt (Not Good Enough).",
+            "description": "Xóa bỏ tiếng nói nhỏ trong đầu (Inner Critic) bảo rằng 'Mình chưa đủ giỏi', dám đứng vai Coach và hành động như một chuyên gia.",
+            "situation": "Ngày thứ 10, bạn dám livestream chia sẻ quan điểm về 'Tại sao Coach mới nên bán hàng ngay', dám inbox mời 10 người vào chương trình mà không sợ run tay hay sợ bị từ chối.",
+            "context": "Nỗi sợ lớn nhất của coach mới là 'Not Good Enough' - sợ mình chưa đủ tốt để nhận tiền. Nhưng sự thật là: Khách hàng cần bạn ở đúng thời điểm họ cần, không phải khi bạn 'hoàn hảo'.",
             "triggers": [
-                "Sợ bị phán xét.",
-                "Sợ thất bại.",
-                "Nghi ngờ năng lực bản thân."
+                "Sợ bị phán xét: 'Mới học xong đã dám nhận tiền?'",
+                "Sợ thất bại, sợ khách hàng không có kết quả thì mất uy tín.",
+                "Nghi ngờ năng lực bản thân, cảm thấy mình là 'kẻ mạo danh' (Imposter Syndrome)."
             ],
             "desiredOutcome": [
-                "Tin tưởng vào giá trị của mình.",
-                "Thần thái chuyên gia.",
-                "Dám dấn thân."
+                "Tin tưởng vào giá trị của mình, biết rằng mình đủ tốt để giúp người khác.",
+                "Thần thái chuyên gia - nói chuyện, viết bài, tiếp cận khách hàng với sự tự tin.",
+                "Dám dấn thân, dám thử nghiệm, không còn bị tê liệt bởi nỗi sợ."
             ]
         },
         {
             "id": "emo-2",
             "title": "Fear Conquest (Chinh phục Nỗi sợ)",
-            "description": "Vượt qua nỗi sợ bị từ chối, sợ bán hàng, xem lời từ chối là một phần của cuộc chơi.",
-            "situation": "Khách hàng nói 'Không', bạn mỉm cười và đi tiếp tìm người tiếp theo, không còn suy sụp.",
-            "context": "Bán hàng là trò chơi của xác suất. Càng nhận nhiều lời từ chối càng gần lời đồng ý.",
+            "description": "Vượt qua nỗi sợ bị từ chối, sợ bán hàng, xem lời từ chối là một phần của cuộc chơi và tiếp tục tiến về phía trước.",
+            "situation": "Khách hàng inbox: 'Em cảm ơn chị nhưng em chưa cần'. Thay vì suy sụp cả tuần, bạn mỉm cười, trả lời lịch sự và đi tiếp tìm người thứ 2, thứ 3... Biết rằng 10 người từ chối = 1 người đồng ý.",
+            "context": "Bán hàng là trò chơi của xác suất. Càng nhận nhiều lời từ chối, càng gần lời đồng ý. Sợ bán hàng = Sợ giúp người khác. Đây là mindset shift quan trọng nhất.",
             "triggers": [
-                "Bị từ chối một lần là buồn cả tuần.",
-                "Sợ làm phiền người khác.",
-                "Sợ mất mặt."
+                "Bị từ chối một lần là buồn cả tuần, không dám tiếp cận ai nữa.",
+                "Sợ làm phiền người khác, sợ bị coi là 'spam' hay 'bán hàng rẻ tiền'.",
+                "Sợ mất mặt khi bạn bè/người quen từ chối mình."
             ],
             "desiredOutcome": [
-                "Tâm thế vững vàng.",
-                "Lì đòn hơn.",
-                "Xem bán hàng là niềm vui."
+                "Tâm thế vững vàng, không bị ảnh hưởng bởi lời từ chối.",
+                "Lì đòn hơn, kiên trì tiếp cận 10-20-30 người cho đến khi có người đồng ý.",
+                "Xem bán hàng là niềm vui - là cơ hội giúp người khác, không phải gánh nặng."
             ]
         },
         {
             "id": "emo-3",
             "title": "Professional Pride (Niềm tự hào Nghề nghiệp)",
-            "description": "Tự hào giới thiệu 'Tôi là Coach' trong các buổi gặp gỡ, không còn ấp úng hay nói tránh.",
-            "situation": "Đổi bio Facebook, in card visit với danh xưng Coach một cách hãnh diện.",
-            "context": "Danh phận (Identity) quyết định hành vi.",
+            "description": "Tự hào giới thiệu 'Tôi là Coach' trong các buổi gặp gỡ, không còn ấp úng hay nói tránh, dám đứng vai và yêu nghề.",
+            "situation": "Họp lớp cũ, bạn bè hỏi: 'Bây giờ làm gì?'. Bạn tự tin trả lời: 'Mình là Business Coach cho các Coach mới, giúp họ có khách hàng đầu tiên'. Đổi bio Facebook, in card visit với danh xưng 'Business Mentor' một cách hãnh diện.",
+            "context": "Danh phận (Identity) quyết định hành vi. Nếu bạn không dám nhận mình là Coach, bạn sẽ không hành động như một Coach. Chuyển vai = Chuyển đổi cuộc đời.",
             "triggers": [
-                "Ngại khi người quen hỏi làm gì.",
-                "Cảm thấy như đang làm chui.",
-                "Muốn được công nhận."
+                "Ngại khi người quen hỏi 'Làm gì?', sợ bị coi là 'thất nghiệp' hay 'làm nghề lạ'.",
+                "Cảm thấy như đang 'làm chui', không dám công khai trên mạng xã hội.",
+                "Muốn được xã hội công nhận, muốn gia đình tự hào về nghề mình."
             ],
             "desiredOutcome": [
-                "Được xã hội tôn trọng.",
-                "Gia đình ủng hộ.",
-                "Yêu nghề hơn."
+                "Được xã hội tôn trọng, không còn bị hỏi 'Nghề gì lạ vậy?'",
+                "Gia đình ủng hộ, tự hào về con đường mình đã chọn.",
+                "Yêu nghề hơn, cống hiến hết mình vì biết mình đang làm điều đúng đắn."
             ]
         }
     ],
@@ -109,52 +109,52 @@
         {
             "id": "soc-1",
             "title": "Credibility (Uy tín)",
-            "description": "Có những feedback, testimonial thật từ khách hàng để chứng minh năng lực.",
-            "situation": "Đăng ảnh chụp màn hình feedback của khách lên trang cá nhân.",
-            "context": "Bằng chứng xã hội (Social Proof) là vũ khí bán hàng mạnh nhất.",
+            "description": "Có những feedback, testimonial thật từ khách hàng để chứng minh năng lực, xây dựng Social Proof vững chắc.",
+            "situation": "Sau khi hoàn thành 'Hành Trình Kiến Tạo', khách hàng đầu tiên gửi feedback: 'Cảm ơn chị đã giúp em có đơn hàng đầu tiên 1.000.000đ!'. Bạn đăng ảnh chụp màn hình lên trang cá nhân, tag khách hàng, tạo niềm tin cho người tiếp theo.",
+            "situation": "Bằng chứng xã hội (Social Proof) là vũ khí bán hàng mạnh nhất. Nói hay mà không có kết quả thực tế = Không ai tin. Có testimonial = Dễ chốt sale gấp 10 lần.",
             "triggers": [
-                "Nói hay nhưng không ai tin.",
-                "Chưa có kết quả thực tế.",
-                "Cần minh chứng."
+                "Nói hay nhưng không ai tin vì chưa có bằng chứng cụ thể.",
+                "Chưa có kết quả thực tế từ khách hàng, chỉ có lý thuyết.",
+                "Cần minh chứng để khách hàng tiềm năng tin tưởng và quyết định mua."
             ],
             "desiredOutcome": [
-                "Khách hàng tin tưởng.",
-                "Dễ dàng chốt sale hơn.",
-                "Thương hiệu cá nhân uy tín."
+                "Khách hàng tin tưởng ngay từ lần đầu tiếp xúc nhờ có Social Proof.",
+                "Dễ dàng chốt sale hơn vì đã có bằng chứng thành công từ người khác.",
+                "Thương hiệu cá nhân uy tín, được cộng đồng công nhận."
             ]
         },
         {
             "id": "soc-2",
             "title": "Family Respect (Gia đình Tôn trọng)",
-            "description": "Chứng minh cho gia đình thấy đây là một nghề nghiệp nghiêm túc có thể nuôi sống bản thân, không phải mộng mơ hão huyền.",
-            "situation": "Đóng góp tiền sinh hoạt phí từ thu nhập coaching.",
-            "context": "Áp lực từ gia đình thường là rào cản lớn nhất của coach mới.",
+            "description": "Chứng minh cho gia đình thấy coaching là nghề nghiêm túc có thể nuôi sống bản thân, không phải mộng mơ hão huyền.",
+            "situation": "Cuối tháng, bạn đóng góp 5.000.000đ tiền sinh hoạt phí từ thu nhập coaching. Mẹ mỉm cười: 'Con làm nghề gì lạ nhưng thấy con vui và có tiền thì mẹ yên tâm rồi'. Chồng/vợ không còn cằn nhằn nữa.",
+            "context": "Áp lực từ gia đình thường là rào cản lớn nhất của coach mới. 'Học coaching làm gì? Có nuôi sống được không?'. Tiền là bằng chứng thuyết phục nhất.",
             "triggers": [
-                "Bị chồng/vợ cằn nhằn.",
-                "Bố mẹ lo lắng.",
-                "Bị coi là ăn bám."
+                "Bị chồng/vợ cằn nhằn: 'Học hoài không thấy ra tiền'.",
+                "Bố mẹ lo lắng: 'Bỏ việc ổn định đi làm nghề lạ, sợ con khổ'.",
+                "Bị coi là 'ăn bám', không đóng góp được gì cho gia đình."
             ],
             "desiredOutcome": [
-                "Gia đình yên tâm, ủng hộ.",
-                "Có tiếng nói trong nhà.",
-                "Hạnh phúc trọn vẹn."
+                "Gia đình yên tâm, ủng hộ con đường mình đã chọn.",
+                "Có tiếng nói trong nhà, được tôn trọng vì có thu nhập ổn định.",
+                "Hạnh phúc trọn vẹn - vừa làm nghề yêu thích vừa được gia đình ủng hộ."
             ]
         },
         {
             "id": "soc-3",
             "title": "Community (Cộng đồng)",
-            "description": "Tham gia vào một biệt đội cũng đang 'chiến' như mình, cùng nhau thúc đẩy và ăn mừng chiến thắng.",
-            "situation": "Khoe đơn hàng đầu tiên trong nhóm chat và được mọi người chúc mừng.",
-            "context": "Muốn đi nhanh đi một mình, muốn đi xa đi cùng nhau.",
+            "description": "Tham gia vào một biệt đội cũng đang 'chiến' như mình, cùng nhau thúc đẩy, chia sẻ và ăn mừng chiến thắng.",
+            "situation": "Trong nhóm chat 'Hành Trình Kiến Tạo', bạn khoe: 'Mình vừa có đơn hàng đầu tiên 500k! 🎉'. 20 người cùng lúc gửi sticker chúc mừng, động viên. Cảm giác không còn cô đơn, có người đồng hành cùng mục tiêu.",
+            "context": "Muốn đi nhanh đi một mình, muốn đi xa đi cùng nhau. Làm việc một mình dễ nản chí. Có cộng đồng = Có động lực, có người học hỏi, có môi trường tích cực.",
             "triggers": [
-                "Làm việc một mình buồn chán.",
-                "Dễ nản chí khi gặp khó.",
-                "Cần môi trường tích cực."
+                "Làm việc một mình buồn chán, không có ai chia sẻ khi gặp khó khăn.",
+                "Dễ nản chí khi gặp trở ngại, không có ai động viên.",
+                "Cần môi trường tích cực, cần bạn đồng hành cùng mục tiêu."
             ],
             "desiredOutcome": [
-                "Có bạn đồng hành.",
-                "Vui vẻ, khí thế.",
-                "Học hỏi lẫn nhau."
+                "Có bạn đồng hành, cùng nhau vượt qua khó khăn.",
+                "Vui vẻ, khí thế cao, luôn có động lực để tiến về phía trước.",
+                "Học hỏi lẫn nhau, chia sẻ kinh nghiệm, cùng nhau phát triển."
             ]
         }
     ]
