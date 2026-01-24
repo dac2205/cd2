@@ -93,11 +93,19 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
 
     const logout = async () => {
-        const { error } = await supabase.auth.signOut();
-        if (error) {
-            console.error("Logout error:", error);
-        } else {
+        try {
+            const { error } = await supabase.auth.signOut();
+            if (error) {
+                console.error("Logout error:", error);
+            }
+        } catch (e) {
+            console.error("Unexpected logout error:", e);
+        } finally {
+            // Always clear local state and redirect
+            setUser(null);
+            mixpanel.reset();
             router.push("/login");
+            router.refresh();
         }
     };
 
