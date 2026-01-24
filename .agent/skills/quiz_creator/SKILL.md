@@ -9,7 +9,7 @@ This skill is responsible for generating, validating, and updating the brand qui
 
 ## Capabilities
 
-1.  **Generate Quizzes**: Automatically scans `data/brands/{brand}/jtbd.json` and generates `quiz.json` populated with questions.
+1.  **Generate Quizzes**: Automatically scans `data/brands/{brand}/jtbd.json` and generates multiple quizzes (e.g., `quiz_1.json`, `quiz_2.json`) in the `quiz/` subfolder.
 2.  **Validation**: Ensures generated quizzes meet the 3-round structure requirements.
 3.  **Maintenance**: Re-runs generation when source data changes.
 
@@ -24,9 +24,10 @@ node .agent/skills/quiz_creator/scripts/generate.js
 
 ### Rules Compliance
 This skill adheres to the rules defined in `.agent/rules/quiz_rules.md`.
-- **Source**: `jtbd.json`
-- **Output**: `quiz.json`
-- **Format**: JSON Array of exactly 20 objects with `id`, `question`, `options`, `correctAnswer`, `explanation`.
+- **Source**: `brand.json` and `jtbd.json`
+- **Output**: `quiz/quiz_X.json`
+- **Format**: JSON Array of exactly 20 objects.
+- **Content**: Must be story-driven (references brand specifics).
 
 ## Troubleshooting
 - If `quiz.json` is empty, check if `jtbd.json` exists and has valid `functional`, `emotional`, or `social` arrays.

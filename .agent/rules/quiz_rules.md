@@ -10,40 +10,36 @@ These rules govern the creation and structure of brand quizzes in the Conan Scho
     - **Total**: 20 unique questions per session.
 
 ## 2. Content & Generation
-- **Source**: `jtbd.json` -> `quiz.json`.
+- **Source**: `jtbd.json` -> `quiz/quiz_X.json`.
 - **Constraint**: 
-    - **Length**: Questions should be concise (Target: 12-15 words).
-    - **Quantity**: Exactly 20 high-quality questions.
-- **Fields**: 
-    - `id`: unique string.
-    - `question`: The text content.
-    - `options`: Array of 3 strings ["Functional Job", "Emotional Job", "Social Job"].
-    - `correctAnswer`: Index (0, 1, or 2).
-    - `explanation`: Specific text explaining why it is that job type.
+    - **Story-Driven**: Questions must reference specific brand details (e.g., ingredients, founders, technology) found in `brand.json` or `jtbd.json`.
+    - **Length**: concise (12-15 words).
+    - **Quantity**: Exactly 20 questions per quiz file.
+    - **Variety**: Generate at least 2 distinct quiz files per brand (`quiz_1.json`, `quiz_2.json`).
 
 ## 3. Storage
-- **Location**: `data/brands/{brand_slug}/quiz.json`.
+- **Location**: `data/brands/{brand_slug}/quiz/quiz_{n}.json`.
 - **Format**: JSON Array of exactly 20 objects.
+- **Forbidden**: Do NOT use `.md` files for data storage. All data must be in `brand.json`, `jtbd.json`, etc.
 
 ## 4. Display Rules (UI)
 - **Selection Screen**: 
-    - User must see a specific "Start Challenge" screen (Selection State).
-    - Do NOT auto-start the quiz on page load.
+    - User must see a specific "Start Challenge" screen.
+    - Display random quiz selection info (e.g., "Random from 2 available quizzes").
+- **Logic**:
+    - **No Sudden Death**: Wrong answers do NOT end the round immediately. The user completes all questions in the round.
+    - **Mastery**: 100% correctness is enforced at the **end** of the round via the Round Summary.
 - **Randomization**:
-    - **Questions**: Randomized order on every session start/restart.
-    - **Options**: Randomized per question (e.g., "Functional Job" isn't always option #1).
+    - **Quiz File**: Select one random `quiz_X.json` at session start.
+    - **Questions**: Shuffle the 20 questions from that file.
+    - **Options**: Randomize options per question.
 - **Authentication**:
-    - **User Name**: Display the user's real name (from Google Auth) on success/failure screens.
-- **Visuals**:
-    - **Confirm Button**: High contrast (Black/White).
-    - **Labels**: Use clear "Vòng X/Y", "Câu X/Y".
-    - **Clean Interface**: Do NOT show Timer or "Guest User".
+    - Display user's real name.
 - **Round Summary**:
-    - **Messaging**: Always POSITIVE ("Chúc mừng [Name] đã đạt [XX]%").
-    - **Color**: Use Primary/Green colors (Never Red/Failure for the main status).
-    - **Progression Logic**:
-        - **< 100%**: Soft Fail. Message: "Tuy nhiên, bạn cần đạt 100%...". Action: "Làm lại từ đầu".
-        - **100%**: PASS. fireworks + "Next Round".
+    - **Messaging**: Always POSITIVE.
+    - **Progression**:
+        - **< 100%**: Soft Fail (Retry Round).
+        - **100%**: PASS (Next Round).
     - **Detailed Review**: 
         - Label: "Xem kết quả chi tiết".
         - Content: Show ALL questions, with "Bạn chọn" (if wrong) and "Đáp án đúng".bs.

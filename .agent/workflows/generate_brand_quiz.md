@@ -17,10 +17,10 @@ This workflow uses the **Quiz Creator** skill to generate `quiz.json` files for 
     ```
 
 3.  **Verify Output**
-    Check that `quiz.json` files have been created in `data/brands/{brand}/`.
+    Check that `quiz/` subdirectories created in `data/brands/{brand}/` contain `quiz_1.json` and `quiz_2.json`.
     Example:
     ```bash
-    ls -l data/brands/aurora-english/quiz.json
+    ls -l data/brands/aurora-english/quiz/
     ```
 
 4.  **Completion**

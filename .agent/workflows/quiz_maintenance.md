@@ -18,8 +18,9 @@ node .agent/skills/quiz_creator/scripts/generate.js
 ```
 
 ## 3. Verification
-Check the generated `quiz.json` file for:
-- **Quantity**: Exactly 20 questions.
+Check the generated `quiz/` folder in `data/brands/{brand}/` for:
+- **Files**: `quiz_1.json`, `quiz_2.json`, etc.
+- **Quantity**: Exactly 20 questions per file.
 - **Structure**: Valid JSON array.
 - **Content**: Questions appear relevant and concise (~12-15 words).
 
