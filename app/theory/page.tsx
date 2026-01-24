@@ -22,22 +22,28 @@ export default function TheoryPage() {
             color: "hsl(var(--secondary))"
         },
         {
+            title: "JTBD vs Needs",
+            description: "So sánh JTBD với tư duy Needs truyền thống qua ví dụ thực tế.",
+            href: "/theory/jtbd-vs-needs",
+            color: "hsl(var(--primary))"
+        },
+        {
             title: "Decision Timeline",
             description: "11 mốc quyết định của khách hàng từ Status Quo đến Loyalty.",
             href: "/theory/decision-timeline",
-            color: "hsl(var(--primary))"
+            color: "hsl(var(--accent))"
         },
         {
             title: "The Struggle Stack",
             description: "Tháp đấu tranh tâm lý từ thụ động đến hành động.",
             href: "/theory/struggle-stack",
-            color: "hsl(var(--accent))"
+            color: "hsl(var(--secondary))"
         },
         {
             title: "Insight Structure",
             description: "Giải phẫu một Insight: Tension, Core & Trigger.",
             href: "/theory/insights",
-            color: "hsl(var(--secondary))"
+            color: "hsl(var(--ink-brown))"
         }
     ];
 

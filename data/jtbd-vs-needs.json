@@ -1,0 +1,181 @@
+{
+    "brands": [
+        {
+            "id": "ngoc-cis",
+            "name": "Ngoc CIS",
+            "subtitle": "Mẹ bỉm mất ngủ"
+        },
+        {
+            "id": "aurora-english",
+            "name": "Aurora English",
+            "subtitle": "Học viên tiếng Anh"
+        },
+        {
+            "id": "queen",
+            "name": "QUEEN",
+            "subtitle": "Người tặng quà"
+        }
+    ],
+    "comparisons": [
+        {
+            "category": "Focus (Trọng tâm)",
+            "jtbd": "The progress customers want to make in their life",
+            "needs": "What customers lack or want to have",
+            "commentary": "JTBD tập trung vào 'tiến bộ' (progress), Needs tập trung vào 'thiếu hụt' (gap). JTBD hỏi 'Bạn muốn trở thành ai?', Needs hỏi 'Bạn thiếu gì?'",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Trở thành người mẹ bình yên, có năng lượng chăm sóc con tốt hơn",
+                    "needs": "Cần 8 tiếng ngủ mỗi đêm"
+                },
+                "aurora-english": {
+                    "jtbd": "Trở thành professional tự tin giao tiếp quốc tế",
+                    "needs": "Cần học 500 từ vựng và ngữ pháp"
+                },
+                "queen": {
+                    "jtbd": "Trở thành người chồng chu đáo, biết làm vợ hạnh phúc",
+                    "needs": "Cần một món quà đẹp"
+                }
+            }
+        },
+        {
+            "category": "Question Asked (Câu hỏi đặt ra)",
+            "jtbd": "What job are you hiring this product to do?",
+            "needs": "What features do you need?",
+            "commentary": "JTBD hỏi về 'công việc' (job) sản phẩm phải làm, Needs hỏi về 'tính năng' (features). JTBD solution-agnostic, Needs solution-specific.",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Tôi thuê Ngoc CIS để giúp tôi ngủ sâu giấc và tỉnh táo sáng mai",
+                    "needs": "Tôi cần thuốc ngủ không tác dụng phụ"
+                },
+                "aurora-english": {
+                    "jtbd": "Tôi thuê Aurora để giúp tôi tự tin phát biểu ý kiến trong meeting",
+                    "needs": "Tôi cần khóa học có 100 bài tập giao tiếp"
+                },
+                "queen": {
+                    "jtbd": "Tôi thuê QUEEN để giúp tôi thể hiện tình yêu một cách tinh tế",
+                    "needs": "Tôi cần hộp quà đẹp giao nhanh"
+                }
+            }
+        },
+        {
+            "category": "Timeframe (Khung thời gian)",
+            "jtbd": "Moment of struggle → Decision → First use → Outcome",
+            "needs": "Point-in-time snapshot of what's missing",
+            "commentary": "JTBD là timeline (dòng thời gian), Needs là snapshot (ảnh chụp). JTBD theo dõi toàn bộ hành trình, Needs chỉ nhìn một thời điểm.",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Từ đêm thứ 4 mất ngủ (trigger) → tìm giải pháp → dùng Ngoc CIS → ngủ sâu giấc → trở thành mẹ bình yên",
+                    "needs": "Hiện tại thiếu ngủ, cần giải pháp ngay"
+                },
+                "aurora-english": {
+                    "jtbd": "Từ bị bỏ qua trong meeting (struggle) → quyết tâm học → học Aurora → tự tin phát biểu → được thăng chức",
+                    "needs": "Hiện tại tiếng Anh kém, cần cải thiện"
+                },
+                "queen": {
+                    "jtbd": "Từ vợ nói 'đừng tặng son nữa' (trigger) → tìm quà độc đáo → mua QUEEN → vợ rơi nước mắt → trở thành chồng chu đáo",
+                    "needs": "Sắp kỷ niệm, cần mua quà"
+                }
+            }
+        },
+        {
+            "category": "Emotional Dimension (Chiều cảm xúc)",
+            "jtbd": "Emotional Job is core: 'How do I want to feel?'",
+            "needs": "Emotions are secondary, nice-to-have",
+            "commentary": "JTBD đặt cảm xúc ở trung tâm (Emotional Job), Needs coi cảm xúc là phụ. JTBD hiểu rằng người ta mua cảm giác, không chỉ mua tính năng.",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Cảm giác nhẹ nhõm, bình yên, tự hào là người mẹ tốt",
+                    "needs": "Ngủ được là đủ, cảm xúc không quan trọng"
+                },
+                "aurora-english": {
+                    "jtbd": "Cảm giác tự tin, được tôn trọng, không còn tự ti",
+                    "needs": "Nói được tiếng Anh là đủ, cảm xúc không quan trọng"
+                },
+                "queen": {
+                    "jtbd": "Cảm giác phổng mũi khi vợ khoe quà, tự hào là chồng chu đáo",
+                    "needs": "Tặng quà đẹp là đủ, cảm xúc không quan trọng"
+                }
+            }
+        },
+        {
+            "category": "Social Dimension (Chiều xã hội)",
+            "jtbd": "Social Job is critical: 'How do I want to be seen?'",
+            "needs": "Social context is ignored",
+            "commentary": "JTBD nhận ra con người là sinh vật xã hội (Social Job), Needs bỏ qua bối cảnh xã hội. JTBD hiểu rằng người ta mua để 'gán ý nghĩa' cho bản thân.",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Tôi là người mẹ thông minh, biết chăm sóc bản thân để chăm con tốt hơn",
+                    "needs": "Không quan tâm người khác nghĩ gì"
+                },
+                "aurora-english": {
+                    "jtbd": "Tôi là Global Citizen, chủ động phát triển bản thân, không lỗi thời",
+                    "needs": "Không quan tâm người khác nghĩ gì"
+                },
+                "queen": {
+                    "jtbd": "Tôi là người chồng có gu, tinh tế, không đại trà như số đông",
+                    "needs": "Không quan tâm người khác nghĩ gì"
+                }
+            }
+        },
+        {
+            "category": "Solution Orientation (Định hướng giải pháp)",
+            "jtbd": "Solution-agnostic: Any solution that does the job",
+            "needs": "Solution-specific: This exact feature/product",
+            "commentary": "JTBD mở rộng không gian cạnh tranh (competitors = bất kỳ ai làm được job), Needs thu hẹp (competitors = sản phẩm tương tự). JTBD giúp tìm ra insight bất ngờ.",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Competitors: Thuốc ngủ, Yoga, Meditation app, Chuyên gia tâm lý, Ngoc CIS",
+                    "needs": "Competitors: Các trung tâm chữa mất ngủ khác"
+                },
+                "aurora-english": {
+                    "jtbd": "Competitors: Trung tâm Anh ngữ, Gia sư, App học, Sách tự học, Aurora",
+                    "needs": "Competitors: Các trung tâm Anh ngữ khác"
+                },
+                "queen": {
+                    "jtbd": "Competitors: Mua online, Tự đi mua, Nhờ bạn, Tự làm, QUEEN",
+                    "needs": "Competitors: Các shop quà tặng khác"
+                }
+            }
+        },
+        {
+            "category": "Measurement (Đo lường thành công)",
+            "jtbd": "Did the customer make progress? Did the job get done?",
+            "needs": "Did we deliver the features? Did they use it?",
+            "commentary": "JTBD đo lường outcome (kết quả), Needs đo lường output (sản phẩm). JTBD quan tâm 'cuộc sống khách hàng có tốt hơn không?', Needs quan tâm 'họ có dùng tính năng không?'",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Khách hàng có trở thành mẹ bình yên, vui vẻ với con không?",
+                    "needs": "Khách hàng có ngủ đủ 8 tiếng không?"
+                },
+                "aurora-english": {
+                    "jtbd": "Khách hàng có tự tin phát biểu trong meeting không?",
+                    "needs": "Khách hàng có hoàn thành 100 bài tập không?"
+                },
+                "queen": {
+                    "jtbd": "Vợ có cảm thấy được yêu thương, chồng có tự hào không?",
+                    "needs": "Quà có đẹp, giao đúng hẹn không?"
+                }
+            }
+        },
+        {
+            "category": "Marketing Implication (Ứng dụng Marketing)",
+            "jtbd": "Message focuses on transformation & progress",
+            "needs": "Message focuses on features & benefits",
+            "commentary": "JTBD marketing kể câu chuyện chuyển hóa (before → after), Needs marketing liệt kê tính năng. JTBD tạo emotional connection, Needs tạo rational comparison.",
+            "examples": {
+                "ngoc-cis": {
+                    "jtbd": "Từ mẹ bỉm kiệt sức → Mẹ bình yên, con hạnh phúc",
+                    "needs": "Giải pháp ngủ tự nhiên, không thuốc, hiệu quả sau 1 tuần"
+                },
+                "aurora-english": {
+                    "jtbd": "Từ sợ phát biểu → Tự tin thuyết trình, được thăng chức",
+                    "needs": "Phương pháp mindset-first, lớp nhỏ, giáo viên bản ngữ"
+                },
+                "queen": {
+                    "jtbd": "Từ tặng quà đại trà → Người chồng chu đáo, vợ rơi nước mắt",
+                    "needs": "Quà đẹp, giao nhanh 3h, thiệp viết tay"
+                }
+            }
+        }
+    ]
+}
