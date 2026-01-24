@@ -22,16 +22,22 @@ export default function TheoryPage() {
             color: "hsl(var(--secondary))"
         },
         {
+            title: "Decision Timeline",
+            description: "11 mốc quyết định của khách hàng từ Status Quo đến Loyalty.",
+            href: "/theory/decision-timeline",
+            color: "hsl(var(--primary))"
+        },
+        {
             title: "The Struggle Stack",
             description: "Tháp đấu tranh tâm lý từ thụ động đến hành động.",
             href: "/theory/struggle-stack",
-            color: "hsl(var(--primary))"
+            color: "hsl(var(--accent))"
         },
         {
             title: "Insight Structure",
             description: "Giải phẫu một Insight: Tension, Core & Trigger.",
             href: "/theory/insights",
-            color: "hsl(var(--accent))"
+            color: "hsl(var(--secondary))"
         }
     ];
 

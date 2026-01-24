@@ -1,0 +1,167 @@
+{
+    "cases": [
+        {
+            "id": "ngoc-cis",
+            "name": "Ngoc CIS",
+            "subtitle": "Mẹ bỉm mất ngủ",
+            "customer": "Người mẹ bận rộn, thiếu ngủ"
+        },
+        {
+            "id": "aurora-english",
+            "name": "Aurora English",
+            "subtitle": "Học viên tiếng Anh",
+            "customer": "Nhân viên văn phòng cần tiếng Anh"
+        },
+        {
+            "id": "queen",
+            "name": "QUEEN",
+            "subtitle": "Người tặng quà",
+            "customer": "Người cần mua quà cho dịp quan trọng"
+        }
+    ],
+    "stages": [
+        {
+            "id": 0,
+            "emoji": "😴",
+            "name": "Stable Status Quo",
+            "title": "Trạng thái ổn định cũ",
+            "description": "Khách hàng đang dùng giải pháp hiện tại. Không yêu, nhưng chưa đủ khó chịu để đổi. Có inertia (quán tính).",
+            "insight": "JTBD chưa tồn tại ở đây",
+            "examples": {
+                "ngoc-cis": "Mẹ bỉm lướt điện thoại đến 2h sáng mỗi đêm để ngủ được. Biết không tốt nhưng 'cũng được', chấp nhận thiếu ngủ là bình thường của mẹ bỉm.",
+                "aurora-english": "Dùng Google Dịch khi cần giao tiếp với đối tác nước ngoài. Hơi ngại nhưng 'tạm được', công việc vẫn chạy.",
+                "queen": "Tặng hoa hoặc son như mọi năm. Không đặc biệt lắm nhưng 'cũng ổn', người nhận vẫn cảm ơn."
+            }
+        },
+        {
+            "id": 1,
+            "emoji": "🤔",
+            "name": "First Signal",
+            "title": "Dấu hiệu bất ổn đầu tiên",
+            "description": "Một chuyện nhỏ xảy ra. Hơi khó chịu, hơi lệch nhịp. Nhưng chưa hành động.",
+            "insight": "Dấu hiệu đầu tiên thường bị bỏ qua",
+            "examples": {
+                "ngoc-cis": "Một buổi sáng thức dậy thấy đau đầu dữ dội, mắt sưng húp. Nghĩ thầm 'hôm nay mệt quá', nhưng vẫn cố gắng đi làm.",
+                "aurora-english": "Trong cuộc họp, không hiểu đối tác nói gì, phải nhờ đồng nghiệp dịch. Hơi xấu hổ nhưng nghĩ 'lần sau chuẩn bị kỹ hơn'.",
+                "queen": "Tặng hoa cho vợ, thấy cô ấy cảm ơn nhưng không có vẻ 'wow'. Nghĩ thầm 'chắc mệt', không để tâm lắm."
+            }
+        },
+        {
+            "id": 2,
+            "emoji": "😣",
+            "name": "Growing Struggle",
+            "title": "Tích tụ khó chịu",
+            "description": "Những bất tiện lặp lại. Cảm xúc âm ỉ (mệt, cáu, bất an, ngại). Bắt đầu so sánh trong đầu, dù chưa nói ra.",
+            "insight": "Đây là lúc Emotional Job bắt đầu hình thành",
+            "examples": {
+                "ngoc-cis": "3 đêm liên tiếp mất ngủ. Sáng dậy cáu gắt với con vì chuyện nhỏ. Thấy bạn bè đăng ảnh tươi tắn, tự hỏi 'sao mình lại kiệt sức thế này?'",
+                "aurora-english": "Nhiều lần bị bỏ qua trong cuộc họp vì không dám phát biểu. Thấy đồng nghiệp trẻ tuổi thuyết trình tiếng Anh trôi chảy, cảm thấy mình 'lỗi thời'.",
+                "queen": "Năm ngoái tặng son, năm nay lại tặng son. Bạn bè khoe quà độc đáo trên Facebook, tự thấy mình 'vô tâm' và thiếu sáng tạo."
+            }
+        },
+        {
+            "id": 3,
+            "emoji": "💥",
+            "name": "Trigger Event",
+            "title": "Giọt nước tràn ly",
+            "description": "Một sự kiện rất cụ thể. Làm họ không chịu được nữa. Quyết định: 'Phải đổi'.",
+            "insight": "JTBD luôn gắn với trigger thật",
+            "examples": {
+                "ngoc-cis": "Đêm thứ 4 mất ngủ, ngồi khóc một mình lúc 3h sáng. Sáng hôm sau suýt gây tai nạn vì buồn ngủ khi lái xe. Nghĩ: 'Không thể tiếp tục thế này!'",
+                "aurora-english": "Sếp thông báo cơ hội thăng chức nhưng yêu cầu tiếng Anh tốt. Nếu không cải thiện trong 3 tháng, vị trí sẽ cho người khác. Nghĩ: 'Đủ rồi, phải học ngay!'",
+                "queen": "Sắp đến kỷ niệm 10 năm ngày cưới. Vợ nói đùa: 'Năm nay đừng tặng son nữa nhé'. Cảm thấy xấu hổ, quyết tâm: 'Lần này phải khác!'"
+            }
+        },
+        {
+            "id": 4,
+            "emoji": "🔍",
+            "name": "Active Looking",
+            "title": "Bắt đầu tìm giải pháp",
+            "description": "Lên Google, hỏi bạn bè, nhớ lại lựa chọn cũ. Không tìm 'tốt nhất', mà tìm 'đỡ đau nhất lúc này'.",
+            "insight": "Người ta hire solution, không mua sản phẩm",
+            "examples": {
+                "ngoc-cis": "Google: 'cách chữa mất ngủ cho mẹ bỉm'. Hỏi nhóm mẹ bỉm trên Facebook. Thấy quảng cáo Ngoc CIS: 'Ngủ sâu 15 phút không cần thuốc'.",
+                "aurora-english": "Google: 'học tiếng Anh giao tiếp cho người đi làm'. Hỏi đồng nghiệp học ở đâu. Thấy Aurora English quảng cáo: 'Tự tin thuyết trình sau 3 tháng'.",
+                "queen": "Google: 'quà tặng vợ kỷ niệm ngày cưới độc đáo'. Hỏi bạn thân đã tặng gì. Thấy QUEEN trên Instagram: 'Quà trong 5 phút, người nhận rơi nước mắt'."
+            }
+        },
+        {
+            "id": 5,
+            "emoji": "⚖️",
+            "name": "Evaluation & Trade-offs",
+            "title": "Cân nhắc đánh đổi",
+            "description": "So sánh 2-3 phương án. Luôn có nỗi sợ kèm theo. 'Lỡ không như kỳ vọng thì sao?'",
+            "insight": "Đây là nơi insight sâu nhất nằm",
+            "examples": {
+                "ngoc-cis": "So sánh: Thuốc ngủ (nhanh nhưng sợ phụ thuộc) vs Yoga (tự nhiên nhưng tốn thời gian) vs Ngoc CIS (hứa hẹn nhưng chưa biết). Lo: 'Mất tiền mà vẫn mất ngủ thì sao?'",
+                "aurora-english": "So sánh: Trung tâm truyền thống (rẻ nhưng nhàm chán) vs Gia sư 1-1 (hiệu quả nhưng đắt) vs Aurora (mindset-first nhưng lạ). Lo: 'Học xong vẫn không dám nói thì sao?'",
+                "queen": "So sánh: Mua online (rẻ nhưng sợ kém chất lượng) vs Tự đi mua (tốn thời gian) vs QUEEN (tiện nhưng đắt). Lo: 'Lỡ vợ không thích thì sao?'"
+            }
+        },
+        {
+            "id": 6,
+            "emoji": "✅",
+            "name": "Decision Moment",
+            "title": "Khoảnh khắc ra quyết định",
+            "description": "Một lý do rất nhỏ nhưng quyết định. Có thể là lời nói của ai đó, hình ảnh, cam kết, hoặc trải nghiệm chạm đầu tiên.",
+            "insight": "Brand mạnh = giảm lo lắng tại khoảnh khắc này",
+            "examples": {
+                "ngoc-cis": "Đọc review: 'Tôi ngủ được từ đêm đầu tiên'. Thấy cam kết: 'Hoàn tiền 100% nếu không hiệu quả'. Nghĩ: 'Thử thôi, không mất gì!'",
+                "aurora-english": "Bạn đồng nghiệp nói: 'Tôi học Aurora 2 tháng, giờ tự tin thuyết trình rồi'. Thấy lớp có 'Zone an toàn để dám sai'. Nghĩ: 'Đây là cái tôi cần!'",
+                "queen": "Thấy ảnh hộp quà QUEEN đẹp như tác phẩm nghệ thuật. Có dịch vụ: 'Giao trong 3h, thiệp viết tay'. Nghĩ: 'Xong, chốt luôn!'"
+            }
+        },
+        {
+            "id": 7,
+            "emoji": "🎯",
+            "name": "First Use",
+            "title": "Trải nghiệm lần đầu",
+            "description": "So với kỳ vọng trong đầu. Rất nhạy cảm. Mọi chi tiết nhỏ đều 'to'.",
+            "insight": "Đây là lúc Job được 'thực thi'",
+            "examples": {
+                "ngoc-cis": "Buổi tư vấn đầu tiên, bác sĩ hỏi kỹ về giấc ngủ, không chỉ kê đơn thuốc. Đêm đầu áp dụng, ngủ được sau 20 phút. Nghĩ: 'Ồ, có vẻ đúng!'",
+                "aurora-english": "Buổi học đầu, giáo viên giải thích 'tại sao' thay vì chỉ dạy ngữ pháp. Được khích lệ khi nói sai. Nghĩ: 'Khác hẳn trung tâm cũ!'",
+                "queen": "Mở hộp quà, thấy từng món được sắp xếp tinh tế, thiệp viết tay chữ đẹp. Vợ mở mắt to: 'Em không ngờ anh chu đáo thế!'. Nghĩ: 'Đáng tiền!'"
+            }
+        },
+        {
+            "id": 8,
+            "emoji": "💚",
+            "name": "Outcome & Emotional Resolution",
+            "title": "Kết quả + cảm xúc",
+            "description": "Nhẹ nhõm? hài lòng? thất vọng? Có cảm giác 'Đúng là mình cần cái này' hoặc 'Biết thế...'",
+            "insight": "Emotional Job được giải hoặc không",
+            "examples": {
+                "ngoc-cis": "Sau 1 tuần, ngủ sâu giấc mỗi đêm. Sáng dậy tươi tắn, vui vẻ với con. Cảm giác: 'Nhẹ nhõm! Cuối cùng cũng tìm được giải pháp!'",
+                "aurora-english": "Sau 1 tháng, tự tin phát biểu ý kiến trong cuộc họp tiếng Anh. Sếp khen. Cảm giác: 'Tự hào! Mình làm được!'",
+                "queen": "Vợ khoe quà lên Facebook, nhiều người hỏi mua ở đâu. Vợ tag: 'Cảm ơn chồng yêu!'. Cảm giác: 'Phổng mũi! Lần này đúng rồi!'"
+            }
+        },
+        {
+            "id": 9,
+            "emoji": "🎭",
+            "name": "Meaning Making",
+            "title": "Gán ý nghĩa",
+            "description": "Khách hàng tự kể lại câu chuyện cho mình. 'Tôi là người như thế nào vì đã chọn cái này?'",
+            "insight": "Đây là Social Job",
+            "examples": {
+                "ngoc-cis": "Kể với bạn bè: 'Tôi là người mẹ biết chăm sóc bản thân để chăm sóc con tốt hơn'. Tự nhận: 'Tôi thông minh vì đầu tư vào sức khỏe tinh thần'.",
+                "aurora-english": "Kể với đồng nghiệp: 'Tôi là người chủ động phát triển bản thân'. Tự nhận: 'Tôi là Global Citizen, không bị rào cản ngôn ngữ'.",
+                "queen": "Kể với bạn bè: 'Tôi là người chồng chu đáo, biết cách làm vợ hạnh phúc'. Tự nhận: 'Tôi có gu, tinh tế, không đại trà'."
+            }
+        },
+        {
+            "id": 10,
+            "emoji": "🔄",
+            "name": "Habit / Loyalty / Switching Again",
+            "title": "Lặp lại hoặc rời bỏ",
+            "description": "Nếu Job được giải tốt → thành thói quen. Nếu không → chu kỳ bắt đầu lại.",
+            "insight": "JTBD là vòng lặp, không phải funnel",
+            "examples": {
+                "ngoc-cis": "Tiếp tục theo dõi định kỳ với Ngoc CIS. Giới thiệu cho bạn bè mẹ bỉm khác. Trở thành 'fan cứng', bảo vệ brand khi có người hỏi.",
+                "aurora-english": "Đăng ký khóa nâng cao. Tham gia cộng đồng học viên. Giới thiệu đồng nghiệp học. Trở thành 'đại sứ' của Aurora.",
+                "queen": "Mỗi dịp đặc biệt đều mua quà từ QUEEN. Giới thiệu cho bạn bè. Khi ai hỏi 'mua quà ở đâu?', trả lời ngay: 'QUEEN, không nghĩ gì khác!'"
+            }
+        }
+    ]
+}
