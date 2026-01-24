@@ -83,15 +83,15 @@ brands.forEach(brand => {
             };
 
             // Generate 2 quizzes
-            const TARGET_COUNT = 20;
+            const TARGET_COUNT = 30; // 5 + 10 + 15
             const NUM_QUIZZES = 2;
 
             for (let qIdx = 1; qIdx <= NUM_QUIZZES; qIdx++) {
                 // 1. Sort by length score to prioritize good length
                 allQuestions.sort((a, b) => getLengthScore(a.question) - getLengthScore(b.question));
 
-                // 2. Take top pool (e.g. 50 candidates) to allow variation
-                const candidatePool = allQuestions.slice(0, 50);
+                // 2. Take top pool (e.g. 60 candidates) to allow variation
+                const candidatePool = allQuestions.slice(0, 80);
 
                 // 3. Shuffle pool
                 const shuffledCandidates = shuffle(candidatePool);

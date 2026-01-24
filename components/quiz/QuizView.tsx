@@ -19,8 +19,8 @@ export default function QuizView({ quizzes }: QuizViewProps) {
     // --- Configuration ---
     const ROUNDS = [
         { id: 1, count: 5, label: "Khởi động" },
-        { id: 2, count: 5, label: "Tăng tốc" },
-        { id: 3, count: 10, label: "Về đích" }
+        { id: 2, count: 10, label: "Tăng tốc" },
+        { id: 3, count: 15, label: "Về đích" }
     ];
 
     // --- State: Game Flow ---
@@ -116,7 +116,7 @@ export default function QuizView({ quizzes }: QuizViewProps) {
         // Slice logic
         let start = 0;
         if (currentRound === 2) start = 5;
-        if (currentRound === 3) start = 10;
+        if (currentRound === 3) start = 15; // 5 + 10
         const count = ROUNDS.find(r => r.id === currentRound)?.count || 5;
         const end = start + count;
 
@@ -214,7 +214,7 @@ export default function QuizView({ quizzes }: QuizViewProps) {
                             Bắt đầu ngay
                         </button>
                         <div className="text-sm text-ink-light/60 mt-4">
-                            Gồm 3 vòng thi • 20 câu hỏi • Yêu cầu chính xác 100% <br />
+                            Gồm 3 vòng thi • 30 câu hỏi • Yêu cầu chính xác 100% <br />
                             (Random from {quizzes.length} available quizzes)
                         </div>
                     </div>

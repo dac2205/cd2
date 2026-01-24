@@ -1,28 +1,28 @@
 [
     {
-        "question": "Nấu một nồi canh cả nhà ăn thì con chê mặn/cay, nấu riêng thì lích kích.",
+        "question": "7h tối, thay vì đầu bù tóc rối trong bếp, mẹ đang ngồi đọc sách cùng con trong khi chờ món ăn nóng.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "jamte-q1-1"
     },
     {
-        "question": "Bữa ăn hoàn chỉnh trong 5-10 phút.",
+        "question": "Gia tăng kết nối tích cực với con.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "jamte-q1-2"
     },
     {
-        "question": "Gia đình êm ấm, vợ chồng hòa thuận.",
+        "question": "Muốn chứng minh phương pháp của mình là đúng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -33,169 +33,70 @@
         "id": "jamte-q1-3"
     },
     {
-        "question": "Đúng chuẩn dinh dưỡng (không mặn, không ngọt).",
+        "question": "Cảm thấy nhẹ nhõm, trút bỏ gánh nặng.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "jamte-q1-4"
     },
     {
-        "question": "Xác lập vị thế 'người tiêu dùng thông minh'.",
+        "question": "Luôn có sẵn 'kho lương thực' an toàn trong tủ đông cho những tình huống bất khả kháng.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "jamte-q1-5"
     },
     {
-        "question": "Thấy quy trình bếp mở minh bạch của Jamte.",
+        "question": "Tự tin tranh luận với mẹ chồng rằng việc dành thời gian chơi với con quan trọng hơn là hì hục trong bếp.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "jamte-q1-6"
     },
     {
-        "question": "Bữa cơm không còn tiếng quát mắng ép ăn, cả nhà vui vẻ trò chuyện.",
+        "question": "Mệt mỏi, chỉ muốn nằm nghỉ.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "jamte-q1-7"
     },
     {
-        "question": "Sáng ngủ dậy muộn, không kịp nấu.",
+        "question": "Mẹ được ghi nhận công lao.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "jamte-q1-8"
     },
     {
-        "question": "Ngồi nhìn con ăn ngấu nghiến món Jamte mà mẹ đặt, thay vì cảnh ép ăn trong nước mắt.",
+        "question": "Thấy người khác chật vật nấu nướng còn mình thảnh thơi.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "jamte-q1-9"
-    },
-    {
-        "question": "Con đi khám dinh dưỡng bác sĩ bảo thiếu chất.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "jamte-q1-10"
-    },
-    {
-        "question": "Thấy con hào hứng ăn khi được đổi món.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "jamte-q1-11"
-    },
-    {
-        "question": "Mua sự yên bình trong tâm trí, không còn lo lắng về vấn đề an toàn thực phẩm.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "jamte-q1-12"
-    },
-    {
-        "question": "Chia sẻ hình ảnh bữa ăn đẹp mắt lên mạng xã hội.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "jamte-q1-13"
-    },
-    {
-        "question": "Được bạn bè khen ngợi vì chăm con khéo.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "jamte-q1-14"
-    },
-    {
-        "question": "Con tự giác ăn, tìm lại niềm vui ăn uống.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "jamte-q1-15"
-    },
-    {
-        "question": "Không lãng phí thức ăn (đúng định lượng).",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "jamte-q1-16"
-    },
-    {
-        "question": "Truyền cảm hứng cho các bà mẹ khác.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "jamte-q1-17"
-    },
-    {
-        "question": "Cảm thấy áy náy khi order pizza cho con ăn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "jamte-q1-18"
     },
     {
         "question": "Bị áp đặt các quan điểm cũ kỹ.",
@@ -206,10 +107,10 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "jamte-q1-19"
+        "id": "jamte-q1-10"
     },
     {
-        "question": "Muốn con được hưởng những điều tốt nhất.",
+        "question": "Giữ gìn hòa khí gia đình bằng việc loại bỏ những xung đột không đáng có quanh bàn ăn.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -217,6 +118,215 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
+        "id": "jamte-q1-11"
+    },
+    {
+        "question": "Thấy con hào hứng ăn khi được đổi món.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-12"
+    },
+    {
+        "question": "Tin tưởng 100% vào nguồn thức ăn của con.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-13"
+    },
+    {
+        "question": "Thể hiện quan điểm nuôi con hiện đại: ưu tiên chất lượng thời gian (Quality Time) hơn là số lượng công việc tay chân.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "jamte-q1-14"
+    },
+    {
+        "question": "Con bị rối loạn tiêu hóa sau khi ăn hàng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-15"
+    },
+    {
+        "question": "Duy trì nề nếp sinh hoạt không bị xáo trộn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "jamte-q1-16"
+    },
+    {
+        "question": "Có thời gian chất lượng (quality time) cho con.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-17"
+    },
+    {
+        "question": "Con khóc lóc vì không muốn ăn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "jamte-q1-18"
+    },
+    {
+        "question": "Cảm thấy áy náy khi order pizza cho con ăn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-19"
+    },
+    {
+        "question": "Bữa ăn hoàn chỉnh trong 5-10 phút.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "jamte-q1-20"
+    },
+    {
+        "question": "Bảo vệ được quan điểm nuôi con.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "jamte-q1-21"
+    },
+    {
+        "question": "Chiều về kẹt xe, quá mệt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "jamte-q1-22"
+    },
+    {
+        "question": "Con cái ngoan ngoãn, hợp tác.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "jamte-q1-23"
+    },
+    {
+        "question": "Nhà có việc bận đột xuất.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "jamte-q1-24"
+    },
+    {
+        "question": "Được bạn bè khen ngợi vì chăm con khéo.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "jamte-q1-25"
+    },
+    {
+        "question": "Cảm giác kiểm soát được rủi ro sức khỏe.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-26"
+    },
+    {
+        "question": "Con chê món mẹ nấu 'không ngon bằng ngoài hàng'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "jamte-q1-27"
+    },
+    {
+        "question": "6h30 tối mới về đến nhà, con đói, mẹ mệt, tủ lạnh trống trơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "jamte-q1-28"
+    },
+    {
+        "question": "Mẹ ốm, không dậy nấu được.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "jamte-q1-29"
+    },
+    {
+        "question": "Tin tức về thực phẩm bẩn tràn lan.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "jamte-q1-30"
     }
 ]

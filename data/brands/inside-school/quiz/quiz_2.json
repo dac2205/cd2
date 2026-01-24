@@ -1,27 +1,5 @@
 [
     {
-        "question": "Bế tắc trong việc tìm ý tưởng mới.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "inside-school-q2-1"
-    },
-    {
-        "question": "Sợ sai sót nhỏ sẽ làm mất uy tín.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "inside-school-q2-2"
-    },
-    {
         "question": "Muốn để lại di sản (Legacy) tri thức.",
         "options": [
             "Functional Job",
@@ -30,18 +8,18 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "inside-school-q2-3"
+        "id": "inside-school-q2-1"
     },
     {
-        "question": "Sở hữu tài sản số (Digital Assets) giá trị.",
+        "question": "Được khán giả nhận diện ngay lập tức.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "inside-school-q2-4"
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "inside-school-q2-2"
     },
     {
         "question": "Được tôn trọng bởi các đồng nghiệp (Peers).",
@@ -52,10 +30,32 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
+        "id": "inside-school-q2-3"
+    },
+    {
+        "question": "Cảm thấy nhẹ nhõm, tự do.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "inside-school-q2-4"
+    },
+    {
+        "question": "Bế tắc trong việc tìm ý tưởng mới.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "inside-school-q2-5"
     },
     {
-        "question": "Tạo dấu ấn sâu đậm trong tâm trí khán giả.",
+        "question": "Tạo ra những nội dung có giá trị trường tồn (Evergreen), được lưu truyền và trích dẫn lâu dài chứ không chỉ là tin tức thoáng qua.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -66,18 +66,18 @@
         "id": "inside-school-q2-6"
     },
     {
-        "question": "Kiến tạo di sản tri thức cho thế hệ sau.",
+        "question": "Luôn nghĩ mình chưa đủ giỏi (Not good enough).",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "inside-school-q2-7"
     },
     {
-        "question": "Hệ thống content thu hút khách hàng đều đặn.",
+        "question": "Content trồi sụt, lúc hay lúc dở.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -88,7 +88,7 @@
         "id": "inside-school-q2-8"
     },
     {
-        "question": "So sánh bản thân với những KOLs lớn.",
+        "question": "Dám công bố những sản phẩm ở dạng 'bản nháp' (work in progress) mà không cảm thấy xấu hổ, chấp nhận sự không hoàn hảo.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -99,7 +99,7 @@
         "id": "inside-school-q2-9"
     },
     {
-        "question": "Viết đi viết lại một caption 10 lần rồi xóa vì thấy chưa đủ hay.",
+        "question": "Trì hoãn ra mắt sản phẩm vì cảm thấy chưa đủ tốt.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -110,18 +110,18 @@
         "id": "inside-school-q2-10"
     },
     {
-        "question": "Cảm thấy mình đang bán thời gian lấy tiền rẻ mạt.",
+        "question": "Chán ngấy (Sick of) các mối quan hệ lợi dụng.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "inside-school-q2-11"
     },
     {
-        "question": "Một bài viết từ 2 năm trước vẫn được độc giả tìm đọc và chia sẻ lại.",
+        "question": "Có những người bạn tri kỷ trong nghề.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -132,7 +132,7 @@
         "id": "inside-school-q2-12"
     },
     {
-        "question": "Được yêu quý vì chính con người thật.",
+        "question": "Vượt qua hội chứng kẻ mạo danh (Imposter Syndrome) để tự tin chia sẻ giá trị và dẫn dắt cộng đồng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -143,29 +143,29 @@
         "id": "inside-school-q2-13"
     },
     {
-        "question": "Tự do sáng tạo và thử nghiệm.",
+        "question": "Đang làm freelance viết lách nhưng thu nhập bấp bênh, làm ngày nào ăn ngày đó, muốn đóng gói thành khóa học/sản phẩm số.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "inside-school-q2-14"
     },
     {
-        "question": "Trước khi bấm nút 'Publish' không còn run sợ, mà cảm thấy hào hứng vì sắp trao đi giá trị.",
+        "question": "Hệ thống content thu hút khách hàng đều đặn.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "inside-school-q2-15"
     },
     {
-        "question": "Được mời đi chia sẻ (Speaker) tại các sự kiện uy tín về chuyên môn.",
+        "question": "Có một cộng đồng Loyal Followers chất lượng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -176,18 +176,7 @@
         "id": "inside-school-q2-16"
     },
     {
-        "question": "Tiến độ công việc (Shipping velocity) tăng vọt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "inside-school-q2-17"
-    },
-    {
-        "question": "Giải phóng não bộ khỏi áp lực sáng tạo.",
+        "question": "Loay hoay giữa hàng ngàn chủ đề, thấy ai làm gì cũng muốn bắt chước nhưng làm mãi không lên.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -195,10 +184,21 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "inside-school-q2-17"
+    },
+    {
+        "question": "Cùng nhau đi xa (Go together).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "inside-school-q2-18"
     },
     {
-        "question": "Mệt mỏi vì phải liên tục 'săn tìm' ý tưởng.",
+        "question": "Tạo ra một hệ thống kinh doanh tri thức có thể scale (mở rộng) mà không vắt kiệt sức lực (burnout).",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -209,7 +209,29 @@
         "id": "inside-school-q2-19"
     },
     {
-        "question": "Cảm thấy lạc lõng giữa đám đông ồn ào.",
+        "question": "Cảm thấy mình có ích (Impactful).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "inside-school-q2-20"
+    },
+    {
+        "question": "Bị 'writer block' thường xuyên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "inside-school-q2-21"
+    },
+    {
+        "question": "Thu hút và kết nối với những tâm hồn đồng điệu, tạo ra một 'bộ lạc' (Tribe) văn minh và sâu sắc.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -217,6 +239,94 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "inside-school-q2-20"
+        "id": "inside-school-q2-22"
+    },
+    {
+        "question": "Khám phá 'chất liệu' bên trong để định vị bản thân khác biệt hoàn toàn so với đám đông ngoài kia.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "inside-school-q2-23"
+    },
+    {
+        "question": "Tin tưởng tuyệt đối vào giá trị mình mang lại.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "inside-school-q2-24"
+    },
+    {
+        "question": "Sản xuất content nhanh, chất lượng ổn định.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "inside-school-q2-25"
+    },
+    {
+        "question": "Môi trường sinh hoạt an toàn, nâng đỡ nhau.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "inside-school-q2-26"
+    },
+    {
+        "question": "Tiến độ công việc (Shipping velocity) tăng vọt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "inside-school-q2-27"
+    },
+    {
+        "question": "Không muốn mãi là người follower (bám đuôi).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "inside-school-q2-28"
+    },
+    {
+        "question": "So sánh bản thân với những KOLs lớn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "inside-school-q2-29"
+    },
+    {
+        "question": "Có kho ý tưởng dự trữ dùng cả năm.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "inside-school-q2-30"
     }
 ]

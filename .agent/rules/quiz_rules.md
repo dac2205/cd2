@@ -5,21 +5,21 @@ These rules govern the creation and structure of brand quizzes in the Conan Scho
 ## 1. Structure
 - **Rounds**: Every quiz session MUST follow this sequence:
     - **Round 1**: 5 Questions. (Focus: Warm up)
-    - **Round 2**: 5 Questions. (Focus: Deepening)
-    - **Round 3**: 10 Questions. (Focus: Mastery)
-    - **Total**: 20 unique questions per session.
+    - **Round 2**: 10 Questions. (Focus: Deepening)
+    - **Round 3**: 15 Questions. (Focus: Mastery)
+    - **Total**: 30 unique questions per session.
 
 ## 2. Content & Generation
 - **Source**: `jtbd.json` -> `quiz/quiz_X.json`.
 - **Constraint**: 
     - **Story-Driven**: Questions must reference specific brand details (e.g., ingredients, founders, technology) found in `brand.json` or `jtbd.json`.
     - **Length**: concise (12-15 words).
-    - **Quantity**: Exactly 20 questions per quiz file.
+    - **Quantity**: Exactly 30 questions per quiz file.
     - **Variety**: Generate at least 2 distinct quiz files per brand (`quiz_1.json`, `quiz_2.json`).
 
 ## 3. Storage
 - **Location**: `data/brands/{brand_slug}/quiz/quiz_{n}.json`.
-- **Format**: JSON Array of exactly 20 objects.
+- **Format**: JSON Array of exactly 30 objects.
 - **Forbidden**: Do NOT use `.md` files for data storage. All data must be in `brand.json`, `jtbd.json`, etc.
 
 ## 4. Display Rules (UI)

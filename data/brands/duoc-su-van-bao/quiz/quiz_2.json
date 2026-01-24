@@ -1,113 +1,36 @@
 [
     {
-        "question": "Trở thành tấm gương (Role Model) cho thế hệ sau.",
+        "question": "Kết quả kinh doanh đột phá.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "duoc-su-van-bao-q2-1"
     },
     {
-        "question": "Cảm thấy công ty đang đi vào lối mòn.",
+        "question": "Được mời chia sẻ câu chuyện thành công không phải về tiền, mà về cách sống và vượt qua nghịch cảnh.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "duoc-su-van-bao-q2-2"
     },
     {
-        "question": "Cảm thấy lạc lõng giữa những người bạn cũ.",
+        "question": "Thị trường đóng băng, dòng tiền gặp khó khăn, nội bộ hoang mang.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "duoc-su-van-bao-q2-3"
-    },
-    {
-        "question": "Tha thứ cho bản thân và người khác.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "duoc-su-van-bao-q2-4"
-    },
-    {
-        "question": "Nhân viên tin tưởng và đồng lòng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "duoc-su-van-bao-q2-5"
-    },
-    {
-        "question": "Thấy người thân lo lắng vì mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "duoc-su-van-bao-q2-6"
-    },
-    {
-        "question": "Muốn giải phóng tâm trí cho những điều mới mẻ.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "duoc-su-van-bao-q2-7"
-    },
-    {
-        "question": "Học hỏi được từ những bậc thầy.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "duoc-su-van-bao-q2-8"
-    },
-    {
-        "question": "Đứng trước cơ hội đầu tư mạo hiểm hoặc thay đổi nhân sự chủ chốt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "duoc-su-van-bao-q2-9"
-    },
-    {
-        "question": "Ngủ ngon mỗi đêm bất chấp áp lực.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "duoc-su-van-bao-q2-10"
     },
     {
         "question": "Dám nghĩ lớn, làm lớn không sợ hãi.",
@@ -118,21 +41,10 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "duoc-su-van-bao-q2-11"
+        "id": "duoc-su-van-bao-q2-4"
     },
     {
-        "question": "Cần một điểm tựa tinh thần vững chắc.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "duoc-su-van-bao-q2-12"
-    },
-    {
-        "question": "Có những người bạn thâm giao chất lượng.",
+        "question": "Muốn con cái tự hào về cha mẹ.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -140,62 +52,7 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "duoc-su-van-bao-q2-13"
-    },
-    {
-        "question": "Sống và làm việc trọn vẹn, không còn dằn vặt về quá khứ hay lo sợ về tương lai.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "duoc-su-van-bao-q2-14"
-    },
-    {
-        "question": "Tâm thế vững vàng sau khi quyết.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "duoc-su-van-bao-q2-15"
-    },
-    {
-        "question": "Được nhớ đến không chỉ vì sự giàu có, mà vì nhân cách, tri thức và sự tử tế.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "duoc-su-van-bao-q2-16"
-    },
-    {
-        "question": "Hoạch định chiến lược 5-10 năm cho tập đoàn trong khi đối thủ vẫn loay hoay với cái trước mắt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "duoc-su-van-bao-q2-17"
-    },
-    {
-        "question": "Hưởng thụ trọn vẹn thành quả hiện tại.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "duoc-su-van-bao-q2-18"
+        "id": "duoc-su-van-bao-q2-5"
     },
     {
         "question": "Tâm bất biến giữa dòng đời vạn biến.",
@@ -206,10 +63,153 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-6"
+    },
+    {
+        "question": "Sợ quyết định sai lầm sẽ mất tất cả.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-7"
+    },
+    {
+        "question": "Ra quyết định kinh doanh lớn một cách dứt khoát, không còn sự do dự hay tiếc nuối (Second-guessing).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-8"
+    },
+    {
+        "question": "Niềm tin tuyệt đối vào bản thân và quy luật vận hành của vũ trụ. Biết rằng 'mọi chuyện rồi sẽ ổn'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-9"
+    },
+    {
+        "question": "Tim đập chân run khi nhìn bảng điện.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-10"
+    },
+    {
+        "question": "Tham gia một cộng đồng nơi mọi người bàn về thiền định, nhân quả trong kinh doanh thay vì chỉ khoe xe, khoe nhà.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-11"
+    },
+    {
+        "question": "Cần khai phá thị trường mới.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-12"
+    },
+    {
+        "question": "Hoài nghi năng lực bản thân khi thất bại.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-13"
+    },
+    {
+        "question": "Giữ được cái đầu lạnh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-14"
+    },
+    {
+        "question": "Học hỏi được từ những bậc thầy.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-15"
+    },
+    {
+        "question": "Phong thái điềm đạm, uy nghi.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-16"
+    },
+    {
+        "question": "Cảm thấy công ty đang đi vào lối mòn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-17"
+    },
+    {
+        "question": "Muốn thoát khỏi sự nô lệ vào hoàn cảnh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-18"
+    },
+    {
+        "question": "Có những người bạn thâm giao chất lượng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "duoc-su-van-bao-q2-19"
     },
     {
-        "question": "Cảm thấy mình nhỏ bé trước số phận.",
+        "question": "Cần một niềm tin tâm linh/khoa học vững chắc.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -218,5 +218,115 @@
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "duoc-su-van-bao-q2-20"
+    },
+    {
+        "question": "Trở thành điểm tựa tinh thần vững chãi cho gia đình và doanh nghiệp. Nơi mọi người tìm về khi bão tố.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-21"
+    },
+    {
+        "question": "Sợ bị lãng quên hoặc chỉ được nhớ đến là 'trọc phú'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-22"
+    },
+    {
+        "question": "Danh tiếng thơm lây muôn đời.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-23"
+    },
+    {
+        "question": "Môi trường sống tích cực, nâng đỡ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-24"
+    },
+    {
+        "question": "Hay dằn vặt về những quyết định sai lầm.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-25"
+    },
+    {
+        "question": "Gia đình hòa thuận, yên ấm.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-26"
+    },
+    {
+        "question": "Thấy người thân lo lắng vì mình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "duoc-su-van-bao-q2-27"
+    },
+    {
+        "question": "Sống và làm việc trọn vẹn, không còn dằn vặt về quá khứ hay lo sợ về tương lai.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "duoc-su-van-bao-q2-28"
+    },
+    {
+        "question": "Muốn bứt phá khỏi đối thủ cạnh tranh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-29"
+    },
+    {
+        "question": "Hoạch định chiến lược 5-10 năm cho tập đoàn trong khi đối thủ vẫn loay hoay với cái trước mắt.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "duoc-su-van-bao-q2-30"
     }
 ]

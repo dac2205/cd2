@@ -1,17 +1,6 @@
 [
     {
-        "question": "Muốn lớp học trông xịn xò, hiện đại hơn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "hong-solo-q2-1"
-    },
-    {
-        "question": "Mệt mỏi vì phải giải thích nhiều cho nhân sự.",
+        "question": "Luôn trong trạng thái căng thẳng, 'trực chiến'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -19,10 +8,10 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "hong-solo-q2-2"
+        "id": "hong-solo-q2-1"
     },
     {
-        "question": "Có thêm thời gian chuẩn bị bài giảng chất lượng.",
+        "question": "Quản lý tập trung, chính xác 100%.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -30,6 +19,17 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-2"
+    },
+    {
+        "question": "Cảm thấy bị công việc nuốt chửng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "hong-solo-q2-3"
     },
     {
@@ -44,40 +44,7 @@
         "id": "hong-solo-q2-4"
     },
     {
-        "question": "Slide bài giảng cũ kỹ, nhiều chữ, nhìn kém chuyên nghiệp nhưng không có thời gian làm lại.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "hong-solo-q2-5"
-    },
-    {
-        "question": "Lưu trữ, phân loại và cập nhật thông tin học viên chính xác, không dùng sổ sách thủ công.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "hong-solo-q2-6"
-    },
-    {
-        "question": "8h tối dạy xong là tắt máy nghỉ ngơi, không phải lo check inbox hay gửi bài tập.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "hong-solo-q2-7"
-    },
-    {
-        "question": "Mất khách vì quy trình lỏng lẻo, thiếu chuyên nghiệp.",
+        "question": "Bị đồng nghiệp coi thường là 'mù công nghệ'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -85,10 +52,43 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
+        "id": "hong-solo-q2-5"
+    },
+    {
+        "question": "Cần một cánh tay phải đắc lực (Right hand).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "hong-solo-q2-6"
+    },
+    {
+        "question": "Nhận được feedback cuối khóa khen ngợi sự tận tâm, chu đáo của đội ngũ hỗ trợ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "hong-solo-q2-7"
+    },
+    {
+        "question": "Stress vì những đầu việc lặt vặt không tên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "hong-solo-q2-8"
     },
     {
-        "question": "Bị đồng nghiệp coi thường là 'mù công nghệ'.",
+        "question": "Dễ dàng mở rộng quy mô (Scale-up).",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -99,7 +99,18 @@
         "id": "hong-solo-q2-9"
     },
     {
-        "question": "Được xã hội công nhận là doanh nhân thành đạt.",
+        "question": "Lớp học diễn ra suôn sẻ không gián đoạn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-10"
+    },
+    {
+        "question": "Được học viên yêu quý, kính trọng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -107,21 +118,10 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "hong-solo-q2-10"
-    },
-    {
-        "question": "Không còn lo lắng, giật mình thon thót vì sợ quên lịch hay sót tin nhắn của khách.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "hong-solo-q2-11"
     },
     {
-        "question": "Muốn xây dựng thương hiệu bền vững (Brand building).",
+        "question": "Khi học viên giới thiệu cho bạn bè: 'Học ở đây quy trình xịn lắm, không lôm côm đâu'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -132,7 +132,7 @@
         "id": "hong-solo-q2-12"
     },
     {
-        "question": "Được học viên yêu quý vì chăm sóc quá kỹ càng (dù là do trợ lý làm).",
+        "question": "Sợ bị mang tiếng là 'thu tiền xong đem con bỏ chợ'.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -154,7 +154,7 @@
         "id": "hong-solo-q2-14"
     },
     {
-        "question": "Cảm thấy mình đang già đi/tụt hậu so với thị trường.",
+        "question": "Cảm giác được hỗ trợ vô điều kiện.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -165,18 +165,18 @@
         "id": "hong-solo-q2-15"
     },
     {
-        "question": "Bị phân tâm khi vừa dạy vừa duyệt người vào.",
+        "question": "Được nhìn nhận như một tổ chức giáo dục uy tín chứ không phải thầy dạy kèm tự phát.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "hong-solo-q2-16"
     },
     {
-        "question": "Dễ dàng cập nhật nội dung giảng dạy.",
+        "question": "Suốt ngày phải canh giờ gửi link Zoom thủ công, rất mất thời gian và dễ quên.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -187,18 +187,18 @@
         "id": "hong-solo-q2-17"
     },
     {
-        "question": "Muốn tập trung hoàn toàn vào chuyên môn.",
+        "question": "Có người đồng hành tâm đầu ý hợp.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "hong-solo-q2-18"
     },
     {
-        "question": "Không biết dùng công cụ thiết kế chuyên nghiệp.",
+        "question": "Quản lý phòng chờ, record, xử lý sự cố kỹ thuật trong giờ học.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -209,7 +209,29 @@
         "id": "hong-solo-q2-19"
     },
     {
-        "question": "Có người chia sẻ gánh nặng, hiểu ý mình mà không cần nói nhiều.",
+        "question": "Mất khách vì quy trình lỏng lẻo, thiếu chuyên nghiệp.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "hong-solo-q2-20"
+    },
+    {
+        "question": "Được đồng nghiệp nể phục, ngưỡng mộ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "hong-solo-q2-21"
+    },
+    {
+        "question": "Không có thời gian chất lượng cho bản thân/gia đình.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -217,6 +239,94 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "hong-solo-q2-20"
+        "id": "hong-solo-q2-22"
+    },
+    {
+        "question": "Tự tin set giá cao (Premium pricing).",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "hong-solo-q2-23"
+    },
+    {
+        "question": "Gửi nhầm link Zoom hoặc gửi muộn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-24"
+    },
+    {
+        "question": "Học viên phàn nàn vì không nhận được link học.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-25"
+    },
+    {
+        "question": "Cần luồng gió mới cho công việc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "hong-solo-q2-26"
+    },
+    {
+        "question": "Muốn tập trung hoàn toàn vào chuyên môn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-27"
+    },
+    {
+        "question": "Tăng sự tin tưởng và tỷ lệ referral.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "hong-solo-q2-28"
+    },
+    {
+        "question": "Sợ sự cố kỹ thuật làm gián đoạn bài giảng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-29"
+    },
+    {
+        "question": "Tự động hóa quy trình nhắc nhở.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "hong-solo-q2-30"
     }
 ]

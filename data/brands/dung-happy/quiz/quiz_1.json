@@ -1,17 +1,17 @@
 [
     {
-        "question": "Có những feedback, testimonial thật từ khách hàng để chứng minh năng lực.",
+        "question": "Không còn trì hoãn.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "dung-happy-q1-1"
     },
     {
-        "question": "Có tiếng nói trong nhà.",
+        "question": "Khách hàng tin tưởng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -22,18 +22,18 @@
         "id": "dung-happy-q1-2"
     },
     {
-        "question": "Đổi bio Facebook, in card visit với danh xưng Coach một cách hãnh diện.",
+        "question": "Chưa có kết quả thực tế.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "dung-happy-q1-3"
     },
     {
-        "question": "Tiến bộ mỗi ngày.",
+        "question": "Tăng giá trị cảm nhận.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -44,7 +44,18 @@
         "id": "dung-happy-q1-4"
     },
     {
-        "question": "Ting ting! Tài khoản báo có tiền từ khách hàng lạ. Cảm giác sung sướng tột độ.",
+        "question": "Có tiếng nói trong nhà.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "dung-happy-q1-5"
+    },
+    {
+        "question": "Có một đường link hoặc file PDF mô tả sản phẩm để gửi ngay khi khách hỏi, thay vì ấp úng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -52,21 +63,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "dung-happy-q1-5"
-    },
-    {
-        "question": "Bị từ chối một lần là buồn cả tuần.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "dung-happy-q1-6"
     },
     {
-        "question": "Xem bán hàng là niềm vui.",
+        "question": "Sợ làm phiền người khác.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -77,18 +77,18 @@
         "id": "dung-happy-q1-7"
     },
     {
-        "question": "Dễ nản chí khi gặp khó.",
+        "question": "Sản phẩm rõ ràng, chuyên nghiệp.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "dung-happy-q1-8"
     },
     {
-        "question": "Tạo ra thu nhập đầu tiên từ coaching, dù chỉ là 500k, để phá băng tâm lý.",
+        "question": "Không biết mình bán cái gì.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -99,7 +99,7 @@
         "id": "dung-happy-q1-9"
     },
     {
-        "question": "Dễ dàng chốt sale hơn.",
+        "question": "Cần môi trường tích cực.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -110,18 +110,18 @@
         "id": "dung-happy-q1-10"
     },
     {
-        "question": "Làm mãi không ra tiền.",
+        "question": "Xóa bỏ tiếng nói nhỏ trong đầu (Inner Critic) bảo rằng bạn không đủ giỏi.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "dung-happy-q1-11"
     },
     {
-        "question": "Đóng góp tiền sinh hoạt phí từ thu nhập coaching.",
+        "question": "Dễ nản chí khi gặp khó.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -132,18 +132,7 @@
         "id": "dung-happy-q1-12"
     },
     {
-        "question": "Dám livestream chia sẻ quan điểm, dám inbox mời khách hàng mà không sợ run tay.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "dung-happy-q1-13"
-    },
-    {
-        "question": "Động lực mạnh mẽ để đi tiếp.",
+        "question": "Lãng phí thời gian lướt mạng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -151,10 +140,21 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "dung-happy-q1-13"
+    },
+    {
+        "question": "Cần minh chứng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "dung-happy-q1-14"
     },
     {
-        "question": "Hoang mang không biết bắt đầu từ đâu.",
+        "question": "Tạo ra thu nhập đầu tiên từ coaching, dù chỉ là 500k, để phá băng tâm lý.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -165,18 +165,7 @@
         "id": "dung-happy-q1-15"
     },
     {
-        "question": "Nói hay nhưng không ai tin.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "dung-happy-q1-16"
-    },
-    {
-        "question": "Tự hào giới thiệu 'Tôi là Coach' trong các buổi gặp gỡ, không còn ấp úng hay nói tránh.",
+        "question": "Lì đòn hơn.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -184,32 +173,87 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "dung-happy-q1-16"
+    },
+    {
+        "question": "Biết chính xác hôm nay cần viết gì, inbox cho ai, làm việc gì. Không còn cảnh ngồi nhìn màn hình trắng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "dung-happy-q1-17"
     },
     {
-        "question": "Tham gia vào một biệt đội cũng đang 'chiến' như mình, cùng nhau thúc đẩy và ăn mừng chiến thắng.",
+        "question": "Xác nhận mô hình hoạt động.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "dung-happy-q1-18"
     },
     {
-        "question": "Khoe đơn hàng đầu tiên trong nhóm chat và được mọi người chúc mừng.",
+        "question": "Tiến bộ mỗi ngày.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "dung-happy-q1-19"
     },
     {
-        "question": "Cần môi trường tích cực.",
+        "question": "Thần thái chuyên gia.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "dung-happy-q1-20"
+    },
+    {
+        "question": "Làm mãi không ra tiền.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "dung-happy-q1-21"
+    },
+    {
+        "question": "Muốn được công nhận.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "dung-happy-q1-22"
+    },
+    {
+        "question": "Hoang mang không biết bắt đầu từ đâu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "dung-happy-q1-23"
+    },
+    {
+        "question": "Chứng minh cho gia đình thấy đây là một nghề nghiệp nghiêm túc có thể nuôi sống bản thân, không phải mộng mơ hão huyền.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -217,6 +261,72 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "dung-happy-q1-20"
+        "id": "dung-happy-q1-24"
+    },
+    {
+        "question": "Đăng ảnh chụp màn hình feedback của khách lên trang cá nhân.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "dung-happy-q1-25"
+    },
+    {
+        "question": "Sợ thất bại.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "dung-happy-q1-26"
+    },
+    {
+        "question": "Được xã hội tôn trọng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "dung-happy-q1-27"
+    },
+    {
+        "question": "Cần bằng chứng để tin vào con đường này.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "dung-happy-q1-28"
+    },
+    {
+        "question": "Vui vẻ, khí thế.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "dung-happy-q1-29"
+    },
+    {
+        "question": "Thức dậy với to-do list cụ thể: 'Viết 1 bài, tương tác 5 người, gửi 3 offer'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "dung-happy-q1-30"
     }
 ]

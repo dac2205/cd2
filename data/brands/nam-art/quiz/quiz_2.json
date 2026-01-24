@@ -1,28 +1,6 @@
 [
     {
-        "question": "Mời bạn bè đến nhà và tự hào giới thiệu về bộ sưu tập của mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "nam-art-q2-1"
-    },
-    {
-        "question": "Sợ bị coi là trọc phú.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-2"
-    },
-    {
-        "question": "Trải nghiệm khám phá thú vị.",
+        "question": "Tài sản tăng giá trị.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -30,18 +8,7 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-3"
-    },
-    {
-        "question": "Được công nhận là người có gu thẩm mỹ tiên phong, đi trước thời đại.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-4"
+        "id": "nam-art-q2-1"
     },
     {
         "question": "Dẫn dắt câu chuyện văn hóa.",
@@ -52,106 +19,40 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-2"
+    },
+    {
+        "question": "Là người đầu tiên trong nhóm bạn sở hữu tranh của họa sĩ X nào đó.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-3"
+    },
+    {
+        "question": "Muốn nâng tầm hình ảnh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-4"
+    },
+    {
+        "question": "Sở hữu tác phẩm độc đáo.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "nam-art-q2-5"
-    },
-    {
-        "question": "Muốn tìm về bản thân.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "nam-art-q2-6"
-    },
-    {
-        "question": "Muốn dẫn đầu xu hướng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-7"
-    },
-    {
-        "question": "Che lấp khoảng trống vô duyên.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-8"
-    },
-    {
-        "question": "Con cái tinh tế, nhạy cảm.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-9"
-    },
-    {
-        "question": "Muốn đa dạng hóa danh mục đầu tư.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-10"
-    },
-    {
-        "question": "Thích sự mới mẻ, tiên phong.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-11"
-    },
-    {
-        "question": "Được ngưỡng mộ về sự tinh tế.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-12"
-    },
-    {
-        "question": "Uống cafe sáng ngắm tranh và nảy ra những ý tưởng tuyệt vời cho công việc.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "nam-art-q2-13"
-    },
-    {
-        "question": "Thể hiện gu thưởng thức tinh tường.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-14"
     },
     {
         "question": "Được giới thiệu những gương mặt nghệ sĩ mới, những phong cách lạ mà thị trường đại chúng chưa biết đến.",
@@ -162,10 +63,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-15"
+        "id": "nam-art-q2-6"
     },
     {
-        "question": "Giải quyết bài toán bố cục.",
+        "question": "Che lấp khoảng trống vô duyên.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -173,10 +74,21 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "nam-art-q2-16"
+        "id": "nam-art-q2-7"
     },
     {
-        "question": "Mở rộng quan hệ chất lượng.",
+        "question": "Mua được tác phẩm có khả năng tăng giá trong tương lai nhờ con mắt chọn lọc của curator.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-8"
+    },
+    {
+        "question": "Được công nhận là người có gu thẩm mỹ tiên phong, đi trước thời đại.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -184,29 +96,7 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-17"
-    },
-    {
-        "question": "Được giới trí thức nể trọng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-18"
-    },
-    {
-        "question": "Được nhìn nhận là một người có văn hóa, có chiều sâu, không chỉ là người có tiền.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "nam-art-q2-19"
+        "id": "nam-art-q2-9"
     },
     {
         "question": "Thích cảm giác 'đãi cát tìm vàng'.",
@@ -217,6 +107,226 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-10"
+    },
+    {
+        "question": "Cảm giác tự hào khi là chủ nhân của một tác phẩm đẹp, độc bản, thể hiện đẳng cấp văn hóa.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-11"
+    },
+    {
+        "question": "Hình ảnh sang trọng, tri thức.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-12"
+    },
+    {
+        "question": "Sợ bị coi là trọc phú.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-13"
+    },
+    {
+        "question": "Để lại cho con cái một gia tài văn hóa và thẩm mỹ, giáo dục gu thẩm mỹ cho thế hệ sau.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-14"
+    },
+    {
+        "question": "Con cái lớn lên trong môi trường nghệ thuật và hình thành tư duy duy mỹ từ bé.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-15"
+    },
+    {
+        "question": "Tìm được bức tranh có kích thước, màu sắc và phong cách hoàn hảo cho bức tường trống, như thể nó sinh ra là để dành cho chỗ đó.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-16"
+    },
+    {
+        "question": "Con cái tinh tế, nhạy cảm.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-17"
+    },
+    {
+        "question": "Cần 'vitamin' cho tâm hồn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-18"
+    },
+    {
+        "question": "Cảm thấy trống rỗng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-19"
+    },
+    {
+        "question": "Gia đình có truyền thống.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "nam-art-q2-20"
+    },
+    {
+        "question": "Kích thích tư duy sáng tạo.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-21"
+    },
+    {
+        "question": "Trải nghiệm khám phá thú vị.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-22"
+    },
+    {
+        "question": "Muốn khẳng định vị thế.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-23"
+    },
+    {
+        "question": "Hoàn thiện nhà mới.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-24"
+    },
+    {
+        "question": "Được mời tham gia các sự kiện nghệ thuật, giao lưu với giới tinh hoa.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-25"
+    },
+    {
+        "question": "Được ngưỡng mộ về sự tinh tế.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "nam-art-q2-26"
+    },
+    {
+        "question": "Được kính trọng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-27"
+    },
+    {
+        "question": "Sở hữu danh mục đầu tư nghệ thuật tiềm năng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-28"
+    },
+    {
+        "question": "Cảm giác thành công về tài chính.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "nam-art-q2-29"
+    },
+    {
+        "question": "Khẳng định đẳng cấp.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "nam-art-q2-30"
     }
 ]

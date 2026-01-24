@@ -1,179 +1,25 @@
 [
     {
-        "question": "Cảm giác khỏe khoắn từ bên trong.",
+        "question": "Bị chê già, kém sắc.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "cao-huy-q1-1"
     },
     {
-        "question": "Không còn nỗi lo 'tiền mất tật mang'.",
+        "question": "Cơ thể vững vàng trước thời tiết.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "cao-huy-q1-2"
-    },
-    {
-        "question": "Muốn tìm về những giá trị nguyên bản.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "cao-huy-q1-3"
-    },
-    {
-        "question": "Không còn phụ thuộc vào thuốc an thần.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "cao-huy-q1-4"
-    },
-    {
-        "question": "Muốn đẹp lên một cách tự nhiên.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "cao-huy-q1-5"
-    },
-    {
-        "question": "An lòng chăm sóc bản thân và gia đình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "cao-huy-q1-6"
-    },
-    {
-        "question": "Đầu óc căng như dây đàn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "cao-huy-q1-7"
-    },
-    {
-        "question": "Được nhìn nhận là người có lối sống văn minh, bảo vệ môi trường.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "cao-huy-q1-8"
-    },
-    {
-        "question": "Da/cơ thể bị kích ứng với hóa chất.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "cao-huy-q1-9"
-    },
-    {
-        "question": "Thèm một chốn bình yên để 'trốn'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "cao-huy-q1-10"
-    },
-    {
-        "question": "Bảo vệ sức khỏe cho cả nhà.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "cao-huy-q1-11"
-    },
-    {
-        "question": "Khi con cái/bố mẹ bị ốm, mọi người đều hỏi ý kiến bạn nên dùng gì.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "cao-huy-q1-12"
-    },
-    {
-        "question": "Tin tưởng tuyệt đối vào cơ thể.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "cao-huy-q1-13"
-    },
-    {
-        "question": "Thức dậy với năng lượng tràn đầy.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "cao-huy-q1-14"
-    },
-    {
-        "question": "Nằm trằn trọc đến 2-3h sáng, đầu óc quay cuồng với những suy nghĩ không tên.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "cao-huy-q1-15"
-    },
-    {
-        "question": "Chia sẻ về thói quen sử dụng sản phẩm tự nhiên, không rác thải nhựa.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "cao-huy-q1-16"
     },
     {
         "question": "Muốn trở thành chỗ dựa sức khỏe cho cả nhà.",
@@ -184,10 +30,76 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "cao-huy-q1-17"
+        "id": "cao-huy-q1-3"
     },
     {
-        "question": "Sáng dậy lờ đờ, thiếu tỉnh táo.",
+        "question": "Bảo vệ sức khỏe cho cả nhà.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-4"
+    },
+    {
+        "question": "Được khen ngợi và ngưỡng mộ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-5"
+    },
+    {
+        "question": "Chia sẻ về thói quen sử dụng sản phẩm tự nhiên, không rác thải nhựa.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-6"
+    },
+    {
+        "question": "Trở nên thu hút, rạng ngời.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-7"
+    },
+    {
+        "question": "Được cộng đồng tôn trọng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-8"
+    },
+    {
+        "question": "Được gia đình tin yêu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-9"
+    },
+    {
+        "question": "Cứ trở trời là hắt hơi, sổ mũi, cảm cúm kéo dài cả tuần không khỏi.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -195,10 +107,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "cao-huy-q1-18"
+        "id": "cao-huy-q1-10"
     },
     {
-        "question": "Dùng cao dán mãi không đỡ.",
+        "question": "Hết đau mỏi mà không cần uống thuốc giảm đau.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -206,7 +118,62 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "cao-huy-q1-19"
+        "id": "cao-huy-q1-11"
+    },
+    {
+        "question": "Đau mỏi đến mức không quay được cổ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-12"
+    },
+    {
+        "question": "Giúp đi vào giấc ngủ dễ dàng hơn, ngủ sâu hơn, không mộng mị.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-13"
+    },
+    {
+        "question": "Yêu thương và trân trọng cơ thể hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q1-14"
+    },
+    {
+        "question": "Không còn nỗi lo 'tiền mất tật mang'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q1-15"
+    },
+    {
+        "question": "Thèm một chốn bình yên để 'trốn'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q1-16"
     },
     {
         "question": "Xử lý các cơn đau lưng, vai gáy, mệt mỏi do văn phòng hoặc stress.",
@@ -217,6 +184,149 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-17"
+    },
+    {
+        "question": "Hồi phục nhanh chóng sau ốm.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-18"
+    },
+    {
+        "question": "Muốn bảo vệ gia đình khỏi hóa chất.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-19"
+    },
+    {
+        "question": "Cơ thể nhẹ nhõm, linh hoạt trở lại.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "cao-huy-q1-20"
+    },
+    {
+        "question": "Muốn cai kháng sinh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-21"
+    },
+    {
+        "question": "Bạn bè khen ngợi vì dạo này trông tươi tắn, trẻ trung hơn hẳn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-22"
+    },
+    {
+        "question": "Thức dậy với năng lượng tràn đầy.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-23"
+    },
+    {
+        "question": "Ngủ một mạch đến sáng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-24"
+    },
+    {
+        "question": "Trút bỏ được gánh nặng, nhẹ nhõm cả đầu óc lẫn chân tay.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q1-25"
+    },
+    {
+        "question": "Nằm trằn trọc đến 2-3h sáng, đầu óc quay cuồng với những suy nghĩ không tên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-26"
+    },
+    {
+        "question": "Dùng cao dán mãi không đỡ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "cao-huy-q1-27"
+    },
+    {
+        "question": "Kết nối lại với chính mình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q1-28"
+    },
+    {
+        "question": "Muốn đóng góp cho môi trường.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "cao-huy-q1-29"
+    },
+    {
+        "question": "Cảm nhận được sự chăm sóc vỗ về từ thiên nhiên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "cao-huy-q1-30"
     }
 ]
