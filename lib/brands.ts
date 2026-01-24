@@ -102,6 +102,17 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
         }
     }
 
+    // Load Structured Introduction/Description
+    const descriptionPath = path.join(brandDir, 'description.json');
+    let description: string[] | undefined = undefined;
+    if (fs.existsSync(descriptionPath)) {
+        try {
+            description = JSON.parse(fs.readFileSync(descriptionPath, 'utf8'));
+        } catch (e) {
+            console.error("Error parsing description.json", e);
+        }
+    }
+
     // Load Structured Audience
     const structuredAudiencePath = path.join(brandDir, 'audience.json');
     let structuredAudience: AudienceSegment[] | undefined = undefined;
@@ -122,6 +133,7 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
         insights,
         quiz,
         structuredInsights,
-        structuredJTBD
+        structuredJTBD,
+        description
     };
 }

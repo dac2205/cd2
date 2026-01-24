@@ -61,6 +61,7 @@ export interface BrandContent {
     insights: string; // HTML/Markdown content
     structuredInsights?: Insight[];
     quiz: QuizQuestion[];
+    description?: string[];
 }
 
 export interface Brand {

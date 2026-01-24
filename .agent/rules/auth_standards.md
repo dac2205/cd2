@@ -15,3 +15,7 @@ globs: ["lib/auth.tsx", "components/auth/**"]
 
 ## 3. Environment
 *   **Keys**: `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` are required for Auth to function.
+
+## 4. User Identity
+*   **Guest Handling**: Components requiring user identity (like Quizzes) MUST support a "Guest User" fallback if auth is not strictly required.
+*   **Display**: Always display User Name in the UI context (e.g., Top Bar) to personalize the experience.

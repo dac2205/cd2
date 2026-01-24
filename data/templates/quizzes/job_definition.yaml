@@ -1,0 +1,17 @@
+id: job_definition
+title: "Phân biệt 3 loại Job"
+description: "Quiz giúp bạn phân biệt rõ ràng giữa Functional Job, Emotional Job và Social Job."
+rounds:
+  - id: 1
+    questionCount: 5
+  - id: 2
+    questionCount: 10
+  - id: 3
+    questionCount: 15
+source:
+  file: quiz.json
+  strategy: random
+options:
+  - "Functional Job"
+  - "Emotional Job"
+  - "Social Job"

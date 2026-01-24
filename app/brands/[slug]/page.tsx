@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { ArrowRight, BookOpen, Users, Lightbulb, CheckCircle } from "lucide-react";
 import React from "react";
+import BrandDescription from "@/components/brand/BrandDescription";
 
 // Force static generation for known brands
 export async function generateStaticParams() {
@@ -57,7 +58,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <h1 style={{ marginBottom: "0.5rem", fontSize: "2.5rem" }}>{brand.meta.name}</h1>
                 <p style={{ fontSize: "1.25rem", color: "hsl(var(--ink-brown) / 0.7)" }}>Owner: {brand.meta.owner}</p>
 
-                {brand.introduction && (
+                {brand.description && brand.description.length > 0 && (
+                    <div style={{ marginTop: "2rem", maxWidth: "800px", margin: "2rem auto 0" }}>
+                        <BrandDescription paragraphs={brand.description} />
+                    </div>
+                )}
+
+                {brand.introduction && !brand.description && (
                     <div style={{ marginTop: "2rem", maxWidth: "800px", margin: "2rem auto 0", textAlign: "left", backgroundColor: "hsl(var(--paper-white))", padding: "2rem", borderRadius: "12px", border: "1px solid hsl(var(--border))" }}>
                         <div className="prose" dangerouslySetInnerHTML={{ __html: brand.introduction }} />
                     </div>
