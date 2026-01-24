@@ -61,6 +61,7 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
     };
 
     const description: string[] | undefined = brandData.description;
+    const brandEssence = brandData.brandEssence;
 
     // Load Quizzes from subfolder
     const quizDir = path.join(brandDir, 'quiz');
@@ -119,6 +120,7 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
         structuredInsights,
         structuredJTBD,
         description,
+        brandEssence,
         quizzes
     };
 }
