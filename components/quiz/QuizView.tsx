@@ -160,14 +160,9 @@ export default function QuizView({ quizzes }: QuizViewProps) {
         // currentQuestion.correctAnswer is already the *shuffled* index
         const isCorrect = selectedOption === currentQuestion.correctAnswer;
 
+        // Wait and move to next question regardless of correctness
         setTimeout(() => {
-            if (isCorrect) {
-                handleNext();
-            } else {
-                // Sudden Death: End round immediately if wrong
-                // The RoundSummary will calculate score (e.g. 3/5) -> Fail -> Show Restart
-                setRoundComplete(true);
-            }
+            handleNext();
         }, 500);
     };
 
