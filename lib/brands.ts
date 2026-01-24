@@ -23,18 +23,18 @@ export function getAllBrands(): Brand[] {
     const brandFolders = fs.readdirSync(brandsDirectory);
 
     const brands = brandFolders.map(slug => {
-        const metaPath = path.join(brandsDirectory, slug, 'meta.json');
-        if (!fs.existsSync(metaPath)) return null;
+        const brandJsonPath = path.join(brandsDirectory, slug, 'brand.json');
+        if (!fs.existsSync(brandJsonPath)) return null;
 
-        const metaContent = fs.readFileSync(metaPath, 'utf8');
+        const brandContent = fs.readFileSync(brandJsonPath, 'utf8');
         try {
-            const meta = JSON.parse(metaContent) as BrandMeta;
+            const meta = JSON.parse(brandContent) as BrandMeta; // BrandMeta is subset of BrandJson
             return {
                 slug,
                 meta
             };
         } catch (e) {
-            console.error(`Error parsing meta.json for ${slug}`, e);
+            console.error(`Error parsing brand.json for ${slug}`, e);
             return null;
         }
     }).filter((brand): brand is Brand => brand !== null);
@@ -46,20 +46,21 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
     const brandDir = path.join(brandsDirectory, slug);
     if (!fs.existsSync(brandDir)) return null;
 
-    // Read Meta
-    const metaPath = path.join(brandDir, 'meta.json');
-    const meta: BrandMeta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+    // Read Brand JSON (Consolidated Meta + Description + etc)
+    const brandJsonPath = path.join(brandDir, 'brand.json');
+    if (!fs.existsSync(brandJsonPath)) return null;
 
-    // Load Structured Introduction/Description
-    const descriptionPath = path.join(brandDir, 'description.json');
-    let description: string[] | undefined = undefined;
-    if (fs.existsSync(descriptionPath)) {
-        try {
-            description = JSON.parse(fs.readFileSync(descriptionPath, 'utf8'));
-        } catch (e) {
-            console.error("Error parsing description.json", e);
-        }
-    }
+    const brandData = JSON.parse(fs.readFileSync(brandJsonPath, 'utf8'));
+
+    // Extract Meta & Description
+    // We cast to any or a merged type. For now, assume it matches BrandMeta structure + description.
+    const meta: BrandMeta = {
+        name: brandData.name,
+        owner: brandData.owner
+        // Add other meta fields if they exist in types
+    };
+
+    const description: string[] | undefined = brandData.description;
 
     // Load Quizzes from subfolder
     const quizDir = path.join(brandDir, 'quiz');
