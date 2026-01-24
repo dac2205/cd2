@@ -1,0 +1,38 @@
+[
+    {
+        "id": "segment-perfectionists-deadline",
+        "title": "Perfectionists with Deadlines",
+        "isPrimary": true,
+        "description": "Những người có tham vọng lớn, biết rõ cần làm gì nhưng vẫn thường xuyên bị kéo vào vòng xoáy trì hoãn và phân tâm. Họ cần accountability thực sự, không phải lời động viên suông.",
+        "painPoints": [
+            "Biết cần làm gì nhưng vẫn procrastinate",
+            "Bị overwhelm bởi quy mô mục tiêu",
+            "Good intentions không đi đến đâu",
+            "Panic trước deadline nhưng không hành động"
+        ]
+    },
+    {
+        "id": "segment-overwhelmed-ambitious",
+        "title": "Overwhelmed Ambitious (Người tham vọng bị choáng ngợp)",
+        "isPrimary": false,
+        "description": "Những người có mục tiêu lớn nhưng cảm thấy bị tê liệt bởi sự phức tạp. Họ cần hệ thống giúp break down problems thành actionable steps.",
+        "painPoints": [
+            "Không biết bắt đầu từ đâu với dự án lớn",
+            "Cảm thấy lost trong quá trình thực thi",
+            "Thiếu clarity về ưu tiên và next steps",
+            "Muốn precision thay vì panic"
+        ]
+    },
+    {
+        "id": "segment-accountability-seekers",
+        "title": "Accountability Seekers (Người tìm kiếm trách nhiệm)",
+        "isPrimary": false,
+        "description": "Những người đã thất bại với các productivity tools 'comfort-first'. Họ muốn được thách thức, không phải được dỗ dành.",
+        "painPoints": [
+            "Mệt mỏi với lời khuyên 'Bình tĩnh đi, đừng áp lực'",
+            "Các app thông thường không giữ được accountability",
+            "Tự hứa với bản thân nhưng không giữ lời",
+            "Cần 'hard mode' cho self-improvement journey"
+        ]
+    }
+]

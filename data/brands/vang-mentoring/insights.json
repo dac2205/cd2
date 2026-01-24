@@ -1,0 +1,104 @@
+[
+    {
+        "id": "insight-effort-trap",
+        "title": "The Effort Trap (Bẫy Nỗ lực)",
+        "tension": "Tôi đã làm việc rất chăm chỉ, nỗ lực hết mình nhưng thu nhập và sự nghiệp vẫn không tiến triển như mong đợi.",
+        "belief": "Chỉ cần làm việc chăm chỉ hơn, cố gắng hơn là sẽ thành công và tăng lương.",
+        "core": "Nỗ lực không bằng chiến lược - làm đúng việc quan trọng hơn làm nhiều việc. Success requires strategy, not just effort.",
+        "hooks": [
+            "Chăm chỉ không bằng thông minh",
+            "Làm đúng việc, không chỉ làm nhiều việc",
+            "Strategy beats effort"
+        ],
+        "angle": "Strategic Career Development",
+        "reframe": "Từ 'Làm việc chăm chỉ hơn' sang 'Làm việc có chiến lược'.",
+        "promise": "Lộ trình rõ ràng để x2 thu nhập mà không cần làm việc gấp đôi giờ.",
+        "rtb": "Coaching 1:1 cá nhân hóa với lộ trình cụ thể từng bước.",
+        "mechanism": "Phát triển kỹ năng chiến lược + Xây dựng giá trị không thể thay thế"
+    },
+    {
+        "id": "insight-direction-void",
+        "title": "The Direction Void (Khoảng Trống Định hướng)",
+        "tension": "Tôi muốn phát triển sự nghiệp nhưng không biết bắt đầu từ đâu, học gì, và đi theo hướng nào.",
+        "belief": "Cứ làm việc và học hỏi tự nhiên sẽ tìm ra hướng đi đúng.",
+        "core": "Không có bản đồ, bạn sẽ lạc đường - Career clarity is the foundation of growth.",
+        "hooks": [
+            "Từ mông lung đến rõ ràng",
+            "Bản đồ sự nghiệp của bạn",
+            "Biết đích đến, biết cách đi"
+        ],
+        "angle": "Career Clarity & Roadmap",
+        "reframe": "Từ 'Mò mẫm tự học' sang 'Có lộ trình rõ ràng từng bước'.",
+        "promise": "Định hướng rõ ràng và tự tin về con đường sự nghiệp.",
+        "rtb": "Lộ trình được thiết kế dựa trên mục tiêu cụ thể: x2 thu nhập.",
+        "mechanism": "Assessment + Roadmap Development + Milestone Tracking"
+    },
+    {
+        "id": "insight-income-ceiling",
+        "title": "The Income Ceiling (Trần Thu nhập)",
+        "tension": "Tôi muốn tăng thu nhập nhưng dường như đã chạm trần - không biết làm gì ngoài xin tăng lương hoặc nhảy việc.",
+        "belief": "Thu nhập chỉ tăng khi được promote hoặc đổi công ty.",
+        "core": "Thu nhập phản ánh giá trị bạn tạo ra - tăng giá trị, tăng thu nhập. Value creation drives income growth.",
+        "hooks": [
+            "Phá vỡ trần thu nhập",
+            "X2 thu nhập trong 1 năm",
+            "Từ X triệu đến 2X triệu"
+        ],
+        "angle": "Value-Based Income Growth",
+        "reframe": "Từ 'Xin tăng lương' sang 'Tạo ra giá trị gấp đôi'.",
+        "promise": "Thu nhập tăng gấp đôi thông qua việc tăng giá trị bản thân.",
+        "rtb": "Lộ trình cụ thể, đo lường được với mục tiêu rõ ràng.",
+        "mechanism": "Skill Development + Value Creation + Market Positioning"
+    },
+    {
+        "id": "insight-kpi-trap",
+        "title": "The KPI Trap (Bẫy KPI)",
+        "tension": "Tôi tập trung vào việc đạt KPI của công ty nhưng cảm thấy mình không phát triển năng lực thực sự.",
+        "belief": "Đạt được KPI của công ty là con đường để thăng tiến.",
+        "core": "KPI của công ty không phải lúc nào cũng align với sự phát triển cá nhân - Build your own value, not just company metrics.",
+        "hooks": [
+            "Phát triển bản thân, không chỉ KPI",
+            "Xây dựng giá trị riêng",
+            "Không thể thay thế"
+        ],
+        "angle": "Personal Value Development",
+        "reframe": "Từ 'Đuổi theo KPI' sang 'Xây dựng năng lực không thể thay thế'.",
+        "promise": "Trở thành người tạo ra impact thực sự, không chỉ hoàn thành task.",
+        "rtb": "Focus vào customer insights và strategic thinking.",
+        "mechanism": "Deep Customer Understanding + Strategic Skill Building"
+    },
+    {
+        "id": "insight-validation-gap",
+        "title": "The Validation Gap (Khoảng Cách Xác thực)",
+        "tension": "Tôi có nhiều ý tưởng về khách hàng và chiến lược nhưng không biết liệu chúng có đúng không.",
+        "belief": "Cứ làm theo cảm tính và kinh nghiệm là được.",
+        "core": "Assumptions without validation lead to wasted effort - Customer insights are the foundation of effective marketing.",
+        "hooks": [
+            "Từ đoán mò đến chắc chắn",
+            "Hiểu khách hàng thật sự",
+            "Insights-driven strategy"
+        ],
+        "angle": "Customer-Centric Approach",
+        "reframe": "Từ 'Đoán mò khách hàng' sang 'Verify insights thực tế'.",
+        "promise": "Tự tin trong việc hiểu và phục vụ khách hàng đúng cách.",
+        "rtb": "Phương pháp nghiên cứu và verify customer insights bài bản.",
+        "mechanism": "Customer Research + Insight Validation + Message Testing"
+    },
+    {
+        "id": "insight-messaging-weakness",
+        "title": "The Messaging Weakness (Điểm Yếu Thông điệp)",
+        "tension": "Tôi biết mình cần thông điệp mạnh mẽ hơn nhưng không biết làm thế nào để tạo ra thông điệp đủ hấp dẫn.",
+        "belief": "Chỉ cần nói về lợi ích sản phẩm là đủ.",
+        "core": "Strong messaging comes from deep customer understanding and unique positioning - Your message must be clear, consistent, and compelling.",
+        "hooks": [
+            "Thông điệp chạm đúng pain points",
+            "Rõ ràng, nhất quán, hấp dẫn",
+            "Khó sao chép"
+        ],
+        "angle": "Strategic Messaging",
+        "reframe": "Từ 'Mô tả sản phẩm' sang 'Thông điệp chiến lược'.",
+        "promise": "Thông điệp rõ ràng, nhất quán, đúng thứ khách hàng cần.",
+        "rtb": "Dựa trên insights thực tế và positioning độc đáo.",
+        "mechanism": "Customer Insights + Brand Positioning + Message Architecture"
+    }
+]

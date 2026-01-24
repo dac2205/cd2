@@ -33,23 +33,6 @@
                 "Giữ được cái đầu lạnh.",
                 "Nhân viên tin tưởng và đồng lòng."
             ]
-        },
-        {
-            "id": "func-3",
-            "title": "Strategic Vision (Tầm nhìn Chiến lược)",
-            "description": "Nhìn thấy bức tranh lớn (Big Picture) và các xu hướng tương lai mà người khác chưa thấy.",
-            "situation": "Hoạch định chiến lược 5-10 năm cho tập đoàn trong khi đối thủ vẫn loay hoay với cái trước mắt.",
-            "context": "Lãnh đạo là người đứng trên cột buồm nhìn ra xa.",
-            "triggers": [
-                "Cảm thấy công ty đang đi vào lối mòn.",
-                "Muốn bứt phá khỏi đối thủ cạnh tranh.",
-                "Cần khai phá thị trường mới."
-            ],
-            "desiredOutcome": [
-                "Đi đầu thị trường.",
-                "Tạo ra lợi thế cạnh tranh bền vững.",
-                "Định hình luật chơi mới."
-            ]
         }
     ],
     "emotional": [
@@ -155,59 +138,6 @@
                 "Có những người bạn thâm giao chất lượng.",
                 "Học hỏi được từ những bậc thầy.",
                 "Môi trường sống tích cực, nâng đỡ."
-            ]
-        }
-    ],
-    "other": [
-        {
-            "id": "other-1",
-            "title": "Spiritual Hygiene (Vệ sinh Tâm thức)",
-            "description": "Thực hành dọn dẹp 'rác' trong tâm trí hàng ngày (stress, tiêu cực) giống như đánh răng rửa mặt.",
-            "situation": "Dành 30 phút mỗi sáng để thiền định/manifest, bắt đầu ngày mới với cái đầu trong veo.",
-            "context": "Tâm trí tích tụ độc tố cảm xúc mỗi ngày cần được thanh lọc.",
-            "triggers": [
-                "Đầu óc lúc nào cũng nặng trĩu.",
-                "Dễ nổi nóng, cáu gắt vô cớ.",
-                "Cần một nghi thức (ritual) để tái tạo năng lượng."
-            ],
-            "desiredOutcome": [
-                "Tinh thần sảng khoái, minh mẫn.",
-                "Tăng khả năng tập trung và sáng tạo.",
-                "Duy trì năng lượng tích cực cả ngày."
-            ]
-        },
-        {
-            "id": "other-2",
-            "title": "Energy Management (Quản trị Năng lượng)",
-            "description": "Học cách sử dụng và bảo toàn năng lượng sống, biết lúc nào nên 'xả' lúc nào nên 'nạp', tránh cạn kiệt.",
-            "situation": "Biết cách từ chối những cuộc gặp gỡ rút cạn năng lượng (energy vampires) mà không thấy áy náy.",
-            "context": "Năng lượng quý hơn thời gian. Quản lý thời gian tốt mà năng lượng thấp thì vẫn không hiệu quả.",
-            "triggers": [
-                "Cảm thấy 'hết pin' vào giữa ngày.",
-                "Làm việc nhiều nhưng hiệu quả thấp.",
-                "Dễ bị ảnh hưởng bởi cảm xúc tiêu cực của người khác."
-            ],
-            "desiredOutcome": [
-                "Luôn tràn đầy sức sống.",
-                "Hiệu suất làm việc đỉnh cao (Flow state).",
-                "Sống khỏe mạnh, ít ốm đau."
-            ]
-        },
-        {
-            "id": "other-3",
-            "title": "Intuition Access (Đánh thức Trực giác)",
-            "description": "Kết nối lại với trực giác bén nhạy - thứ vũ khí bí mật của mọi doanh nhân đại tài.",
-            "situation": "Có linh cảm mạnh mẽ về một deal đầu tư và quyết định nghe theo, kết quả thắng lớn.",
-            "context": "Dữ liệu và Logic là cần thiết, nhưng Trực giác là cú nhảy vọt (Quantum Leaps).",
-            "triggers": [
-                "Bị rối loạn giữa ma trận số liệu.",
-                "Mất kết nối với 'tiếng nói bên trong'.",
-                "Muốn ra quyết định nhanh và chính xác hơn."
-            ],
-            "desiredOutcome": [
-                "Sở hữu 'giác quan thứ 6' nhạy bén.",
-                "Đi trước thị trường một bước.",
-                "Ra quyết định dễ dàng, thuận tự nhiên."
             ]
         }
     ]

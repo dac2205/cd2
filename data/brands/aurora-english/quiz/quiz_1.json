@@ -1,135 +1,201 @@
 [
     {
-        "question": "Muốn mở miệng nói tiếng Anh mà không cần dịch trong đầu.",
+        "question": "Tôi cần xây dựng lại nền tảng tiếng Anh vững chắc để có thể giao tiếp tự nhiên, không còn sợ sai, sợ bị đánh giá.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - nhu cầu lấy lại căn bản để giao tiếp tự nhiên.",
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "aurora-english-q1-1"
     },
     {
-        "question": "Muốn vượt qua nỗi sợ sai và dám mắc lỗi để trưởng thành.",
+        "question": "Mất niềm tin vào khả năng ngôn ngữ của bản thân.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - giải tỏa rào cản tâm lý sợ sai.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "aurora-english-q1-2"
     },
     {
-        "question": "Muốn thăng tiến lên vị trí cao hơn và deal mức lương ngàn đô.",
+        "question": "Cảm thấy xấu hổ khi phải dùng Google Dịch trước mặt đồng nghiệp.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là Social Job - Career Advancement, thăng tiến sự nghiệp.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "aurora-english-q1-3"
     },
     {
-        "question": "Cần hiểu bản chất của ngôn ngữ thay vì học vẹt.",
+        "question": "Tôi muốn chứng minh sự thăng tiến trong sự nghiệp, khẳng định vị trí quản lý/lãnh đạo.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - phương pháp học Tư duy & Tâm lý.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "aurora-english-q1-4"
     },
     {
-        "question": "Muốn khôi phục vị thế và không bị tiếng Anh làm lu mờ năng lực.",
+        "question": "Run lẩy bẩy khi phải nói tiếng Anh.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - khôi phục vị thế và tự hào về bản thân.",
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "aurora-english-q1-5"
     },
     {
-        "question": "Muốn xây dựng hình ảnh công dân toàn cầu hiện đại.",
+        "question": "Tự tin thuyết trình bằng tiếng Anh.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là Social Job - Global Citizen Image.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "aurora-english-q1-6"
     },
     {
-        "question": "Run lẩy bẩy khi phải nói tiếng Anh trước đồng nghiệp.",
+        "question": "Kết nối không biên giới.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - nỗi sợ sai ăn sâu vào tiềm thức.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "aurora-english-q1-7"
     },
     {
-        "question": "Cần tự tin thuyết trình bằng tiếng Anh trong cuộc họp.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - kỹ năng thuyết trình cụ thể.",
-        "id": "aurora-english-q1-8"
-    },
-    {
-        "question": "Muốn tự do đi bất cứ đâu mình muốn và kết nối không biên giới.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là Social Job - hình ảnh công dân toàn cầu tự do.",
-        "id": "aurora-english-q1-9"
-    },
-    {
-        "question": "Muốn tìm thấy niềm vui học tập nội tại thay vì cảm thấy học là gánh nặng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - thay đổi phương pháp học để tìm động lực.",
-        "id": "aurora-english-q1-10"
-    },
-    {
-        "question": "Cảm thấy mình thấp bé trước những bạn trẻ giỏi tiếng Anh.",
+        "question": "Thoải mái mắc lỗi để trưởng thành.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - cảm giác mất vị thế cần được khôi phục.",
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "aurora-english-q1-8"
+    },
+    {
+        "question": "Ngồi trong cuộc họp với đối tác nước ngoài, tôi muốn phát biểu ý kiến nhưng sợ nói sai ngữ pháp nên đành im lặng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "aurora-english-q1-9"
+    },
+    {
+        "question": "Thay đổi tư duy từ 'học vì phải' sang 'học vì muốn'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "aurora-english-q1-10"
+    },
+    {
+        "question": "Cảm thấy mình 'thấp bé' trước những bạn trẻ giỏi tiếng Anh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "aurora-english-q1-11"
     },
     {
-        "question": "Muốn lead team quốc tế và được săn đón bởi headhunter.",
+        "question": "Bị sếp phàn nàn về khả năng giao tiếp tiếng Anh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "aurora-english-q1-12"
+    },
+    {
+        "question": "Có thể mở miệng nói tiếng Anh mà không cần dịch trong đầu.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "aurora-english-q1-13"
+    },
+    {
+        "question": "Khi có thể tranh luận sòng phẳng với đối tác nước ngoài, tôi cảm thấy mình được tôn trọng thực sự.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "aurora-english-q1-14"
+    },
+    {
+        "question": "Thu nhập tăng trưởng đột phá.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 2,
-        "explanation": "Đây là Social Job - thăng tiến và khẳng định vị trí lãnh đạo.",
-        "id": "aurora-english-q1-12"
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "aurora-english-q1-15"
+    },
+    {
+        "question": "Tôi cần tiếp cận tiếng Anh như một công cụ tư duy, không phải môn học học thuật, để giải tỏa rào cản tâm lý.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "aurora-english-q1-16"
+    },
+    {
+        "question": "Cảm thấy mình chuyên nghiệp và có giá trị hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "aurora-english-q1-17"
+    },
+    {
+        "question": "Thấy bạn bè đi nước ngoài check-in sang chảnh.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "aurora-english-q1-18"
     },
     {
         "question": "Bỏ lỡ cơ hội thăng tiến vì rào cản ngoại ngữ.",
@@ -139,84 +205,18 @@
             "Social Job"
         ],
         "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - cần lấy lại căn bản để gỡ rào cản.",
-        "id": "aurora-english-q1-13"
-    },
-    {
-        "question": "Muốn dám là chính mình khi dùng ngôn ngữ khác.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - tự tin và không sợ bị phán xét.",
-        "id": "aurora-english-q1-14"
-    },
-    {
-        "question": "Muốn mở rộng network quốc tế và kết bạn với người bản xứ.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là Social Job - xây dựng mối quan hệ toàn cầu.",
-        "id": "aurora-english-q1-15"
-    },
-    {
-        "question": "Xấu hổ khi phải dùng Google Dịch trước mặt đồng nghiệp.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - cần kỹ năng giao tiếp cơ bản.",
-        "id": "aurora-english-q1-16"
-    },
-    {
-        "question": "Muốn được đồng nghiệp và sếp nhìn nhận đúng năng lực.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - khôi phục vị thế xứng đáng.",
-        "id": "aurora-english-q1-17"
-    },
-    {
-        "question": "Sợ bị đào thải nếu không cập nhật kỹ năng tiếng Anh.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là Social Job - áp lực thăng tiến và duy trì vị trí.",
-        "id": "aurora-english-q1-18"
-    },
-    {
-        "question": "Muốn thay đổi mindset từ 'học vì phải' sang 'học vì muốn'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là Functional Job - phương pháp học Tư duy & Tâm lý.",
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "aurora-english-q1-19"
     },
     {
-        "question": "Ức chế vì không diễn đạt được sự thông minh của mình.",
+        "question": "Đứng lên nói sai một câu nhưng được giáo viên và bạn học khích lệ thay vì cười chê.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
         "correctAnswer": 1,
-        "explanation": "Đây là Emotional Job - cảm giác bị lu mờ năng lực.",
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "aurora-english-q1-20"
     }
 ]

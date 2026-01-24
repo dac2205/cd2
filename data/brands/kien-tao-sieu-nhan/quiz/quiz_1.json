@@ -1,17 +1,17 @@
 [
     {
-        "question": "Yêu thương bản thân vô điều kiện.",
+        "question": "Biết cần chăm sóc bản thân nhưng không có hệ thống, thường bỏ bê vì ưu tiên người khác.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "kien-tao-sieu-nhan-q1-1"
     },
     {
-        "question": "Có lộ trình hành động cụ thể.",
+        "question": "Có bản đồ thời gian và năng lượng cụ thể.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -22,7 +22,7 @@
         "id": "kien-tao-sieu-nhan-q1-2"
     },
     {
-        "question": "Nhân viên nể phục và cống hiến hết mình vì sếp không chỉ giỏi mà còn tâm lý.",
+        "question": "Muốn có sức hút tự nhiên không cần cố.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -33,7 +33,18 @@
         "id": "kien-tao-sieu-nhan-q1-3"
     },
     {
-        "question": "Trở thành người bạn tốt nhất của chính mình.",
+        "question": "Muốn gia đình tự nhiên muốn quay về với mình, không phải vì bổn phận mà vì sức hút.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "kien-tao-sieu-nhan-q1-4"
+    },
+    {
+        "question": "Sau nhiều lần thất vọng, cần hy vọng mới về một cuộc sống thực sự vui vẻ.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -41,21 +52,10 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "kien-tao-sieu-nhan-q1-4"
-    },
-    {
-        "question": "Nhìn nhận rõ ràng hiện trạng cuộc sống, nhận diện đâu là lỗ hổng năng lượng và thời gian.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "kien-tao-sieu-nhan-q1-5"
     },
     {
-        "question": "Chuyển hóa xung đột thành sự thấu hiểu.",
+        "question": "Bảo vệ được năng lượng cá nhân.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -66,7 +66,7 @@
         "id": "kien-tao-sieu-nhan-q1-6"
     },
     {
-        "question": "Cảm thấy trống rỗng, vô vị.",
+        "question": "Cảm nhận được sự tái sinh bên trong.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -77,7 +77,7 @@
         "id": "kien-tao-sieu-nhan-q1-7"
     },
     {
-        "question": "Cãi vã liên miên không hồi kết.",
+        "question": "Muốn tìm ra 'lỗ thủng' đang làm mất năng lượng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -88,7 +88,7 @@
         "id": "kien-tao-sieu-nhan-q1-8"
     },
     {
-        "question": "Tự ti về ngoại hình/năng lực.",
+        "question": "Đạt được trạng thái bình an sâu sắc bên trong, không bị lay động bởi áp lực bên ngoài.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -99,18 +99,18 @@
         "id": "kien-tao-sieu-nhan-q1-9"
     },
     {
-        "question": "Nhìn vào gương và mỉm cười với người phụ nữ trong đó với đầy sự trân trọng.",
+        "question": "Muốn chia sẻ hành trình transformation để inspire phụ nữ khác.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "kien-tao-sieu-nhan-q1-10"
     },
     {
-        "question": "Trở thành trung tâm yêu thương của nhà.",
+        "question": "Trở thành 'home' cảm xúc của gia đình.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -121,7 +121,7 @@
         "id": "kien-tao-sieu-nhan-q1-11"
     },
     {
-        "question": "Cuộc sống xã hội phong phú, ý nghĩa.",
+        "question": "Trở thành nguồn cảm hứng cho phụ nữ khác về sự chuyển hóa từ kiệt sức sang bình an.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -132,7 +132,7 @@
         "id": "kien-tao-sieu-nhan-q1-12"
     },
     {
-        "question": "Thiết kế lại nhịp sống để có thời gian cho công việc, gia đình VÀ bản thân (Me Time).",
+        "question": "Biết cách mở lại cuộc trò chuyện.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -143,7 +143,7 @@
         "id": "kien-tao-sieu-nhan-q1-13"
     },
     {
-        "question": "Ngừng so sánh với người khác.",
+        "question": "Cảm thấy không xứng đáng được yêu thương.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -154,7 +154,7 @@
         "id": "kien-tao-sieu-nhan-q1-14"
     },
     {
-        "question": "Sợ con cái bị ảnh hưởng tâm lý.",
+        "question": "Xây dựng lại sự gần gũi từng ngày.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -165,18 +165,18 @@
         "id": "kien-tao-sieu-nhan-q1-15"
     },
     {
-        "question": "Chồng hay đi nhậu, ít về nhà.",
+        "question": "Không bị cuốn theo drama bên ngoài.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "kien-tao-sieu-nhan-q1-16"
     },
     {
-        "question": "Không khí gia đình ngột ngạt.",
+        "question": "Cảm thấy tội lỗi khi dành thời gian cho mình.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -187,7 +187,18 @@
         "id": "kien-tao-sieu-nhan-q1-17"
     },
     {
-        "question": "Thấy rõ bức tranh toàn cảnh.",
+        "question": "Mệt mỏi với sự hỗn loạn trong đầu, muốn tìm được sự yên tĩnh và clarity.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "kien-tao-sieu-nhan-q1-18"
+    },
+    {
+        "question": "Thiết lập thói quen chăm sóc bản thân bền vững, không phải tự hy sinh mà là tự yêu thương.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -195,28 +206,17 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "kien-tao-sieu-nhan-q1-18"
-    },
-    {
-        "question": "Tự thưởng cho mình một món quà đắt tiền hoặc một chuyến đi chơi riêng mà lòng đầy hân hoan.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "kien-tao-sieu-nhan-q1-19"
     },
     {
-        "question": "Sợ bị đánh giá là ham chơi.",
+        "question": "Không biết thời gian của mình đã đi đâu.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "kien-tao-sieu-nhan-q1-20"
     }
 ]

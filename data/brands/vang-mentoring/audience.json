@@ -1,0 +1,36 @@
+[
+    {
+        "id": "segment-dm-junior",
+        "title": "Digital Marketing Junior/Fresh",
+        "isPrimary": true,
+        "description": "Các bạn làm Digital Marketing Junior hoặc Fresh đang muốn tăng thu nhập và phát triển sự nghiệp nhưng không biết làm như thế nào ngoài việc nỗ lực hơn. Họ đang ở giai đoạn mông lung, thiếu định hướng rõ ràng.",
+        "painPoints": [
+            "Không biết làm thế nào để tăng thu nhập ngoài việc làm việc chăm chỉ hơn",
+            "Mông lung, không có định hướng rõ ràng trong sự nghiệp",
+            "Chỉ tập trung vào KPI công ty mà không phát triển năng lực thực sự",
+            "Đã nỗ lực nhưng thu nhập vẫn không tăng đáng kể"
+        ]
+    },
+    {
+        "id": "segment-career-stuck",
+        "title": "Người Bế Tắc Trong Sự Nghiệp",
+        "isPrimary": false,
+        "description": "Những người đã làm việc một thời gian nhưng cảm thấy bế tắc, không thấy con đường phát triển rõ ràng. Họ muốn đột phá nhưng không biết bắt đầu từ đâu.",
+        "painPoints": [
+            "Cảm thấy mình đang 'giậm chân tại chỗ'",
+            "Không biết mình thiếu kỹ năng gì để lên level",
+            "Sợ rằng mình đang lãng phí thời gian và tiềm năng"
+        ]
+    },
+    {
+        "id": "segment-income-seeker",
+        "title": "Người Muốn Tăng Thu Nhập Bền Vững",
+        "isPrimary": false,
+        "description": "Những người có mục tiêu cụ thể về tài chính và muốn tìm lộ trình khả thi để đạt được. Họ sẵn sàng đầu tư thời gian và tiền bạc nếu thấy được kết quả rõ ràng.",
+        "painPoints": [
+            "Muốn tăng thu nhập nhưng không biết chiến lược cụ thể",
+            "Đã thử nhiều cách nhưng chưa thấy hiệu quả bền vững",
+            "Cần lộ trình rõ ràng, đo lường được"
+        ]
+    }
+]

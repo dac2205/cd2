@@ -1,14 +1,38 @@
 [
   {
-    "id": "segment-primary",
-    "title": "The Hollow Achiever (Người thành đạt trống rỗng)",
+    "id": "segment-intellectual-women",
+    "title": "Phụ nữ Trí thức Thành đạt",
     "isPrimary": true,
-    "description": "**Demographics:** Phụ nữ trí thức 30-45 tuổi, sống tại các thành phố lớn. Thu nhập >30tr/tháng, chủ động tài chính, có địa vị.\n\n**Psychographics:** Bị hội chứng 'Siêu nhân' (Superwoman Syndrome) - cố gắng gánh vác tất cả mọi việc hoàn hảo. Cảm thấy mất kết nối sâu sắc với chồng con dù bề ngoài gia đình vẫn êm ấm. Kiệt sức về mặt cảm xúc.\n\n**Desires:**\n- Trạng thái bình an tự tại, không còn lo âu.\n- Kết nối lại tình yêu thương với chồng con.\n- Chuyển từ trạng thái 'Bất lực' sang 'Yêu thương' và 'Làm chủ cuộc đời'.\n- Xây dựng cuộc sống đủ đầy, hạnh phúc từ bên trong.\n\n**Quote:** \"Mọi người gọi tôi là siêu nhân vì tôi làm được tất cả, nhưng tôi chỉ muốn được là một người phụ nữ hạnh phúc bình thường.\"",
+    "description": "Phụ nữ Việt Nam 30-45 tuổi, thu nhập 30M+/tháng, chủ động tài chính, thành công trong sự nghiệp nhưng đang mất cân bằng và kiệt sức. Họ mất kết nối với chồng con và cảm thấy bất lực dù có mọi thứ.",
     "painPoints": [
-      "Mất cân bằng nghiêm trọng giữa công việc và gia đình.",
-      "Mất kết nối với chồng con, cảm thấy cô đơn trong chính ngôi nhà của mình.",
-      "Kiệt sức (Burnout) sau thời gian dài nỗ lực làm hài lòng tất cả mọi người.",
-      "Đã tìm kiếm nhiều nơi (khóa học, sách, hội nhóm) nhưng chỉ giải quyết được phần ngọn."
+      "Mất cân bằng công việc và gia đình",
+      "Mất kết nối với chồng và con",
+      "Kiệt sức sau thời gian dài nỗ lực",
+      "Cảm thấy bất lực với bản thân và người xung quanh"
+    ]
+  },
+  {
+    "id": "segment-exhausted-achievers",
+    "title": "Người Thành công Kiệt sức",
+    "isPrimary": false,
+    "description": "Những người đã đạt được thành công vật chất nhưng cảm thấy rỗng tuếch bên trong. Họ đã thử nhiều cách (bạn bè, hội nhóm, khóa học online, tâm lý) nhưng chưa thấy thay đổi thực sự.",
+    "painPoints": [
+      "Lời khuyên từ bạn bè không hiệu quả",
+      "Khóa học online quá chung chung",
+      "Tâm lý trị liệu chưa đủ sâu",
+      "Cần giải pháp cá nhân hóa thực sự"
+    ]
+  },
+  {
+    "id": "segment-disconnected-mothers",
+    "title": "Người Mẹ Mất kết nối",
+    "isPrimary": false,
+    "description": "Những người mẹ cảm thấy xa cách với con cái và chồng dù sống chung nhà. Họ muốn tái kết nối nhưng không biết bắt đầu từ đâu.",
+    "painPoints": [
+      "Con cái không muốn chia sẻ nữa",
+      "Chồng trở nên xa lạ",
+      "Cảm thấy cô đơn trong chính gia đình",
+      "Muốn xây dựng lại intimacy"
     ]
   }
 ]

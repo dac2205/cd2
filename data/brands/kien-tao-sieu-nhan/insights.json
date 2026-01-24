@@ -1,87 +1,87 @@
 [
   {
-    "id": "ins-1",
-    "title": "The Superwoman Trap (Cái bẫy Siêu nhân)",
-    "tension": "Xã hội và gia đình ca ngợi bạn là 'Giỏi việc nước đảm việc nhà'. Lời khen đó trở thành gánh nặng khiến bạn không dám nghỉ ngơi và không dám yếu đuối.",
-    "belief": "Mình phải mạnh mẽ để lo cho mọi người. Nhờ vả là yếu kém.",
-    "core": "Sức mạnh thực sự không phải là gồng mình gánh vác, mà là dũng cảm cởi bỏ chiếc áo choàng siêu nhân để sống thật với cảm xúc của mình.",
-    "reframe": "Bạn không cần phải làm siêu nhân để được yêu thương. Bạn xứng đáng được yêu thương vì chính bạn.",
-    "mechanism": "Vulnerability as Strength.",
+    "id": "insight-exhaustion-paradox",
+    "title": "The Exhaustion Paradox (Nghịch lý Kiệt sức)",
+    "tension": "Tôi đã thành công, có tiền, có địa vị... nhưng tại sao tôi lại cảm thấy bất lực và kiệt sức đến vậy?",
+    "belief": "Thành công = Hạnh phúc. Nếu tôi đạt được mục tiêu, tôi sẽ vui.",
+    "core": "Thành công bên ngoài không tự động mang lại bình an bên trong. Bạn cần năng lượng bình an, không phải thành tích.",
     "hooks": [
-      "The Superwoman Trap (Cái bẫy Siêu nhân)",
-      "Tìm hiểu thêm",
-      "Chi tiết..."
+      "Thành công nhưng rỗng tuếch",
+      "Có tất cả nhưng mất chính mình",
+      "Kiệt sức của người thắng cuộc"
     ],
-    "angle": "Góc nhìn chuyên gia",
-    "promise": "Bạn không cần phải làm siêu nhân để được yêu thương. Bạn xứng đáng được yêu thương vì chính bạn.",
-    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+    "angle": "Inner Peace over Outer Success",
+    "reframe": "Từ 'Đạt được nhiều hơn' sang 'Bình an với những gì đang có'.",
+    "promise": "Chuyển hóa từ kiệt sức sang bình an, từ bất lực sang 'Từ tính'.",
+    "rtb": "Coaching 1:1 cá nhân hóa với Hiện Diện Framework.",
+    "mechanism": "Nhận diện lỗ hổng năng lượng → Xây dựng bình an nội tại."
   },
   {
-    "id": "ins-2",
-    "title": "Prosperity Paradox (Nghịch lý Thịnh vượng)",
-    "tension": "Bạn nỗ lực kiếm tiền để gia đình hạnh phúc hơn, nhưng càng kiếm nhiều tiền thì thời gian và tâm trí dành cho gia đình càng ít đi.",
-    "belief": "Có tài chính vững vàng thì gia đình mới êm ấm.",
-    "core": "Bạn giàu có về tài sản (Assets) nhưng khánh kiệt về cảm xúc (Emotional Bankruptcy). Ngôi nhà to nhưng thiếu hơi ấm.",
-    "reframe": "Hạnh phúc là sự cân bằng giữa Thành công bên ngoài và Bình an bên trong.",
-    "mechanism": "Life Balance Wheel.",
+    "id": "insight-connection-achievement",
+    "title": "Connection vs Achievement (Kết nối vs Thành tích)",
+    "tension": "Tôi đã hy sinh quá nhiều cho sự nghiệp, giờ chồng con xa lạ với tôi. Tôi có thể lấy lại họ không?",
+    "belief": "Gia đình sẽ hiểu và chờ đợi khi tôi thành công.",
+    "core": "Kết nối cần được nuôi dưỡng hàng ngày. Không có thành tích nào bù đắp được sự vắng mặt cảm xúc.",
     "hooks": [
-      "Prosperity Paradox (Nghịch lý Thịnh vượng)",
-      "Tìm hiểu thêm",
-      "Chi tiết..."
+      "Thành công nhưng cô đơn",
+      "Xa lạ trong chính nhà mình",
+      "Khi gia đình không còn chờ"
     ],
-    "angle": "Góc nhìn chuyên gia",
-    "promise": "Hạnh phúc là sự cân bằng giữa Thành công bên ngoài và Bình an bên trong.",
-    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+    "angle": "Reconnection through Presence",
+    "reframe": "Từ 'Làm việc vì gia đình' sang 'Hiện diện với gia đình'.",
+    "promise": "Tái kết nối với chồng con qua năng lượng bình an.",
+    "rtb": "Chiến lược tái kết nối cụ thể, không chung chung.",
+    "mechanism": "Xây dựng 'Từ tính' làm gia đình muốn ở gần."
   },
   {
-    "id": "ins-3",
-    "title": "The 'Roommate' Marriage (Hôn nhân Bạn cùng phòng)",
-    "tension": "Bạn và chồng phối hợp nuôi dạy con, quản lý kinh tế rất ăn ý như hai đối tác kinh doanh, nhưng sự lãng mạn và kết nối tâm hồn đã nguội lạnh.",
-    "belief": "Sống lâu với nhau thì tình yêu chuyển thành tình nghĩa thôi.",
-    "core": "Sự mất kết nối không phải do hết yêu, mà do cả hai đã ngừng chia sẻ những tầng sâu (Deep Intimacy) của tâm hồn.",
-    "reframe": "Hôn nhân cần được 'kiến tạo' lại mỗi ngày bằng sự thấu hiểu và trân trọng hiện diện.",
-    "mechanism": "Relationship Coaching.",
+    "id": "insight-peace-power",
+    "title": "Peace as Power (Bình an là Sức mạnh)",
+    "tension": "Tôi nghĩ mình cần mạnh mẽ, kiểm soát mọi thứ. Nhưng tại sao càng cố càng mệt?",
+    "belief": "Phụ nữ mạnh mẽ là người kiểm soát được mọi thứ.",
+    "core": "Sức mạnh thực sự không phải kiểm soát, mà là bình an. Năng lượng bình an có sức hút mạnh hơn bất kỳ nhân sắc hay thành tích nào.",
     "hooks": [
-      "The 'Roommate' Marriage (Hôn nhân Bạn cùng phòng)",
-      "Tìm hiểu thêm",
-      "Chi tiết..."
+      "Từ tính mạnh hơn nhân sắc",
+      "Bình an là sức hút",
+      "Magnetic Presence"
     ],
-    "angle": "Góc nhìn chuyên gia",
-    "promise": "Hôn nhân cần được 'kiến tạo' lại mỗi ngày bằng sự thấu hiểu và trân trọng hiện diện.",
-    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+    "angle": "Magnetic Peace",
+    "reframe": "Từ 'Kiểm soát mọi thứ' sang 'Tỏa năng lượng bình an'.",
+    "promise": "Trở thành người phụ nữ có 'Từ tính' - gia đình tự nhiên muốn ở gần.",
+    "rtb": "Hiện Diện Framework - phương pháp độc quyền.",
+    "mechanism": "Xây dựng bình an nội tại → Tỏa ra sức hút tự nhiên."
   },
   {
-    "id": "ins-4",
-    "title": "Knowledge vs. Wisdom (Kiến thức và Trí tuệ)",
-    "tension": "Bạn đi học rất nhiều khóa phát triển bản thân, đọc hàng trăm cuốn sách. Bạn biết hết lý thuyết nhưng vẫn không thoát khỏi sự bất an.",
-    "belief": "Mình cần học thêm kỹ năng mới để xử lý vấn đề.",
-    "core": "Bình an không phải là một kỹ năng (Skill) để học, nó là một trạng thái (State) để tu tập và cảm nhận. Bạn cần người dẫn dắt năng lượng, không phải người dạy kiến thức.",
-    "reframe": "Coaching 1:1 giúp chuyển hóa năng lượng tắc nghẽn, đưa bạn về trạng thái bình an gốc.",
-    "mechanism": "Energy Transformation.",
+    "id": "insight-energy-leaks",
+    "title": "Energy Leaks (Lỗ hổng Năng lượng)",
+    "tension": "Tôi đã cố gắng cân bằng, nhưng năng lượng cứ 'chảy máu' mãi. Tôi không biết lỗi ở đâu.",
+    "belief": "Chỉ cần cố gắng nhiều hơn là đủ.",
+    "core": "Không phải thiếu năng lượng, mà là có quá nhiều lỗ hổng đang rò rỉ năng lượng mà bạn chưa nhận ra.",
     "hooks": [
-      "Knowledge vs. Wisdom (Kiến thức và Trí tuệ)",
-      "Tìm hiểu thêm",
-      "Chi tiết..."
+      "Năng lượng đang chảy máu",
+      "Lỗ hổng vô hình",
+      "Vá lỗ thủng trước khi đổ thêm nước"
     ],
-    "angle": "Góc nhìn chuyên gia",
-    "promise": "Coaching 1:1 giúp chuyển hóa năng lượng tắc nghẽn, đưa bạn về trạng thái bình an gốc.",
-    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+    "angle": "Energy Audit",
+    "reframe": "Từ 'Nạp thêm năng lượng' sang 'Ngăn chặn rò rỉ năng lượng'.",
+    "promise": "Nhận diện và 'vá' lỗ hổng năng lượng.",
+    "rtb": "Coaching giúp nhìn thấy rõ ràng nơi đang rò rỉ.",
+    "mechanism": "Energy Audit → Boundary Setting → Sustainable Energy."
   },
   {
-    "id": "ins-5",
-    "title": "The Oxygen Mask Rule (Quy tắc Mặt nạ dưỡng khí)",
-    "tension": "Bạn luôn ưu tiên chồng, con, công việc lên trên hết. Bản thân bạn xếp cuối cùng trong danh sách chăm sóc.",
-    "belief": "Hy sinh là đức tính cao đẹp của phụ nữ.",
-    "core": "Bạn không thể rót nước từ một chiếc ly rỗng. Việc bạn kiệt sức chính là nguyên nhân khiến không khí gia đình căng thẳng.",
-    "reframe": "Yêu mình là cách tốt nhất để yêu người. Khi bạn bình an, cả thế giới xung quanh bạn sẽ bình an.",
-    "mechanism": "Self-Love Mastery.",
+    "id": "insight-magnetic-woman",
+    "title": "The Magnetic Woman (Người phụ nữ Từ tính)",
+    "tension": "Tôi muốn gia đình yêu thương tôi, nhưng họ cứ xa lánh. Tôi phải làm gì?",
+    "belief": "Tôi cần làm nhiều hơn, cho nhiều hơn để được yêu thương.",
+    "core": "Không phải 'làm' nhiều hơn, mà là 'là' (being) người có năng lượng bình an. Gia đình không cần một người hoàn hảo, họ cần một 'home' cảm xúc.",
     "hooks": [
-      "The Oxygen Mask Rule (Quy tắc Mặt nạ dưỡng khí)",
-      "Tìm hiểu thêm",
-      "Chi tiết..."
+      "Từ Doing sang Being",
+      "Home cảm xúc",
+      "Năng lượng hút người"
     ],
-    "angle": "Góc nhìn chuyên gia",
-    "promise": "Yêu mình là cách tốt nhất để yêu người. Khi bạn bình an, cả thế giới xung quanh bạn sẽ bình an.",
-    "rtb": "Dựa trên khoa học và kinh nghiệm thực tế."
+    "angle": "Magnetic Presence",
+    "reframe": "Từ 'Làm gì để được yêu' sang 'Là ai để được yêu'.",
+    "promise": "Trở thành 'home' cảm xúc mà gia đình muốn quay về.",
+    "rtb": "Nếu bạn muốn có sự bình an như tôi, tôi là lựa chọn của bạn.",
+    "mechanism": "Xây dựng Inner Peace → Tỏa Magnetic Presence → Gia đình tự nhiên ở gần."
   }
 ]

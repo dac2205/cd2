@@ -1,0 +1,195 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Career Roadmap Development (Xây dựng Lộ trình Sự nghiệp)",
+            "description": "Cung cấp lộ trình rõ ràng, khả thi để phát triển sự nghiệp từ Junior lên Senior, từ thu nhập X lên 2X.",
+            "situation": "Đang làm Digital Marketing Junior nhưng không biết mình cần học gì, phát triển kỹ năng gì để lên level tiếp theo.",
+            "context": "Cảm thấy mông lung, không có bản đồ để đi từ điểm A (hiện tại) đến điểm B (mục tiêu).",
+            "triggers": [
+                "Thấy đồng nghiệp thăng tiến nhưng không hiểu họ làm gì khác mình.",
+                "Muốn có kế hoạch cụ thể thay vì mò mẫm.",
+                "Sợ lãng phí thời gian đi sai hướng."
+            ],
+            "desiredOutcome": [
+                "Có lộ trình rõ ràng từng bước.",
+                "Biết chính xác mình cần học và làm gì.",
+                "Tự tin về hướng đi của mình."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Income Doubling Strategy (Chiến lược x2 Thu nhập)",
+            "description": "Phát triển chiến lược cụ thể để tăng thu nhập từ X triệu/tháng lên 2X triệu/tháng trong vòng 1 năm.",
+            "situation": "Muốn tăng thu nhập nhưng không biết làm thế nào ngoài việc xin tăng lương hoặc nhảy việc.",
+            "context": "Nhận ra rằng làm việc chăm chỉ hơn không tự động dẫn đến thu nhập cao hơn.",
+            "triggers": [
+                "Thu nhập hiện tại không đủ đáp ứng nhu cầu.",
+                "Thấy người khác cùng tuổi kiếm được nhiều hơn.",
+                "Muốn có mục tiêu tài chính cụ thể và đo lường được."
+            ],
+            "desiredOutcome": [
+                "Thu nhập tăng gấp đôi sau 1 năm.",
+                "Có nhiều lựa chọn về tài chính.",
+                "Giá trị bản thân được công nhận qua mức lương."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Strategic Skill Development (Phát triển Kỹ năng Chiến lược)",
+            "description": "Xác định và phát triển những kỹ năng then chốt tạo ra giá trị thực sự, không chỉ là làm việc chăm chỉ hơn.",
+            "situation": "Đã rất nỗ lực, làm việc chăm chỉ nhưng vẫn không thấy kết quả đột phá.",
+            "context": "Hiểu rằng 'effort' không bằng 'strategy' - cần làm đúng việc, không chỉ làm nhiều việc.",
+            "triggers": [
+                "Làm việc nhiều giờ nhưng không được đánh giá cao.",
+                "Thấy người khác làm ít hơn nhưng hiệu quả hơn.",
+                "Muốn thoát khỏi vòng luẩn quẩn 'làm việc vất vả'."
+            ],
+            "desiredOutcome": [
+                "Phát triển kỹ năng tạo ra impact lớn.",
+                "Làm việc thông minh hơn, không chỉ chăm chỉ hơn.",
+                "Trở thành người không thể thay thế."
+            ]
+        },
+        {
+            "id": "func-4",
+            "title": "Customer Insights Mastery (Thành thạo Insights Khách hàng)",
+            "description": "Học cách xác định và verify insights về target customers để xây dựng chiến lược marketing hiệu quả.",
+            "situation": "Chưa có đủ insights về target customers và chưa biết cách verify những gì mình hiểu có đúng không.",
+            "context": "Nhận ra rằng hiểu khách hàng sâu sắc là chìa khóa để tạo ra giá trị thực sự.",
+            "triggers": [
+                "Campaign không hiệu quả vì không hiểu khách hàng.",
+                "Muốn tạo ra thông điệp chạm đúng pain points.",
+                "Cần phương pháp nghiên cứu khách hàng bài bản."
+            ],
+            "desiredOutcome": [
+                "Xác định được đúng insights của khách hàng.",
+                "Tự tin trong việc nghiên cứu và phân tích.",
+                "Tạo ra chiến lược dựa trên dữ liệu thực."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Clarity & Direction (Sự Rõ ràng & Định hướng)",
+            "description": "Cảm giác an tâm khi có định hướng rõ ràng, thoát khỏi trạng thái mông lung và bối rối về tương lai.",
+            "situation": "Mỗi ngày thức dậy không biết mình đang đi đúng hướng hay không, cảm thấy lạc lối trong sự nghiệp.",
+            "context": "Sự mông lung tạo ra lo lắng và mất tự tin.",
+            "triggers": [
+                "Cảm thấy bối rối không biết nên tập trung vào đâu.",
+                "Sợ rằng mình đang lãng phí thời gian.",
+                "Muốn có sự chắc chắn về tương lai."
+            ],
+            "desiredOutcome": [
+                "Cảm giác rõ ràng và tự tin về hướng đi.",
+                "An tâm rằng mình đang đi đúng đường.",
+                "Giảm lo lắng về tương lai sự nghiệp."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Hope & Transformation Belief (Hy vọng & Tin vào Thay đổi)",
+            "description": "Niềm tin rằng sự thay đổi là có thể, rằng mình có thể đạt được mục tiêu x2 thu nhập với lộ trình đúng đắn.",
+            "situation": "Đã thử nhiều cách để phát triển sự nghiệp nhưng chưa thấy kết quả, bắt đầu nghi ngờ bản thân.",
+            "context": "Cần được khơi dậy lại niềm tin và hy vọng về khả năng thay đổi.",
+            "triggers": [
+                "Cảm thấy bế tắc và mất hy vọng.",
+                "Muốn thấy bằng chứng rằng thay đổi là có thể.",
+                "Cần động lực để tiếp tục cố gắng."
+            ],
+            "desiredOutcome": [
+                "Tin rằng mình có thể đạt được mục tiêu.",
+                "Cảm thấy lạc quan về tương lai.",
+                "Có động lực mạnh mẽ để hành động."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Confidence & Self-Worth (Tự tin & Giá trị Bản thân)",
+            "description": "Cảm giác tự tin vào năng lực của mình, tin rằng mình xứng đáng với thu nhập cao hơn và vị trí tốt hơn.",
+            "situation": "Cảm thấy mình chưa đủ giỏi, chưa xứng đáng với mức lương cao hoặc vị trí senior.",
+            "context": "Thiếu tự tin làm hạn chế khả năng phát triển và đàm phán.",
+            "triggers": [
+                "Ngại đàm phán lương vì cảm thấy chưa đủ giá trị.",
+                "So sánh bản thân với người khác và cảm thấy kém cỏi.",
+                "Muốn xây dựng lòng tin vào năng lực của mình."
+            ],
+            "desiredOutcome": [
+                "Tự tin vào giá trị bản thân.",
+                "Dám đàm phán và yêu cầu những gì mình xứng đáng.",
+                "Cảm thấy tự hào về năng lực của mình."
+            ]
+        },
+        {
+            "id": "emo-4",
+            "title": "Validation & Recognition (Được Công nhận)",
+            "description": "Cảm giác được công nhận về năng lực và đóng góp, không chỉ là một 'junior' bình thường.",
+            "situation": "Làm việc chăm chỉ nhưng cảm thấy không được đánh giá đúng mức, không được công nhận.",
+            "context": "Mong muốn được nhìn nhận như một chuyên gia có giá trị.",
+            "triggers": [
+                "Công sức không được ghi nhận.",
+                "Muốn được tôn trọng trong công việc.",
+                "Cần sự validation từ người khác về năng lực."
+            ],
+            "desiredOutcome": [
+                "Được công nhận là người có năng lực.",
+                "Cảm thấy đóng góp của mình có ý nghĩa.",
+                "Được tôn trọng trong môi trường làm việc."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Professional Recognition (Được Công nhận Chuyên môn)",
+            "description": "Được đồng nghiệp, sếp và thị trường công nhận là một chuyên gia Digital Marketing có năng lực.",
+            "situation": "Muốn được promote hoặc được mời vào các dự án quan trọng vì năng lực, không chỉ vì thâm niên.",
+            "context": "Địa vị nghề nghiệp ảnh hưởng đến cơ hội và thu nhập.",
+            "triggers": [
+                "Muốn được mời vào các dự án lớn.",
+                "Muốn được headhunter chú ý.",
+                "Muốn xây dựng danh tiếng trong ngành."
+            ],
+            "desiredOutcome": [
+                "Được công nhận là chuyên gia trong lĩnh vực.",
+                "Có nhiều cơ hội việc làm tốt hơn.",
+                "Được tôn trọng trong cộng đồng Digital Marketing."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Role Model & Inspiration (Hình mẫu & Nguồn Cảm hứng)",
+            "description": "Trở thành hình mẫu cho đồng nghiệp và bạn bè về sự phát triển sự nghiệp thành công.",
+            "situation": "Muốn là người mà các junior khác ngưỡng mộ và học hỏi, là bằng chứng sống về sự thành công.",
+            "context": "Mong muốn tạo impact tích cực và truyền cảm hứng cho người khác.",
+            "triggers": [
+                "Muốn chia sẻ kinh nghiệm và giúp đỡ người khác.",
+                "Muốn được nhìn nhận như một success story.",
+                "Muốn tạo ảnh hưởng tích cực trong cộng đồng."
+            ],
+            "desiredOutcome": [
+                "Trở thành nguồn cảm hứng cho người khác.",
+                "Được mọi người tìm đến để xin lời khuyên.",
+                "Tạo ra impact tích cực trong cộng đồng."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Career Success Signal (Tín hiệu Thành công)",
+            "description": "Thể hiện sự thành công trong sự nghiệp qua thu nhập và vị trí, chứng minh với gia đình và bạn bè.",
+            "situation": "Muốn chứng minh với gia đình rằng chọn ngành Digital Marketing là đúng đắn và có tương lai.",
+            "context": "Áp lực xã hội về thành công và thu nhập.",
+            "triggers": [
+                "Muốn gia đình tự hào về mình.",
+                "Muốn chứng minh lựa chọn nghề nghiệp đúng đắn.",
+                "Muốn có địa vị xã hội tương xứng."
+            ],
+            "desiredOutcome": [
+                "Gia đình tự hào về thành công của mình.",
+                "Được xã hội đánh giá cao.",
+                "Tự tin về lựa chọn nghề nghiệp."
+            ]
+        }
+    ]
+}

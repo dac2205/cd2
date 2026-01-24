@@ -1,13 +1,18 @@
 {
     "id": "vitamind",
     "name": "VitaMind",
-    "tagline": "Kho tài nguyên Thân & Tâm - Tự do khám phá",
     "owner": "Thúy Phan",
-    "keywords": [
-        "Resources",
-        "Mental Health",
-        "Sleep",
-        "Focus",
-        "Scientific"
+    "brandEssence": {
+        "coreBelief": "Chữa lành không cần phức tạp, chỉ cần đúng lúc và đủ an toàn.",
+        "uniquePromise": "Kho tài nguyên wellness luôn sẵn sàng, đúng lúc bạn cần, không phán xét, không áp lực.",
+        "transformation": "Từ 'Não không tắt được' → 'Chìm vào giấc ngủ tự nhiên'.",
+        "enemy": "Toxic Positivity, áp lực kỷ luật (Streak), thông tin wellness rác, rào cản chuyên gia.",
+        "signatureMethod": "5 Moments Framework: Trước ngủ, Vừa thức dậy, Giữa ngày overwhelm, Sau va chạm cảm xúc, Trước quyết định quan trọng.",
+        "socialProof": "Nội dung dựa trên nghiên cứu thần kinh học, review bởi chuyên gia tâm lý."
+    },
+    "description": [
+        "Kho tài nguyên chăm sóc cơ thể và tinh thần cho người trẻ đô thị (22-45 tuổi) đang sống trong áp lực, lo âu, và cô đơn. Giải quyết nỗi đau: Stress, mất ngủ, thiếu tập trung nhưng chưa sẵn sàng gặp bác sĩ tâm lý hoặc bị ngợp bởi thông tin wellness rác trên mạng.",
+        "Phương pháp '5 Moments Framework' độc quyền: Xuất hiện đúng lúc vào 5 khoảnh khắc quan trọng (Trước ngủ, Sáng thức dậy, Giữa ngày overwhelm, Sau va chạm cảm xúc, Trước quyết định). Không gian an toàn, không áp lực streak, nội dung chất lượng cao về Sleep, Stress, Focus, Anxiety, Nutrition.",
+        "Từ não quay cuồng lúc 2:00 AM không ngủ được → Hệ thần kinh hạ xuống, chìm vào giấc ngủ tự nhiên. Từ bị ngợp bởi lo âu → Tìm lại sự rõ ràng và năng lượng cho ngày mới."
     ]
 }

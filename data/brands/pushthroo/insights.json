@@ -1,0 +1,87 @@
+[
+    {
+        "id": "insight-panic-precision",
+        "title": "Panic vs Precision",
+        "tension": "Tôi biết rõ deadline đang đến gần, nhưng tôi vẫn doom scroll và tự dỗ dành 'Bình tĩnh đi, đừng áp lực'.",
+        "belief": "Áp lực là xấu, tôi cần relax để làm việc hiệu quả hơn.",
+        "core": "Panic không phải strategy, nhưng comfort cũng không phải giải pháp. Bạn cần Precision - hệ thống buộc bạn phải clarify và act.",
+        "hooks": [
+            "Panic is not a strategy",
+            "Comfort is the enemy of progress",
+            "Precision over panic"
+        ],
+        "angle": "Accountability over Comfort",
+        "reframe": "Từ 'Bình tĩnh để làm việc' sang 'Clarify để hành động'.",
+        "promise": "Action plan chính xác trong 15 phút, không còn panic.",
+        "rtb": "Specialized Accountability AI được train để challenge, không comfort.",
+        "mechanism": "Timed Mastermind Sessions buộc phải break down problems."
+    },
+    {
+        "id": "insight-intentions-gap",
+        "title": "Good Intentions Aren't Enough",
+        "tension": "Tôi có đầy đủ to-do list, calendar, reminder... nhưng vẫn không làm được gì.",
+        "belief": "Chỉ cần có kế hoạch tốt là đủ.",
+        "core": "Khoảng cách giữa intention và execution là accountability. Passive tools không thể bridge gap này.",
+        "hooks": [
+            "Your ambition deserves more than good intentions",
+            "Plans don't execute themselves",
+            "Accountability is the missing piece"
+        ],
+        "angle": "Integrated Accountability System",
+        "reframe": "Từ 'Lập kế hoạch' sang 'Commit và execute với accountability'.",
+        "promise": "Hệ thống không let you off the hook.",
+        "rtb": "AI + Knowledge Vault + Gamification trong một.",
+        "mechanism": "Accountability AI challenges + Achievement Tree tracks progress."
+    },
+    {
+        "id": "insight-procrastination-paradox",
+        "title": "The Procrastination Paradox",
+        "tension": "Tôi là người thông minh, có năng lực, nhưng tại sao tôi vẫn trì hoãn những việc quan trọng nhất?",
+        "belief": "Tôi chỉ cần thêm motivation hoặc willpower.",
+        "core": "Procrastination không phải do thiếu motivation, mà do thiếu clarity và accountability structure.",
+        "hooks": [
+            "Knowing vs Doing",
+            "Smart but stuck",
+            "Clarity kills procrastination"
+        ],
+        "angle": "Clarity through Challenge",
+        "reframe": "Từ 'Tìm motivation' sang 'Build clarity và structure'.",
+        "promise": "Làm rõ 'tại sao' và 'làm gì tiếp theo' trong mỗi session.",
+        "rtb": "AI buộc phải clarify thinking qua challenging questions.",
+        "mechanism": "Mastermind-style conversations với time limit."
+    },
+    {
+        "id": "insight-hard-mode",
+        "title": "Hard Mode Philosophy",
+        "tension": "Mọi app đều bảo tôi 'Take it easy', nhưng tôi cảm thấy mình cần được push harder.",
+        "belief": "Self-improvement phải gentle và comfortable.",
+        "core": "Resilience is built through challenge, not comfort. Bạn cần hard mode để thực sự grow.",
+        "hooks": [
+            "Choose hard mode",
+            "Resilience through challenge",
+            "No pain, no gain (but smarter)"
+        ],
+        "angle": "Challenge-Based Growth",
+        "reframe": "Từ 'Comfort zone' sang 'Growth through challenge'.",
+        "promise": "Level up resilience literally qua Achievement Tree.",
+        "rtb": "Gamified progression shows willpower development.",
+        "mechanism": "Each challenge overcome builds Achievement Tree."
+    },
+    {
+        "id": "insight-integrated-solution",
+        "title": "Beyond Passive Tools",
+        "tension": "Tôi có quá nhiều apps: to-do, notes, habit tracker... nhưng chúng không nói chuyện với nhau.",
+        "belief": "Productivity là về việc có đủ tools.",
+        "core": "Bạn không cần thêm tools. Bạn cần integrated system: Accountability + Knowledge + Progress tracking.",
+        "hooks": [
+            "One system to rule them all",
+            "Integrated, not fragmented",
+            "Tools don't work, systems do"
+        ],
+        "angle": "Holistic Productivity System",
+        "reframe": "Từ 'Nhiều tools riêng lẻ' sang 'Một hệ thống tích hợp'.",
+        "promise": "Accountability, Knowledge Management, và Gamification trong một.",
+        "rtb": "AI + Vault + Achievement Tree work together seamlessly.",
+        "mechanism": "Every conversation feeds Vault, every action builds Tree."
+    }
+]
