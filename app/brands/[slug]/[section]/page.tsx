@@ -8,6 +8,7 @@ import InsightsExplorer from "@/components/insights/InsightsExplorer";
 import JTBDView from "@/components/jtbd/JTBDView";
 import AudienceView from "@/components/audience/AudienceView";
 import QuizView from "@/components/quiz/QuizView";
+import ProtectedSection from "@/components/auth/ProtectedSection";
 
 export async function generateStaticParams() {
     const brands = getAllBrands();
@@ -69,11 +70,15 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
                 )}
 
                 {section === "audience" && brand.structuredAudience && (
-                    <AudienceView data={brand.structuredAudience} />
+                    <ProtectedSection section="audience">
+                        <AudienceView data={brand.structuredAudience} />
+                    </ProtectedSection>
                 )}
 
                 {section === "insights" && brand.structuredInsights && (
-                    <InsightsExplorer insights={brand.structuredInsights} />
+                    <ProtectedSection section="insights">
+                        <InsightsExplorer insights={brand.structuredInsights} />
+                    </ProtectedSection>
                 )}
 
                 {section === "quiz" && (
