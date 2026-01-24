@@ -4,6 +4,15 @@ export interface BrandMeta {
     owner: string;
 }
 
+export interface BrandEssence {
+    coreBelief: string;
+    uniquePromise: string;
+    transformation: string;
+    enemy: string;
+    signatureMethod: string;
+    socialProof: string;
+}
+
 export interface QuizQuestion {
     id: string;
     question: string;
@@ -57,6 +66,7 @@ export interface BrandContent {
     structuredInsights?: Insight[];
     structuredJTBD?: JTBDData;
     description?: string[];
+    brandEssence?: BrandEssence;
     quizzes: { id: string, questions: QuizQuestion[] }[];
 }
 

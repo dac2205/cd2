@@ -5,6 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { ArrowRight, BookOpen, Users, Lightbulb, CheckCircle } from "lucide-react";
 import React from "react";
 import BrandDescription from "@/components/brand/BrandDescription";
+import BrandEssenceDisplay from "@/components/brand/BrandEssenceDisplay";
 
 // Force static generation for known brands
 export async function generateStaticParams() {
@@ -51,22 +52,50 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
     return (
         <div className="container animate-slide-in">
+            {/* Header */}
             <div style={{ marginBottom: "3rem", textAlign: "center" }}>
                 <p className="text-subtext" style={{ fontSize: "0.875rem", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1rem" }}>
                     Brand Analysis Hub
                 </p>
                 <h1 style={{ marginBottom: "0.5rem", fontSize: "2.5rem" }}>{brand.meta.name}</h1>
                 <p style={{ fontSize: "1.25rem", color: "hsl(var(--ink-brown) / 0.7)" }}>Owner: {brand.meta.owner}</p>
-
-                {brand.description && brand.description.length > 0 && (
-                    <div style={{ marginTop: "2rem", maxWidth: "800px", margin: "2rem auto 0" }}>
-                        <BrandDescription paragraphs={brand.description} />
-                    </div>
-                )}
-
-
             </div>
 
+            {/* Brand Essence - Prominent Display */}
+            {brand.brandEssence && (
+                <div style={{ marginBottom: "4rem" }}>
+                    <h2 style={{
+                        fontSize: "1.5rem",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        marginBottom: "2rem",
+                        color: "hsl(var(--ink-brown))"
+                    }}>
+                        Brand Essence
+                    </h2>
+                    <BrandEssenceDisplay essence={brand.brandEssence} />
+                </div>
+            )}
+
+            {/* Brand Description */}
+            {brand.description && brand.description.length > 0 && (
+                <div style={{ marginBottom: "4rem" }}>
+                    <h2 style={{
+                        fontSize: "1.5rem",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        marginBottom: "2rem",
+                        color: "hsl(var(--ink-brown))"
+                    }}>
+                        Brand Story
+                    </h2>
+                    <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+                        <BrandDescription paragraphs={brand.description} />
+                    </div>
+                </div>
+            )}
+
+            {/* Sections Grid */}
             <div style={{
                 display: "grid",
                 gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
