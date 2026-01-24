@@ -26,9 +26,25 @@ interface DecisionTimelineProps {
 }
 
 export default function DecisionTimeline({ cases, stages }: DecisionTimelineProps) {
-    const [activeCase, setActiveCase] = useState<string>(cases[0].id);
+    const [selectedBrands, setSelectedBrands] = useState<string[]>([cases[0].id]);
 
-    const activeCaseData = cases.find(c => c.id === activeCase);
+    const toggleBrand = (brandId: string) => {
+        if (selectedBrands.includes(brandId)) {
+            // Unselect if already selected
+            setSelectedBrands(selectedBrands.filter(id => id !== brandId));
+        } else {
+            // Add if less than 2 brands selected
+            if (selectedBrands.length < 2) {
+                setSelectedBrands([...selectedBrands, brandId]);
+            } else {
+                // Replace first brand if already 2 selected
+                setSelectedBrands([selectedBrands[1], brandId]);
+            }
+        }
+    };
+
+    const brand1 = cases.find(c => c.id === selectedBrands[0]);
+    const brand2 = selectedBrands.length > 1 ? cases.find(c => c.id === selectedBrands[1]) : null;
 
     return (
         <div className="animate-slide-in">
@@ -42,200 +58,288 @@ export default function DecisionTimeline({ cases, stages }: DecisionTimelineProp
                 </p>
             </div>
 
-            {/* Case Tabs */}
+            {/* Brand Selection */}
             <div style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(3, 1fr)",
-                gap: "1rem",
                 marginBottom: "3rem",
-                maxWidth: "800px",
-                margin: "0 auto 3rem"
+                padding: "2rem",
+                backgroundColor: "hsl(var(--paper-white))",
+                borderRadius: "12px",
+                border: "1px solid hsl(var(--border))"
             }}>
-                {cases.map((caseItem) => {
-                    const isActive = activeCase === caseItem.id;
-                    return (
-                        <button
-                            key={caseItem.id}
-                            onClick={() => setActiveCase(caseItem.id)}
-                            className="hover-warm-glow"
-                            style={{
-                                padding: "1.5rem",
-                                border: `2px solid ${isActive ? "hsl(var(--primary))" : "hsl(var(--border))"}`,
-                                borderRadius: "12px",
-                                backgroundColor: isActive ? "hsl(var(--paper-white))" : "transparent",
-                                color: isActive ? "hsl(var(--primary))" : "hsl(var(--ink-brown) / 0.6)",
-                                cursor: "pointer",
-                                transition: "all 0.3s ease",
-                                textAlign: "center"
-                            }}
-                        >
-                            <div style={{ fontWeight: "700", fontSize: "1.125rem", marginBottom: "0.25rem" }}>
-                                {caseItem.name}
-                            </div>
-                            <div style={{ fontSize: "0.875rem", opacity: 0.8 }}>
-                                {caseItem.subtitle}
-                            </div>
-                        </button>
-                    );
-                })}
+                <h3 style={{
+                    fontSize: "1.125rem",
+                    marginBottom: "1rem",
+                    color: "hsl(var(--ink-brown))"
+                }}>
+                    Select brands to compare (max 2):
+                </h3>
+                <div style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+                    gap: "1rem"
+                }}>
+                    {cases.map((caseItem) => {
+                        const isSelected = selectedBrands.includes(caseItem.id);
+                        return (
+                            <label
+                                key={caseItem.id}
+                                style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "0.75rem",
+                                    padding: "1rem",
+                                    border: `2px solid ${isSelected ? "hsl(var(--primary))" : "hsl(var(--border))"}`,
+                                    borderRadius: "8px",
+                                    cursor: "pointer",
+                                    backgroundColor: isSelected ? "hsl(var(--primary) / 0.05)" : "transparent",
+                                    transition: "all 0.2s ease"
+                                }}
+                                className="hover-warm-glow"
+                            >
+                                <input
+                                    type="checkbox"
+                                    checked={isSelected}
+                                    onChange={() => toggleBrand(caseItem.id)}
+                                    style={{
+                                        width: "20px",
+                                        height: "20px",
+                                        cursor: "pointer"
+                                    }}
+                                />
+                                <div>
+                                    <div style={{ fontWeight: "700", fontSize: "1rem" }}>
+                                        {caseItem.name}
+                                    </div>
+                                    <div style={{ fontSize: "0.875rem", color: "hsl(var(--ink-brown) / 0.6)" }}>
+                                        {caseItem.subtitle}
+                                    </div>
+                                </div>
+                            </label>
+                        );
+                    })}
+                </div>
             </div>
 
-            {/* Active Case Info */}
-            {activeCaseData && (
-                <div style={{
-                    textAlign: "center",
-                    marginBottom: "2rem",
-                    padding: "1rem",
-                    backgroundColor: "hsl(var(--paper-white))",
-                    borderRadius: "8px",
-                    maxWidth: "600px",
-                    margin: "0 auto 3rem"
-                }}>
-                    <p style={{ fontSize: "1rem", color: "hsl(var(--ink-brown) / 0.7)" }}>
-                        <strong>Customer:</strong> {activeCaseData.customer}
-                    </p>
+            {/* Timeline Table */}
+            {selectedBrands.length > 0 && (
+                <div style={{ overflowX: "auto" }}>
+                    <table style={{
+                        width: "100%",
+                        borderCollapse: "separate",
+                        borderSpacing: "0 1rem"
+                    }}>
+                        <thead>
+                            <tr>
+                                <th style={{
+                                    textAlign: "left",
+                                    padding: "1rem",
+                                    backgroundColor: "hsl(var(--paper-white))",
+                                    borderRadius: "8px 0 0 8px",
+                                    minWidth: "350px",
+                                    fontWeight: "700",
+                                    color: "hsl(var(--ink-brown))"
+                                }}>
+                                    Stage Information
+                                </th>
+                                {brand1 && (
+                                    <th style={{
+                                        textAlign: "left",
+                                        padding: "1rem",
+                                        backgroundColor: "hsl(var(--primary) / 0.1)",
+                                        borderRadius: brand2 ? "0" : "0 8px 8px 0",
+                                        minWidth: "300px",
+                                        fontWeight: "700",
+                                        color: "hsl(var(--primary))"
+                                    }}>
+                                        {brand1.name}
+                                    </th>
+                                )}
+                                {brand2 && (
+                                    <th style={{
+                                        textAlign: "left",
+                                        padding: "1rem",
+                                        backgroundColor: "hsl(var(--accent) / 0.1)",
+                                        borderRadius: "0 8px 8px 0",
+                                        minWidth: "300px",
+                                        fontWeight: "700",
+                                        color: "hsl(var(--accent))"
+                                    }}>
+                                        {brand2.name}
+                                    </th>
+                                )}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {stages.map((stage, index) => (
+                                <React.Fragment key={stage.id}>
+                                    <tr>
+                                        {/* Stage Info Column */}
+                                        <td style={{
+                                            padding: "2rem",
+                                            backgroundColor: "hsl(var(--paper-white))",
+                                            borderRadius: "8px 0 0 8px",
+                                            verticalAlign: "top",
+                                            border: "1px solid hsl(var(--border))",
+                                            borderRight: "none"
+                                        }}>
+                                            <div style={{
+                                                display: "flex",
+                                                alignItems: "flex-start",
+                                                gap: "1rem",
+                                                marginBottom: "1rem"
+                                            }}>
+                                                <div style={{ fontSize: "2rem", lineHeight: 1 }}>
+                                                    {stage.emoji}
+                                                </div>
+                                                <div style={{ flex: 1 }}>
+                                                    <div style={{
+                                                        fontSize: "0.75rem",
+                                                        fontWeight: "700",
+                                                        textTransform: "uppercase",
+                                                        letterSpacing: "0.05em",
+                                                        color: "hsl(var(--ink-brown) / 0.5)",
+                                                        marginBottom: "0.25rem"
+                                                    }}>
+                                                        Stage {stage.id}
+                                                    </div>
+                                                    <h3 style={{
+                                                        fontSize: "1.25rem",
+                                                        marginBottom: "0.25rem",
+                                                        color: "hsl(var(--ink-brown))"
+                                                    }}>
+                                                        {stage.title}
+                                                    </h3>
+                                                    <div style={{
+                                                        fontSize: "0.75rem",
+                                                        color: "hsl(var(--ink-brown) / 0.6)",
+                                                        fontStyle: "italic"
+                                                    }}>
+                                                        {stage.name}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <p style={{
+                                                fontSize: "0.95rem",
+                                                lineHeight: "1.6",
+                                                color: "hsl(var(--ink-brown) / 0.8)",
+                                                marginBottom: "1rem"
+                                            }}>
+                                                {stage.description}
+                                            </p>
+
+                                            <div style={{
+                                                padding: "0.75rem",
+                                                backgroundColor: "hsl(var(--primary) / 0.05)",
+                                                borderLeft: "3px solid hsl(var(--primary))",
+                                                borderRadius: "4px"
+                                            }}>
+                                                <div style={{
+                                                    fontSize: "0.7rem",
+                                                    fontWeight: "700",
+                                                    textTransform: "uppercase",
+                                                    letterSpacing: "0.05em",
+                                                    color: "hsl(var(--primary))",
+                                                    marginBottom: "0.25rem"
+                                                }}>
+                                                    📌 JTBD Insight
+                                                </div>
+                                                <p style={{
+                                                    fontSize: "0.875rem",
+                                                    fontWeight: "600",
+                                                    color: "hsl(var(--ink-brown))",
+                                                    margin: 0
+                                                }}>
+                                                    {stage.insight}
+                                                </p>
+                                            </div>
+                                        </td>
+
+                                        {/* Brand 1 Example Column */}
+                                        {brand1 && (
+                                            <td style={{
+                                                padding: "2rem",
+                                                backgroundColor: "hsl(var(--primary) / 0.03)",
+                                                borderRadius: brand2 ? "0" : "0 8px 8px 0",
+                                                verticalAlign: "top",
+                                                border: "1px solid hsl(var(--border))",
+                                                borderLeft: "none",
+                                                borderRight: brand2 ? "none" : "1px solid hsl(var(--border))"
+                                            }}>
+                                                <div style={{
+                                                    fontSize: "0.75rem",
+                                                    fontWeight: "700",
+                                                    textTransform: "uppercase",
+                                                    letterSpacing: "0.05em",
+                                                    color: "hsl(var(--primary))",
+                                                    marginBottom: "0.75rem"
+                                                }}>
+                                                    💡 Example
+                                                </div>
+                                                <p style={{
+                                                    fontSize: "0.95rem",
+                                                    lineHeight: "1.6",
+                                                    color: "hsl(var(--ink-brown))",
+                                                    margin: 0,
+                                                    fontStyle: "italic"
+                                                }}>
+                                                    "{stage.examples[brand1.id]}"
+                                                </p>
+                                            </td>
+                                        )}
+
+                                        {/* Brand 2 Example Column */}
+                                        {brand2 && (
+                                            <td style={{
+                                                padding: "2rem",
+                                                backgroundColor: "hsl(var(--accent) / 0.03)",
+                                                borderRadius: "0 8px 8px 0",
+                                                verticalAlign: "top",
+                                                border: "1px solid hsl(var(--border))",
+                                                borderLeft: "none"
+                                            }}>
+                                                <div style={{
+                                                    fontSize: "0.75rem",
+                                                    fontWeight: "700",
+                                                    textTransform: "uppercase",
+                                                    letterSpacing: "0.05em",
+                                                    color: "hsl(var(--accent))",
+                                                    marginBottom: "0.75rem"
+                                                }}>
+                                                    💡 Example
+                                                </div>
+                                                <p style={{
+                                                    fontSize: "0.95rem",
+                                                    lineHeight: "1.6",
+                                                    color: "hsl(var(--ink-brown))",
+                                                    margin: 0,
+                                                    fontStyle: "italic"
+                                                }}>
+                                                    "{stage.examples[brand2.id]}"
+                                                </p>
+                                            </td>
+                                        )}
+                                    </tr>
+
+                                    {/* Connector Arrow */}
+                                    {index < stages.length - 1 && (
+                                        <tr>
+                                            <td colSpan={selectedBrands.length + 1} style={{ textAlign: "center", padding: "0.5rem 0" }}>
+                                                <ChevronDown size={32} style={{ color: "hsl(var(--primary))" }} />
+                                            </td>
+                                        </tr>
+                                    )}
+                                </React.Fragment>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
             )}
-
-            {/* Timeline Stages */}
-            <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-                {stages.map((stage, index) => (
-                    <div key={stage.id}>
-                        {/* Stage Card */}
-                        <div className="card-wood" style={{
-                            padding: "2rem",
-                            marginBottom: index < stages.length - 1 ? "1rem" : "0"
-                        }}>
-                            {/* Stage Header */}
-                            <div style={{
-                                display: "flex",
-                                alignItems: "center",
-                                gap: "1rem",
-                                marginBottom: "1rem"
-                            }}>
-                                <div style={{
-                                    fontSize: "2.5rem",
-                                    lineHeight: 1
-                                }}>
-                                    {stage.emoji}
-                                </div>
-                                <div style={{ flex: 1 }}>
-                                    <div style={{
-                                        fontSize: "0.75rem",
-                                        fontWeight: "700",
-                                        textTransform: "uppercase",
-                                        letterSpacing: "0.05em",
-                                        color: "hsl(var(--ink-brown) / 0.5)",
-                                        marginBottom: "0.25rem"
-                                    }}>
-                                        Stage {stage.id}
-                                    </div>
-                                    <h3 style={{
-                                        fontSize: "1.5rem",
-                                        marginBottom: "0.25rem",
-                                        color: "hsl(var(--ink-brown))"
-                                    }}>
-                                        {stage.title}
-                                    </h3>
-                                    <div style={{
-                                        fontSize: "0.875rem",
-                                        color: "hsl(var(--ink-brown) / 0.6)",
-                                        fontStyle: "italic"
-                                    }}>
-                                        {stage.name}
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Description */}
-                            <p style={{
-                                fontSize: "1rem",
-                                lineHeight: "1.6",
-                                color: "hsl(var(--ink-brown) / 0.8)",
-                                marginBottom: "1rem"
-                            }}>
-                                {stage.description}
-                            </p>
-
-                            {/* Insight */}
-                            <div style={{
-                                padding: "1rem",
-                                backgroundColor: "hsl(var(--primary) / 0.05)",
-                                borderLeft: "4px solid hsl(var(--primary))",
-                                borderRadius: "4px",
-                                marginBottom: "1.5rem"
-                            }}>
-                                <div style={{
-                                    fontSize: "0.75rem",
-                                    fontWeight: "700",
-                                    textTransform: "uppercase",
-                                    letterSpacing: "0.05em",
-                                    color: "hsl(var(--primary))",
-                                    marginBottom: "0.25rem"
-                                }}>
-                                    📌 JTBD Insight
-                                </div>
-                                <p style={{
-                                    fontSize: "0.95rem",
-                                    fontWeight: "600",
-                                    color: "hsl(var(--ink-brown))",
-                                    margin: 0
-                                }}>
-                                    {stage.insight}
-                                </p>
-                            </div>
-
-                            {/* Example */}
-                            <div style={{
-                                padding: "1rem",
-                                backgroundColor: "hsl(var(--accent) / 0.05)",
-                                borderRadius: "8px"
-                            }}>
-                                <div style={{
-                                    fontSize: "0.75rem",
-                                    fontWeight: "700",
-                                    textTransform: "uppercase",
-                                    letterSpacing: "0.05em",
-                                    color: "hsl(var(--accent))",
-                                    marginBottom: "0.5rem"
-                                }}>
-                                    💡 Example: {activeCaseData?.name}
-                                </div>
-                                <p style={{
-                                    fontSize: "1rem",
-                                    lineHeight: "1.6",
-                                    color: "hsl(var(--ink-brown))",
-                                    margin: 0,
-                                    fontStyle: "italic"
-                                }}>
-                                    "{stage.examples[activeCase]}"
-                                </p>
-                            </div>
-                        </div>
-
-                        {/* Connector Arrow */}
-                        {index < stages.length - 1 && (
-                            <div style={{
-                                display: "flex",
-                                justifyContent: "center",
-                                marginBottom: "1rem"
-                            }}>
-                                <ChevronDown
-                                    size={32}
-                                    style={{ color: "hsl(var(--primary))" }}
-                                />
-                            </div>
-                        )}
-                    </div>
-                ))}
-            </div>
 
             {/* Bottom Note */}
             <div className="card-wood" style={{
                 padding: "2rem",
                 marginTop: "3rem",
-                maxWidth: "900px",
-                margin: "3rem auto 0",
                 backgroundColor: "hsl(var(--secondary) / 0.05)"
             }}>
                 <h3 style={{
