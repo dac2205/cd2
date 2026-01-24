@@ -55,9 +55,9 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
     // Extract Meta & Description
     // We cast to any or a merged type. For now, assume it matches BrandMeta structure + description.
     const meta: BrandMeta = {
+        id: slug,
         name: brandData.name,
         owner: brandData.owner
-        // Add other meta fields if they exist in types
     };
 
     const description: string[] | undefined = brandData.description;

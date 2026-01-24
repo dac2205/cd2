@@ -1,61 +1,6 @@
 [
     {
-        "question": "Đầu óc quay cuồng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-1"
-    },
-    {
-        "question": "Nhịp tim ổn định trở lại.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-2"
-    },
-    {
-        "question": "Gửi một bài tập thở cho đứa bạn đang bị stress vì deadline thay vì chỉ nói 'Cố lên'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-3"
-    },
-    {
-        "question": "Tim đập nhanh, khó thở.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-4"
-    },
-    {
-        "question": "Cắt cơn hoảng loạn (Panic Attack) hoặc cơn giận dữ ngay lập tức bằng các bài tập thở/âm thanh dẫn thiền ngắn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-5"
-    },
-    {
-        "question": "Phụ thuộc vào người khác.",
+        "question": "Có thêm niềm tin để bước tiếp.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -63,7 +8,29 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vitamind-q1-6"
+        "id": "vitamind-q1-1"
+    },
+    {
+        "question": "Muốn giúp đỡ một cách tinh tế.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-2"
+    },
+    {
+        "question": "Muốn hoàn thành deadline gấp.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vitamind-q1-3"
     },
     {
         "question": "Hay cáu gắt với người thân.",
@@ -74,205 +41,7 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-7"
-    },
-    {
-        "question": "Đọc bình luận hoặc câu chuyện của người khác và thấy 'À, mình không cô độc'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-8"
-    },
-    {
-        "question": "Khao khát tìm người đồng cảnh ngộ.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-9"
-    },
-    {
-        "question": "Trở thành người bạn đời/người yêu dễ chịu hơn nhờ biết cách tự quản lý cảm xúc của mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-10"
-    },
-    {
-        "question": "Mối quan hệ căng thẳng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-11"
-    },
-    {
-        "question": "Lau sạch lớp sương mù trong tâm trí để nhìn nhận vấn đề một cách khách quan và sáng suốt.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vitamind-q1-12"
-    },
-    {
-        "question": "Bị tiếng ồn xung quanh làm phiền.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-13"
-    },
-    {
-        "question": "Hiệu suất làm việc x3.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-14"
-    },
-    {
-        "question": "Mối quan hệ bền vững, hạnh phúc.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-15"
-    },
-    {
-        "question": "Ngồi làm việc ở quán cafe ồn ào hoặc văn phòng xao nhãng, đeo tai nghe vào là 'nhập định'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-16"
-    },
-    {
-        "question": "Có công cụ để giúp đỡ người thân/bạn bè đang gặp khó khăn bằng cách chia sẻ nội dung hữu ích.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-17"
-    },
-    {
-        "question": "Gắn kết tình bạn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-18"
-    },
-    {
-        "question": "Thay thế thói quen lướt TikTok trước khi ngủ bằng nội dung êm dịu giúp đi vào giấc ngủ tự nhiên.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-19"
-    },
-    {
-        "question": "Lan tỏa giá trị tích cực.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-20"
-    },
-    {
-        "question": "Đang chuẩn bị thuyết trình hoặc vừa cãi nhau xong tim đập nhanh, cần lấy lại bình tĩnh trong 3 phút.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-21"
-    },
-    {
-        "question": "Mắt mỏi nhưng não không chịu nghỉ.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-22"
-    },
-    {
-        "question": "Tự mình vượt qua cơn lo âu nhờ hướng dẫn của app và cảm thấy tự hào 'Mình làm được rồi!'.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vitamind-q1-23"
-    },
-    {
-        "question": "Sợ cảm giác im lặng trong bóng tối.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-24"
-    },
-    {
-        "question": "Yêu thương bản thân.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vitamind-q1-25"
+        "id": "vitamind-q1-4"
     },
     {
         "question": "Nghĩ rằng chỉ mình mình bị như thế này.",
@@ -283,10 +52,10 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vitamind-q1-26"
+        "id": "vitamind-q1-5"
     },
     {
-        "question": "Tạo ra môi trường âm thanh giúp não bộ đi vào trạng thái tập trung sâu (Deep Work/Flow) để hoàn thành công việc.",
+        "question": "Sắp bùng nổ cảm xúc.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -294,10 +63,131 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-27"
+        "id": "vitamind-q1-6"
     },
     {
-        "question": "Xây dựng niềm tin rằng mình có khả năng tự chăm sóc và chữa lành cho chính mình.",
+        "question": "Đọc bình luận hoặc câu chuyện của người khác và thấy 'À, mình không cô độc'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-7"
+    },
+    {
+        "question": "Thấy bạn bè đau khổ mà bất lực.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-8"
+    },
+    {
+        "question": "Gửi một bài tập thở cho đứa bạn đang bị stress vì deadline thay vì chỉ nói 'Cố lên'.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-9"
+    },
+    {
+        "question": "Khao khát tìm người đồng cảnh ngộ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-10"
+    },
+    {
+        "question": "Sợ cảm giác im lặng trong bóng tối.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vitamind-q1-11"
+    },
+    {
+        "question": "Không khí gia đình vui vẻ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-12"
+    },
+    {
+        "question": "Nằm trằn trọc không ngủ được, thay vì đếm cừu thì bật VitaMind nghe kể chuyện đêm khuya.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vitamind-q1-13"
+    },
+    {
+        "question": "Mắt mỏi nhưng não không chịu nghỉ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vitamind-q1-14"
+    },
+    {
+        "question": "Có thêm động lực từ cộng đồng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-15"
+    },
+    {
+        "question": "Không trút giận vô cớ lên người yêu sau một ngày làm việc tồi tệ.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-16"
+    },
+    {
+        "question": "Nhịp tim ổn định trở lại.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vitamind-q1-17"
+    },
+    {
+        "question": "Đang rối bời vì mâu thuẫn gia đình, sau khi nghe một bài podcast thì nhận ra giải pháp.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -305,28 +195,28 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vitamind-q1-28"
+        "id": "vitamind-q1-18"
     },
     {
-        "question": "Không thể tập trung quá 15 phút.",
+        "question": "Tìm thấy sự đồng cảm khi biết rằng có hàng ngàn người khác cũng đang gặp vấn đề giống mình.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-29"
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vitamind-q1-19"
     },
     {
-        "question": "Không bị mộng mị.",
+        "question": "Sợ mình không vượt qua nổi.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vitamind-q1-30"
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "vitamind-q1-20"
     }
 ]

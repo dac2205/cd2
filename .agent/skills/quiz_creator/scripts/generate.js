@@ -17,6 +17,7 @@ console.log(`Found ${brands.length} brands.`);
 
 brands.forEach(brand => {
     const brandDir = path.join(brandsDir, brand);
+    const brandJsonPath = path.join(brandDir, 'brand.json');
     const jtbdPath = path.join(brandDir, 'jtbd.json');
     const quizDir = path.join(brandDir, 'quiz');
 
@@ -28,6 +29,13 @@ brands.forEach(brand => {
     if (fs.existsSync(jtbdPath)) {
         console.log(`Processing brand: ${brand}`);
         try {
+            // Read brand description for context
+            let brandDescription = [];
+            if (fs.existsSync(brandJsonPath)) {
+                const brandData = JSON.parse(fs.readFileSync(brandJsonPath, 'utf8'));
+                brandDescription = brandData.description || [];
+            }
+
             const jtbdData = JSON.parse(fs.readFileSync(jtbdPath, 'utf8'));
             const allQuestions = [];
 
@@ -82,21 +90,21 @@ brands.forEach(brand => {
                 return wordCount - 15;
             };
 
-            // Generate 2 quizzes
-            const TARGET_COUNT = 30; // 5 + 10 + 15
-            const NUM_QUIZZES = 2;
+            // Generate 1 quiz with 20 questions (5 + 5 + 10)
+            const TARGET_COUNT = 20;
+            const NUM_QUIZZES = 1;
 
             for (let qIdx = 1; qIdx <= NUM_QUIZZES; qIdx++) {
                 // 1. Sort by length score to prioritize good length
                 allQuestions.sort((a, b) => getLengthScore(a.question) - getLengthScore(b.question));
 
-                // 2. Take top pool (e.g. 60 candidates) to allow variation
-                const candidatePool = allQuestions.slice(0, 80);
+                // 2. Take top pool (e.g. 40 candidates) to allow variation
+                const candidatePool = allQuestions.slice(0, 50);
 
                 // 3. Shuffle pool
                 const shuffledCandidates = shuffle(candidatePool);
 
-                // 4. Select top 20
+                // 4. Select top questions based on target count
                 const selectedQuestions = shuffledCandidates.slice(0, TARGET_COUNT);
 
                 // 5. Assign IDs
