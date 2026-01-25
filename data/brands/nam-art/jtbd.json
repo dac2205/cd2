@@ -18,23 +18,6 @@
             ]
         },
         {
-            "id": "func-2",
-            "title": "Investment Potential (Tiềm năng Đầu tư)",
-            "description": "Mua được tác phẩm có khả năng tăng giá trong tương lai nhờ con mắt chọn lọc của curator.",
-            "situation": "Quyết định mua một bức tranh của họa sĩ trẻ đang lên và sau vài năm giá trị của nó tăng gấp đôi.",
-            "context": "Nghệ thuật cũng là một kênh đầu tư tài sản (Alternative Investment).",
-            "triggers": [
-                "Muốn đa dạng hóa danh mục đầu tư.",
-                "Tìm kiếm tài sản tích trữ giá trị.",
-                "Thích cảm giác 'đãi cát tìm vàng'."
-            ],
-            "desiredOutcome": [
-                "Tài sản tăng giá trị.",
-                "Sở hữu danh mục đầu tư nghệ thuật tiềm năng.",
-                "Cảm giác thành công về tài chính."
-            ]
-        },
-        {
             "id": "func-3",
             "title": "Discovery Access (Tiếp cận Khám phá)",
             "description": "Được giới thiệu những gương mặt nghệ sĩ mới, những phong cách lạ mà thị trường đại chúng chưa biết đến.",
@@ -71,58 +54,24 @@
             ]
         },
         {
-            "id": "emo-2",
-            "title": "Daily Inspiration (Cảm hứng Mỗi ngày)",
-            "description": "Được tiếp thêm năng lượng sáng tạo và niềm vui sống mỗi khi nhìn ngắm tác phẩm.",
-            "situation": "Uống cafe sáng ngắm tranh và nảy ra những ý tưởng tuyệt vời cho công việc.",
-            "context": "Môi trường sống ảnh hưởng trực tiếp đến tâm trạng và hiệu suất.",
+            "id": "emo-4",
+            "title": "Vibrational Shift (Chuyển đổi Rung động)",
+            "description": "Cảm nhận sự thay đổi năng lượng trong không gian sống, từ trống rỗng và lạnh lẽo sang tràn đầy sức sống và rung động tích cực.",
+            "situation": "Bước vào phòng khách và cảm thấy không gian 'sống' hơn, có hồn hơn nhờ tác phẩm nghệ thuật.",
+            "context": "Nghệ thuật không chỉ là vật trang trí, mà là nguồn năng lượng sống.",
             "triggers": [
-                "Cảm thấy cuộc sống tẻ nhạt.",
-                "Cần 'vitamin' cho tâm hồn.",
-                "Muốn nuôi dưỡng sự sáng tạo."
+                "Không gian nhà cửa thiếu sức sống.",
+                "Cảm thấy năng lượng tiêu cực trong môi trường sống.",
+                "Muốn nâng cao rung động của không gian."
             ],
             "desiredOutcome": [
-                "Tràn đầy năng lượng tích cực.",
-                "Yêu đời, yêu không gian sống.",
-                "Kích thích tư duy sáng tạo."
-            ]
-        },
-        {
-            "id": "emo-3",
-            "title": "Pride of Ownership (Niềm kiêu hãnh Sở hữu)",
-            "description": "Cảm giác tự hào khi là chủ nhân của một tác phẩm đẹp, độc bản, thể hiện đẳng cấp văn hóa.",
-            "situation": "Mời bạn bè đến nhà và tự hào giới thiệu về bộ sưu tập của mình.",
-            "context": "Sở hữu nghệ thuật là sở hữu văn hóa.",
-            "triggers": [
-                "Muốn khẳng định vị thế.",
-                "Thích được ngưỡng mộ.",
-                "Tự hào về thành quả lao động."
-            ],
-            "desiredOutcome": [
-                "Được kính trọng.",
-                "Thỏa mãn cái tôi.",
-                "Khẳng định đẳng cấp."
+                "Không gian tràn đầy năng lượng tích cực.",
+                "Cảm giác sống động, vibrant.",
+                "Môi trường nuôi dưỡng tâm hồn."
             ]
         }
     ],
     "social": [
-        {
-            "id": "soc-1",
-            "title": "Trendsetter (Người dẫn đầu xu hướng)",
-            "description": "Được công nhận là người có gu thẩm mỹ tiên phong, đi trước thời đại.",
-            "situation": "Được bạn bè hỏi ý kiến về việc mua tranh, trang trí nhà cửa.",
-            "context": "Trong giới mộ điệu, người phát hiện ra cái đẹp mới là người có quyền uy.",
-            "triggers": [
-                "Muốn tạo ảnh hưởng.",
-                "Thích chia sẻ kiến thức.",
-                "Xây dựng thương hiệu cá nhân sành điệu."
-            ],
-            "desiredOutcome": [
-                "Được xem là KOLs trong nhóm.",
-                "Dẫn dắt câu chuyện văn hóa.",
-                "Được ngưỡng mộ về sự tinh tế."
-            ]
-        },
         {
             "id": "soc-2",
             "title": "Cultural Status (Vị thế Văn hóa)",
@@ -138,23 +87,6 @@
                 "Được giới trí thức nể trọng.",
                 "Hình ảnh sang trọng, tri thức.",
                 "Mở rộng quan hệ chất lượng."
-            ]
-        },
-        {
-            "id": "soc-3",
-            "title": "Legacy (Di sản)",
-            "description": "Để lại cho con cái một gia tài văn hóa và thẩm mỹ, giáo dục gu thẩm mỹ cho thế hệ sau.",
-            "situation": "Con cái lớn lên trong môi trường nghệ thuật và hình thành tư duy duy mỹ từ bé.",
-            "context": "Giáo dục thẩm mỹ là món quà vô giá cho con.",
-            "triggers": [
-                "Lo con cái nghiện điện thoại.",
-                "Muốn con có tâm hồn đẹp.",
-                "Tích sản cho con."
-            ],
-            "desiredOutcome": [
-                "Con cái tinh tế, nhạy cảm.",
-                "Gia đình có truyền thống.",
-                "Tài sản truyền đời."
             ]
         }
     ]

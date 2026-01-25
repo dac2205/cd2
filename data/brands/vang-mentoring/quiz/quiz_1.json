@@ -1,94 +1,6 @@
 [
     {
-        "question": "Thu nhập hiện tại không đủ đáp ứng nhu cầu.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-1"
-    },
-    {
-        "question": "Muốn thấy bằng chứng rằng thay đổi là có thể.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-2"
-    },
-    {
-        "question": "Muốn tăng thu nhập nhưng không biết làm thế nào ngoài việc xin tăng lương hoặc nhảy việc.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-3"
-    },
-    {
-        "question": "Ngại đàm phán lương vì cảm thấy chưa đủ giá trị.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-4"
-    },
-    {
-        "question": "Đã rất nỗ lực, làm việc chăm chỉ nhưng vẫn không thấy kết quả đột phá.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-5"
-    },
-    {
-        "question": "Muốn xây dựng lòng tin vào năng lực của mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-6"
-    },
-    {
-        "question": "Campaign không hiệu quả vì không hiểu khách hàng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-7"
-    },
-    {
-        "question": "Thấy người khác làm ít hơn nhưng hiệu quả hơn.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-8"
-    },
-    {
-        "question": "Gia đình tự hào về thành công của mình.",
+        "question": "Muốn chứng minh với gia đình rằng chọn ngành Digital Marketing là đúng đắn và có tương lai.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -96,51 +8,7 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "vang-mentoring-q1-9"
-    },
-    {
-        "question": "Giá trị bản thân được công nhận qua mức lương.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-10"
-    },
-    {
-        "question": "Cảm thấy tự hào về năng lực của mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-11"
-    },
-    {
-        "question": "Cảm thấy đóng góp của mình có ý nghĩa.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-12"
-    },
-    {
-        "question": "Muốn tạo ra thông điệp chạm đúng pain points.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-13"
+        "id": "vang-mentoring-q1-1"
     },
     {
         "question": "Cảm giác được công nhận về năng lực và đóng góp, không chỉ là một 'junior' bình thường.",
@@ -151,18 +19,51 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-14"
+        "id": "vang-mentoring-q1-2"
     },
     {
-        "question": "Cần sự validation từ người khác về năng lực.",
+        "question": "Làm việc nhiều giờ nhưng không được đánh giá cao.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-15"
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-3"
+    },
+    {
+        "question": "Muốn tạo ảnh hưởng tích cực trong cộng đồng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vang-mentoring-q1-4"
+    },
+    {
+        "question": "Giá trị bản thân được công nhận qua mức lương.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-5"
+    },
+    {
+        "question": "Làm việc thông minh hơn, không chỉ chăm chỉ hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-6"
     },
     {
         "question": "Cần phương pháp nghiên cứu khách hàng bài bản.",
@@ -173,32 +74,120 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-7"
+    },
+    {
+        "question": "Cần sự validation từ người khác về năng lực.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "vang-mentoring-q1-8"
+    },
+    {
+        "question": "Thấy người khác làm ít hơn nhưng hiệu quả hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-9"
+    },
+    {
+        "question": "Thấy người khác cùng tuổi kiếm được nhiều hơn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-10"
+    },
+    {
+        "question": "Đã rất nỗ lực, làm việc chăm chỉ nhưng vẫn không thấy kết quả đột phá.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-11"
+    },
+    {
+        "question": "Được công nhận là chuyên gia trong lĩnh vực.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "vang-mentoring-q1-12"
+    },
+    {
+        "question": "Campaign không hiệu quả vì không hiểu khách hàng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "vang-mentoring-q1-13"
+    },
+    {
+        "question": "Cảm thấy đóng góp của mình có ý nghĩa.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "vang-mentoring-q1-14"
+    },
+    {
+        "question": "An tâm rằng mình đang đi đúng đường.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "vang-mentoring-q1-15"
+    },
+    {
+        "question": "Muốn có kế hoạch cụ thể thay vì mò mẫm.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "vang-mentoring-q1-16"
     },
     {
-        "question": "Muốn thoát khỏi vòng luẩn quẩn 'làm việc vất vả'.",
+        "question": "Cảm giác rõ ràng và tự tin về hướng đi.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "vang-mentoring-q1-17"
     },
     {
-        "question": "Sợ rằng mình đang lãng phí thời gian.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "vang-mentoring-q1-18"
-    },
-    {
-        "question": "Xác định được đúng insights của khách hàng.",
+        "question": "Tạo ra chiến lược dựa trên dữ liệu thực.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -206,10 +195,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "vang-mentoring-q1-19"
+        "id": "vang-mentoring-q1-18"
     },
     {
-        "question": "Cảm thấy bối rối không biết nên tập trung vào đâu.",
+        "question": "Cảm thấy tự hào về năng lực của mình.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -217,6 +206,17 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "vang-mentoring-q1-19"
+    },
+    {
+        "question": "Muốn tăng thu nhập nhưng không biết làm thế nào ngoài việc xin tăng lương hoặc nhảy việc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "vang-mentoring-q1-20"
     }
 ]
