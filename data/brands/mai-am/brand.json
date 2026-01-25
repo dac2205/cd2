@@ -9,5 +9,18 @@
         "Dinh dưỡng",
         "Tâm lý",
         "Cộng đồng"
+    ],
+    "brandEssence": {
+        "coreBelief": "Bệnh nhân ung thư xứng đáng được sống trọn vẹn từng ngày với phẩm giá, yêu thương và hy vọng - không chỉ là 'bệnh nhân'.",
+        "uniquePromise": "Chăm sóc toàn diện thân-tâm-trí: Quản lý đau, dinh dưỡng, tâm lý, cộng đồng - giúp bệnh nhân và gia đình tìm lại bình an giữa nghịch cảnh.",
+        "transformation": "Từ sợ hãi, cô độc, mất phẩm giá → Bình tĩnh, kết nối, sống ý nghĩa với niềm tin và tôn nghiêm.",
+        "enemy": "Nỗi sợ hãi cái chết, sự cô độc, mặc cảm 'gánh nặng', đau đớn không được quản lý, mất hy vọng.",
+        "signatureMethod": "Holistic Cancer Care: Pain Management (thiền, thở), Nutrition Support, Emotional Healing, Community Connection, Family Harmony Programs.",
+        "socialProof": "Cộng đồng bệnh nhân và người chiến thắng ung thư, chia sẻ kinh nghiệm sống khỏe 10-20 năm với bệnh."
+    },
+    "description": [
+        "Trung tâm chăm sóc toàn diện cho bệnh nhân ung thư và gia đình, tập trung vào chất lượng cuộc sống thay vì chỉ điều trị bệnh. Tin rằng bệnh nhân xứng đáng được sống trọn vẹn từng ngày với phẩm giá, yêu thương và hy vọng.",
+        "Chăm sóc toàn diện thân-tâm-trí: Quản lý đau (thiền, thở, thư giãn), dinh dưỡng tăng miễn dịch, hỗ trợ tâm lý (giảm sợ hãi, chấp nhận), cộng đồng kết nối, hòa khí gia đình. Không chỉ chữa bệnh, mà chữa lành con người.",
+        "Từ sợ hãi, cô độc, mất phẩm giá → Bình tĩnh, kết nối, sống ý nghĩa. Cộng đồng những người chiến thắng bệnh tật, sống khỏe 10-20 năm, lan tỏa hy vọng và nghị lực. Mái Ấm - nơi tìm lại bình an giữa nghịch cảnh."
     ]
 }
