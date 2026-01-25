@@ -28,6 +28,12 @@ export default function TheoryPage() {
             color: "hsl(var(--primary))"
         },
         {
+            title: "3-Step Purchase Journey",
+            description: "3 bước cốt lõi dẫn tới quyết định mua: Needs → JTBD → Decision.",
+            href: "/theory/purchase-journey",
+            color: "hsl(var(--primary))"
+        },
+        {
             title: "Decision Timeline",
             description: "11 mốc quyết định của khách hàng từ Status Quo đến Loyalty.",
             href: "/theory/decision-timeline",
