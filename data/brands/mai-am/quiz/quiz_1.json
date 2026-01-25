@@ -1,69 +1,14 @@
 [
     {
-        "question": "Cả nhà cùng nhau tập thở, cùng nhau cười nói thay vì không khí u ám.",
+        "question": "Đau đớn hành hạ thể xác.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "mai-am-q1-1"
-    },
-    {
-        "question": "Tận hưởng niềm vui đời thường.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "mai-am-q1-2"
-    },
-    {
-        "question": "Dễ bị nhiễm trùng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-3"
-    },
-    {
-        "question": "Sống như người khỏe mạnh.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "mai-am-q1-4"
-    },
-    {
-        "question": "Ngủ sâu, ít mộng mị.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-5"
-    },
-    {
-        "question": "Sáng dậy có sức sống.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-6"
     },
     {
         "question": "Cảm thấy có lỗi với người thân.",
@@ -74,7 +19,18 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "mai-am-q1-7"
+        "id": "mai-am-q1-2"
+    },
+    {
+        "question": "Dùng thuốc ngủ vẫn không ngủ được.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "mai-am-q1-3"
     },
     {
         "question": "Tham gia CLB Mái Ấm, nghe chuyện của những người đã sống khỏe 10-20 năm với K.",
@@ -85,43 +41,10 @@
         ],
         "correctAnswer": 2,
         "explanation": "Đây là ví dụ về Social Job.",
-        "id": "mai-am-q1-8"
+        "id": "mai-am-q1-4"
     },
     {
-        "question": "Cảm thấy mình vô dụng, là gánh nặng.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "mai-am-q1-9"
-    },
-    {
-        "question": "Không ai hiểu nỗi đau của mình.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "mai-am-q1-10"
-    },
-    {
-        "question": "Có những khoảnh khắc sống một cuộc đời bình thường, quên đi mình là bệnh nhân.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
-        "id": "mai-am-q1-11"
-    },
-    {
-        "question": "Phục hồi nhanh sau mỗi đợt thuốc.",
+        "question": "Dễ bị nhiễm trùng.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -129,10 +52,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-12"
+        "id": "mai-am-q1-5"
     },
     {
-        "question": "Đau nhức không ngủ được, thực hành bài tập thở 10 phút thấy dịu lại và chợp mắt được.",
+        "question": "Mất ngủ triền miên do lo lắng/đau.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -140,10 +63,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-13"
+        "id": "mai-am-q1-6"
     },
     {
-        "question": "Cải thiện chất lượng giấc ngủ để cơ thể có thời gian tự sửa chữa và tái tạo tế bào.",
+        "question": "Cơ thể dễ chịu hơn.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -151,40 +74,7 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-14"
-    },
-    {
-        "question": "Ám ảnh về cái chết.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "mai-am-q1-15"
-    },
-    {
-        "question": "Sống trọn vẹn từng ngày.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "mai-am-q1-16"
-    },
-    {
-        "question": "Hòa bình với bản thân.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "mai-am-q1-17"
+        "id": "mai-am-q1-7"
     },
     {
         "question": "Bác sĩ hoãn truyền hóa chất vì yếu.",
@@ -195,21 +85,10 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "mai-am-q1-18"
+        "id": "mai-am-q1-8"
     },
     {
-        "question": "Mặc một bộ đồ đẹp, trang điểm nhẹ và cảm thấy mình vẫn xinh đẹp.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
-        "id": "mai-am-q1-19"
-    },
-    {
-        "question": "Mệt mỏi, cáu gắt.",
+        "question": "Sáng dậy có sức sống.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -217,6 +96,127 @@
         ],
         "correctAnswer": 0,
         "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "mai-am-q1-9"
+    },
+    {
+        "question": "Giảm đau tự nhiên.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "mai-am-q1-10"
+    },
+    {
+        "question": "Đau nhức không ngủ được, thực hành bài tập thở 10 phút thấy dịu lại và chợp mắt được.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "mai-am-q1-11"
+    },
+    {
+        "question": "Lo lắng bệnh di căn.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "mai-am-q1-12"
+    },
+    {
+        "question": "Gia đình là điểm tựa vững chắc.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "mai-am-q1-13"
+    },
+    {
+        "question": "Đi đâu cũng bị hỏi thăm bệnh tình.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "mai-am-q1-14"
+    },
+    {
+        "question": "Cảm thấy mình vô dụng, là gánh nặng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "mai-am-q1-15"
+    },
+    {
+        "question": "Kết nối với cộng đồng những người chiến thắng bệnh tật để tiếp thêm hy vọng và nghị lực.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "mai-am-q1-16"
+    },
+    {
+        "question": "Không còn thức trắng đêm nhìn trần nhà, ngủ được những giấc sâu phục hồi.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "mai-am-q1-17"
+    },
+    {
+        "question": "Ăn uống ngon miệng hơn, giảm nôn ói, các chỉ số máu cải thiện.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
+        "id": "mai-am-q1-18"
+    },
+    {
+        "question": "Đi cafe với bạn bè, nói chuyện về phim ảnh, thời trang chứ không phải chuyện thuốc men.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "mai-am-q1-19"
+    },
+    {
+        "question": "Cần tấm gương hy vọng.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "mai-am-q1-20"
     }
 ]

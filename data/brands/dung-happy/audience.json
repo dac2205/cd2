@@ -1,14 +1,40 @@
 [
   {
-    "id": "segment-primary",
-    "title": "The Stuck Learner (Người học kẹt)",
+    "id": "dung-happy-seg-1",
+    "title": "The Aspiring Coach (Coach Mơ ước)",
     "isPrimary": true,
-    "description": "**Demographics:** Coach mới vào nghề, đã có chứng chỉ nhưng chưa có thu nhập ổn định. Thường làm việc tự do hoặc kiêm nhiệm.\n\n**Psychographics:** Có tâm huyết với nghề, ham học hỏi nhưng thiếu kiến thức kinh doanh. Bị hội chứng kẻ mạo danh (Imposter Syndrome). Đang chán nản, nghi ngờ bản thân vì mãi không có khách.\n\n**Desires:**\n- Có được khách hàng trả tiền đầu tiên (The First Sale) để chứng minh mình làm được.\n- Có một lộ trình cầm tay chỉ việc rõ ràng, sáng ra biết mình phải làm gì.\n- Tự tin vỗ ngực xưng tên 'Tôi là Coach' mà không thấy ngại.\n- Biến đam mê thành sự nghiệp bền vững.\n\n**Quote:** \"Tôi học 7749 khóa học rồi mà vẫn chưa kiếm được đồng nào từ nghề Coach.\"",
+    "description": "Người đã học coaching, có kỹ năng và kiến thức nhưng đang mắc kẹt ở giai đoạn 'biết mình có khả năng nhưng không biết bắt đầu'. Họ sợ bán hàng, sợ bị từ chối, và rơi vào hội chứng 'học mãi không làm' (Procrasti-learning). Họ cần ai đó cầm tay chỉ việc từng bước nhỏ để có khách hàng đầu tiên và dám đứng vai Coach.",
     "painPoints": [
-      "Đã học đủ thứ kỹ năng coaching nhưng không biết làm sao để kiếm tiền từ nó.",
-      "Ngại bán hàng, sợ bị nói là đa cấp hoặc lùa gà.",
-      "Viết content không ai tương tác, không biết mình đang viết cho ai (hổng ngách).",
-      "Cảm thấy lạc lõng, muốn bỏ cuộc quay về làm công ăn lương."
+      "Làm coaching miễn phí mãi không ra tiền, nghi ngờ con đường đã chọn",
+      "Không biết mình đang bán cái gì - chỉ biết mình 'làm coaching'",
+      "Hoang mang không biết bắt đầu từ đâu, ngồi nhìn màn hình trắng cả ngày",
+      "Sợ bị phán xét: 'Mới học xong đã dám nhận tiền?'",
+      "Bị từ chối một lần là buồn cả tuần, không dám tiếp cận ai nữa",
+      "Ngại khi người quen hỏi 'Làm gì?', sợ bị coi là 'thất nghiệp'"
+    ]
+  },
+  {
+    "id": "dung-happy-seg-2",
+    "title": "The Stuck Freelancer (Freelancer Mắc kẹt)",
+    "isPrimary": false,
+    "description": "Người đã từng làm freelance hoặc tự kinh doanh nhưng chưa có cấu trúc rõ ràng, thu nhập không ổn định. Họ muốn chuyển sang coaching như một mô hình kinh doanh nghiêm túc có thể nuôi sống bản thân, nhưng thiếu quy trình và kỷ luật hành động.",
+    "painPoints": [
+      "Thu nhập thất thường, không dự đoán được",
+      "Lãng phí thời gian lướt Facebook/TikTok vì không có kế hoạch cụ thể",
+      "Áp lực từ gia đình: 'Học hoài không thấy ra tiền'",
+      "Cảm thấy như đang 'làm chui', không dám công khai trên mạng xã hội"
+    ]
+  },
+  {
+    "id": "dung-happy-seg-3",
+    "title": "The Career Transitioner (Người Chuyển nghề)",
+    "isPrimary": false,
+    "description": "Người đang làm công ăn lương nhưng muốn chuyển sang coaching toàn thời gian. Họ cần bằng chứng cụ thể rằng coaching có thể nuôi sống mình trước khi dám nghỉ việc. Họ cần thu nhập đầu tiên để thuyết phục gia đình và chính bản thân.",
+    "painPoints": [
+      "Sốt ruột vì chi phí sinh hoạt đang cạn, áp lực từ gia đình ngày càng lớn",
+      "Cần bằng chứng cụ thể để tin vào con đường coaching",
+      "Bị chồng/vợ cằn nhằn: 'Học hoài không thấy ra tiền'",
+      "Muốn được xã hội công nhận, muốn gia đình tự hào về nghề mình"
     ]
   }
 ]

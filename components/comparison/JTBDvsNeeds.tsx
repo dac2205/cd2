@@ -77,7 +77,7 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                                     cursor: "pointer",
                                     backgroundColor: isSelected ? "hsl(var(--primary) / 0.05)" : "transparent",
                                     transition: "all 0.2s ease",
-                                    textAlign: "left"
+                                    textAlign: "center"
                                 }}
                             >
                                 <div style={{ fontWeight: "700", fontSize: "1rem", marginBottom: "0.25rem" }}>
@@ -117,7 +117,7 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                     <thead>
                         <tr>
                             <th style={{
-                                textAlign: "left",
+                                textAlign: "center",
                                 padding: "1rem",
                                 backgroundColor: "hsl(var(--primary) / 0.1)",
                                 borderRadius: "8px 0 0 8px",
@@ -128,7 +128,7 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                                 JTBD Perspective
                             </th>
                             <th style={{
-                                textAlign: "left",
+                                textAlign: "center",
                                 padding: "1rem",
                                 backgroundColor: "hsl(var(--accent) / 0.1)",
                                 minWidth: "250px",
@@ -138,7 +138,7 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                                 Needs Perspective
                             </th>
                             <th style={{
-                                textAlign: "left",
+                                textAlign: "center",
                                 padding: "1rem",
                                 backgroundColor: "hsl(var(--secondary) / 0.1)",
                                 borderRadius: "0 8px 8px 0",
@@ -175,14 +175,6 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                                         borderRight: "none",
                                         borderRadius: "0 0 0 8px"
                                     }}>
-                                        <div style={{
-                                            fontSize: "0.875rem",
-                                            fontWeight: "600",
-                                            color: "hsl(var(--primary))",
-                                            marginBottom: "0.75rem"
-                                        }}>
-                                            Framework:
-                                        </div>
                                         <p style={{
                                             fontSize: "0.95rem",
                                             lineHeight: "1.6",
@@ -219,14 +211,6 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                                         borderLeft: "none",
                                         borderRight: "none"
                                     }}>
-                                        <div style={{
-                                            fontSize: "0.875rem",
-                                            fontWeight: "600",
-                                            color: "hsl(var(--accent))",
-                                            marginBottom: "0.75rem"
-                                        }}>
-                                            Framework:
-                                        </div>
                                         <p style={{
                                             fontSize: "0.95rem",
                                             lineHeight: "1.6",
@@ -263,14 +247,7 @@ export default function JTBDvsNeeds({ brands, comparisons }: JTBDvsNeedsProps) {
                                         borderLeft: "none",
                                         borderRadius: "0 0 8px 0"
                                     }}>
-                                        <div style={{
-                                            fontSize: "0.875rem",
-                                            fontWeight: "600",
-                                            color: "hsl(var(--secondary))",
-                                            marginBottom: "0.75rem"
-                                        }}>
-                                            💡 Commentary:
-                                        </div>
+
                                         <p style={{
                                             fontSize: "0.95rem",
                                             lineHeight: "1.6",

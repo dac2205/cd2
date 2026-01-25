@@ -1,14 +1,40 @@
 [
   {
-    "id": "segment-primary",
-    "title": "The Natural Seeker (Người tìm về Tự nhiên)",
+    "id": "cao-huy-seg-1",
+    "title": "The Stressed Professional (Dân văn phòng Căng thẳng)",
     "isPrimary": true,
-    "description": "**Demographics:** Nữ, từ 23 tuổi trở lên. Có xu hướng sống xanh, ưu tiên các sản phẩm tự nhiên, lành tính.\n\n**Psychographics:** Đang gặp vấn đề sức khỏe thể chất hoặc tâm lý (stress, mất ngủ, đau mỏi). Đã thử nhiều phương pháp Tây y/Hiện đại nhưng vấn đề cứ lặp lại, không dứt điểm. Mất niềm tin vào các giải pháp \"công nghiệp\" hoặc sợ tác dụng phụ.\n\n**Desires:**\n- Tìm kiếm một giải pháp an toàn, lành tính, không xâm lấn.\n- Cải thiện sức khỏe từ gốc rễ (Root cause) một cách bền vững.\n- Cảm giác được thư giãn sâu, giải tỏa áp lực công việc.\n- Một lối sống cân bằng Thân - Tâm.\n\n**Quote:** \"Tôi không muốn uống thêm thuốc nữa, tôi muốn cơ thể tự chữa lành theo cách tự nhiên nhất.\"",
+    "description": "Dân văn phòng (25-45 tuổi) đang chịu áp lực công việc cao, thường xuyên đau mỏi cơ thể (vai gáy, lưng), mất ngủ và stress mãn tính. Họ đã thử nhiều phương pháp tây y (thuốc giảm đau, thuốc ngủ) nhưng vấn đề cứ tái phát và lo sợ tác dụng phụ. Họ tìm kiếm giải pháp tự nhiên, an toàn để phục hồi cân bằng cơ thể từ gốc rễ, không phải che đậy triệu chứng.",
     "painPoints": [
-      "Stress và áp lực công việc lặp đi lặp lại không dứt.",
-      "Sức khỏe suy giảm nhưng đi khám không ra bệnh rõ ràng (Giả bệnh).",
-      "Sợ tác dụng phụ của thuốc tây và các phương pháp can thiệp mạnh.",
-      "Cảm thấy mệt mỏi, thiếu năng lượng dù đã ngủ nghỉ."
+      "Đau mỏi vai gáy đến mức không quay được cổ sau 8 tiếng ngồi máy tính",
+      "Nằm trằn trọc đến 2-3h sáng, đầu óc quay cuồng không ngủ được",
+      "Uống thuốc ngủ thì mệt, không uống thì không ngủ được",
+      "Cơ thể nặng nề như đeo đá, dùng cao dán mãi không đỡ",
+      "Sáng dậy lờ đờ, thiếu tỉnh táo, không có năng lượng",
+      "Sợ phụ thuộc vào thuốc tây và tác dụng phụ lâu dài"
+    ]
+  },
+  {
+    "id": "cao-huy-seg-2",
+    "title": "The Wise Caregiver (Người chăm sóc Thông thái)",
+    "isPrimary": false,
+    "description": "Những người (chủ yếu là phụ nữ) chịu trách nhiệm chăm sóc sức khỏe cho cả gia đình. Họ muốn tìm giải pháp an toàn, tự nhiên để chăm sóc bản thân và người thân, đặc biệt là trẻ em và người già. Họ không muốn dùng hóa chất độc hại và muốn trở thành 'bác sĩ gia đình' với kiến thức về chăm sóc tự nhiên.",
+    "painPoints": [
+      "Lo lắng khi người thân ốm đau mà bất lực, không biết giúp gì",
+      "Sợ người thân dùng sai thuốc hoặc bị tác dụng phụ",
+      "Muốn bảo vệ gia đình khỏi hóa chất nhưng thiếu kiến thức",
+      "Thị trường tràn lan sản phẩm kém chất lượng, không biết tin ai"
+    ]
+  },
+  {
+    "id": "cao-huy-seg-3",
+    "title": "The Green Living Advocate (Người sống Xanh)",
+    "isPrimary": false,
+    "description": "Những người theo đuổi lối sống bền vững, ưu tiên sản phẩm tự nhiên, thân thiện môi trường. Họ không chỉ quan tâm đến sức khỏe cá nhân mà còn muốn đóng góp cho môi trường. Họ tìm kiếm các sản phẩm/dịch vụ có nguồn gốc rõ ràng, không rác thải nhựa, phù hợp với hệ giá trị sống xanh.",
+    "painPoints": [
+      "Khó tìm sản phẩm chăm sóc sức khỏe vừa hiệu quả vừa thân thiện môi trường",
+      "Muốn đóng góp cho môi trường nhưng không muốn hy sinh hiệu quả",
+      "Cảm thấy lạc lõng khi bạn bè không chia sẻ giá trị sống xanh",
+      "Muốn tham gia cộng đồng cùng hệ giá trị"
     ]
   }
 ]

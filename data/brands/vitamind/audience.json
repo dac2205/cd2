@@ -1,14 +1,40 @@
 [
   {
-    "id": "segment-primary",
-    "title": "The Overwhelmed Seeker (Người tìm kiếm quá tải)",
+    "id": "vitamind-seg-1",
+    "title": "The Overwhelmed Urban Professional (Người trẻ Đô thị Quá tải)",
     "isPrimary": true,
-    "description": "**Demographics:** Thế hệ Z và Millennials (22-35 tuổi) hoặc những người quan tâm sức khỏe (28-45 tuổi). Sống ở thành thị, tiếp xúc nhiều với công nghệ.\n\n**Psychographics:** Cảm thấy cô đơn, lo âu, stress vì áp lực cuộc sống và công việc. Muốn chăm sóc bản thân nhưng bị ngợp giữa biển thông tin. Thiếu kỷ luật và người đồng hành.\n\n**Desires:**\n- Tìm được sự bình an, thư thái ngay lập tức (Instant Calm).\n- Có một người bạn đồng hành (Digital Sanctuary) luôn ở bên 24/7.\n- Tiếp cận kiến thức chuẩn khoa học nhưng dễ hiểu, dễ áp dụng.\n- Cải thiện giấc ngủ và sự tập trung để làm việc hiệu quả hơn.\n\n**Quote:** \"Tôi có 10 app thiền trong điện thoại nhưng tôi vẫn cảm thấy cô đơn và lo lắng mỗi đêm.\"",
+    "description": "Người trẻ đô thị (22-45 tuổi) đang sống trong áp lực công việc cao, thường xuyên stress, lo âu và mất ngủ. Họ biết mình cần chăm sóc sức khỏe tinh thần nhưng chưa sẵn sàng gặp bác sĩ tâm lý (stigma) và bị ngợp bởi thông tin wellness rác trên mạng. Họ cần một kho tài nguyên đáng tin cậy, xuất hiện đúng lúc vào những khoảnh khắc quan trọng (trước ngủ, sáng thức dậy, giữa ngày overwhelm).",
     "painPoints": [
-      "Thường xuyên bị stress, lo âu, mất ngủ nhưng ngại đi bác sĩ tâm lý.",
-      "Cảm thấy cô đơn, không có nơi an toàn để chia sẻ.",
-      "Bị 'bội thực' thông tin sức khỏe trên mạng, không biết tin ai.",
-      "Khó duy trì thói quen lành mạnh (thiền, tập thở) được lâu dài."
+      "Não không tắt được lúc 2:00 AM, nằm trằn trọc suy nghĩ vô tận",
+      "Stress và lo âu tích tụ nhưng không biết giải tỏa như thế nào",
+      "Bị ngợp bởi thông tin wellness rác, không biết nguồn nào đáng tin",
+      "Chưa sẵn sàng gặp bác sĩ tâm lý vì sợ bị dán nhãn 'có vấn đề'",
+      "Áp lực phải duy trì streak/kỷ luật khiến thêm stress",
+      "Thiếu tập trung, năng suất làm việc giảm sút"
+    ]
+  },
+  {
+    "id": "vitamind-seg-2",
+    "title": "The Self-Care Seeker (Người tìm kiếm Tự chăm sóc)",
+    "isPrimary": false,
+    "description": "Người đã nhận thức được tầm quan trọng của sức khỏe tinh thần và muốn chủ động chăm sóc bản thân. Họ đã thử nhiều app wellness nhưng thất vọng vì quá áp lực (streak), quá phức tạp hoặc nội dung kém chất lượng. Họ cần một không gian an toàn, không phán xét, với nội dung chất lượng cao dựa trên khoa học.",
+    "painPoints": [
+      "App wellness khác quá áp lực với streak, làm thêm stress",
+      "Nội dung wellness trên mạng thiếu căn cứ khoa học",
+      "Cảm thấy cô đơn trong hành trình chăm sóc bản thân",
+      "Không biết bắt đầu từ đâu với quá nhiều lựa chọn"
+    ]
+  },
+  {
+    "id": "vitamind-seg-3",
+    "title": "The Crisis Navigator (Người vượt Khủng hoảng)",
+    "isPrimary": false,
+    "description": "Người đang trải qua giai đoạn khó khăn (thất nghiệp, chia tay, mất người thân, burnout) và cần công cụ hỗ trợ tức thì để vượt qua những khoảnh khắc khủng hoảng cảm xúc. Họ cần sự hỗ trợ ngay lập tức, không cần đăng ký phức tạp hay cam kết dài hạn.",
+    "painPoints": [
+      "Cảm xúc tràn ngập, không kiểm soát được",
+      "Cần hỗ trợ ngay lập tức nhưng không thể chờ lịch hẹn bác sĩ",
+      "Sợ bị phán xét khi chia sẻ với người khác",
+      "Cảm giác bất lực, không biết làm gì để cảm thấy tốt hơn"
     ]
   }
 ]
