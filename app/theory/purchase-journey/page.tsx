@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight } from "lucide-react";
+import { Info } from "lucide-react";
+import * as Popover from "@radix-ui/react-popover";
 
 type BrandId = "vitamind" | "true-juice" | "pushthroo";
+type ViewMode = "compact" | "full";
 
 interface BrandExample {
     name: string;
@@ -71,11 +73,12 @@ const brandExamples: Record<BrandId, BrandExample> = {
 
 export default function PurchaseJourneyPage() {
     const [selectedBrand, setSelectedBrand] = useState<BrandId>("vitamind");
+    const [viewMode, setViewMode] = useState<ViewMode>("compact");
     const example = brandExamples[selectedBrand];
 
     return (
         <div className="container animate-slide-in">
-            <div style={{ padding: "4rem 0", maxWidth: "1200px", margin: "0 auto" }}>
+            <div style={{ padding: "4rem 0", maxWidth: "1400px", margin: "0 auto" }}>
                 {/* Header */}
                 <div style={{ textAlign: "center", marginBottom: "3rem" }}>
                     <h1 style={{ marginBottom: "1rem", fontSize: "2.5rem" }}>
@@ -89,316 +92,159 @@ export default function PurchaseJourneyPage() {
                     </p>
                 </div>
 
-                {/* Brand Selector */}
+                {/* Controls Row */}
                 <div style={{
                     display: "flex",
-                    gap: "1rem",
-                    justifyContent: "center",
+                    justifyContent: "space-between",
+                    alignItems: "center",
                     marginBottom: "3rem",
-                    flexWrap: "wrap"
+                    flexWrap: "wrap",
+                    gap: "1rem"
                 }}>
-                    {(Object.keys(brandExamples) as BrandId[]).map((brandId) => (
+                    {/* Brand Selector */}
+                    <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+                        {(Object.keys(brandExamples) as BrandId[]).map((brandId) => (
+                            <button
+                                key={brandId}
+                                onClick={() => setSelectedBrand(brandId)}
+                                style={{
+                                    padding: "0.75rem 1.5rem",
+                                    borderRadius: "8px",
+                                    border: selectedBrand === brandId
+                                        ? "2px solid hsl(var(--primary))"
+                                        : "2px solid hsl(var(--border))",
+                                    backgroundColor: selectedBrand === brandId
+                                        ? "hsl(var(--primary) / 0.1)"
+                                        : "hsl(var(--background))",
+                                    color: selectedBrand === brandId
+                                        ? "hsl(var(--primary))"
+                                        : "hsl(var(--foreground))",
+                                    fontWeight: selectedBrand === brandId ? 600 : 400,
+                                    cursor: "pointer",
+                                    transition: "all 0.2s ease",
+                                    fontSize: "1rem"
+                                }}
+                            >
+                                {brandExamples[brandId].name}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* View Mode Toggle */}
+                    <div style={{
+                        display: "flex",
+                        gap: "0.5rem",
+                        backgroundColor: "hsl(var(--muted) / 0.3)",
+                        padding: "0.25rem",
+                        borderRadius: "8px"
+                    }}>
                         <button
-                            key={brandId}
-                            onClick={() => setSelectedBrand(brandId)}
+                            onClick={() => setViewMode("compact")}
                             style={{
-                                padding: "0.75rem 1.5rem",
-                                borderRadius: "8px",
-                                border: selectedBrand === brandId
-                                    ? "2px solid hsl(var(--primary))"
-                                    : "2px solid hsl(var(--border))",
-                                backgroundColor: selectedBrand === brandId
-                                    ? "hsl(var(--primary) / 0.1)"
-                                    : "hsl(var(--background))",
-                                color: selectedBrand === brandId
-                                    ? "hsl(var(--primary))"
-                                    : "hsl(var(--foreground))",
-                                fontWeight: selectedBrand === brandId ? 600 : 400,
+                                padding: "0.5rem 1rem",
+                                borderRadius: "6px",
+                                border: "none",
+                                backgroundColor: viewMode === "compact"
+                                    ? "hsl(var(--background))"
+                                    : "transparent",
+                                color: "hsl(var(--foreground))",
+                                fontWeight: viewMode === "compact" ? 600 : 400,
                                 cursor: "pointer",
                                 transition: "all 0.2s ease",
-                                fontSize: "1rem"
+                                fontSize: "0.9rem",
+                                boxShadow: viewMode === "compact" ? "0 1px 3px rgba(0,0,0,0.1)" : "none"
                             }}
                         >
-                            {brandExamples[brandId].name}
+                            Compact
                         </button>
-                    ))}
+                        <button
+                            onClick={() => setViewMode("full")}
+                            style={{
+                                padding: "0.5rem 1rem",
+                                borderRadius: "6px",
+                                border: "none",
+                                backgroundColor: viewMode === "full"
+                                    ? "hsl(var(--background))"
+                                    : "transparent",
+                                color: "hsl(var(--foreground))",
+                                fontWeight: viewMode === "full" ? 600 : 400,
+                                cursor: "pointer",
+                                transition: "all 0.2s ease",
+                                fontSize: "0.9rem",
+                                boxShadow: viewMode === "full" ? "0 1px 3px rgba(0,0,0,0.1)" : "none"
+                            }}
+                        >
+                            Full
+                        </button>
+                    </div>
                 </div>
 
-                {/* 3-Step Cards */}
+                {/* 3-Step Cards - Fixed 3 columns */}
                 <div style={{
                     display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                    gridTemplateColumns: "1fr 1fr 1fr",
                     gap: "1.5rem",
                     marginBottom: "3rem"
                 }}>
                     {/* Step 1 */}
-                    <div className="card-wood" style={{ padding: "2rem", position: "relative" }}>
-                        <div style={{
-                            position: "absolute",
-                            top: "1rem",
-                            right: "1rem",
-                            width: "40px",
-                            height: "40px",
-                            borderRadius: "50%",
-                            backgroundColor: "hsl(var(--primary) / 0.1)",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontWeight: 700,
-                            color: "hsl(var(--primary))"
-                        }}>
-                            1
-                        </div>
-
-                        <h2 style={{
-                            fontSize: "1.5rem",
-                            marginBottom: "1rem",
-                            color: "hsl(var(--primary))",
-                            paddingRight: "3rem"
-                        }}>
-                            Needs được kích hoạt
-                        </h2>
-
-                        <p style={{
-                            fontSize: "0.95rem",
-                            fontWeight: 600,
-                            marginBottom: "1rem",
-                            color: "hsl(var(--ink-brown) / 0.8)"
-                        }}>
-                            👉 Có một cảm giác "không ổn" xuất hiện
-                        </p>
-
-                        <p style={{ fontSize: "0.9rem", marginBottom: "1rem", lineHeight: "1.6" }}>
-                            Chưa có sản phẩm. Chưa có giải pháp. Chưa có so sánh.
-                        </p>
-
-                        <div style={{
-                            backgroundColor: "hsl(var(--muted) / 0.5)",
-                            padding: "1rem",
-                            borderRadius: "8px",
-                            marginBottom: "1rem"
-                        }}>
-                            <p style={{ fontSize: "0.85rem", fontWeight: 600, marginBottom: "0.5rem" }}>
-                                Đặc điểm:
-                            </p>
-                            <ul style={{ fontSize: "0.85rem", margin: 0, paddingLeft: "1.25rem", lineHeight: "1.6" }}>
-                                <li>Xảy ra trong <strong>vô thức</strong></li>
-                                <li>Thường là <strong>cảm xúc âm</strong> (thiếu, sợ, mệt, mất kiểm soát)</li>
-                                <li>Người dùng <strong>không nói rõ được</strong></li>
-                            </ul>
-                        </div>
-
-                        <div style={{
-                            borderLeft: "3px solid hsl(var(--primary))",
-                            paddingLeft: "1rem",
-                            marginBottom: "1rem"
-                        }}>
-                            <p style={{ fontSize: "0.85rem", fontStyle: "italic", color: "hsl(var(--ink-brown) / 0.7)" }}>
-                                Ví dụ với {example.name}:
-                            </p>
-                            <p style={{ fontSize: "0.95rem", fontStyle: "italic", marginTop: "0.5rem" }}>
-                                "{example.step1.quote}"
-                            </p>
-                        </div>
-
-                        <div style={{
-                            backgroundColor: "hsl(var(--primary) / 0.1)",
-                            padding: "0.75rem",
-                            borderRadius: "6px",
-                            fontSize: "0.85rem",
-                            fontWeight: 600,
-                            color: "hsl(var(--primary))"
-                        }}>
-                            📌 Nếu bước này <strong>không xảy ra</strong> → không có mua.
-                        </div>
-                    </div>
-
-                    {/* Arrow */}
-                    <div style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        gridColumn: "auto"
-                    }} className="hidden-mobile">
-                        <ArrowRight size={32} style={{ color: "hsl(var(--secondary))" }} />
-                    </div>
+                    <StepCard
+                        stepNumber={1}
+                        title="Needs được kích hoạt"
+                        subtitle="Có một cảm giác 'không ổn' xuất hiện"
+                        description="Chưa có sản phẩm. Chưa có giải pháp. Chưa có so sánh."
+                        characteristics={[
+                            "Xảy ra trong <strong>vô thức</strong>",
+                            "Thường là <strong>cảm xúc âm</strong> (thiếu, sợ, mệt, mất kiểm soát)",
+                            "Người dùng <strong>không nói rõ được</strong>"
+                        ]}
+                        exampleBrand={example.name}
+                        exampleContent={`"${example.step1.quote}"`}
+                        insight="Nếu bước này không xảy ra → không có mua."
+                        color="primary"
+                        viewMode={viewMode}
+                    />
 
                     {/* Step 2 */}
-                    <div className="card-wood" style={{ padding: "2rem", position: "relative" }}>
-                        <div style={{
-                            position: "absolute",
-                            top: "1rem",
-                            right: "1rem",
-                            width: "40px",
-                            height: "40px",
-                            borderRadius: "50%",
-                            backgroundColor: "hsl(var(--secondary) / 0.1)",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontWeight: 700,
-                            color: "hsl(var(--secondary))"
-                        }}>
-                            2
-                        </div>
-
-                        <h2 style={{
-                            fontSize: "1.5rem",
-                            marginBottom: "1rem",
-                            color: "hsl(var(--secondary))",
-                            paddingRight: "3rem"
-                        }}>
-                            Đóng khung thành JTBD
-                        </h2>
-
-                        <p style={{
-                            fontSize: "0.95rem",
-                            fontWeight: 600,
-                            marginBottom: "1rem",
-                            color: "hsl(var(--ink-brown) / 0.8)"
-                        }}>
-                            👉 Người dùng <strong>gán cho cảm xúc đó một "việc cần làm"</strong>
-                        </p>
-
-                        <p style={{ fontSize: "0.9rem", marginBottom: "1rem", lineHeight: "1.6" }}>
-                            Lần đầu tiên quyết định <strong>có hình dạng</strong>.
-                        </p>
-
-                        <div style={{
-                            backgroundColor: "hsl(var(--muted) / 0.5)",
-                            padding: "1rem",
-                            borderRadius: "8px",
-                            marginBottom: "1rem"
-                        }}>
-                            <p style={{ fontSize: "0.85rem", fontWeight: 600, marginBottom: "0.5rem" }}>
-                                Đặc điểm:
-                            </p>
-                            <ul style={{ fontSize: "0.85rem", margin: 0, paddingLeft: "1.25rem", lineHeight: "1.6" }}>
-                                <li>Bắt đầu <strong>có ngôn ngữ</strong></li>
-                                <li>Gắn với <strong>bối cảnh + tiến trình + kết quả mong muốn</strong></li>
-                                <li>Cho phép so sánh các lựa chọn</li>
-                            </ul>
-                        </div>
-
-                        <div style={{
-                            borderLeft: "3px solid hsl(var(--secondary))",
-                            paddingLeft: "1rem",
-                            marginBottom: "1rem"
-                        }}>
-                            <p style={{ fontSize: "0.85rem", fontStyle: "italic", color: "hsl(var(--ink-brown) / 0.7)" }}>
-                                Ví dụ với {example.name}:
-                            </p>
-                            <p style={{ fontSize: "0.95rem", fontWeight: 600, marginTop: "0.5rem" }}>
-                                {example.step2.jtbdTitle}
-                            </p>
-                            <p style={{ fontSize: "0.9rem", fontStyle: "italic", marginTop: "0.5rem" }}>
-                                "{example.step2.situation}"
-                            </p>
-                        </div>
-
-                        <div style={{
-                            backgroundColor: "hsl(var(--secondary) / 0.1)",
-                            padding: "0.75rem",
-                            borderRadius: "6px",
-                            fontSize: "0.85rem",
-                            fontWeight: 600,
-                            color: "hsl(var(--secondary))"
-                        }}>
-                            📌 Ở bước này: User <strong>chưa chọn sản phẩm</strong>, nhưng đã <strong>chọn xong cái job</strong>.
-                        </div>
-                    </div>
-
-                    {/* Arrow */}
-                    <div style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        gridColumn: "auto"
-                    }} className="hidden-mobile">
-                        <ArrowRight size={32} style={{ color: "hsl(var(--accent))" }} />
-                    </div>
+                    <StepCard
+                        stepNumber={2}
+                        title="Đóng khung thành JTBD"
+                        subtitle="Người dùng gán cho cảm xúc đó một 'việc cần làm'"
+                        description="Lần đầu tiên quyết định có hình dạng."
+                        characteristics={[
+                            "Bắt đầu <strong>có ngôn ngữ</strong>",
+                            "Gắn với <strong>bối cảnh + tiến trình + kết quả mong muốn</strong>",
+                            "Cho phép so sánh các lựa chọn"
+                        ]}
+                        exampleBrand={example.name}
+                        exampleContent={
+                            <>
+                                <strong>{example.step2.jtbdTitle}</strong>
+                                <br />
+                                <span style={{ fontStyle: "italic" }}>"{example.step2.situation}"</span>
+                            </>
+                        }
+                        insight="User chưa chọn sản phẩm, nhưng đã chọn xong cái job."
+                        color="secondary"
+                        viewMode={viewMode}
+                    />
 
                     {/* Step 3 */}
-                    <div className="card-wood" style={{ padding: "2rem", position: "relative" }}>
-                        <div style={{
-                            position: "absolute",
-                            top: "1rem",
-                            right: "1rem",
-                            width: "40px",
-                            height: "40px",
-                            borderRadius: "50%",
-                            backgroundColor: "hsl(var(--accent) / 0.1)",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontWeight: 700,
-                            color: "hsl(var(--accent))"
-                        }}>
-                            3
-                        </div>
-
-                        <h2 style={{
-                            fontSize: "1.5rem",
-                            marginBottom: "1rem",
-                            color: "hsl(var(--accent))",
-                            paddingRight: "3rem"
-                        }}>
-                            Hợp lý hoá & cam kết mua
-                        </h2>
-
-                        <p style={{
-                            fontSize: "0.95rem",
-                            fontWeight: 600,
-                            marginBottom: "1rem",
-                            color: "hsl(var(--ink-brown) / 0.8)"
-                        }}>
-                            👉 User chọn <strong>giải pháp cụ thể</strong> cho JTBD đó
-                        </p>
-
-                        <p style={{ fontSize: "0.9rem", marginBottom: "1rem", lineHeight: "1.6" }}>
-                            Logic bắt đầu vào cuộc.
-                        </p>
-
-                        <div style={{
-                            backgroundColor: "hsl(var(--muted) / 0.5)",
-                            padding: "1rem",
-                            borderRadius: "8px",
-                            marginBottom: "1rem"
-                        }}>
-                            <p style={{ fontSize: "0.85rem", fontWeight: 600, marginBottom: "0.5rem" }}>
-                                Đặc điểm:
-                            </p>
-                            <ul style={{ fontSize: "0.85rem", margin: 0, paddingLeft: "1.25rem", lineHeight: "1.6" }}>
-                                <li>Logic bắt đầu vào cuộc</li>
-                                <li>So sánh tính năng, giá, tiện lợi</li>
-                                <li>Quyết định được <strong>tự biện minh</strong></li>
-                            </ul>
-                        </div>
-
-                        <div style={{
-                            borderLeft: "3px solid hsl(var(--accent))",
-                            paddingLeft: "1rem",
-                            marginBottom: "1rem"
-                        }}>
-                            <p style={{ fontSize: "0.85rem", fontStyle: "italic", color: "hsl(var(--ink-brown) / 0.7)" }}>
-                                Ví dụ với {example.name}:
-                            </p>
-                            <p style={{ fontSize: "0.95rem", fontStyle: "italic", marginTop: "0.5rem" }}>
-                                "{example.step3.justification}"
-                            </p>
-                        </div>
-
-                        <div style={{
-                            backgroundColor: "hsl(var(--accent) / 0.1)",
-                            padding: "0.75rem",
-                            borderRadius: "6px",
-                            fontSize: "0.85rem",
-                            fontWeight: 600,
-                            color: "hsl(var(--accent))"
-                        }}>
-                            📌 Mua xảy ra ở đây, nhưng <strong>động lực nằm ở bước 1</strong>.
-                        </div>
-                    </div>
+                    <StepCard
+                        stepNumber={3}
+                        title="Hợp lý hoá & cam kết mua"
+                        subtitle="User chọn giải pháp cụ thể cho JTBD đó"
+                        description="Logic bắt đầu vào cuộc."
+                        characteristics={[
+                            "Logic bắt đầu vào cuộc",
+                            "So sánh tính năng, giá, tiện lợi",
+                            "Quyết định được <strong>tự biện minh</strong>"
+                        ]}
+                        exampleBrand={example.name}
+                        exampleContent={`"${example.step3.justification}"`}
+                        insight="Mua xảy ra ở đây, nhưng động lực nằm ở bước 1."
+                        color="accent"
+                        viewMode={viewMode}
+                    />
                 </div>
 
                 {/* Summary Section */}
@@ -443,14 +289,184 @@ export default function PurchaseJourneyPage() {
                     </p>
                 </div>
             </div>
+        </div>
+    );
+}
 
-            <style jsx>{`
-                @media (max-width: 768px) {
-                    .hidden-mobile {
-                        display: none !important;
-                    }
-                }
-            `}</style>
+interface StepCardProps {
+    stepNumber: number;
+    title: string;
+    subtitle: string;
+    description: string;
+    characteristics: string[];
+    exampleBrand: string;
+    exampleContent: React.ReactNode;
+    insight: string;
+    color: "primary" | "secondary" | "accent";
+    viewMode: ViewMode;
+}
+
+function StepCard({
+    stepNumber,
+    title,
+    subtitle,
+    description,
+    characteristics,
+    exampleBrand,
+    exampleContent,
+    insight,
+    color,
+    viewMode
+}: StepCardProps) {
+    return (
+        <div className="card-wood" style={{ padding: "1.5rem", position: "relative", display: "flex", flexDirection: "column" }}>
+            {/* Step Number Badge */}
+            <div style={{
+                position: "absolute",
+                top: "1rem",
+                right: "1rem",
+                width: "36px",
+                height: "36px",
+                borderRadius: "50%",
+                backgroundColor: `hsl(var(--${color}) / 0.1)`,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontWeight: 700,
+                fontSize: "1rem",
+                color: `hsl(var(--${color}))`
+            }}>
+                {stepNumber}
+            </div>
+
+            {/* Title */}
+            <h2 style={{
+                fontSize: "1.25rem",
+                marginBottom: "0.75rem",
+                color: `hsl(var(--${color}))`,
+                paddingRight: "3rem",
+                lineHeight: "1.3"
+            }}>
+                {title}
+            </h2>
+
+            {/* Subtitle */}
+            <p style={{
+                fontSize: "0.9rem",
+                fontWeight: 600,
+                marginBottom: "0.75rem",
+                color: "hsl(var(--ink-brown) / 0.8)",
+                lineHeight: "1.4"
+            }}>
+                👉 {subtitle}
+            </p>
+
+            {viewMode === "full" && (
+                <p style={{ fontSize: "0.85rem", marginBottom: "0.75rem", lineHeight: "1.5", color: "hsl(var(--ink-brown) / 0.7)" }}>
+                    {description}
+                </p>
+            )}
+
+            {/* Example */}
+            <div style={{
+                borderLeft: `3px solid hsl(var(--${color}))`,
+                paddingLeft: "0.75rem",
+                marginBottom: "0.75rem",
+                fontSize: "0.85rem"
+            }}>
+                <p style={{ fontStyle: "italic", color: "hsl(var(--ink-brown) / 0.6)", marginBottom: "0.25rem" }}>
+                    Ví dụ {exampleBrand}:
+                </p>
+                <div style={{ fontSize: "0.9rem", lineHeight: "1.4" }}>
+                    {exampleContent}
+                </div>
+            </div>
+
+            {/* Spacer to push info icon to bottom */}
+            <div style={{ flex: 1 }} />
+
+            {/* Info Icon with Popover */}
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "0.75rem" }}>
+                <div style={{
+                    backgroundColor: `hsl(var(--${color}) / 0.1)`,
+                    padding: "0.5rem 0.75rem",
+                    borderRadius: "6px",
+                    fontSize: "0.75rem",
+                    fontWeight: 600,
+                    color: `hsl(var(--${color}))`,
+                    flex: 1
+                }}>
+                    📌 {insight}
+                </div>
+
+                <Popover.Root>
+                    <Popover.Trigger asChild>
+                        <button
+                            style={{
+                                marginLeft: "0.5rem",
+                                width: "32px",
+                                height: "32px",
+                                borderRadius: "50%",
+                                border: `1px solid hsl(var(--${color}) / 0.3)`,
+                                backgroundColor: "hsl(var(--background))",
+                                color: `hsl(var(--${color}))`,
+                                cursor: "pointer",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                transition: "all 0.2s ease",
+                                flexShrink: 0
+                            }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.backgroundColor = `hsl(var(--${color}) / 0.1)`;
+                                e.currentTarget.style.transform = "scale(1.1)";
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.backgroundColor = "hsl(var(--background))";
+                                e.currentTarget.style.transform = "scale(1)";
+                            }}
+                        >
+                            <Info size={16} />
+                        </button>
+                    </Popover.Trigger>
+                    <Popover.Portal>
+                        <Popover.Content
+                            className="force-popover-style"
+                            sideOffset={5}
+                            style={{
+                                backgroundColor: "hsl(var(--background))",
+                                border: "1px solid hsl(var(--border))",
+                                borderRadius: "8px",
+                                padding: "1rem",
+                                maxWidth: "300px",
+                                boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                                zIndex: 1000
+                            }}
+                        >
+                            <div style={{ marginBottom: "0.75rem" }}>
+                                <p style={{ fontSize: "0.8rem", fontWeight: 600, marginBottom: "0.5rem", color: `hsl(var(--${color}))` }}>
+                                    Đặc điểm chi tiết:
+                                </p>
+                                <ul style={{ fontSize: "0.75rem", margin: 0, paddingLeft: "1.25rem", lineHeight: "1.6" }}>
+                                    {characteristics.map((char, idx) => (
+                                        <li key={idx} dangerouslySetInnerHTML={{ __html: char }} />
+                                    ))}
+                                </ul>
+                            </div>
+                            <div style={{
+                                fontSize: "0.75rem",
+                                padding: "0.5rem",
+                                backgroundColor: "hsl(var(--muted) / 0.3)",
+                                borderRadius: "4px",
+                                lineHeight: "1.5"
+                            }}>
+                                {description}
+                            </div>
+                            <Popover.Arrow style={{ fill: "hsl(var(--background))" }} />
+                        </Popover.Content>
+                    </Popover.Portal>
+                </Popover.Root>
+            </div>
         </div>
     );
 }
