@@ -2,159 +2,159 @@
     "functional": [
         {
             "id": "func-1",
-            "title": "Precision Planning (Lập kế hoạch chính xác)",
-            "description": "Phá vỡ mục tiêu lớn overwhelming thành các bước hành động cụ thể, rõ ràng với timeline chính xác.",
-            "situation": "Khi có một dự án lớn hoặc mục tiêu tham vọng nhưng cảm thấy bị overwhelm, không biết bắt đầu từ đâu.",
-            "context": "Người có tham vọng lớn nhưng thường bị tê liệt bởi quy mô của công việc.",
+            "title": "Precision Planning (Lập kế hoạch Chính xác)",
+            "description": "Phá vỡ mục tiêu lớn overwhelming thành các bước hành động cụ thể với timeline chính xác, không còn cảm giác choáng ngợp.",
+            "situation": "Có dự án lớn hoặc mục tiêu tham vọng nhưng cảm thấy overwhelm, không biết bắt đầu từ đâu. Cần AI thách thức để làm rõ 'tại sao' và break down từng bước.",
+            "context": "Người có tham vọng lớn thường bị tê liệt bởi quy mô công việc. Panic không phải chiến lược, precision mới là.",
             "triggers": [
-                "Nhìn vào to-do list mà cảm thấy choáng ngợp.",
-                "Có deadline quan trọng nhưng không biết ưu tiên gì trước.",
-                "Muốn break down vấn đề phức tạp thành actionable steps."
+                "Nhìn vào to-do list mà cảm thấy choáng ngợp, không biết ưu tiên gì.",
+                "Có deadline quan trọng nhưng kế hoạch mơ hồ, thiếu cụ thể.",
+                "Muốn AI challenge thinking thay vì chỉ cho lời khuyên chung chung."
             ],
             "desiredOutcome": [
-                "Có action plan rõ ràng từng bước.",
-                "Biết chính xác phải làm gì tiếp theo.",
-                "Cảm giác kiểm soát được tiến độ công việc."
+                "Action plan rõ ràng từng bước với timeline cụ thể.",
+                "Biết chính xác phải làm gì tiếp theo, không còn bối rối.",
+                "Cảm giác kiểm soát được tiến độ, từ panic sang precision."
             ]
         },
         {
             "id": "func-2",
-            "title": "Accountability Enforcement (Giữ trách nhiệm)",
-            "description": "Có cơ chế buộc phải commit và thực thi, không cho phép tự dỗ dành hay tìm lý do trì hoãn.",
-            "situation": "Biết rõ cần làm gì nhưng vẫn liên tục trì hoãn, cần ai đó 'không tha' cho mình.",
-            "context": "Đã thất bại nhiều lần vì thiếu accountability thực sự.",
+            "title": "Accountability Enforcement (Giữ Trách nhiệm Tuyệt đối)",
+            "description": "Có cơ chế buộc phải commit và thực thi ngay lập tức, không cho phép tự dỗ dành hay tìm lý do trì hoãn.",
+            "situation": "Biết rõ cần làm gì nhưng vẫn liên tục trì hoãn. Cần AI 'không tha' cho mình, thách thức trong cuộc trò chuyện có giới hạn thời gian.",
+            "context": "Đã thất bại nhiều lần với productivity tools vì thiếu accountability thực sự. Good intentions không đủ, cần formidable execution.",
             "triggers": [
-                "Tự hứa với bản thân nhưng không giữ lời.",
-                "Cần ai đó challenge thinking và buộc phải clarify.",
-                "Muốn có 'punching bag' để rèn luyện quyết tâm."
+                "Tự hứa với bản thân nhưng không giữ lời, lại trì hoãn.",
+                "Cần AI challenge thinking, không chấp nhận lý do lờ đi.",
+                "Muốn có 'punching bag' để rèn luyện quyết tâm và kỷ luật."
             ],
             "desiredOutcome": [
-                "Bị thách thức để phải hành động.",
-                "Không thể tự dỗ dành hay tìm cớ.",
-                "Xây dựng kỷ luật tự giác thực sự."
+                "Bị thách thức buộc phải hành động ngay, không thể trốn tránh.",
+                "Không thể tự dỗ dành hay tìm cớ, AI không cho qua.",
+                "Xây dựng kỷ luật tự giác thực sự qua thách thức liên tục."
             ]
         },
         {
             "id": "func-3",
-            "title": "Knowledge Management (Quản lý tri thức)",
-            "description": "Lưu trữ và tổ chức mọi insight, bài học, chiến lược thành kho tri thức cá nhân có thể tái sử dụng.",
-            "situation": "Có nhiều ý tưởng và bài học quý giá nhưng bị phân tán, không có hệ thống quản lý hiệu quả.",
-            "context": "Muốn xây dựng 'battle-tested wisdom' từ kinh nghiệm thực chiến.",
+            "title": "Knowledge Vault (Kho Tri thức Chiến đấu)",
+            "description": "Lưu trữ và tổ chức mọi insight, bài học, chiến lược thành 'battle-tested lore' cá nhân được AI và bạn cùng biên tập.",
+            "situation": "Có nhiều ý tưởng và bài học quý giá từ thực chiến nhưng bị phân tán, không có hệ thống quản lý để tái sử dụng khi cần.",
+            "context": "Muốn xây dựng wisdom từ kinh nghiệm thực chiến, không phải lý thuyết suông. Knowledge cần được co-edited với AI để tinh luyện.",
             "triggers": [
-                "Quên mất insight quan trọng đã học được.",
+                "Quên mất insight quan trọng đã học được từ thất bại.",
                 "Muốn có clarity về chiến lược và adapt plans linh hoạt.",
-                "Cần hệ thống co-edited bởi AI và bản thân."
+                "Cần hệ thống co-edited bởi AI để refine thinking."
             ],
             "desiredOutcome": [
-                "Có kho tri thức cá nhân được tổ chức tốt.",
-                "Dễ dàng truy xuất và áp dụng bài học.",
-                "Xây dựng được 'personal lore' độc nhất."
+                "Kho tri thức cá nhân được tổ chức tốt, dễ truy xuất.",
+                "Dễ dàng áp dụng bài học đã học vào tình huống mới.",
+                "Xây dựng được 'personal lore' độc nhất, battle-tested."
             ]
         }
     ],
     "emotional": [
         {
             "id": "emo-1",
-            "title": "Resilience Building (Xây dựng sức bền)",
-            "description": "Cảm nhận sự phát triển của khả năng vượt qua khó khăn, literally 'level up' resilience qua mỗi thử thách.",
-            "situation": "Muốn cảm thấy bản thân mạnh mẽ hơn, có khả năng push through bất kỳ obstacle nào.",
-            "context": "Tin rằng resilience được rèn luyện qua thách thức, không phải comfort.",
+            "title": "Resilience Building (Rèn luyện Sức bền)",
+            "description": "Cảm nhận sự phát triển của khả năng vượt qua khó khăn, literally 'level up' resilience qua mỗi thử thách được chinh phục.",
+            "situation": "Muốn cảm thấy bản thân mạnh mẽ hơn mỗi ngày, có khả năng push through bất kỳ obstacle nào thay vì bỏ cuộc.",
+            "context": "Tin rằng resilience được rèn luyện qua thách thức, không phải comfort. Achievement Tree trực quan hóa sự phát triển này.",
             "triggers": [
-                "Cảm thấy mình đang yếu đuối trước áp lực.",
-                "Muốn thấy sự tiến bộ về mental strength.",
-                "Tin vào việc 'forge through challenging action'."
+                "Cảm thấy mình đang yếu đuối trước áp lực, dễ bỏ cuộc.",
+                "Muốn thấy sự tiến bộ về mental strength một cách tangible.",
+                "Tin vào việc 'forge through challenging action' để mạnh mẽ hơn."
             ],
             "desiredOutcome": [
-                "Cảm giác tự tin hơn khi đối mặt khó khăn.",
-                "Thấy rõ sự phát triển của willpower.",
-                "Tự hào về khả năng vượt qua thử thách."
+                "Tự tin hơn khi đối mặt khó khăn, biết mình có thể vượt qua.",
+                "Thấy rõ sự phát triển của willpower qua Achievement Tree.",
+                "Tự hào về khả năng push through, không còn sợ thử thách."
             ]
         },
         {
             "id": "emo-2",
-            "title": "Self-Mastery (Làm chủ bản thân)",
-            "description": "Cảm giác tự hào khi chọn 'hard mode' thay vì lối thoát dễ dàng, làm chủ được bản thân.",
-            "situation": "Muốn chứng minh với bản thân rằng mình có thể kiểm soát được hành động và quyết định.",
-            "context": "Mệt mỏi với việc bị cảm xúc và sự trì hoãn điều khiển.",
+            "title": "Self-Mastery (Làm chủ Bản thân)",
+            "description": "Cảm giác tự hào khi chọn 'hard mode' thay vì lối thoát dễ dàng, làm chủ được hành động và quyết định của mình.",
+            "situation": "Muốn chứng minh với bản thân rằng mình có thể kiểm soát được cuộc đời, không bị cảm xúc hay sự trì hoãn điều khiển.",
+            "context": "Mệt mỏi với việc bị cảm xúc và procrastination điều khiển. Muốn tự hào về sự kỷ luật và lựa chọn hard mode.",
             "triggers": [
-                "Cảm thấy mất kiểm soát cuộc sống.",
-                "Muốn tự hào về sự kỷ luật của mình.",
-                "Chọn thách thức thay vì comfort zone."
+                "Cảm thấy mất kiểm soát cuộc sống, bị hoàn cảnh điều khiển.",
+                "Muốn tự hào về sự kỷ luật và khả năng tự kiểm soát.",
+                "Chọn thách thức thay vì comfort zone để phát triển."
             ],
             "desiredOutcome": [
-                "Cảm giác làm chủ cuộc đời mình.",
-                "Tự hào về lựa chọn hard mode.",
-                "Niềm tin vào khả năng tự kiểm soát."
+                "Cảm giác làm chủ cuộc đời, không bị điều khiển.",
+                "Tự hào về lựa chọn hard mode và kỷ luật bản thân.",
+                "Niềm tin vững chắc vào khả năng tự kiểm soát."
             ]
         },
         {
             "id": "emo-3",
-            "title": "Hope & Momentum (Hy vọng & Động lực)",
-            "description": "Niềm tin vào sự chuyển hóa từ 'panic' sang 'precision', từ 'good intentions' sang 'formidable momentum'.",
-            "situation": "Đã thất bại nhiều lần với productivity tools khác, cần hy vọng mới về sự thay đổi thực sự.",
-            "context": "Mệt mỏi với 'good intentions' không đi đến đâu.",
+            "title": "Hope & Momentum (Hy vọng & Đà tiến)",
+            "description": "Niềm tin vào sự chuyển hóa từ 'panic' sang 'precision', từ 'good intentions' sang 'formidable momentum' thực sự.",
+            "situation": "Đã thất bại nhiều lần với productivity tools khác, cần hy vọng mới về sự thay đổi thực sự và bền vững.",
+            "context": "Mệt mỏi với 'good intentions' không đi đến đâu. Cần thấy momentum thực sự được build up từng ngày.",
             "triggers": [
-                "Cảm thấy bế tắc với các phương pháp cũ.",
-                "Muốn tin vào khả năng transformation.",
-                "Cần thấy momentum thực sự được hình thành."
+                "Cảm thấy bế tắc với các phương pháp cũ, không còn tin.",
+                "Muốn tin vào khả năng transformation thực sự của bản thân.",
+                "Cần thấy momentum thực sự được hình thành, không chỉ hy vọng."
             ],
             "desiredOutcome": [
-                "Hy vọng về sự thay đổi bền vững.",
-                "Cảm nhận momentum đang build up.",
-                "Tin rằng mình có thể transform."
+                "Hy vọng về sự thay đổi bền vững, không chỉ tạm thời.",
+                "Cảm nhận momentum đang build up từng ngày một.",
+                "Tin rằng mình có thể transform từ panic sang precision."
             ]
         }
     ],
     "social": [
         {
             "id": "soc-1",
-            "title": "Achievement Visibility (Thể hiện thành tựu)",
-            "description": "Được công nhận qua Achievement Tree - bằng chứng trực quan về resilience và sự tiến bộ.",
-            "situation": "Muốn có cách thể hiện sự phát triển cá nhân một cách tangible và impressive.",
-            "context": "Thành tựu nội tại cần được trực quan hóa để được công nhận.",
+            "title": "Achievement Visibility (Thể hiện Thành tựu)",
+            "description": "Được công nhận qua Achievement Tree - bằng chứng trực quan về resilience và sự tiến bộ không ngừng.",
+            "situation": "Muốn có cách thể hiện sự phát triển cá nhân một cách tangible và impressive, không chỉ nói suông.",
+            "context": "Thành tựu nội tại cần được trực quan hóa để được công nhận. Achievement Tree là bằng chứng về discipline.",
             "triggers": [
-                "Muốn show progress một cách professional.",
-                "Cần bằng chứng về sự phát triển bản thân.",
-                "Muốn được đánh giá cao về kỷ luật."
+                "Muốn show progress một cách professional và ấn tượng.",
+                "Cần bằng chứng tangible về sự phát triển bản thân.",
+                "Muốn được đánh giá cao về kỷ luật và resilience."
             ],
             "desiredOutcome": [
-                "Có achievement tree ấn tượng.",
-                "Được công nhận về sự kiên trì.",
-                "Tạo được ấn tượng về discipline."
+                "Có Achievement Tree ấn tượng để thể hiện.",
+                "Được công nhận về sự kiên trì và discipline.",
+                "Tạo được ấn tượng mạnh về khả năng push through."
             ]
         },
         {
             "id": "soc-2",
-            "title": "Movement Belonging (Thuộc về phong trào)",
-            "description": "Là một phần của cộng đồng 'We are PushThroo' - những người chọn hard mode để tiến bộ.",
-            "situation": "Muốn kết nối với những người cùng mindset, cùng embrace challenges fearlessly.",
-            "context": "Cảm thấy cô đơn khi xung quanh toàn người chọn comfort.",
+            "title": "Movement Belonging (Thuộc về Phong trào)",
+            "description": "Là một phần của cộng đồng 'We are PushThroo' - những người chọn hard mode để tiến bộ, embrace challenges fearlessly.",
+            "situation": "Muốn kết nối với những người cùng mindset, cùng chọn hard mode thay vì comfort zone để phát triển.",
+            "context": "Cảm thấy cô đơn khi xung quanh toàn người chọn comfort. Cần cộng đồng cùng giá trị để empower lẫn nhau.",
             "triggers": [
-                "Muốn thuộc về cộng đồng high-achievers.",
-                "Cần peer support từ người cùng chí hướng.",
-                "Muốn là part of something bigger."
+                "Muốn thuộc về cộng đồng high-achievers, không chấp nhận mediocrity.",
+                "Cần peer support từ người cùng chí hướng, cùng push through.",
+                "Muốn là part of something bigger - một movement."
             ],
             "desiredOutcome": [
-                "Cảm giác thuộc về một movement.",
-                "Kết nối với những người cùng giá trị.",
-                "Được empower bởi cộng đồng."
+                "Cảm giác thuộc về một movement lớn hơn bản thân.",
+                "Kết nối với những người cùng giá trị và tham vọng.",
+                "Được empower bởi cộng đồng, không còn cô đơn."
             ]
         },
         {
             "id": "soc-3",
-            "title": "Inspirational Leader (Người truyền cảm hứng)",
-            "description": "Trở thành nguồn cảm hứng cho người khác về việc transform adversities into advantages.",
-            "situation": "Muốn influence người khác embrace challenges và push through obstacles.",
-            "context": "Tin vào việc empower one another để thúc đẩy tiến bộ xã hội.",
+            "title": "Inspirational Leader (Người Truyền cảm hứng)",
+            "description": "Trở thành nguồn cảm hứng cho người khác về việc transform adversities into advantages, chọn hard mode để phát triển.",
+            "situation": "Muốn influence người khác embrace challenges và push through obstacles thay vì chọn lối thoát dễ dàng.",
+            "context": "Tin vào việc empower one another để thúc đẩy tiến bộ xã hội. Muốn tạo impact tích cực đến cộng đồng.",
             "triggers": [
-                "Muốn chia sẻ transformation journey.",
-                "Muốn inspire người khác chọn hard mode.",
-                "Muốn tạo impact tích cực đến cộng đồng."
+                "Muốn chia sẻ transformation journey của mình.",
+                "Muốn inspire người khác chọn hard mode thay vì comfort.",
+                "Muốn tạo impact tích cực, contribute to social progress."
             ],
             "desiredOutcome": [
-                "Được nhìn nhận là role model.",
-                "Influence người khác tích cực.",
-                "Contribute to social progress."
+                "Được nhìn nhận là role model về resilience.",
+                "Influence người khác tích cực, lan tỏa mindset push through.",
+                "Contribute to social progress qua việc empower others."
             ]
         }
     ]

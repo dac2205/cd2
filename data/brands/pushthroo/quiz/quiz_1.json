@@ -1,17 +1,17 @@
 [
     {
-        "question": "Cảm nhận sự phát triển của khả năng vượt qua khó khăn, literally 'level up' resilience qua mỗi thử thách.",
+        "question": "Action plan rõ ràng từng bước với timeline cụ thể.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "pushthroo-q1-1"
     },
     {
-        "question": "Hy vọng về sự thay đổi bền vững.",
+        "question": "Thấy rõ sự phát triển của willpower qua Achievement Tree.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -22,7 +22,7 @@
         "id": "pushthroo-q1-2"
     },
     {
-        "question": "Muốn tự hào về sự kỷ luật của mình.",
+        "question": "Chọn thách thức thay vì comfort zone để phát triển.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -33,18 +33,18 @@
         "id": "pushthroo-q1-3"
     },
     {
-        "question": "Kết nối với những người cùng giá trị.",
+        "question": "Bị thách thức buộc phải hành động ngay, không thể trốn tránh.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "pushthroo-q1-4"
     },
     {
-        "question": "Muốn có clarity về chiến lược và adapt plans linh hoạt.",
+        "question": "Không thể tự dỗ dành hay tìm cớ, AI không cho qua.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -55,117 +55,73 @@
         "id": "pushthroo-q1-5"
     },
     {
-        "question": "Cần thấy momentum thực sự được hình thành.",
+        "question": "Influence người khác tích cực, lan tỏa mindset push through.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "pushthroo-q1-6"
     },
     {
-        "question": "Muốn influence người khác embrace challenges và push through obstacles.",
+        "question": "Niềm tin vững chắc vào khả năng tự kiểm soát.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "pushthroo-q1-7"
     },
     {
-        "question": "Có kho tri thức cá nhân được tổ chức tốt.",
+        "question": "Niềm tin vào sự chuyển hóa từ 'panic' sang 'precision', từ 'good intentions' sang 'formidable momentum' thực sự.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "pushthroo-q1-8"
     },
     {
-        "question": "Muốn tạo impact tích cực đến cộng đồng.",
+        "question": "Tin rằng mình có thể transform từ panic sang precision.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "pushthroo-q1-9"
     },
     {
-        "question": "Biết rõ cần làm gì nhưng vẫn liên tục trì hoãn, cần ai đó 'không tha' cho mình.",
+        "question": "Hy vọng về sự thay đổi bền vững, không chỉ tạm thời.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "pushthroo-q1-10"
     },
     {
-        "question": "Tự hào về khả năng vượt qua thử thách.",
+        "question": "Muốn được đánh giá cao về kỷ luật và resilience.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 1,
-        "explanation": "Đây là ví dụ về Emotional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "pushthroo-q1-11"
     },
     {
-        "question": "Muốn break down vấn đề phức tạp thành actionable steps.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "pushthroo-q1-12"
-    },
-    {
-        "question": "Quên mất insight quan trọng đã học được.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "pushthroo-q1-13"
-    },
-    {
-        "question": "Muốn có 'punching bag' để rèn luyện quyết tâm.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "pushthroo-q1-14"
-    },
-    {
-        "question": "Nhìn vào to-do list mà cảm thấy choáng ngợp.",
-        "options": [
-            "Functional Job",
-            "Emotional Job",
-            "Social Job"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
-        "id": "pushthroo-q1-15"
-    },
-    {
-        "question": "Cảm thấy mình đang yếu đuối trước áp lực.",
+        "question": "Muốn tin vào khả năng transformation thực sự của bản thân.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -173,32 +129,76 @@
         ],
         "correctAnswer": 1,
         "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "pushthroo-q1-12"
+    },
+    {
+        "question": "Muốn tự hào về sự kỷ luật và khả năng tự kiểm soát.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "pushthroo-q1-13"
+    },
+    {
+        "question": "Muốn thấy sự tiến bộ về mental strength một cách tangible.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
+        "id": "pushthroo-q1-14"
+    },
+    {
+        "question": "Cần peer support từ người cùng chí hướng, cùng push through.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
+        "id": "pushthroo-q1-15"
+    },
+    {
+        "question": "Xây dựng kỷ luật tự giác thực sự qua thách thức liên tục.",
+        "options": [
+            "Functional Job",
+            "Emotional Job",
+            "Social Job"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "pushthroo-q1-16"
     },
     {
-        "question": "Muốn có cách thể hiện sự phát triển cá nhân một cách tangible và impressive.",
+        "question": "Tự hào về lựa chọn hard mode và kỷ luật bản thân.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 1,
+        "explanation": "Đây là ví dụ về Emotional Job.",
         "id": "pushthroo-q1-17"
     },
     {
-        "question": "Cần bằng chứng về sự phát triển bản thân.",
+        "question": "Kho tri thức cá nhân được tổ chức tốt, dễ truy xuất.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 2,
-        "explanation": "Đây là ví dụ về Social Job.",
+        "correctAnswer": 0,
+        "explanation": "Đây là ví dụ về Functional Job.",
         "id": "pushthroo-q1-18"
     },
     {
-        "question": "Muốn thấy sự tiến bộ về mental strength.",
+        "question": "Cảm thấy bế tắc với các phương pháp cũ, không còn tin.",
         "options": [
             "Functional Job",
             "Emotional Job",
@@ -209,14 +209,14 @@
         "id": "pushthroo-q1-19"
     },
     {
-        "question": "Dễ dàng truy xuất và áp dụng bài học.",
+        "question": "Tạo được ấn tượng mạnh về khả năng push through.",
         "options": [
             "Functional Job",
             "Emotional Job",
             "Social Job"
         ],
-        "correctAnswer": 0,
-        "explanation": "Đây là ví dụ về Functional Job.",
+        "correctAnswer": 2,
+        "explanation": "Đây là ví dụ về Social Job.",
         "id": "pushthroo-q1-20"
     }
 ]
