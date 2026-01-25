@@ -82,13 +82,13 @@ export default function PurchaseJourneyPage() {
                 {/* Header */}
                 <div style={{ textAlign: "center", marginBottom: "3rem" }}>
                     <h1 style={{ marginBottom: "1rem", fontSize: "2.5rem" }}>
-                        3 Bước Cốt Lõi Dẫn Tới Quyết Định Mua
+                        3 Bước Dẫn Tới Quyết Định Mua
                     </h1>
                     <p className="text-subtext" style={{ fontSize: "1.25rem", marginBottom: "2rem" }}>
                         Needs → JTBD → Decision
                     </p>
                     <p style={{ fontSize: "1rem", lineHeight: "1.6", maxWidth: "700px", margin: "0 auto" }}>
-                        Rất gọn. Nếu <strong>bóc đúng bản chất hành vi mua</strong>, thì <strong>chỉ cần 3 bước</strong> là đủ — thêm bước nào nữa là… bắt đầu làm học viên rối 😄
+                        Hiểu rõ 3 bước này giúp bạn <strong>decode chính xác</strong> tại sao khách hàng quyết định mua — và tại sao họ <strong>không</strong> mua.
                     </p>
                 </div>
 
@@ -250,7 +250,7 @@ export default function PurchaseJourneyPage() {
                 {/* Summary Section */}
                 <div className="card-wood" style={{ padding: "2rem", marginBottom: "2rem" }}>
                     <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem", textAlign: "center" }}>
-                        Một sơ đồ cực dễ nhớ (rất hợp để dạy)
+                        Sơ đồ tổng quan
                     </h3>
                     <div style={{
                         display: "flex",
@@ -283,9 +283,10 @@ export default function PurchaseJourneyPage() {
                         fontWeight: 500,
                         margin: 0
                     }}>
-                        <strong>Không ai mua vì sản phẩm.</strong><br />
-                        Họ mua vì một Needs được gọi đúng tên,<br />
-                        và một JTBD cho phép họ hành động mà không thấy sai.
+                        💡 <strong>Điểm mấu chốt:</strong><br />
+                        Khách hàng không mua vì sản phẩm tốt.<br />
+                        Họ mua khi Needs được kích hoạt đúng lúc,<br />
+                        và JTBD cho phép họ hành động mà không thấy sai.
                     </p>
                 </div>
             </div>
@@ -319,7 +320,13 @@ function StepCard({
     viewMode
 }: StepCardProps) {
     return (
-        <div className="card-wood" style={{ padding: "1.5rem", position: "relative", display: "flex", flexDirection: "column" }}>
+        <div className="card-wood" style={{
+            padding: "1.5rem",
+            position: "relative",
+            display: "flex",
+            flexDirection: "column",
+            minHeight: viewMode === "compact" ? "auto" : "400px"
+        }}>
             {/* Step Number Badge */}
             <div style={{
                 position: "absolute",
@@ -354,119 +361,122 @@ function StepCard({
             <p style={{
                 fontSize: "0.9rem",
                 fontWeight: 600,
-                marginBottom: "0.75rem",
+                marginBottom: viewMode === "compact" ? "0" : "0.75rem",
                 color: "hsl(var(--ink-brown) / 0.8)",
                 lineHeight: "1.4"
             }}>
-                👉 {subtitle}
+                {subtitle}
             </p>
 
+            {/* Full mode content */}
             {viewMode === "full" && (
-                <p style={{ fontSize: "0.85rem", marginBottom: "0.75rem", lineHeight: "1.5", color: "hsl(var(--ink-brown) / 0.7)" }}>
-                    {description}
-                </p>
+                <>
+                    <p style={{ fontSize: "0.85rem", marginBottom: "0.75rem", lineHeight: "1.5", color: "hsl(var(--ink-brown) / 0.7)" }}>
+                        {description}
+                    </p>
+
+                    {/* Example */}
+                    <div style={{
+                        borderLeft: `3px solid hsl(var(--${color}))`,
+                        paddingLeft: "0.75rem",
+                        marginBottom: "0.75rem",
+                        fontSize: "0.85rem"
+                    }}>
+                        <p style={{ fontStyle: "italic", color: "hsl(var(--ink-brown) / 0.6)", marginBottom: "0.25rem" }}>
+                            Ví dụ {exampleBrand}:
+                        </p>
+                        <div style={{ fontSize: "0.9rem", lineHeight: "1.4" }}>
+                            {exampleContent}
+                        </div>
+                    </div>
+
+                    {/* Spacer to push info icon to bottom */}
+                    <div style={{ flex: 1 }} />
+
+                    {/* Info Icon with Popover */}
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "0.75rem" }}>
+                        <div style={{
+                            backgroundColor: `hsl(var(--${color}) / 0.1)`,
+                            padding: "0.5rem 0.75rem",
+                            borderRadius: "6px",
+                            fontSize: "0.75rem",
+                            fontWeight: 600,
+                            color: `hsl(var(--${color}))`,
+                            flex: 1
+                        }}>
+                            📌 {insight}
+                        </div>
+
+                        <Popover.Root>
+                            <Popover.Trigger asChild>
+                                <button
+                                    style={{
+                                        marginLeft: "0.5rem",
+                                        width: "32px",
+                                        height: "32px",
+                                        borderRadius: "50%",
+                                        border: `1px solid hsl(var(--${color}) / 0.3)`,
+                                        backgroundColor: "hsl(var(--background))",
+                                        color: `hsl(var(--${color}))`,
+                                        cursor: "pointer",
+                                        display: "flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        transition: "all 0.2s ease",
+                                        flexShrink: 0
+                                    }}
+                                    onMouseEnter={(e) => {
+                                        e.currentTarget.style.backgroundColor = `hsl(var(--${color}) / 0.1)`;
+                                        e.currentTarget.style.transform = "scale(1.1)";
+                                    }}
+                                    onMouseLeave={(e) => {
+                                        e.currentTarget.style.backgroundColor = "hsl(var(--background))";
+                                        e.currentTarget.style.transform = "scale(1)";
+                                    }}
+                                >
+                                    <Info size={16} />
+                                </button>
+                            </Popover.Trigger>
+                            <Popover.Portal>
+                                <Popover.Content
+                                    className="force-popover-style"
+                                    sideOffset={5}
+                                    style={{
+                                        backgroundColor: "hsl(var(--background))",
+                                        border: "1px solid hsl(var(--border))",
+                                        borderRadius: "8px",
+                                        padding: "1rem",
+                                        maxWidth: "300px",
+                                        boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                                        zIndex: 1000
+                                    }}
+                                >
+                                    <div style={{ marginBottom: "0.75rem" }}>
+                                        <p style={{ fontSize: "0.8rem", fontWeight: 600, marginBottom: "0.5rem", color: `hsl(var(--${color}))` }}>
+                                            Đặc điểm chi tiết:
+                                        </p>
+                                        <ul style={{ fontSize: "0.75rem", margin: 0, paddingLeft: "1.25rem", lineHeight: "1.6" }}>
+                                            {characteristics.map((char, idx) => (
+                                                <li key={idx} dangerouslySetInnerHTML={{ __html: char }} />
+                                            ))}
+                                        </ul>
+                                    </div>
+                                    <div style={{
+                                        fontSize: "0.75rem",
+                                        padding: "0.5rem",
+                                        backgroundColor: "hsl(var(--muted) / 0.3)",
+                                        borderRadius: "4px",
+                                        lineHeight: "1.5"
+                                    }}>
+                                        {description}
+                                    </div>
+                                    <Popover.Arrow style={{ fill: "hsl(var(--background))" }} />
+                                </Popover.Content>
+                            </Popover.Portal>
+                        </Popover.Root>
+                    </div>
+                </>
             )}
-
-            {/* Example */}
-            <div style={{
-                borderLeft: `3px solid hsl(var(--${color}))`,
-                paddingLeft: "0.75rem",
-                marginBottom: "0.75rem",
-                fontSize: "0.85rem"
-            }}>
-                <p style={{ fontStyle: "italic", color: "hsl(var(--ink-brown) / 0.6)", marginBottom: "0.25rem" }}>
-                    Ví dụ {exampleBrand}:
-                </p>
-                <div style={{ fontSize: "0.9rem", lineHeight: "1.4" }}>
-                    {exampleContent}
-                </div>
-            </div>
-
-            {/* Spacer to push info icon to bottom */}
-            <div style={{ flex: 1 }} />
-
-            {/* Info Icon with Popover */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "0.75rem" }}>
-                <div style={{
-                    backgroundColor: `hsl(var(--${color}) / 0.1)`,
-                    padding: "0.5rem 0.75rem",
-                    borderRadius: "6px",
-                    fontSize: "0.75rem",
-                    fontWeight: 600,
-                    color: `hsl(var(--${color}))`,
-                    flex: 1
-                }}>
-                    📌 {insight}
-                </div>
-
-                <Popover.Root>
-                    <Popover.Trigger asChild>
-                        <button
-                            style={{
-                                marginLeft: "0.5rem",
-                                width: "32px",
-                                height: "32px",
-                                borderRadius: "50%",
-                                border: `1px solid hsl(var(--${color}) / 0.3)`,
-                                backgroundColor: "hsl(var(--background))",
-                                color: `hsl(var(--${color}))`,
-                                cursor: "pointer",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                transition: "all 0.2s ease",
-                                flexShrink: 0
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.backgroundColor = `hsl(var(--${color}) / 0.1)`;
-                                e.currentTarget.style.transform = "scale(1.1)";
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.backgroundColor = "hsl(var(--background))";
-                                e.currentTarget.style.transform = "scale(1)";
-                            }}
-                        >
-                            <Info size={16} />
-                        </button>
-                    </Popover.Trigger>
-                    <Popover.Portal>
-                        <Popover.Content
-                            className="force-popover-style"
-                            sideOffset={5}
-                            style={{
-                                backgroundColor: "hsl(var(--background))",
-                                border: "1px solid hsl(var(--border))",
-                                borderRadius: "8px",
-                                padding: "1rem",
-                                maxWidth: "300px",
-                                boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                                zIndex: 1000
-                            }}
-                        >
-                            <div style={{ marginBottom: "0.75rem" }}>
-                                <p style={{ fontSize: "0.8rem", fontWeight: 600, marginBottom: "0.5rem", color: `hsl(var(--${color}))` }}>
-                                    Đặc điểm chi tiết:
-                                </p>
-                                <ul style={{ fontSize: "0.75rem", margin: 0, paddingLeft: "1.25rem", lineHeight: "1.6" }}>
-                                    {characteristics.map((char, idx) => (
-                                        <li key={idx} dangerouslySetInnerHTML={{ __html: char }} />
-                                    ))}
-                                </ul>
-                            </div>
-                            <div style={{
-                                fontSize: "0.75rem",
-                                padding: "0.5rem",
-                                backgroundColor: "hsl(var(--muted) / 0.3)",
-                                borderRadius: "4px",
-                                lineHeight: "1.5"
-                            }}>
-                                {description}
-                            </div>
-                            <Popover.Arrow style={{ fill: "hsl(var(--background))" }} />
-                        </Popover.Content>
-                    </Popover.Portal>
-                </Popover.Root>
-            </div>
         </div>
     );
 }
