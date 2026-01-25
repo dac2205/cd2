@@ -1,0 +1,30 @@
+{
+    "customerInsights": [
+        {
+            "id": "insight-1",
+            "title": "Clarity > Information",
+            "description": "Leaders không thiếu thông tin - họ ngập trong thông tin. Họ thiếu Clarity - framework rõ ràng để biết tập trung vào đâu.",
+            "evidence": "Information overload là vấn đề #1 của leaders. Pitstop giải quyết bằng Clarity, không phải thêm thông tin."
+        },
+        {
+            "id": "insight-2",
+            "title": "Framework Chuẩn > Framework Tự nghĩ",
+            "description": "Leaders sợ tự nghĩ framework rồi sai. Họ muốn dùng framework đã được triển khai bởi Harvard/McKinsey/Google - proven, khó sai.",
+            "evidence": "Framework chuẩn thế giới giúp đồng bộ ngôn ngữ, dễ scale, dễ hợp tác - không phải tự nghĩ và sợ sai."
+        },
+        {
+            "id": "insight-3",
+            "title": "Competency Framework = Bản đồ Rõ ràng",
+            "description": "Leaders muốn biết mình đang ở đâu, cần học gì, tiến bộ thế nào - Competency Framework mang lại clarity này.",
+            "evidence": "Hệ thống đo năng lực giúp leaders rõ ràng về hướng phát triển, không lãng phí thời gian."
+        }
+    ],
+    "marketInsights": [
+        {
+            "id": "market-1",
+            "title": "Khủng hoảng Information Overload",
+            "description": "Leaders đang trong khủng hoảng information overload - quá nhiều thông tin, quá ít clarity. Họ cần framework rõ ràng, không phải thêm thông tin.",
+            "opportunity": "Pitstop định vị là pit stop duy nhất cho Clarity - framework chuẩn thế giới, simplicity, competency đo được."
+        }
+    ]
+}

@@ -1,5 +1,18 @@
 {
     "id": "inside-school",
     "name": "Inside School",
-    "owner": "Student Example"
+    "owner": "Đắc",
+    "brandEssence": {
+        "coreBelief": "Bạn khỏe về cảm xúc không phải do có nhiều thông tin hơn, mà do sự rõ ràng (Clarity) về cảm xúc.",
+        "uniquePromise": "Trường duy nhất dạy cảm xúc bằng framework chuẩn thế giới - Clarity thay vì dồn nén, Simplicity thay vì phức tạp, Competency thay vì mơ hồ.",
+        "transformation": "Từ 'Bị cảm xúc điều khiển, drama liên tục' → 'Rõ ràng về cảm xúc, tự tin quản lý, đo được tiến bộ'.",
+        "enemy": "Dồn nén cảm xúc, tránh né xung đột, framework tự nghĩ, học nhiều nhưng không áp dụng được.",
+        "signatureMethod": "Emotion Clarity System: Clarity (Emotion Control Panel framework chuẩn) + Simplicity (Lược drama thừa thãi) + Competency (Emotional Intelligence đo được) - Rõ ràng, lành mạnh, đo được.",
+        "socialProof": "Trường học về cảm xúc đầu tiên tại Việt Nam - Framework dựa trên tâm lý học chuẩn thế giới, không phải tự nghĩ ra."
+    },
+    "description": [
+        "Inside School là trường duy nhất dạy cảm xúc bằng framework chuẩn thế giới thay vì tự nghĩ. Giải quyết nỗi đau: Bị cảm xúc điều khiển, drama liên tục, học nhiều nhưng mỗi nơi dạy khác nhau, không biết mình đang làm đúng hay sai.",
+        "Phương pháp 'Emotion Clarity System' với 3 trụ cột: (1) CLARITY - Emotion Control Panel framework chuẩn để hiểu cảm xúc rõ ràng, ngừng dồn nén. (2) SIMPLICITY - Lược drama thừa thãi, chỉ giữ cốt lõi lành mạnh. (3) COMPETENCY FRAMEWORK - Emotional Intelligence đo năng lực, biết mình ở đâu.",
+        "Từ 'Bị cảm xúc điều khiển, drama không ngừng, không biết đúng sai' → 'Rõ ràng về cảm xúc, tự tin quản lý, đo được tiến bộ về sức khỏe cảm xúc'. Từ học nhiều nhưng rối → Học ít nhưng đúng, rõ ràng và lành mạnh ngay."
+    ]
 }

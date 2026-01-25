@@ -1,6 +1,6 @@
 {
     "id": "queen",
-    "name": "QUEEN",
+    "name": "Queen",
     "owner": "Quỳnh Kute",
     "brandEssence": {
         "coreBelief": "Món quà đúng nghĩa thể hiện sự trân trọng, không phải giá tiền.",
@@ -8,7 +8,7 @@
         "transformation": "Từ stress chọn quà → Hào hứng, tự tin tặng quà.",
         "enemy": "Quà tặng đại trà, vô tâm, chỉ vì phải tặng.",
         "signatureMethod": "Gift Curation Framework: Insight người nhận → Match thông điệp → Wow trình bày.",
-        "socialProof": "98% người nhận xúc động khi mở quà QUEEN."
+        "socialProof": "98% người nhận xúc động khi mở quà Queen."
     },
     "description": [
         "Tư vấn quà tặng cao cấp cho người bận rộn. Luxury không cháy túi. Giải quyết 'Mua quà gì cho anh X/chị Y?'",

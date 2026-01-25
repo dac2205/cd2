@@ -1,0 +1,32 @@
+{
+    "segments": [
+        {
+            "id": "business-leader",
+            "name": "Lãnh đạo Doanh nghiệp",
+            "isPrimary": true,
+            "description": "CxO, leaders, managers ngập trong thông tin nhưng thiếu clarity - cần framework chuẩn thế giới, simplicity, và competency đo được.",
+            "demographics": {
+                "age": "30-50",
+                "income": "Cao",
+                "occupation": "CEO, Giám đốc, Quản lý cấp cao"
+            },
+            "psychographics": {
+                "values": [
+                    "Tốc độ và độ chính xác",
+                    "Kết quả thực tế hơn lý thuyết",
+                    "Hiệu quả hơn bận rộn"
+                ],
+                "fears": [
+                    "Lãng phí thời gian vào thứ không quan trọng",
+                    "Quyết định chậm, mất cơ hội",
+                    "Đội ngũ không hiệu quả"
+                ],
+                "frustrations": [
+                    "Bận rộn nhưng không thấy kết quả",
+                    "Học lý thuyết suông không thực chiến",
+                    "Quy trình chậm chạp"
+                ]
+            }
+        }
+    ]
+}

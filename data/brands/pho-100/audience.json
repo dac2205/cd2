@@ -1,0 +1,60 @@
+{
+    "segments": [
+        {
+            "id": "health-conscious-professional",
+            "name": "Người Trẻ Đô thị Quan tâm Sức khỏe",
+            "isPrimary": true,
+            "description": "Nhân viên văn phòng, freelancer 25-45 tuổi, thu nhập trung bình khá trở lên, cực kỳ quan tâm đến an toàn thực phẩm và nguồn gốc nguyên liệu.",
+            "demographics": {
+                "age": "25-45",
+                "income": "Trung bình khá trở lên (15-40 triệu/tháng)",
+                "occupation": "Nhân viên văn phòng, Freelancer, Startup founder"
+            },
+            "psychographics": {
+                "values": [
+                    "Sức khỏe là ưu tiên số 1",
+                    "Minh bạch và trung thực",
+                    "Chất lượng hơn giá rẻ"
+                ],
+                "fears": [
+                    "Ngộ độc thực phẩm",
+                    "Ăn phải thực phẩm bẩn gây bệnh dài hạn",
+                    "Không biết quán nào đáng tin cậy"
+                ],
+                "frustrations": [
+                    "Mất thời gian nghiên cứu quán ăn",
+                    "Không tin tưởng quán ăn đường phố",
+                    "Phải ăn nhà hàng đắt đỏ để đảm bảo an toàn"
+                ]
+            }
+        },
+        {
+            "id": "family-caregiver",
+            "name": "Người Chăm sóc Gia đình",
+            "isPrimary": false,
+            "description": "Phụ huynh trẻ hoặc người chăm sóc gia đình có trách nhiệm về bữa ăn của cả nhà, đặc biệt quan tâm đến an toàn cho trẻ em và người già.",
+            "demographics": {
+                "age": "30-50",
+                "income": "Trung bình trở lên",
+                "occupation": "Đa dạng, có gia đình"
+            },
+            "psychographics": {
+                "values": [
+                    "Bảo vệ sức khỏe gia đình",
+                    "Trách nhiệm với người thân",
+                    "An toàn tuyệt đối"
+                ],
+                "fears": [
+                    "Con cái hoặc người già ăn phải đồ bẩn",
+                    "Mất uy tín trong gia đình",
+                    "Gây hại cho sức khỏe người thân"
+                ],
+                "frustrations": [
+                    "Khó tìm quán phở sạch cho cả gia đình",
+                    "Lo lắng mỗi lần ăn ngoài",
+                    "Phải nấu ăn liên tục vì không tin quán ngoài"
+                ]
+            }
+        }
+    ]
+}

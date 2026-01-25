@@ -1,0 +1,213 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Quick Safe Meal (Bữa ăn An toàn Nhanh chóng)",
+            "description": "Tìm một bữa ăn nhanh, ngon và đảm bảo an toàn thực phẩm 100% mà không cần phải nghiên cứu hay lo lắng.",
+            "situation": "Giữa giờ trưa bận rộn, cần ăn nhanh nhưng không muốn ăn bừa bãi hoặc lo lắng về vệ sinh.",
+            "context": "Người trẻ đô thị bận rộn nhưng vẫn coi trọng sức khỏe và an toàn thực phẩm.",
+            "triggers": [
+                "Đói bụng giữa giờ làm việc.",
+                "Không có thời gian nấu ăn.",
+                "Sợ ăn phải đồ ăn bẩn gây bệnh."
+            ],
+            "desiredOutcome": [
+                "Ăn no, ngon miệng.",
+                "Hoàn toàn yên tâm về vệ sinh.",
+                "Tiết kiệm thời gian quyết định."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Ingredient Transparency (Minh bạch Nguồn gốc)",
+            "description": "Biết chính xác nguồn gốc từng nguyên liệu trong bát phở để an tâm tuyệt đối.",
+            "situation": "Muốn ăn phở nhưng lo lắng về thịt bò có phải từ nguồn uy tín không, rau sống có sạch không.",
+            "context": "Tin tức về thực phẩm bẩn khiến người tiêu dùng mất niềm tin vào quán ăn ngoài.",
+            "triggers": [
+                "Đọc tin tức về thịt bò bơm nước.",
+                "Sợ rau sống nhiễm khuẩn.",
+                "Muốn biết gia vị có phụ gia độc hại không."
+            ],
+            "desiredOutcome": [
+                "Biết rõ 100% nguồn gốc nguyên liệu.",
+                "Tin tưởng tuyệt đối vào quán.",
+                "Không phải lo lắng gì cả."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Consistent Quality (Chất lượng Ổn định)",
+            "description": "Mỗi lần đến đều được phục vụ bát phở chuẩn vị, chuẩn chất lượng như nhau.",
+            "situation": "Tìm được quán quen để ăn thường xuyên mà không sợ 'hôm nay ngon, hôm sau dở'.",
+            "context": "Sự ổn định tạo nên lòng tin và thói quen.",
+            "triggers": [
+                "Chán việc phải thử quán mới liên tục.",
+                "Muốn có quán quen đáng tin cậy.",
+                "Cần sự ổn định trong cuộc sống bận rộn."
+            ],
+            "desiredOutcome": [
+                "Mỗi lần ăn đều ngon như nhau.",
+                "Không cần suy nghĩ, chọn lựa.",
+                "Tiết kiệm năng lượng tinh thần."
+            ]
+        },
+        {
+            "id": "func-4",
+            "title": "Clean Environment Verification (Xác minh Môi trường Sạch)",
+            "description": "Quan sát trực tiếp quy trình chế biến và không gian bếp để tự mắt thấy sự sạch sẽ.",
+            "situation": "Ngồi ăn mà có thể nhìn thấy bếp, thấy cách họ rửa rau, thái thịt, nấu nước dùng.",
+            "context": "Seeing is believing - mắt thấy tai nghe mới yên tâm.",
+            "triggers": [
+                "Không tin lời quảng cáo.",
+                "Muốn tự kiểm chứng.",
+                "Cần bằng chứng trực quan."
+            ],
+            "desiredOutcome": [
+                "Thấy tận mắt sự sạch sẽ.",
+                "Tin tưởng 100%.",
+                "Yên tâm giới thiệu cho người thân."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Peace of Mind (An tâm Tuyệt đối)",
+            "description": "Cảm giác nhẹ nhõm, thoải mái khi không phải lo lắng về bất cứ điều gì liên quan đến thực phẩm.",
+            "situation": "Ngồi ăn phở mà hoàn toàn thư giãn, không có tí lo âu nào về vệ sinh hay nguồn gốc.",
+            "context": "An tâm là nhu cầu cơ bản nhưng hiếm có trong ẩm thực đường phố.",
+            "triggers": [
+                "Từng bị ngộ độc thực phẩm.",
+                "Sợ ăn phải đồ bẩn.",
+                "Lo lắng mãn tính về sức khỏe."
+            ],
+            "desiredOutcome": [
+                "Ăn ngon miệng, thoải mái.",
+                "Không có lo âu nào.",
+                "Cảm thấy được chăm sóc."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Trust & Reliability (Tin tưởng & Đáng tin cậy)",
+            "description": "Xây dựng niềm tin sâu sắc với một địa điểm ăn uống, cảm thấy như 'nhà' thứ hai.",
+            "situation": "Cảm thấy Phở 100 như căn bếp nhà mình, luôn sạch sẽ và an toàn.",
+            "context": "Lòng tin là nền tảng của mối quan hệ lâu dài.",
+            "triggers": [
+                "Mất niềm tin vào quán ăn ngoài.",
+                "Khao khát sự ổn định.",
+                "Muốn có chỗ dựa đáng tin cậy."
+            ],
+            "desiredOutcome": [
+                "Tin tưởng tuyệt đối.",
+                "Cảm giác thuộc về.",
+                "Trung thành lâu dài."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Self-Care Pride (Tự hào Chăm sóc Bản thân)",
+            "description": "Cảm thấy tự hào vì đã chọn một bữa ăn tốt cho sức khỏe, thể hiện sự yêu thương bản thân.",
+            "situation": "Sau bữa phở, cảm thấy mình đã làm điều đúng đắn cho cơ thể mình.",
+            "context": "Lựa chọn thực phẩm sạch là hành động yêu thương bản thân.",
+            "triggers": [
+                "Muốn sống khỏe mạnh.",
+                "Quan tâm đến chất lượng cuộc sống.",
+                "Tự trọng cao."
+            ],
+            "desiredOutcome": [
+                "Tự hào về lựa chọn của mình.",
+                "Cảm thấy yêu thương bản thân.",
+                "Động lực duy trì lối sống lành mạnh."
+            ]
+        },
+        {
+            "id": "emo-4",
+            "title": "Freedom from Decision Fatigue (Tự do khỏi Mệt mỏi Quyết định)",
+            "description": "Giải phóng khỏi gánh nặng phải suy nghĩ 'hôm nay ăn gì, quán nào an toàn' mỗi ngày.",
+            "situation": "Không cần mở Google Maps tìm quán, không cần đọc review, chỉ cần đến Phở 100.",
+            "context": "Decision fatigue là căn bệnh của người hiện đại.",
+            "triggers": [
+                "Mệt mỏi vì phải quyết định quá nhiều.",
+                "Muốn đơn giản hóa cuộc sống.",
+                "Cần sự tự động hóa trong thói quen."
+            ],
+            "desiredOutcome": [
+                "Tiết kiệm năng lượng tinh thần.",
+                "Cuộc sống đơn giản hơn.",
+                "Tập trung vào việc quan trọng hơn."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Responsible Caregiver (Người Chăm sóc Có Trách nhiệm)",
+            "description": "Trở thành người đưa ra lựa chọn ăn uống an toàn cho gia đình, đặc biệt là trẻ em và người già.",
+            "situation": "Dẫn gia đình đến Phở 100 và tự tin rằng mọi người đều được ăn thực phẩm sạch.",
+            "context": "Người chăm sóc gia đình luôn gánh trách nhiệm về sức khỏe của mọi người.",
+            "triggers": [
+                "Có con nhỏ hoặc người già trong nhà.",
+                "Sợ người thân ăn phải đồ bẩn.",
+                "Muốn bảo vệ gia đình."
+            ],
+            "desiredOutcome": [
+                "Gia đình khỏe mạnh.",
+                "Được công nhận là người có trách nhiệm.",
+                "Yên tâm về vai trò của mình."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Trusted Recommender (Người Giới thiệu Đáng tin)",
+            "description": "Trở thành người được bạn bè tin tưởng khi hỏi 'quán nào ăn ngon và sạch sẽ?'",
+            "situation": "Bạn bè hỏi gợi ý quán ăn, tự tin giới thiệu Phở 100 vì biết chắc họ sẽ hài lòng.",
+            "context": "Uy tín cá nhân gắn liền với chất lượng gợi ý.",
+            "triggers": [
+                "Muốn giúp đỡ bạn bè.",
+                "Tự hào về sự hiểu biết của mình.",
+                "Xây dựng hình ảnh người sành ăn có trách nhiệm."
+            ],
+            "desiredOutcome": [
+                "Được bạn bè tin tưởng.",
+                "Tăng uy tín cá nhân.",
+                "Gắn kết tình bạn qua những trải nghiệm tốt."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Community Belonging (Thuộc về Cộng đồng)",
+            "description": "Trở thành một phần của cộng đồng những người sống có ý thức, quan tâm đến sức khỏe và an toàn thực phẩm.",
+            "situation": "Gặp những khách quen khác tại Phở 100 và cảm thấy 'mình cùng hội'.",
+            "context": "Cộng đồng cùng giá trị tạo nên sự thuộc về.",
+            "triggers": [
+                "Muốn kết nối với người cùng suy nghĩ.",
+                "Tìm kiếm sự đồng cảm.",
+                "Khẳng định giá trị sống của mình."
+            ],
+            "desiredOutcome": [
+                "Cảm giác thuộc về.",
+                "Kết nối với cộng đồng.",
+                "Tự hào về lối sống của mình."
+            ]
+        },
+        {
+            "id": "soc-4",
+            "title": "Health-Conscious Status (Vị thế Người Sống Khỏe)",
+            "description": "Được nhìn nhận là người có gu ăn uống, sống khỏe mạnh và có trách nhiệm với bản thân.",
+            "situation": "Đồng nghiệp thấy bạn ăn tại Phở 100 và nghĩ 'Người này sống rất có ý thức'.",
+            "context": "Lựa chọn ăn uống phản ánh lối sống và giá trị cá nhân.",
+            "triggers": [
+                "Muốn xây dựng hình ảnh tích cực.",
+                "Quan tâm đến perception của người khác.",
+                "Tự hào về lối sống lành mạnh."
+            ],
+            "desiredOutcome": [
+                "Được tôn trọng.",
+                "Hình ảnh tích cực.",
+                "Trở thành role model."
+            ]
+        }
+    ],
+    "other": []
+}

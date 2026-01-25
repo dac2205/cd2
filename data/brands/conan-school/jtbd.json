@@ -1,0 +1,187 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Customer Clarity through Framework (Rõ ràng về Khách hàng qua Framework)",
+            "description": "Hiểu khách hàng qua Customer Decode framework chuẩn thay vì đoán - đảm bảo rõ ràng, khó sai, insight thực.",
+            "situation": "Đoán về khách hàng, quyết định bằng linh cảm, không chắc chắn về insight.",
+            "context": "Clarity về khách hàng không đến từ nhiều thông tin, mà từ framework chuẩn.",
+            "triggers": [
+                "Đoán về khách hàng, không chắc chắn.",
+                "Quyết định bằng linh cảm.",
+                "Sợ hiểu sai khách hàng.",
+                "Muốn insight rõ ràng."
+            ],
+            "desiredOutcome": [
+                "Rõ ràng về insight khách hàng.",
+                "Ngừng đoán, bắt đầu biết.",
+                "Tự tin về quyết định.",
+                "Thu hút đúng khách hàng."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Content Simplicity (Nội dung Đơn giản Hiệu quả)",
+            "description": "Tạo viral content bằng cách lược 80% thừa thãi, chỉ giữ 20% cốt lõi hiệu quả.",
+            "situation": "Làm content phức tạp, không biết hỏng ở đâu, không viral.",
+            "context": "Viral content = simplicity, không phải phức tạp.",
+            "triggers": [
+                "Content không viral.",
+                "Không biết content hỏng ở đâu.",
+                "Làm content bằng cảm tính.",
+                "Muốn hiệu quả hơn."
+            ],
+            "desiredOutcome": [
+                "Content đơn giản nhưng hiệu quả.",
+                "Biết cốt lõi là gì.",
+                "Viral có hệ thống.",
+                "Tự tin tạo content."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Personal Brand Competency (Năng lực Personal Brand Đo được)",
+            "description": "Xây personal brand theo Competency Framework - biết mình ở đâu, cần làm gì, đo được tiến bộ.",
+            "situation": "Làm personal brand nhưng không biết mình tiến bộ chưa, không biết còn thiếu gì.",
+            "context": "Personal brand cần competency framework để đo lường và phát triển.",
+            "triggers": [
+                "Không biết mình đang ở đâu.",
+                "Làm personal brand nhưng không thấy tiến bộ.",
+                "Muốn đo lường được.",
+                "Cần hướng rõ ràng."
+            ],
+            "desiredOutcome": [
+                "Biết rõ năng lực personal brand.",
+                "Biết cần làm gì tiếp.",
+                "Đo lường được tiến bộ.",
+                "Phát triển có hướng."
+            ]
+        },
+        {
+            "id": "func-4",
+            "title": "Customer Attraction Mastery (Thành thạo Thu hút Khách hàng)",
+            "description": "Thành thạo toàn bộ hệ thống thu hút khách hàng - từ hiểu khách (Decode) đến thu hút (Content) đến xây brand (Personal Branding).",
+            "situation": "Muốn hệ thống hoàn chỉnh để thu hút khách hàng, không phải làm rời rạc.",
+            "context": "Thu hút khách hàng cần hệ thống rõ ràng, không phải từng mảnh.",
+            "triggers": [
+                "Làm rời rạc, không hệ thống.",
+                "Muốn thu hút khách toàn diện.",
+                "Cần clarity về toàn bộ quy trình.",
+                "Muốn thành thạo."
+            ],
+            "desiredOutcome": [
+                "Hệ thống thu hút khách hoàn chỉnh.",
+                "Thành thạo từng bước.",
+                "Tự tin thu hút khách.",
+                "Kết quả đo được."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Confidence from Customer Clarity (Tự tin từ Rõ ràng về Khách hàng)",
+            "description": "Tự tin vì rõ ràng về khách hàng - biết mình hiểu đúng, không phải đoán.",
+            "situation": "Sau khi có customer clarity, tự tin thu hút khách, không còn do dự.",
+            "context": "Tự tin đến từ clarity về khách hàng, không phải từ nhiều thông tin.",
+            "triggers": [
+                "Sợ hiểu sai khách hàng.",
+                "Không tự tin thu hút.",
+                "Muốn chắc chắn."
+            ],
+            "desiredOutcome": [
+                "Tự tin về insight khách hàng.",
+                "Dám thu hút.",
+                "Không còn sợ sai."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Pride in Authentic Attraction (Tự hào về Thu hút Chân thực)",
+            "description": "Tự hào vì thu hút khách hàng bằng cách chân thực, không phải trick hay manipulation.",
+            "situation": "Thu hút khách bằng hiểu thực sự, không phải lừa đảo.",
+            "context": "Tự hào đến từ sự chân thực trong thu hút.",
+            "triggers": [
+                "Muốn thu hút chân thực.",
+                "Không muốn dùng trick.",
+                "Muốn bền vững."
+            ],
+            "desiredOutcome": [
+                "Tự hào về cách thu hút.",
+                "Khách hàng chất lượng.",
+                "Mối quan hệ bền vững."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Relief from Guessing (Nhẹ nhõm khỏi Đoán)",
+            "description": "Nhẹ nhõm vì không còn phải đoán về khách hàng - có framework rõ ràng.",
+            "situation": "Sau khi có Customer Decode, nhẹ nhõm vì biết chắc, không phải đoán.",
+            "context": "Nhẹ nhõm đến từ clarity, không phải từ nhiều thông tin.",
+            "triggers": [
+                "Mệt mỏi vì đoán mãi.",
+                "Sợ đoán sai.",
+                "Muốn chắc chắn."
+            ],
+            "desiredOutcome": [
+                "Nhẹ nhõm, bình tĩnh.",
+                "Không còn đoán.",
+                "Biết chắc về khách hàng."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Customer Expert Status (Vị thế Chuyên gia Khách hàng)",
+            "description": "Được nhìn nhận là người hiểu khách hàng sâu sắc - dùng framework chuẩn, không đoán.",
+            "situation": "Được tôn trọng vì insight khách hàng rõ ràng và chính xác.",
+            "context": "Chuyên gia = người có clarity, không phải người có nhiều thông tin.",
+            "triggers": [
+                "Muốn được tôn trọng.",
+                "Muốn là chuyên gia.",
+                "Xây uy tín."
+            ],
+            "desiredOutcome": [
+                "Được nhìn nhận là chuyên gia.",
+                "Uy tín cao.",
+                "Được tin tưởng."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "Content Creator Credibility (Uy tín Content Creator)",
+            "description": "Được biết đến là content creator hiệu quả - content viral có hệ thống, không phải may mắn.",
+            "situation": "Content viral liên tục vì có framework, không phải ngẫu nhiên.",
+            "context": "Uy tín đến từ hệ thống, không phải may mắn.",
+            "triggers": [
+                "Muốn viral có hệ thống.",
+                "Muốn uy tín.",
+                "Không muốn phụ thuộc may mắn."
+            ],
+            "desiredOutcome": [
+                "Uy tín content creator.",
+                "Viral có hệ thống.",
+                "Được học hỏi."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Personal Brand Authority (Quyền uy Personal Brand)",
+            "description": "Xây được personal brand có quyền uy - được tin tưởng vì rõ ràng và nhất quán.",
+            "situation": "Personal brand mạnh vì rõ ràng, nhất quán, đo được.",
+            "context": "Quyền uy đến từ clarity và consistency.",
+            "triggers": [
+                "Muốn personal brand mạnh.",
+                "Muốn được tin tưởng.",
+                "Xây ảnh hưởng."
+            ],
+            "desiredOutcome": [
+                "Personal brand có quyền uy.",
+                "Được tin tưởng tuyệt đối.",
+                "Ảnh hưởng lớn."
+            ]
+        }
+    ],
+    "other": []
+}

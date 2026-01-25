@@ -2,11 +2,141 @@
 
 import React from "react";
 import { BrandEssence } from "@/lib/types";
-import { Sparkles, Target, TrendingUp, Shield, Cog, Award } from "lucide-react";
+import { Sparkles, Target, TrendingUp, Shield, Cog, Award, Info } from "lucide-react";
+import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/Popover";
 
 interface BrandEssenceDisplayProps {
     essence: BrandEssence;
 }
+
+type EssenceExplanation = {
+    concept: string;
+    description: string;
+    goodExample: string;
+    badExample: string;
+}
+
+const ESSENCE_EXPLANATIONS: Record<string, EssenceExplanation> = {
+    coreBelief: {
+        concept: "Core Belief (Niềm tin cốt lõi)",
+        description: "Triết lý nền tảng của brand - quan điểm về thế giới mà brand tin tưởng. Phải đủ mạnh để có người đồng ý và có người phản đối (polarizing).",
+        goodExample: "✅ \"Chữa lành không cần phức tạp, chỉ cần đúng lúc và đủ an toàn\" (VitaMind) - Rõ ràng, có quan điểm, phản đối sự phức tạp hóa.",
+        badExample: "❌ \"Chúng tôi bán sản phẩm wellness\" - Không có quan điểm, không có niềm tin gì cả, chỉ mô tả sản phẩm."
+    },
+    uniquePromise: {
+        concept: "Unique Promise (Lời hứa độc nhất)",
+        description: "Lợi ích lớn nhất và duy nhất mà khách hàng nhận được - điều làm brand khác biệt hoàn toàn so với đối thủ. Không phải danh sách tính năng.",
+        goodExample: "✅ \"Quà trong 5 phút, người nhận rơi nước mắt\" (Queen) - Cụ thể, đo lường được (5 phút), kết quả cảm xúc rõ ràng (rơi nước mắt).",
+        badExample: "❌ \"Chúng tôi có nhiều sản phẩm để lựa chọn\" - Không unique, không có promise gì cả, mọi shop đều nói thế."
+    },
+    transformation: {
+        concept: "Transformation (Câu chuyện chuyển hóa)",
+        description: "Hành trình từ trạng thái cũ (Before) sang trạng thái mới (After). Sử dụng ngôn ngữ cảm xúc và hình ảnh rõ ràng, không chung chung.",
+        goodExample: "✅ \"Từ Panic → Precision\" (PushThroo) - Ngắn gọn, đối lập rõ ràng, dễ hình dung, có cảm xúc mạnh.",
+        badExample: "❌ \"Bạn sẽ cảm thấy tốt hơn\" - Mơ hồ, không có before/after rõ ràng, không có hình ảnh cụ thể."
+    },
+    enemy: {
+        concept: "Enemy (Kẻ thù/Rào cản)",
+        description: "Điều mà brand đứng ra chống lại - có thể là hành vi, văn hóa, hoặc thất bại của thị trường. Tạo sự đồng cảm và định vị rõ ràng.",
+        goodExample: "✅ \"Toxic Positivity\" (VitaMind) - Cụ thể, dễ hình dung, nhiều người đồng cảm, tạo sự phân biệt rõ ràng.",
+        badExample: "❌ \"Sản phẩm kém chất lượng\" - Quá chung chung, ai cũng nói thế, không tạo được sự khác biệt."
+    },
+    signatureMethod: {
+        concept: "Signature Method (Phương pháp đặc trưng)",
+        description: "Quy trình, framework, hoặc cơ chế độc quyền để thực hiện lời hứa. Phải có tên riêng và cấu trúc rõ ràng, không chỉ mô tả chung chung.",
+        goodExample: "✅ \"5 Moments Framework\" (VitaMind) - Có tên riêng, có số liệu (5), có cấu trúc (Moments), dễ nhớ và truyền đạt.",
+        badExample: "❌ \"Quy trình đặc biệt của chúng tôi\" - Không có tên, không có cấu trúc, ai cũng có thể nói thế."
+    },
+    socialProof: {
+        concept: "Social Proof (Điểm neo chứng thực)",
+        description: "Nguồn gốc uy tín - tại sao khách hàng nên tin bạn. Không chỉ là testimonial, mà là nền tảng authority (khoa học, chuyên gia, con số, thành tích).",
+        goodExample: "✅ \"Founded by Forbes 30 Under 30\" (PushThroo) - Cụ thể, có thể verify, tạo uy tín ngay lập tức.",
+        badExample: "❌ \"Nhiều khách hàng yêu thích chúng tôi\" - Mơ hồ, không verify được, ai cũng nói thế."
+    }
+};
+
+const EssencePopover = ({ essenceKey }: { essenceKey: string }) => {
+    const explanation = ESSENCE_EXPLANATIONS[essenceKey];
+    if (!explanation) return null;
+
+    return (
+        <Popover>
+            <PopoverTrigger asChild>
+                <button
+                    style={{
+                        background: "none",
+                        border: "none",
+                        padding: "0.25rem",
+                        cursor: "pointer",
+                        color: "hsl(var(--ink-brown) / 0.25)",
+                        transition: "all 0.2s ease",
+                        display: "inline-flex",
+                        alignItems: "center",
+                        marginLeft: "0.25rem"
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "hsl(var(--ink-brown) / 0.5)"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "hsl(var(--ink-brown) / 0.25)"}
+                    aria-label={`Learn more about ${explanation.concept}`}
+                >
+                    <Info size={16} />
+                </button>
+            </PopoverTrigger>
+            <PopoverContent style={{ width: "400px", maxWidth: "90vw", zIndex: 9999 }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "1rem", padding: "0.5rem" }}>
+                    <div>
+                        <h4 style={{
+                            fontSize: "0.875rem",
+                            fontWeight: "700",
+                            marginBottom: "0.5rem",
+                            color: "hsl(var(--primary))"
+                        }}>
+                            {explanation.concept}
+                        </h4>
+                        <p style={{
+                            fontSize: "0.875rem",
+                            lineHeight: "1.5",
+                            color: "hsl(var(--ink-brown))"
+                        }}>
+                            {explanation.description}
+                        </p>
+                    </div>
+
+                    <div style={{
+                        padding: "0.75rem",
+                        borderRadius: "6px",
+                        backgroundColor: "hsl(142, 76%, 96%)",
+                        borderLeft: "3px solid hsl(142, 76%, 36%)"
+                    }}>
+                        <p style={{
+                            fontSize: "0.8125rem",
+                            lineHeight: "1.5",
+                            color: "hsl(var(--ink-brown))",
+                            margin: 0
+                        }}>
+                            {explanation.goodExample}
+                        </p>
+                    </div>
+
+                    <div style={{
+                        padding: "0.75rem",
+                        borderRadius: "6px",
+                        backgroundColor: "hsl(0, 84%, 97%)",
+                        borderLeft: "3px solid hsl(0, 84%, 60%)"
+                    }}>
+                        <p style={{
+                            fontSize: "0.8125rem",
+                            lineHeight: "1.5",
+                            color: "hsl(var(--ink-brown))",
+                            margin: 0
+                        }}>
+                            {explanation.badExample}
+                        </p>
+                    </div>
+                </div>
+            </PopoverContent>
+        </Popover>
+    );
+};
 
 export default function BrandEssenceDisplay({ essence }: BrandEssenceDisplayProps) {
     const essenceItems = [
@@ -76,7 +206,7 @@ export default function BrandEssenceDisplay({ essence }: BrandEssenceDisplayProp
                     <div style={{
                         display: "flex",
                         alignItems: "center",
-                        gap: "0.75rem",
+                        gap: "0.5rem",
                         marginBottom: "0.75rem"
                     }}>
                         <div style={{ color: item.color }}>
@@ -87,10 +217,12 @@ export default function BrandEssenceDisplay({ essence }: BrandEssenceDisplayProp
                             fontWeight: "600",
                             textTransform: "uppercase",
                             letterSpacing: "0.05em",
-                            color: "hsl(var(--ink-brown) / 0.6)"
+                            color: "hsl(var(--ink-brown) / 0.6)",
+                            flex: 1
                         }}>
                             {item.label}
                         </h3>
+                        <EssencePopover essenceKey={item.key} />
                     </div>
                     <p style={{
                         fontSize: "1rem",

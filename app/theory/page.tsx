@@ -55,13 +55,13 @@ export default function TheoryPage() {
 
     return (
         <div className="container animate-slide-in">
-            <div style={{ padding: "4rem 0", maxWidth: "800px", margin: "0 auto" }}>
+            <div style={{ padding: "4rem 0", maxWidth: "1400px", margin: "0 auto" }}>
                 <div style={{ textAlign: "center", marginBottom: "4rem" }}>
                     <h1 style={{ marginBottom: "1rem", fontSize: "3rem" }}>Theory of Customer Decode</h1>
                     <p className="text-subtext" style={{ fontSize: "1.25rem" }}>Select a concept to explore in depth</p>
                 </div>
 
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "2rem" }}>
                     {sections.map((section, index) => (
                         <Link
                             key={index}

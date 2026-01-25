@@ -1,0 +1,32 @@
+{
+    "segments": [
+        {
+            "id": "business-owner-marketer",
+            "name": "Chủ doanh nghiệp / Marketer",
+            "isPrimary": true,
+            "description": "Chủ doanh nghiệp nhỏ, marketer, content creator muốn học cách thu hút khách hàng đúng cách, không phải bằng linh cảm.",
+            "demographics": {
+                "age": "25-45",
+                "income": "Trung bình khá trở lên",
+                "occupation": "Chủ doanh nghiệp, Marketer, Content Creator, Freelancer"
+            },
+            "psychographics": {
+                "values": [
+                    "Học đúng quan trọng hơn học nhanh",
+                    "Hiểu bản chất thay vì copy công thức",
+                    "Kết quả bền vững hơn viral tạm thời"
+                ],
+                "fears": [
+                    "Làm sai và lãng phí tiền",
+                    "Viral nhưng sai cách",
+                    "Quyết định bằng linh cảm"
+                ],
+                "frustrations": [
+                    "Học nhiều nhưng không áp dụng được",
+                    "Content không hiệu quả nhưng không biết sửa",
+                    "Không hiểu khách hàng thực sự muốn gì"
+                ]
+            }
+        }
+    ]
+}

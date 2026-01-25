@@ -1,0 +1,18 @@
+{
+    "id": "pitstop",
+    "name": "Pitstop",
+    "owner": "Đắc",
+    "brandEssence": {
+        "coreBelief": "Bạn giỏi lên không phải do có nhiều thông tin hơn, mà do sự rõ ràng (Clarity).",
+        "uniquePromise": "Pit stop duy nhất cho leaders sử dụng framework chuẩn thế giới - Clarity thay vì thông tin, Simplicity thay vì phức tạp, Competency thay vì mơ hồ.",
+        "transformation": "Từ 'Ngập trong thông tin, mơ hồ về hướng đi' → 'Rõ ràng về chiến lược, tự tin thực thi, đo được tiến bộ'.",
+        "enemy": "Information overload, framework tự nghĩ, ngôn ngữ không đồng bộ, học nhiều nhưng không áp dụng được.",
+        "signatureMethod": "Pit Crew System: Clarity (Framework Harvard/McKinsey/Google) + Simplicity (Lược thừa thãi) + Competency (Đo năng lực) - Rõ ràng, nhanh chóng, đo được.",
+        "socialProof": "Pit stop tin cậy của hàng trăm CxO/Leaders - Framework đã được triển khai bởi Harvard, McKinsey, Google, không phải tự nghĩ ra."
+    },
+    "description": [
+        "Pitstop School là pit stop duy nhất cho leaders sử dụng framework chuẩn thế giới thay vì tự nghĩ. Giải quyết nỗi đau: Ngập trong thông tin nhưng thiếu clarity, học nhiều nhưng mỗi nơi dạy khác nhau, không biết mình đang ở đâu và cần học gì.",
+        "Phương pháp 'Pit Crew System' với 3 trụ cột: (1) CLARITY - Framework Harvard/McKinsey/Google đảm bảo rõ ràng, khó sai, đồng bộ ngôn ngữ. (2) SIMPLICITY - Lược thừa thãi, chỉ giữ cốt lõi để thực thi nhanh. (3) COMPETENCY FRAMEWORK - Đo năng lực, biết mình ở đâu, học đúng hướng.",
+        "Từ 'Ngập thông tin, mơ hồ chiến lược, không biết bắt đầu từ đâu' → 'Rõ ràng về framework, tự tin thực thi, đo được tiến bộ'. Từ học nhiều nhưng rối → Học ít nhưng đúng, rõ ràng và áp dụng được ngay."
+    ]
+}

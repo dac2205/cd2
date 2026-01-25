@@ -2,213 +2,186 @@
     "functional": [
         {
             "id": "func-1",
-            "title": "Xây dụng Content Business bền vững",
-            "description": "Tạo ra một hệ thống kinh doanh tri thức có thể scale (mở rộng) mà không vắt kiệt sức lực (burnout).",
-            "situation": "Đang làm freelance viết lách nhưng thu nhập bấp bênh, làm ngày nào ăn ngày đó, muốn đóng gói thành khóa học/sản phẩm số.",
-            "context": "Thị trường Creator Economy đang bùng nổ nhưng cũng đầy rẫy sự cạnh tranh và kiệt sức.",
+            "title": "Emotion Clarity through Framework (Rõ ràng về Cảm xúc qua Framework)",
+            "description": "Hiểu cảm xúc qua Emotion Control Panel framework chuẩn thay vì dồn nén - đảm bảo rõ ràng, lành mạnh, đúng cách.",
+            "situation": "Bị cảm xúc điều khiển, không biết mình đang cảm thấy gì, dồn nén hoặc bùng nổ.",
+            "context": "Clarity về cảm xúc không đến từ nhiều thông tin, mà từ framework chuẩn tâm lý học.",
             "triggers": [
-                "Cảm thấy mình đang bán thời gian lấy tiền rẻ mạt.",
-                "Bị kẹt trong vòng xoáy sản xuất nội dung (content hamster wheel).",
-                "Muốn có thu nhập thụ động từ tri thức của mình."
+                "Không biết mình đang cảm thấy gì.",
+                "Bị cảm xúc điều khiển.",
+                "Dồn nén đến bùng nổ.",
+                "Muốn hiểu cảm xúc rõ ràng."
             ],
             "desiredOutcome": [
-                "Sở hữu sản phẩm số (Ebook, Course) bán tự động.",
-                "Hệ thống content thu hút khách hàng đều đặn.",
-                "Tự do về thời gian và địa điểm làm việc."
+                "Rõ ràng về cảm xúc của mình.",
+                "Nhận diện cảm xúc chính xác.",
+                "Quản lý thay vì bị điều khiển.",
+                "Giao tiếp cảm xúc lành mạnh."
             ]
         },
         {
             "id": "func-2",
-            "title": "Tìm ra Niche độc bản (Signature)",
-            "description": "Khám phá 'chất liệu' bên trong để định vị bản thân khác biệt hoàn toàn so với đám đông ngoài kia.",
-            "situation": "Loay hoay giữa hàng ngàn chủ đề, thấy ai làm gì cũng muốn bắt chước nhưng làm mãi không lên.",
-            "context": "Sự bão hòa nội dung khiến những thứ chung chung (generic) không còn chỗ đứng.",
+            "title": "Relationship Simplicity (Mối quan hệ Đơn giản Lành mạnh)",
+            "description": "Lược bỏ drama thừa thãi, chỉ giữ cốt lõi lành mạnh trong mối quan hệ.",
+            "situation": "Drama liên tục, mối quan hệ phức tạp, không biết vấn đề ở đâu.",
+            "context": "Mối quan hệ lành mạnh = simplicity, không phải drama phức tạp.",
             "triggers": [
-                "Cảm thấy mình nhạt nhòa, không ai nhớ tới.",
-                "Bế tắc trong việc tìm ý tưởng mới.",
-                "Sợ bị AI thay thế."
+                "Drama liên tục.",
+                "Mối quan hệ phức tạp.",
+                "Không biết vấn đề ở đâu.",
+                "Muốn lành mạnh hơn."
             ],
             "desiredOutcome": [
-                "Tìm ra 'Long mạch' (Sweet spot) của bản thân.",
-                "Xây dựng được tiếng nói (Voice) riêng biệt.",
-                "Được khán giả nhận diện ngay lập tức."
+                "Mối quan hệ đơn giản, lành mạnh.",
+                "Biết cốt lõi là gì.",
+                "Giảm drama.",
+                "Kết nối chân thực."
             ]
         },
         {
             "id": "func-3",
-            "title": "Hệ thống hóa Sáng tạo (Systematize Creativity)",
-            "description": "Biến những cảm hứng bất chợt thành một cỗ máy sản xuất nội dung có thể dự đoán được (predictable engine), giúp duy trì sự hiện diện đều đặn.",
-            "situation": "Ngồi trước màn hình trắng hàng giờ mà không biết viết gì, trong khi hôm qua thì ý tưởng tuôn trào.",
-            "context": "Sự ngẫu hứng (Inspiration) là kẻ thù của sự chuyên nghiệp (Consistency).",
+            "title": "Emotional Intelligence Competency (Năng lực Trí tuệ Cảm xúc Đo được)",
+            "description": "Phát triển EQ theo Competency Framework - biết mình ở đâu, cần học gì, đo được tiến bộ.",
+            "situation": "Muốn phát triển EQ nhưng không biết mình tiến bộ chưa, không biết còn thiếu gì.",
+            "context": "EQ cần competency framework để đo lường và phát triển.",
             "triggers": [
-                "Bị 'writer block' thường xuyên.",
-                "Content trồi sụt, lúc hay lúc dở.",
-                "Mệt mỏi vì phải liên tục 'săn tìm' ý tưởng."
+                "Không biết EQ mình ở mức nào.",
+                "Muốn phát triển EQ nhưng không biết cách.",
+                "Muốn đo lường được.",
+                "Cần hướng rõ ràng."
             ],
             "desiredOutcome": [
-                "Có kho ý tưởng dự trữ dùng cả năm.",
-                "Sản xuất content nhanh, chất lượng ổn định.",
-                "Giải phóng não bộ khỏi áp lực sáng tạo."
+                "Biết rõ năng lực EQ.",
+                "Biết cần phát triển gì.",
+                "Đo lường được tiến bộ.",
+                "Phát triển có hướng."
+            ]
+        },
+        {
+            "id": "func-4",
+            "title": "Mental Health Mastery (Thành thạo Sức khỏe Tinh thần)",
+            "description": "Thành thạo toàn bộ hệ thống sức khỏe tinh thần - từ hiểu cảm xúc đến quản lý đến xây mối quan hệ lành mạnh.",
+            "situation": "Muốn hệ thống hoàn chỉnh về mental health, không phải làm rời rạc.",
+            "context": "Mental health cần hệ thống rõ ràng, không phải từng mảnh.",
+            "triggers": [
+                "Làm rời rạc, không hệ thống.",
+                "Muốn sức khỏe tinh thần toàn diện.",
+                "Cần clarity về toàn bộ.",
+                "Muốn thành thạo."
+            ],
+            "desiredOutcome": [
+                "Hệ thống mental health hoàn chỉnh.",
+                "Thành thạo từng bước.",
+                "Tự tin quản lý cảm xúc.",
+                "Sức khỏe tinh thần tốt."
             ]
         }
     ],
     "emotional": [
         {
             "id": "emo-1",
-            "title": "Được thấu hiểu (Being Seen)",
-            "description": "Cảm thấy được sống thật với con người mình (Authentic), không phải gồng mình diễn vai chuyên gia hoàn hảo.",
-            "situation": "Viết một bài chia sẻ về thất bại của bản thân và nhận được sự đồng cảm sâu sắc từ cộng đồng, thay vì sự phán xét.",
-            "context": "Mạng xã hội thường chỉ show ra những gì hào nhoáng nhất, khiến con người ta cô đơn và giả tạo.",
+            "title": "Inner Peace from Clarity (Bình an từ Rõ ràng)",
+            "description": "Bình an vì rõ ràng về cảm xúc - biết mình đang cảm thấy gì, không còn mơ hồ.",
+            "situation": "Sau khi có emotion clarity, cảm thấy bình an, không còn bị cảm xúc điều khiển.",
+            "context": "Bình an đến từ clarity về cảm xúc, không phải từ dồn nén.",
             "triggers": [
-                "Mệt mỏi vì phải đeo mặt nạ trên mạng xã hội.",
-                "Sợ bị ném đá (Haters).",
-                "Khao khát được kết nối sâu sắc (Deep connection)."
+                "Mơ hồ về cảm xúc.",
+                "Bị cảm xúc điều khiển.",
+                "Muốn bình an."
             ],
             "desiredOutcome": [
-                "Cảm thấy nhẹ nhõm, tự do.",
-                "Được yêu quý vì chính con người thật.",
-                "Chữa lành những tổn thương bên trong."
+                "Bình an nội tâm.",
+                "Rõ ràng về cảm xúc.",
+                "Không còn bị điều khiển."
             ]
         },
         {
             "id": "emo-2",
-            "title": "Tự tin dẫn lối (Confidence to Lead)",
-            "description": "Vượt qua hội chứng kẻ mạo danh (Imposter Syndrome) để tự tin chia sẻ giá trị và dẫn dắt cộng đồng.",
-            "situation": "Trước khi bấm nút 'Publish' không còn run sợ, mà cảm thấy hào hứng vì sắp trao đi giá trị.",
-            "context": "Nỗi sợ 'Mình là ai mà dám dạy người khác' kìm hãm rất nhiều người tài năng.",
+            "title": "Self-Compassion (Tự Thương mình)",
+            "description": "Tự thương vì hiểu cảm xúc của mình - không tự trách, không tự làm tổn thương.",
+            "situation": "Hiểu cảm xúc nên tự thương, chăm sóc bản thân tốt hơn.",
+            "context": "Tự thương đến từ hiểu biết, không phải từ dồn nén.",
             "triggers": [
-                "Luôn nghĩ mình chưa đủ giỏi (Not good enough).",
-                "So sánh bản thân với những KOLs lớn.",
-                "Sợ bị gọi là 'lùa gà'."
+                "Tự trách mình.",
+                "Không thương mình.",
+                "Muốn chăm sóc bản thân."
             ],
             "desiredOutcome": [
-                "Tin tưởng tuyệt đối vào giá trị mình mang lại.",
-                "Dám đứng lên chia sẻ quan điểm đi ngược đám đông.",
-                "Cảm thấy mình có ích (Impactful)."
+                "Tự thương và chấp nhận mình.",
+                "Không còn tự trách.",
+                "Chăm sóc bản thân tốt."
             ]
         },
         {
             "id": "emo-3",
-            "title": "Vượt qua Cầu toàn (Overcome Perfectionism)",
-            "description": "Dám công bố những sản phẩm ở dạng 'bản nháp' (work in progress) mà không cảm thấy xấu hổ, chấp nhận sự không hoàn hảo.",
-            "situation": "Viết đi viết lại một caption 10 lần rồi xóa vì thấy chưa đủ hay.",
-            "context": "Chủ nghĩa hoàn hảo (Perfectionism) thực chất là nỗi sợ bị phán xét.",
+            "title": "Hope for Healing (Hy vọng Chữa lành)",
+            "description": "Hy vọng vì thấy con đường rõ ràng để chữa lành - có framework, có hướng đi.",
+            "situation": "Nhìn thấy ánh sáng cuối đường hầm, tin vào khả năng chữa lành.",
+            "context": "Hy vọng đến từ clarity về con đường chữa lành.",
             "triggers": [
-                "Trì hoãn ra mắt sản phẩm vì cảm thấy chưa đủ tốt.",
-                "So sánh bản thân với các 'đàn anh' trong nghề.",
-                "Sợ sai sót nhỏ sẽ làm mất uy tín."
+                "Cảm thấy tuyệt vọng.",
+                "Không thấy đường đi.",
+                "Muốn chữa lành."
             ],
             "desiredOutcome": [
-                "Tự do sáng tạo và thử nghiệm.",
-                "Tiến độ công việc (Shipping velocity) tăng vọt.",
-                "Học được nhiều hơn từ feedback thực tế."
+                "Có hy vọng.",
+                "Thấy con đường rõ ràng.",
+                "Tin vào chữa lành."
             ]
         }
     ],
     "social": [
         {
             "id": "soc-1",
-            "title": "Thought Leader",
-            "description": "Được công nhận là một người dẫn dắt tư tưởng (Thought Leader), người tạo ra xu hướng chứ không phải chạy theo xu hướng.",
-            "situation": "Được mời đi chia sẻ (Speaker) tại các sự kiện uy tín về chuyên môn.",
-            "context": "Uy tín cá nhân là tài sản lớn nhất trong kỷ nguyên số.",
+            "title": "Emotionally Intelligent Person (Người có Trí tuệ Cảm xúc)",
+            "description": "Được nhìn nhận là người có EQ cao - hiểu và quản lý cảm xúc tốt, giao tiếp lành mạnh.",
+            "situation": "Được tôn trọng vì EQ cao, mọi người tìm đến để tâm sự.",
+            "context": "EQ cao = clarity về cảm xúc, không phải nhiều thông tin.",
             "triggers": [
-                "Muốn nâng tầm vị thế trong ngành.",
-                "Không muốn mãi là người follower (bám đuôi).",
-                "Muốn để lại di sản (Legacy) tri thức."
+                "Muốn được tôn trọng.",
+                "Muốn EQ cao.",
+                "Xây uy tín."
             ],
             "desiredOutcome": [
-                "Có một cộng đồng Loyal Followers chất lượng.",
-                "Được tôn trọng bởi các đồng nghiệp (Peers).",
-                "Có sức ảnh hưởng thực tế (Real Influence)."
+                "Được nhìn nhận có EQ cao.",
+                "Uy tín về cảm xúc.",
+                "Được tin tưởng."
             ]
         },
         {
             "id": "soc-2",
-            "title": "Deep Connection Tribe",
-            "description": "Thu hút và kết nối với những tâm hồn đồng điệu, tạo ra một 'bộ lạc' (Tribe) văn minh và sâu sắc.",
-            "situation": "Tổ chức một buổi Offline mà mọi người đến ôm chầm lấy nhau như người thân, không phải xã giao hời hợt.",
-            "context": "Sự cô đơn trong hành trình làm sáng tạo nội dung.",
+            "title": "Healthy Relationship Model (Mô hình Mối quan hệ Lành mạnh)",
+            "description": "Trở thành ví dụ về mối quan hệ lành mạnh - rõ ràng, đơn giản, không drama.",
+            "situation": "Mối quan hệ lành mạnh, mọi người muốn học hỏi.",
+            "context": "Mối quan hệ lành mạnh = clarity + simplicity.",
             "triggers": [
-                "Cảm thấy lạc lõng giữa đám đông ồn ào.",
-                "Muốn tìm những người bạn tâm giao.",
-                "Chán ngấy (Sick of) các mối quan hệ lợi dụng."
+                "Muốn mối quan hệ tốt.",
+                "Muốn là ví dụ.",
+                "Truyền cảm hứng."
             ],
             "desiredOutcome": [
-                "Có những người bạn tri kỷ trong nghề.",
-                "Môi trường sinh hoạt an toàn, nâng đỡ nhau.",
-                "Cùng nhau đi xa (Go together)."
+                "Mối quan hệ mẫu mực.",
+                "Truyền cảm hứng.",
+                "Được học hỏi."
             ]
         },
         {
             "id": "soc-3",
-            "title": "Xây dựng Di sản (Legacy Building)",
-            "description": "Tạo ra những nội dung có giá trị trường tồn (Evergreen), được lưu truyền và trích dẫn lâu dài chứ không chỉ là tin tức thoáng qua.",
-            "situation": "Một bài viết từ 2 năm trước vẫn được độc giả tìm đọc và chia sẻ lại.",
-            "context": "Mạng xã hội trôi đi rất nhanh, content ngày hôm nay ngày mai đã là rác.",
+            "title": "Mental Health Advocate (Người Ủng hộ Sức khỏe Tinh thần)",
+            "description": "Trở thành người ủng hộ mental health - chia sẻ kinh nghiệm, giúp người khác.",
+            "situation": "Giúp người khác vì đã trải qua hành trình chữa lành.",
+            "context": "Advocate = người có clarity và muốn chia sẻ.",
             "triggers": [
-                "Muốn tạo ra tác động lâu dài.",
-                "Chán ngấy việc đua theo trend ngắn hạn.",
-                "Muốn được nhớ đến như một người có chiều sâu."
+                "Muốn giúp người khác.",
+                "Chia sẻ kinh nghiệm.",
+                "Tạo impact."
             ],
             "desiredOutcome": [
-                "Sở hữu tài sản số (Digital Assets) giá trị.",
-                "Tạo dấu ấn sâu đậm trong tâm trí khán giả.",
-                "Kiến tạo di sản tri thức cho thế hệ sau."
+                "Trở thành advocate.",
+                "Giúp được người khác.",
+                "Tạo impact tích cực."
             ]
         }
     ],
-    "other": [
-        {
-            "id": "other-1",
-            "title": "Inner Peace",
-            "description": "Tìm thấy sự bình an nội tại, không còn bị xao động bởi áp lực con số (like, view) hay sự biến đổi của thuật toán.",
-            "situation": "Facebook bóp tương tác, view giảm nhưng tâm vẫn bình an vì biết giá trị cốt lõi nằm ở đâu.",
-            "context": "Áp lực perform trên social media gây ra anxiety (lo âu) diện rộng.",
-            "triggers": [
-                "Mất ăn mất ngủ vì bài đăng ít like.",
-                "Stress mỗi khi nền tảng update thuật toán.",
-                "Cảm thấy cuộc sống bị thao túng bởi điện thoại."
-            ],
-            "desiredOutcome": [
-                "Làm chủ cuộc chơi (Master the game).",
-                "Sáng tạo trong niềm vui (Joy of Creation).",
-                "Cân bằng cuộc sống - công việc (Work-Life Harmony)."
-            ]
-        },
-        {
-            "id": "other-2",
-            "title": "Intellectual Clarity (Sự sáng rõ)",
-            "description": "Sử dụng việc viết lách như một công cụ để tư duy, sắp xếp lại những suy nghĩ hỗn độn trong đầu thành trật tự logic.",
-            "situation": "Sau khi viết xong một bài, cảm thấy vấn đề mình đang vướng mắc bỗng nhiên trở nên rõ ràng và dễ giải quyết hơn.",
-            "context": "Viết không chỉ để người khác đọc, mà để chính mình hiểu (Writing to think).",
-            "triggers": [
-                "Đầu óc lúc nào cũng rối bời nhiều ý tưởng.",
-                "Khó diễn đạt ý mình cho người khác hiểu.",
-                "Muốn rèn luyện tư duy sắc bén."
-            ],
-            "desiredOutcome": [
-                "Tư duy mạch lạc, gãy gọn.",
-                "Giải quyết vấn đề hiệu quả hơn.",
-                "Giao tiếp thuyết phục hơn."
-            ]
-        },
-        {
-            "id": "other-3",
-            "title": "Archive of Self (Lưu trữ bản thân)",
-            "description": "Xây dựng một thư viện kỹ thuật số lưu giữ lại hành trình phát triển, suy nghĩ và trải nghiệm của chính mình qua thời gian.",
-            "situation": "Đọc lại những bài viết cũ và thấy mình đã trưởng thành như thế nào.",
-            "context": "Con người thường quên đi phiên bản cũ của mình rất nhanh.",
-            "triggers": [
-                "Sợ quên mất những bài học quý giá đã trải qua.",
-                "Muốn có tư liệu để sau này kể cho con cháu/học trò.",
-                "Muốn đo lường sự trưởng thành của bản thân."
-            ],
-            "desiredOutcome": [
-                "Trân trọng hành trình đã qua.",
-                "Có nguồn tư liệu phong phú để tái sử dụng.",
-                "Hiểu rõ bản thân (Self-awareness) hơn."
-            ]
-        }
-    ]
+    "other": []
 }

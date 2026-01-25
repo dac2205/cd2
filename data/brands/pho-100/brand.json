@@ -1,0 +1,18 @@
+{
+    "id": "pho-100",
+    "name": "Phở 100",
+    "owner": "Đắc",
+    "brandEssence": {
+        "coreBelief": "An tâm không phải là xa xỉ - đó là nền tảng để bạn sống trọn vẹn mỗi ngày.",
+        "uniquePromise": "Quán quen đáng tin cậy 100%, nơi bạn không cần phải suy nghĩ về sự sạch sẽ và nguồn gốc thực phẩm.",
+        "transformation": "Từ 'Lo lắng mỗi bữa ăn ngoài' → 'An tâm tuyệt đối, ăn thoải mái 100 lần/năm'.",
+        "enemy": "Sự bất an về vệ sinh thực phẩm, nguồn gốc mờ ám, và áp lực phải 'nghiên cứu' mỗi lần ăn ngoài.",
+        "signatureMethod": "Hệ thống Minh bạch 100%: Nguồn gốc công khai, quy trình chuẩn, cam kết sạch tuyệt đối.",
+        "socialProof": "Quán quen của hàng nghìn khách hàng ăn đều đặn mỗi tuần, không bao giờ phải lo."
+    },
+    "description": [
+        "Phở 100 là quán phở dành cho những người trẻ đô thị (25-45 tuổi) cực kỳ quan tâm đến sự an toàn thực phẩm và nguồn gốc nguyên liệu. Giải quyết nỗi đau: Lo lắng về vệ sinh, sợ thực phẩm bẩn, mất thời gian 'nghiên cứu' quán nào đáng tin cậy.",
+        "Phương pháp 'Minh bạch 100%' độc quyền: Công khai 100% nguồn gốc nguyên liệu (thịt bò, rau sống, gia vị), quy trình chế biến chuẩn hóa, không gian bếp mở để khách quan sát. Cam kết sạch sẽ tuyệt đối từ khâu nhập nguyên liệu đến lúc phục vụ.",
+        "Từ 'Phải nghĩ mãi mới dám ăn phở ngoài hàng' → 'Quán quen tin cậy, ăn thoải mái 100 lần/năm không cần suy nghĩ'. Từ lo lắng về vệ sinh → An tâm tuyệt đối về mỗi bát phở."
+    ]
+}

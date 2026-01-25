@@ -1,0 +1,187 @@
+{
+    "functional": [
+        {
+            "id": "func-1",
+            "title": "Clarity through World-Class Frameworks (Rõ ràng qua Framework Chuẩn)",
+            "description": "Học framework chuẩn Harvard/McKinsey/Google thay vì tự nghĩ - đảm bảo rõ ràng, khó sai, đồng bộ ngôn ngữ với team.",
+            "situation": "Ngập trong thông tin, mỗi nơi dạy một kiểu, team không đồng bộ ngôn ngữ, sợ học sai.",
+            "context": "Clarity không đến từ nhiều thông tin, mà từ framework chuẩn đã được triển khai.",
+            "triggers": [
+                "Ngập thông tin nhưng vẫn mơ hồ.",
+                "Mỗi nơi dạy khác nhau, không biết tin ai.",
+                "Team nói không hiểu nhau.",
+                "Sợ tự nghĩ framework rồi sai."
+            ],
+            "desiredOutcome": [
+                "Rõ ràng về framework cần dùng.",
+                "Team đồng bộ ngôn ngữ.",
+                "Tự tin áp dụng, khó sai.",
+                "Tiết kiệm thời gian, không phải tự nghĩ."
+            ]
+        },
+        {
+            "id": "func-2",
+            "title": "Simplicity for Fast Execution (Đơn giản để Thực thi Nhanh)",
+            "description": "Lược bỏ 80% thừa thãi, chỉ giữ 20% cốt lõi - thực thi nhanh, thay đổi dễ, chuyển hóa ngay.",
+            "situation": "Học nhiều nhưng quá phức tạp, không biết bắt đầu từ đâu, không áp dụng được.",
+            "context": "Simplicity = loại bỏ noise, tập trung signal, hành động ngay.",
+            "triggers": [
+                "Học nhiều nhưng không làm được.",
+                "Quá phức tạp, overwhelmed.",
+                "Cần thực thi nhanh.",
+                "Không có thời gian học dài."
+            ],
+            "desiredOutcome": [
+                "Chỉ học cốt lõi, bỏ thừa thãi.",
+                "Biết bắt đầu từ đâu.",
+                "Thực thi ngay, không trì hoãn.",
+                "Chuyển hóa nhanh chóng."
+            ]
+        },
+        {
+            "id": "func-3",
+            "title": "Competency-Based Learning (Học theo Năng lực Đo được)",
+            "description": "Học theo Competency Framework - biết mình ở đâu, cần học gì, đo được tiến bộ, không đi chệch.",
+            "situation": "Học nhiều nhưng không biết mình tiến bộ chưa, không biết còn thiếu gì, dễ đi sai hướng.",
+            "context": "Competency Framework = bản đồ năng lực, đo lường được, học có hướng.",
+            "triggers": [
+                "Không biết mình đang ở đâu.",
+                "Học nhiều nhưng không thấy tiến bộ.",
+                "Dễ đi chệch hướng, lãng phí thời gian.",
+                "Muốn đo lường được kết quả."
+            ],
+            "desiredOutcome": [
+                "Biết rõ năng lực hiện tại.",
+                "Biết cần học gì tiếp theo.",
+                "Đo lường được tiến bộ.",
+                "Học đúng hướng, không lãng phí."
+            ]
+        },
+        {
+            "id": "func-4",
+            "title": "Strategic Clarity (Rõ ràng Chiến lược)",
+            "description": "Rõ ràng về chiến lược kinh doanh qua Customer Decode - từ đoán sang biết, từ mơ hồ sang rõ ràng.",
+            "situation": "Chiến lược mơ hồ, quyết định bằng linh cảm, không chắc chắn về khách hàng.",
+            "context": "Customer Decode mang lại clarity về khách hàng và chiến lược.",
+            "triggers": [
+                "Chiến lược không rõ ràng.",
+                "Quyết định bằng đoán.",
+                "Không hiểu khách hàng thực sự muốn gì.",
+                "Sợ đi sai hướng."
+            ],
+            "desiredOutcome": [
+                "Chiến lược rõ ràng.",
+                "Quyết định dựa trên insight.",
+                "Hiểu sâu khách hàng.",
+                "Tự tin về hướng đi."
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-1",
+            "title": "Relief from Overwhelm (Nhẹ nhõm khỏi Quá tải)",
+            "description": "Nhẹ nhõm vì không còn ngập trong thông tin - có clarity, biết tập trung vào đâu.",
+            "situation": "Sau khi có framework rõ ràng, cảm thấy nhẹ nhõm, không còn overwhelmed.",
+            "context": "Clarity mang lại sự nhẹ nhõm, không phải nhiều thông tin.",
+            "triggers": [
+                "Ngập trong thông tin.",
+                "Overwhelmed, không biết làm gì.",
+                "Stress vì quá nhiều lựa chọn."
+            ],
+            "desiredOutcome": [
+                "Nhẹ nhõm, bình tĩnh.",
+                "Biết tập trung vào đâu.",
+                "Không còn overwhelmed."
+            ]
+        },
+        {
+            "id": "emo-2",
+            "title": "Confidence from Clarity (Tự tin từ Rõ ràng)",
+            "description": "Tự tin vì rõ ràng - biết mình học đúng (framework chuẩn), biết mình đang ở đâu (competency), biết phải làm gì (simplicity).",
+            "situation": "Sau khi có clarity, tự tin hành động, không còn do dự.",
+            "context": "Tự tin đến từ clarity, không phải từ nhiều thông tin.",
+            "triggers": [
+                "Mơ hồ, không tự tin.",
+                "Sợ sai.",
+                "Không biết mình có đúng không."
+            ],
+            "desiredOutcome": [
+                "Tự tin vào quyết định.",
+                "Dám hành động.",
+                "Không còn sợ sai."
+            ]
+        },
+        {
+            "id": "emo-3",
+            "title": "Pride in Mastery (Tự hào về Thành thạo)",
+            "description": "Tự hào vì thành thạo framework chuẩn thế giới - không phải tự nghĩ, mà dùng cái đã proven.",
+            "situation": "Tự hào vì dùng framework Harvard/McKinsey/Google, không phải framework tự nghĩ.",
+            "context": "Tự hào đến từ mastery của framework chuẩn.",
+            "triggers": [
+                "Muốn được tôn trọng.",
+                "Muốn thành thạo.",
+                "Muốn dùng cái tốt nhất."
+            ],
+            "desiredOutcome": [
+                "Tự hào về framework đang dùng.",
+                "Cảm giác thành thạo.",
+                "Được tôn trọng."
+            ]
+        }
+    ],
+    "social": [
+        {
+            "id": "soc-1",
+            "title": "Clarity Leader (Người dẫn dắt bằng Clarity)",
+            "description": "Được nhìn nhận là leader rõ ràng - dùng framework chuẩn, ngôn ngữ đồng bộ, dễ làm việc cùng.",
+            "situation": "Team và đối tác dễ làm việc vì ngôn ngữ rõ ràng, framework chuẩn.",
+            "context": "Clarity leader = dễ đồng bộ, dễ scale, dễ hợp tác.",
+            "triggers": [
+                "Muốn team đồng bộ.",
+                "Muốn dễ làm việc với đối tác.",
+                "Muốn scale nhanh."
+            ],
+            "desiredOutcome": [
+                "Được nhìn nhận là clarity leader.",
+                "Team đồng bộ ngôn ngữ.",
+                "Dễ làm việc, dễ scale."
+            ]
+        },
+        {
+            "id": "soc-2",
+            "title": "World-Class Standard User (Người dùng Chuẩn Thế giới)",
+            "description": "Được biết đến là người dùng framework chuẩn Harvard/McKinsey/Google - không tự nghĩ, dùng proven methods.",
+            "situation": "Được tôn trọng vì dùng framework đã được triển khai bởi các tổ chức hàng đầu.",
+            "context": "Dùng chuẩn thế giới = uy tín, đáng tin.",
+            "triggers": [
+                "Muốn uy tín.",
+                "Muốn được tin tưởng.",
+                "Muốn dùng cái tốt nhất."
+            ],
+            "desiredOutcome": [
+                "Được biết đến dùng chuẩn thế giới.",
+                "Uy tín cao.",
+                "Đáng tin cậy."
+            ]
+        },
+        {
+            "id": "soc-3",
+            "title": "Competency-Driven Culture Builder (Người xây Văn hóa Năng lực)",
+            "description": "Tạo văn hóa học theo năng lực trong tổ chức - mọi người biết mình ở đâu, cần học gì, đo được tiến bộ.",
+            "situation": "Tổ chức có văn hóa rõ ràng về năng lực - không mơ hồ, đo được, phát triển có hướng.",
+            "context": "Văn hóa competency = văn hóa rõ ràng và phát triển bền vững.",
+            "triggers": [
+                "Muốn văn hóa rõ ràng.",
+                "Team không biết mình cần học gì.",
+                "Muốn phát triển có hệ thống."
+            ],
+            "desiredOutcome": [
+                "Văn hóa competency-driven.",
+                "Mọi người biết mình ở đâu.",
+                "Phát triển có hướng."
+            ]
+        }
+    ],
+    "other": []
+}

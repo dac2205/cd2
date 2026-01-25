@@ -1,0 +1,24 @@
+{
+    "customerInsights": [
+        {
+            "id": "insight-1",
+            "title": "Học đúng > Học nhanh",
+            "description": "Khách hàng mệt mỏi với các khóa học hứa kết quả nhanh nhưng không bền. Họ sẵn sàng đầu tư thời gian để học đúng và hiểu bản chất.",
+            "evidence": "500+ học viên chọn Conan School vì triết lý 'học đúng', không phải vì hứa hẹn viral nhanh."
+        },
+        {
+            "id": "insight-2",
+            "title": "Sợ sai hơn sợ chậm",
+            "description": "Khách hàng sợ làm sai và lãng phí tiền hơn là sợ chậm. Họ cần framework để kiểm tra và tự tin quyết định.",
+            "evidence": "Customer Decode giúp ngừng đoán - đây là điểm khác biệt lớn nhất so với các khóa học khác."
+        }
+    ],
+    "marketInsights": [
+        {
+            "id": "market-1",
+            "title": "Khủng hoảng Niềm tin vào Công thức",
+            "description": "Thị trường đào tạo marketing đang trong giai đoạn khủng hoảng niềm tin vào các công thức copy-paste.",
+            "opportunity": "Conan School định vị là nơi dạy bản chất, không phải công thức - đáp ứng nhu cầu học đúng."
+        }
+    ]
+}

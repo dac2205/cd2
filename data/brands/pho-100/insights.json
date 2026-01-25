@@ -1,0 +1,42 @@
+{
+    "customerInsights": [
+        {
+            "id": "insight-1",
+            "title": "An tâm > Ngon",
+            "description": "Khách hàng sẵn sàng trả thêm tiền và ăn phở 'bình thường' hơn nếu được đảm bảo 100% về vệ sinh và nguồn gốc. An tâm quan trọng hơn cả hương vị đỉnh cao.",
+            "evidence": "Xu hướng tăng mạnh của organic food, clean eating, và sự sụp đổ niềm tin vào thực phẩm đường phố sau các vụ bê bối thực phẩm bẩn."
+        },
+        {
+            "id": "insight-2",
+            "title": "Decision Fatigue trong Ẩm thực",
+            "description": "Người trẻ đô thị mệt mỏi với việc phải 'nghiên cứu' mỗi lần ăn ngoài: đọc review, xem hình ảnh, hỏi bạn bè. Họ khao khát một 'quán quen' đáng tin cậy để tự động hóa quyết định.",
+            "evidence": "Sự phổ biến của chuỗi thức ăn nhanh không phải vì ngon mà vì 'biết trước được chất lượng'."
+        },
+        {
+            "id": "insight-3",
+            "title": "Minh bạch = Tin tưởng",
+            "description": "Thế hệ trẻ không tin lời quảng cáo. Họ cần 'bằng chứng' trực quan: nhìn thấy bếp, biết nguồn gốc nguyên liệu, hiểu quy trình. Transparency is the new marketing.",
+            "evidence": "Thành công của các brand như Vinamilk Organic, Dalat Hasfarm với chiến lược 'farm visit' và 'truy xuất nguồn gốc'."
+        },
+        {
+            "id": "insight-4",
+            "title": "Quán quen = Gia đình thứ 2",
+            "description": "Khách hàng không chỉ tìm 'bữa ăn' mà tìm 'mối quan hệ'. Khi tin tưởng một quán, họ sẽ ăn lặp đi lặp lại (100 lần/năm) và trở thành brand ambassador tự nhiên.",
+            "evidence": "Loyalty program của Starbucks, The Coffee House thành công vì tạo được 'third place' - không gian thứ 3 giữa nhà và công ty."
+        }
+    ],
+    "marketInsights": [
+        {
+            "id": "market-1",
+            "title": "Khủng hoảng Niềm tin Thực phẩm",
+            "description": "Thị trường F&B Việt Nam đang trong giai đoạn khủng hoảng niềm tin sau hàng loạt vụ bê bối thực phẩm bẩn, thịt bơm nước, rau nhiễm độc.",
+            "opportunity": "Đây là cơ hội vàng cho brand nào dám cam kết minh bạch 100% và chứng minh được điều đó."
+        },
+        {
+            "id": "market-2",
+            "title": "Premiumization của Phở",
+            "description": "Phở đang chuyển từ 'món ăn bình dân' sang 'premium comfort food'. Khách hàng sẵn sàng trả 80-120k cho bát phở nếu đảm bảo chất lượng.",
+            "opportunity": "Định vị Phở 100 ở phân khúc premium-mid (70-100k/bát) với value proposition là 'an toàn tuyệt đối'."
+        }
+    ]
+}

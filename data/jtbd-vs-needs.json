@@ -12,7 +12,7 @@
         },
         {
             "id": "queen",
-            "name": "QUEEN",
+            "name": "Queen",
             "subtitle": "Người tặng quà"
         }
     ],
@@ -52,7 +52,7 @@
                     "needs": "Tôi cần khóa học có 100 bài tập giao tiếp"
                 },
                 "queen": {
-                    "jtbd": "Tôi thuê QUEEN để giúp tôi thể hiện tình yêu một cách tinh tế",
+                    "jtbd": "Tôi thuê Queen để giúp tôi thể hiện tình yêu một cách tinh tế",
                     "needs": "Tôi cần hộp quà đẹp giao nhanh"
                 }
             }
@@ -72,7 +72,7 @@
                     "needs": "Hiện tại tiếng Anh kém, cần cải thiện"
                 },
                 "queen": {
-                    "jtbd": "Từ vợ nói 'đừng tặng son nữa' (trigger) → tìm quà độc đáo → mua QUEEN → vợ rơi nước mắt → trở thành chồng chu đáo",
+                    "jtbd": "Từ vợ nói 'đừng tặng son nữa' (trigger) → tìm quà độc đáo → mua Queen → vợ rơi nước mắt → trở thành chồng chu đáo",
                     "needs": "Sắp kỷ niệm, cần mua quà"
                 }
             }
@@ -132,7 +132,7 @@
                     "needs": "Competitors: Các trung tâm Anh ngữ khác"
                 },
                 "queen": {
-                    "jtbd": "Competitors: Mua online, Tự đi mua, Nhờ bạn, Tự làm, QUEEN",
+                    "jtbd": "Competitors: Mua online, Tự đi mua, Nhờ bạn, Tự làm, Queen",
                     "needs": "Competitors: Các shop quà tặng khác"
                 }
             }
