@@ -1,5 +1,15 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Theory of Customer Decode",
+    description: "Khám phá lý thuyết Customer Decode: JTBD, Purchase Journey, Decision Timeline, Struggle Stack và các khái niệm cốt lõi.",
+    openGraph: {
+        title: "Theory of Customer Decode | Conan School",
+        description: "Khám phá lý thuyết Customer Decode với framework chuẩn thế giới",
+    }
+};
 
 export default function TheoryPage() {
     const sections = [
@@ -61,7 +71,7 @@ export default function TheoryPage() {
                     <p className="text-subtext" style={{ fontSize: "1.25rem" }}>Select a concept to explore in depth</p>
                 </div>
 
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "2rem" }}>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
                     {sections.map((section, index) => (
                         <Link
                             key={index}

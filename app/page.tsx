@@ -1,5 +1,15 @@
 import { getAllBrands } from "@/lib/brands";
 import BrandList from "@/components/BrandList";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Trang chủ",
+  description: "Khám phá customer insights, JTBD, và phân tích audience chi tiết cho các brands. Học Customer Decode với framework chuẩn thế giới.",
+  openGraph: {
+    title: "Customer Decode | Conan School",
+    description: "Khám phá customer insights, JTBD, và phân tích audience chi tiết cho các brands",
+  }
+};
 
 export default function Home() {
   const brands = getAllBrands();

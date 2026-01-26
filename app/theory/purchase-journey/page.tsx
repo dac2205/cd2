@@ -1,6 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import type { Metadata } from "next";
+
+// Note: metadata export doesn't work in client components, will need to move to layout or create wrapper
+// For now, adding via next/head in component
 
 type BrandId = "conan-school" | "inside-school" | "pitstop" | "pho-100" | "vitamind" | "true-juice" | "pushthroo" | "queen" | "aurora-english";
 
@@ -314,7 +318,7 @@ export default function PurchaseJourneyPage() {
                 {/* 3-Step Cards - Theory Only */}
                 <div style={{
                     display: "grid",
-                    gridTemplateColumns: "1fr 1fr 1fr",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
                     gap: "1.5rem",
                     marginBottom: "3rem"
                 }}>
@@ -369,7 +373,7 @@ export default function PurchaseJourneyPage() {
                     </h3>
                     <div style={{
                         display: "grid",
-                        gridTemplateColumns: "1fr 1fr 1fr",
+                        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
                         gap: "1.5rem"
                     }}>
                         <div className="card-wood" style={{
