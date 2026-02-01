@@ -10,7 +10,7 @@ export function canAccessProtectedSection(
     userEmail: string | undefined,
     section: string
 ): boolean {
-    const protectedSections = ['insights', 'audience'];
+    const protectedSections = ['audience'];
 
     // Public sections are always accessible
     if (!protectedSections.includes(section)) {

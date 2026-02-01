@@ -76,9 +76,7 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
                 )}
 
                 {section === "insights" && brand.structuredInsights && (
-                    <ProtectedSection section="insights">
-                        <InsightsExplorer insights={brand.structuredInsights} />
-                    </ProtectedSection>
+                    <InsightsExplorer insights={brand.structuredInsights} />
                 )}
 
                 {section === "quiz" && (
