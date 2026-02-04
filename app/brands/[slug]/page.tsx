@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { ArrowRight, BookOpen, Users, Lightbulb, CheckCircle } from "lucide-react";
 import React from "react";
 import BrandDescription from "@/components/brand/BrandDescription";
-import BrandEssenceDisplay from "@/components/brand/BrandEssenceDisplay";
+import BrandEssenceDisplay, { BrandPlatformPopover } from "@/components/brand/BrandEssenceDisplay";
 
 // Force static generation for known brands
 export async function generateStaticParams() {
@@ -61,7 +61,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <p style={{ fontSize: "1.25rem", color: "hsl(var(--ink-brown) / 0.7)" }}>Owner: {brand.meta.owner}</p>
             </div>
 
-            {/* Brand Essence - Prominent Display */}
+            {/* Brand Platform - Prominent Display */}
             {brand.brandEssence && (
                 <div style={{ marginBottom: "4rem" }}>
                     <h2 style={{
@@ -69,9 +69,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                         fontWeight: "600",
                         textAlign: "center",
                         marginBottom: "2rem",
-                        color: "hsl(var(--ink-brown))"
+                        color: "hsl(var(--ink-brown))",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
                     }}>
-                        Brand Essence
+                        Brand Platform
+                        <BrandPlatformPopover />
                     </h2>
                     <BrandEssenceDisplay essence={brand.brandEssence} />
                 </div>

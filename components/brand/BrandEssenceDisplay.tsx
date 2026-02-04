@@ -55,6 +55,107 @@ const ESSENCE_EXPLANATIONS: Record<string, EssenceExplanation> = {
     }
 };
 
+const BRAND_PLATFORM_EXPLANATION = {
+    title: "Brand Platform là gì?",
+    description: "Bộ khung nền tảng định hình toàn bộ thương hiệu: từ niềm tin cốt lõi, cách nhìn thế giới, vấn đề thương hiệu chống lại, cho đến lời hứa, phương pháp, và kết quả mà người học/người dùng sẽ đạt được.",
+    purpose: "Hệ điều hành tư duy của thương hiệu - thứ đứng phía sau mọi quyết định về nội dung, giảng dạy, trải nghiệm, và truyền thông.",
+    components: [
+        "Core Belief - Niềm tin cốt lõi",
+        "Unique Promise - Lời hứa độc nhất",
+        "Transformation - Câu chuyện chuyển hóa",
+        "Enemy - Kẻ thù/Rào cản",
+        "Signature Method - Phương pháp đặc trưng",
+        "Social Proof - Điểm neo chứng thực"
+    ]
+};
+
+const BrandPlatformPopover = () => {
+    return (
+        <Popover>
+            <PopoverTrigger asChild>
+                <button
+                    style={{
+                        background: "none",
+                        border: "none",
+                        padding: "0.25rem",
+                        cursor: "pointer",
+                        color: "hsl(var(--ink-brown) / 0.25)",
+                        transition: "all 0.2s ease",
+                        display: "inline-flex",
+                        alignItems: "center",
+                        marginLeft: "0.5rem"
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "hsl(var(--ink-brown) / 0.5)"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "hsl(var(--ink-brown) / 0.25)"}
+                    aria-label="Learn more about Brand Platform"
+                >
+                    <Info size={18} />
+                </button>
+            </PopoverTrigger>
+            <PopoverContent style={{ width: "420px", maxWidth: "90vw", zIndex: 9999 }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "1rem", padding: "0.5rem" }}>
+                    <div>
+                        <h4 style={{
+                            fontSize: "0.9375rem",
+                            fontWeight: "700",
+                            marginBottom: "0.5rem",
+                            color: "hsl(var(--primary))"
+                        }}>
+                            {BRAND_PLATFORM_EXPLANATION.title}
+                        </h4>
+                        <p style={{
+                            fontSize: "0.875rem",
+                            lineHeight: "1.6",
+                            color: "hsl(var(--ink-brown))",
+                            marginBottom: "0.75rem"
+                        }}>
+                            {BRAND_PLATFORM_EXPLANATION.description}
+                        </p>
+                        <p style={{
+                            fontSize: "0.8125rem",
+                            lineHeight: "1.5",
+                            color: "hsl(var(--ink-brown) / 0.8)",
+                            fontStyle: "italic",
+                            padding: "0.75rem",
+                            borderRadius: "6px",
+                            backgroundColor: "hsl(var(--ink-brown) / 0.03)",
+                            borderLeft: "3px solid hsl(var(--primary))"
+                        }}>
+                            {BRAND_PLATFORM_EXPLANATION.purpose}
+                        </p>
+                    </div>
+
+                    <div>
+                        <h5 style={{
+                            fontSize: "0.8125rem",
+                            fontWeight: "600",
+                            marginBottom: "0.5rem",
+                            color: "hsl(var(--ink-brown) / 0.7)",
+                            textTransform: "uppercase",
+                            letterSpacing: "0.05em"
+                        }}>
+                            6 Thành phần cốt lõi:
+                        </h5>
+                        <ul style={{
+                            fontSize: "0.8125rem",
+                            lineHeight: "1.6",
+                            color: "hsl(var(--ink-brown))",
+                            paddingLeft: "1.25rem",
+                            margin: 0
+                        }}>
+                            {BRAND_PLATFORM_EXPLANATION.components.map((component, index) => (
+                                <li key={index} style={{ marginBottom: "0.25rem" }}>
+                                    {component}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+            </PopoverContent>
+        </Popover>
+    );
+};
+
 const EssencePopover = ({ essenceKey }: { essenceKey: string }) => {
     const explanation = ESSENCE_EXPLANATIONS[essenceKey];
     if (!explanation) return null;
@@ -236,3 +337,5 @@ export default function BrandEssenceDisplay({ essence }: BrandEssenceDisplayProp
         </div>
     );
 }
+
+export { BrandPlatformPopover };
