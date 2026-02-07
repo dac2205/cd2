@@ -4,10 +4,13 @@ import React from "react";
 import { useAuth } from "@/lib/auth";
 import { User, LogOut } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/Popover";
+import { FEATURES } from "@/lib/config/features";
 
 export default function UserMenu() {
     const { user, logout } = useAuth();
 
+    // Hide UserMenu if auth is disabled
+    if (!FEATURES.AUTH_ENABLED) return null;
     if (!user) return null;
 
     const fullName = user.user_metadata?.full_name || user.user_metadata?.name || user.email?.split('@')[0] || "User";

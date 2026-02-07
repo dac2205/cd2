@@ -60,9 +60,9 @@
         {
             "id": "func-4",
             "title": "Strategic Clarity (Rõ ràng Chiến lược)",
-            "description": "Rõ ràng về chiến lược kinh doanh qua Customer Decode - từ đoán sang biết, từ mơ hồ sang rõ ràng.",
+            "description": "Rõ ràng về chiến lược kinh doanh qua AI Factory - từ đoán sang biết, từ mơ hồ sang rõ ràng.",
             "situation": "Chiến lược mơ hồ, quyết định bằng linh cảm, không chắc chắn về khách hàng.",
-            "context": "Customer Decode mang lại clarity về khách hàng và chiến lược.",
+            "context": "AI Factory mang lại clarity về khách hàng và chiến lược.",
             "triggers": [
                 "Chiến lược không rõ ràng.",
                 "Quyết định bằng đoán.",

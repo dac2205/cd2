@@ -15,7 +15,7 @@ export default function Navbar() {
         }}>
             <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <Link href="/" style={{ fontSize: '1.25rem', fontWeight: 700, textDecoration: 'none', color: 'hsl(var(--foreground))' }}>
-                    Customer Decode
+                    AI Factory
                 </Link>
 
                 <div style={{ display: 'flex', gap: '1.5rem' }}>

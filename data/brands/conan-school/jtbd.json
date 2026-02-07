@@ -3,7 +3,7 @@
         {
             "id": "func-1",
             "title": "Customer Clarity through Framework (Rõ ràng về Khách hàng qua Framework)",
-            "description": "Hiểu khách hàng qua Customer Decode framework chuẩn thay vì đoán - đảm bảo rõ ràng, khó sai, insight thực.",
+            "description": "Hiểu khách hàng qua AI Factory framework chuẩn thay vì đoán - đảm bảo rõ ràng, khó sai, insight thực.",
             "situation": "Đoán về khách hàng, quyết định bằng linh cảm, không chắc chắn về insight.",
             "context": "Clarity về khách hàng không đến từ nhiều thông tin, mà từ framework chuẩn.",
             "triggers": [
@@ -116,7 +116,7 @@
             "id": "emo-3",
             "title": "Relief from Guessing (Nhẹ nhõm khỏi Đoán)",
             "description": "Nhẹ nhõm vì không còn phải đoán về khách hàng - có framework rõ ràng.",
-            "situation": "Sau khi có Customer Decode, nhẹ nhõm vì biết chắc, không phải đoán.",
+            "situation": "Sau khi có AI Factory, nhẹ nhõm vì biết chắc, không phải đoán.",
             "context": "Nhẹ nhõm đến từ clarity, không phải từ nhiều thông tin.",
             "triggers": [
                 "Mệt mỏi vì đoán mãi.",

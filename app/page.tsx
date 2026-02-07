@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Trang chủ",
-  description: "Khám phá customer insights, JTBD, và phân tích audience chi tiết cho các brands. Học Customer Decode với framework chuẩn thế giới.",
+  description: "Khám phá customer insights, JTBD, và phân tích audience chi tiết cho các brands. Học cách thiết kế AI Factory với framework chuẩn thế giới.",
   openGraph: {
-    title: "Customer Decode | Conan School",
+    title: "AI Factory | Conan School",
     description: "Khám phá customer insights, JTBD, và phân tích audience chi tiết cho các brands",
   }
 };
@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <div className="container animate-slide-in py-16 text-center">
       <div className="mb-16">
-        <h1 className="mb-4 text-ink-brown font-serif text-5xl font-bold tracking-tight">Customer Decode</h1>
+        <h1 className="mb-4 text-ink-brown font-serif text-5xl font-bold tracking-tight">AI Factory</h1>
         <p className="text-xl max-w-2xl mx-auto text-ink-brown/80">
-          Explore detailed customer insights, jobs to be done, and audience analysis for various brands.
+          Học cách thiết kế AI Factory - từ customer insights đến AI systems tự động hóa. Khám phá JTBD framework và phân tích audience chi tiết.
         </p>
       </div>
 

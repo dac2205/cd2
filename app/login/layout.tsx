@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Đăng nhập",
-    description: "Đăng nhập vào Customer Decode để truy cập nội dung học tập và thực hành.",
+    description: "Đăng nhập vào AI Factory để truy cập nội dung học tập và thực hành.",
     robots: {
         index: false,
         follow: false,

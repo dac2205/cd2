@@ -1,12 +1,43 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { useAuth } from "@/lib/auth";
+import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { Lock } from "lucide-react";
+import { FEATURES } from "@/lib/config/features";
 
 export default function LoginPage() {
     const { login } = useAuth();
+    const router = useRouter();
+
+    // Redirect to homepage if auth is disabled
+    useEffect(() => {
+        if (!FEATURES.AUTH_ENABLED) {
+            router.push("/");
+        }
+    }, [router]);
+
+    // Show message if auth is disabled
+    if (!FEATURES.AUTH_ENABLED) {
+        return (
+            <div style={{
+                minHeight: "100vh",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "hsl(var(--background))",
+                padding: "1rem"
+            }}>
+                <Card style={{ width: "100%", maxWidth: "400px" }}>
+                    <CardHeader style={{ textAlign: "center" }}>
+                        <CardTitle>Authentication Disabled</CardTitle>
+                        <CardDescription>Authentication is currently disabled. Redirecting to homepage...</CardDescription>
+                    </CardHeader>
+                </Card>
+            </div>
+        );
+    }
 
     const handleGoogleLogin = () => {
         login();

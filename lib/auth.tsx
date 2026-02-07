@@ -5,6 +5,7 @@ import { useRouter, usePathname } from "next/navigation";
 import mixpanel from "mixpanel-browser";
 import { supabase } from "./supabase";
 import { User as SupabaseUser } from "@supabase/supabase-js";
+import { FEATURES } from "./config/features";
 
 interface AuthContextType {
     user: SupabaseUser | null;
@@ -17,11 +18,17 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
     const [user, setUser] = useState<SupabaseUser | null>(null);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(FEATURES.AUTH_ENABLED); // Only show loading if auth is enabled
     const router = useRouter();
     const pathname = usePathname();
 
     useEffect(() => {
+        // If auth is disabled, skip all auth logic
+        if (!FEATURES.AUTH_ENABLED) {
+            setIsLoading(false);
+            return;
+        }
+
         let mounted = true;
 
         const { data: { subscription } } = supabase.auth.onAuthStateChange(
@@ -55,6 +62,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
 
     useEffect(() => {
+        // Only protect routes if auth is enabled
+        if (!FEATURES.AUTH_ENABLED) {
+            return;
+        }
+
         // Protect routes
         if (!isLoading) {
             if (!user && pathname !== "/login") {

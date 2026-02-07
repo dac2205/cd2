@@ -9,11 +9,11 @@ import MixpanelScript from "@/components/analytics/MixpanelScript";
 export const metadata: Metadata = {
   metadataBase: new URL('https://cd2.conan.school'),
   title: {
-    default: "Customer Decode | Conan School",
+    default: "AI Factory | Conan School",
     template: "%s | Conan School"
   },
-  description: "Học Customer Decode với framework chuẩn thế giới - Clarity thay vì đoán, Simplicity thay vì phức tạp, Competency thay vì mơ hồ",
-  keywords: ["customer decode", "JTBD", "jobs to be done", "marketing", "conan school", "customer insight", "viral content", "personal branding"],
+  description: "Học cách thiết kế AI Factory với framework chuẩn thế giới - Từ customer insights đến AI systems tự động hóa",
+  keywords: ["ai factory", "AI systems", "JTBD", "jobs to be done", "marketing", "conan school", "customer insight", "AI automation", "competency framework"],
   authors: [{ name: "Conan School", url: "https://conan.school" }],
   creator: "Conan School",
   publisher: "Conan School",
@@ -21,22 +21,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "vi_VN",
     url: "https://cd2.conan.school",
-    siteName: "Customer Decode",
-    title: "Customer Decode | Conan School",
-    description: "Học Customer Decode với framework chuẩn thế giới - Clarity thay vì đoán",
+    siteName: "AI Factory",
+    title: "AI Factory | Conan School",
+    description: "Học cách thiết kế AI Factory với framework chuẩn thế giới",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Customer Decode by Conan School"
+        alt: "AI Factory by Conan School"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Customer Decode | Conan School",
-    description: "Học Customer Decode với framework chuẩn thế giới",
+    title: "AI Factory | Conan School",
+    description: "Học cách thiết kế AI Factory với framework chuẩn thế giới",
     images: ["/og-image.png"]
   },
   robots: {

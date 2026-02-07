@@ -40,7 +40,7 @@ export default function DefiningWhoPage() {
                         />
                     </div>
                     <p style={{ fontSize: "1.125rem", lineHeight: "1.6" }}>
-                        Bước đầu tiên của Customer Decode là xác định rõ chúng ta đang phục vụ ai. "Bán cho tất cả mọi người" là con đường nhanh nhất dẫn đến thất bại.
+                        Bước đầu tiên của AI Factory là xác định rõ chúng ta đang phục vụ ai. "Bán cho tất cả mọi người" là con đường nhanh nhất dẫn đến thất bại.
                     </p>
                 </div>
 

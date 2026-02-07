@@ -37,7 +37,7 @@ const brandExamples: Record<BrandId, BrandExample> = {
         },
         step3: {
             outcome: "Rõ ràng về insight khách hàng, tự tin tạo content, thu hút đúng khách",
-            justification: "Customer Decode framework chuẩn, không phải tự nghĩ → hiểu đúng, thu hút đúng."
+            justification: "AI Factory framework chuẩn, không phải tự nghĩ → hiểu đúng, thu hút đúng."
         }
     },
     "inside-school": {

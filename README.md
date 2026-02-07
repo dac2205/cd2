@@ -1,3 +1,15 @@
+# AI Factory
+
+**AI Factory** là nền tảng học tập giúp học viên thiết kế và xây dựng "AI Factory" - hệ thống AI tự động hóa quy trình làm việc và tạo ra giá trị.
+
+Học viên sẽ học cách:
+- Hiểu customer insights và JTBD (Jobs To Be Done) framework
+- Phân tích audience chi tiết cho các brands
+- Thiết kế AI systems với framework chuẩn thế giới
+- Xây dựng competency framework đo được năng lực
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
