@@ -1,9 +1,6 @@
 import { notFound } from "next/navigation";
 import { getBrandContent, getAllBrands } from "@/lib/brands";
-import Link from "next/link";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
-import { ArrowRight, BookOpen, Users, Lightbulb, CheckCircle } from "lucide-react";
-import React from "react";
+import BrandDashboard from "@/components/brand/BrandDashboard";
 
 // Force static generation for known brands
 export async function generateStaticParams() {
@@ -21,73 +18,42 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         notFound();
     }
 
-    const sections = [
-        {
-            id: "jtbd",
-            title: "Jobs to be Done",
-            description: "The functional and emotional jobs the customer is hiring for.",
-            icon: <BookOpen className="text-primary" />
-        },
-        {
-            id: "audience",
-            title: "Audience Segments",
-            description: "Who they are, demographics, and psychographics.",
-            icon: <Users className="text-primary" />
-        },
-        {
-            id: "insights",
-            title: "Customer Insights",
-            description: "Deep psychological truths and behavioral patterns.",
-            icon: <Lightbulb className="text-primary" />
-        },
-        {
-            id: "quiz",
-            title: "Brand Quiz",
-            description: "Test your understanding of this brand's decoding.",
-            icon: <CheckCircle className="text-primary" />
-        }
-    ];
+    // Helper to parse JTBD content into 4 sections for the Tabbed View
+    const parseJTBDToTabs = () => {
+        if (!brand.jtbd) return undefined;
+        // This parses the HTML content split by <h2> tags to map to our tabs
+        const parts = brand.jtbd.split("<h2>");
+
+        const mapping: Record<string, string> = {
+            "Functional Jobs": "functional",
+            "Emotional Jobs": "emotional",
+            "Social Jobs": "social",
+            "Other Jobs": "other"
+        };
+
+        const result: Record<string, string> = {};
+
+        Object.keys(mapping).forEach(title => {
+            const part = parts.find(p => p.includes(title));
+            if (part) {
+                // Extract content after the header
+                // part looks like: "Functional Jobs</h2><p>..." or just "Functional Jobs</h2>..."
+                // We want everything after "</h2>"
+                const content = part.substring(part.indexOf("</h2>") + 5);
+                result[mapping[title]] = content;
+            }
+        });
+
+        return result;
+    };
+
+    const jtbdHtmlData = !brand.structuredJTBD ? parseJTBDToTabs() : undefined;
 
     return (
-        <div className="container animate-slide-in">
-            <div style={{ marginBottom: "3rem", textAlign: "center" }}>
-                <p className="text-subtext" style={{ fontSize: "0.875rem", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1rem" }}>
-                    Brand Analysis Hub
-                </p>
-                <h1 style={{ marginBottom: "0.5rem", fontSize: "2.5rem" }}>{brand.meta.name}</h1>
-                <p style={{ fontSize: "1.25rem", color: "hsl(var(--ink-brown) / 0.7)" }}>Owner: {brand.meta.owner}</p>
-
-                {brand.introduction && (
-                    <div style={{ marginTop: "2rem", maxWidth: "800px", margin: "2rem auto 0", textAlign: "left", backgroundColor: "hsl(var(--paper-white))", padding: "2rem", borderRadius: "12px", border: "1px solid hsl(var(--border))" }}>
-                        <div className="prose" dangerouslySetInnerHTML={{ __html: brand.introduction }} />
-                    </div>
-                )}
-            </div>
-
-            <div style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gap: "2rem",
-                maxWidth: "1000px",
-                margin: "0 auto"
-            }}>
-                {sections.map((section) => (
-                    <Link key={section.id} href={`/brands/${slug}/${section.id}`} style={{ textDecoration: "none" }}>
-                        <Card className="hover-warm-glow" style={{ height: "100%", transition: "transform 0.2s" }}>
-                            <CardHeader>
-                                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "0.5rem" }}>
-                                    {section.icon}
-                                    <ArrowRight size={20} style={{ color: "hsl(var(--ink-brown) / 0.4)" }} />
-                                </div>
-                                <CardTitle style={{ fontSize: "1.5rem" }}>{section.title}</CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                                <p style={{ color: "hsl(var(--ink-brown) / 0.7)" }}>{section.description}</p>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                ))}
-            </div>
-        </div>
+        <BrandDashboard
+            brand={brand}
+            slug={slug}
+            jtbdHtmlData={jtbdHtmlData}
+        />
     );
 }

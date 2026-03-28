@@ -26,17 +26,23 @@ export default async function ExercisePage({ params }: { params: Promise<{ slug:
     }
 
     return (
-        <div className="min-h-screen bg-zinc-50 dark:bg-black py-12">
-            <div className="container mx-auto px-4">
-                <div className="mb-8 max-w-2xl mx-auto">
-                    <Link href="/practice/jtbd" className="inline-flex items-center text-zinc-500 hover:text-zinc-900 mb-6 transition-colors">
-                        <ArrowLeft className="w-4 h-4 mr-2" /> Quay lại danh sách
+        <div className="min-h-screen bg-paper-white text-ink-brown py-12 md:py-20">
+            <div className="container mx-auto px-4 max-w-4xl">
+                <div className="mb-12">
+                    <Link href="/practice/jtbd" className="inline-flex items-center text-honey-oak hover:text-ink-brown mb-8 transition-colors text-sm font-bold uppercase tracking-wider group">
+                        <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" /> Quay lại danh sách
                     </Link>
-                    <h1 className="text-3xl font-bold mb-2">{exercise.title}</h1>
-                    <p className="text-zinc-500">{exercise.description}</p>
+                    <h1 className="text-4xl md:text-5xl font-serif font-medium mb-4 text-ink-brown leading-tight">{exercise.title}</h1>
+                    <p className="text-lg text-ink-brown/80 leading-relaxed max-w-2xl font-light italic font-serif">
+                        "{exercise.description}"
+                    </p>
                 </div>
 
-                <QuizExercise exercise={exercise} />
+                <div className="bg-white rounded-3xl p-1 shadow-2xl shadow-ink-brown/10 border border-maple-cream">
+                    <div className="bg-paper-white rounded-[22px] border border-maple-cream p-6 md:p-10 min-h-[500px]">
+                        <QuizExercise exercise={exercise} />
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -2,13 +2,13 @@
 
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
-import mixpanel from "mixpanel-browser";
-import { supabase } from "./supabase";
-import { User as SupabaseUser } from "@supabase/supabase-js";
+
+const CORRECT_PASSWORD = "Conan@123";
+const AUTH_STORAGE_KEY = "cd2_authenticated";
 
 interface AuthContextType {
-    user: SupabaseUser | null;
-    login: () => void;
+    isAuthenticated: boolean;
+    login: (password: string) => boolean;
     logout: () => void;
     isLoading: boolean;
 }
@@ -16,93 +16,49 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-    const [user, setUser] = useState<SupabaseUser | null>(null);
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
     const router = useRouter();
     const pathname = usePathname();
 
     useEffect(() => {
-        let mounted = true;
-
-        const { data: { subscription } } = supabase.auth.onAuthStateChange(
-            async (_event, session) => {
-                if (mounted) {
-                    if (session?.user) {
-                        setUser(session.user);
-                        identifyMixpanel(session.user);
-                    } else {
-                        setUser(null);
-                        mixpanel.reset();
-                    }
-                    setIsLoading(false);
-                }
-            }
-        );
-
-        return () => {
-            mounted = false;
-            subscription.unsubscribe();
-        };
+        // Check localStorage for existing auth
+        const stored = localStorage.getItem(AUTH_STORAGE_KEY);
+        if (stored === "true") {
+            setIsAuthenticated(true);
+        }
+        setIsLoading(false);
     }, []);
-
-    const identifyMixpanel = (user: SupabaseUser) => {
-        mixpanel.identify(user.id);
-        mixpanel.people.set({
-            $email: user.email,
-            $name: user.user_metadata?.full_name || user.user_metadata?.name || user.email,
-            last_login: new Date().toISOString()
-        });
-    };
 
     useEffect(() => {
         // Protect routes
         if (!isLoading) {
-            if (!user && pathname !== "/login") {
+            if (!isAuthenticated && pathname !== "/login") {
                 router.push("/login");
-            } else if (user && pathname === "/login") {
+            } else if (isAuthenticated && pathname === "/login") {
                 router.push("/");
             }
         }
-    }, [user, isLoading, pathname, router]);
+    }, [isAuthenticated, isLoading, pathname, router]);
 
-    const login = async () => {
-
-        const getRedirectUrl = () => {
-            const hostname = window.location.hostname;
-            const protocol = window.location.protocol;
-
-            // If logging in from root domain "conan.school", redirect to "www.conan.school"
-            if (hostname === 'conan.school') {
-                return `${protocol}//www.conan.school/`;
-            }
-
-            // Otherwise (cd2.conan.school, localhost, etc.), stay on current origin
-            return `${window.location.origin}/`;
-        };
-
-        const { error } = await supabase.auth.signInWithOAuth({
-            provider: 'google',
-            options: {
-                redirectTo: getRedirectUrl(),
-            }
-        });
-        if (error) {
-            console.error("Login error:", error);
-            mixpanel.track("Login Error", { error: error.message });
+    const login = (password: string): boolean => {
+        if (password === CORRECT_PASSWORD) {
+            setIsAuthenticated(true);
+            localStorage.setItem(AUTH_STORAGE_KEY, "true");
+            router.push("/");
+            return true;
         }
+        return false;
     };
 
-    const logout = async () => {
-        const { error } = await supabase.auth.signOut();
-        if (error) {
-            console.error("Logout error:", error);
-        } else {
-            router.push("/login");
-        }
+    const logout = () => {
+        setIsAuthenticated(false);
+        localStorage.removeItem(AUTH_STORAGE_KEY);
+        router.push("/login");
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, logout, isLoading }}>
+        <AuthContext.Provider value={{ isAuthenticated, login, logout, isLoading }}>
             {isLoading ? (
                 <div style={{
                     height: "100vh",

@@ -1,57 +1,28 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Exercise, Question } from "@/components/practice/QuizTypes";
+import { Question } from "@/components/practice/QuizTypes";
 import { cn } from "@/lib/utils";
-import { CheckCircle2, XCircle, ArrowRight, RotateCcw, HelpCircle, Trophy, Sparkles } from "lucide-react";
+import { CheckCircle2, XCircle, ArrowRight, RotateCcw, Trophy, Sparkles, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import Link from 'next/link';
-// import Confetti from 'react-confetti'; // Optional for later
+import Link from "next/link";
 
-interface QuizExerciseProps {
-    exercise: Exercise;
+interface BrandTaskRunnerProps {
+    questions: Question[];
+    title: string;
+    backLink: string;
 }
 
-export default function QuizExercise({ exercise }: QuizExerciseProps) {
-    // Rounds Logic:
-    // Round 1: Level 1 questions (5)
-    // Round 2: Level 2 questions (10)
-    // Round 3: All 15 questions mixed (Review)
-
-    const [currentRound, setCurrentRound] = useState<1 | 2 | 3>(1);
-    const [questions, setQuestions] = useState<Question[]>([]);
+export default function BrandTaskRunner({ questions, title, backLink }: BrandTaskRunnerProps) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
     const [showFeedback, setShowFeedback] = useState(false);
     const [score, setScore] = useState(0);
-    const [isRoundFinished, setIsRoundFinished] = useState(false);
+    const [isFinished, setIsFinished] = useState(false);
     const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
-    const [shuffledInternalIndices, setShuffledInternalIndices] = useState<number[]>([]); // To map shuffled options back to original indices
+    const [shuffledInternalIndices, setShuffledInternalIndices] = useState<number[]>([]);
     const [isAnimating, setIsAnimating] = useState(false);
 
-    // Initialize Round
-    useEffect(() => {
-        let roundQuestions: Question[] = [];
-        if (currentRound === 1) {
-            roundQuestions = exercise.levels.find(l => l.level === 1)?.questions || [];
-        } else if (currentRound === 2) {
-            roundQuestions = exercise.levels.find(l => l.level === 2)?.questions || [];
-        } else {
-            // Round 3: All questions
-            const lev1 = exercise.levels.find(l => l.level === 1)?.questions || [];
-            const lev2 = exercise.levels.find(l => l.level === 2)?.questions || [];
-            roundQuestions = [...lev1, ...lev2].sort(() => Math.random() - 0.5); // Shuffle for Round 3
-        }
-
-        setQuestions(roundQuestions);
-        setScore(0);
-        setCurrentIndex(0);
-        setIsRoundFinished(false);
-        setSelectedOption(null);
-        setShowFeedback(false);
-    }, [currentRound, exercise]);
-
-    // Shuffle Options for Current Question
     useEffect(() => {
         if (questions.length > 0 && currentIndex < questions.length) {
             setIsAnimating(true);
@@ -59,7 +30,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
 
             const currentQ = questions[currentIndex];
             const indices = currentQ.options.map((_, i) => i);
-            // Shuffle indices
+            // Shuffle
             const shuffled = [...indices].sort(() => Math.random() - 0.5);
 
             setShuffledInternalIndices(shuffled);
@@ -83,53 +54,42 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
         }
     };
 
-    const handlNext = () => {
+    const handleNext = () => {
         if (currentIndex < questions.length - 1) {
             setCurrentIndex(c => c + 1);
         } else {
-            setIsRoundFinished(true);
-        }
-    };
-
-    const handleNextRound = () => {
-        if (currentRound < 3) {
-            setCurrentRound(r => (r + 1) as any);
+            setIsFinished(true);
         }
     };
 
     const restart = () => {
-        setCurrentRound(1);
+        setIsFinished(false);
+        setCurrentIndex(0);
+        setScore(0);
+        setSelectedOption(null);
+        setShowFeedback(false);
     };
 
-    if (!questions.length) return <div className="text-center py-20 text-honey-oak animate-pulse font-serif italic text-lg">Initializing Case Files...</div>;
+    if (!questions.length) return <div className="text-center py-12">Loading task data...</div>;
 
-    const currentQ = questions[currentIndex];
-    // Calculate Progress
-    const progress = ((currentIndex + 1) / questions.length) * 100;
-
-    if (isRoundFinished) {
+    if (isFinished) {
         const passRate = (score / questions.length) * 100;
-        const isPass = passRate >= 80; // 80% to pass
-
         return (
             <div className="max-w-xl mx-auto py-12 animate-slide-in">
                 <div className="text-center space-y-6">
                     <div className="mb-8 flex justify-center">
                         <div className="relative">
                             <div className="absolute inset-0 bg-honey-oak/20 rounded-full blur-xl scale-150"></div>
-                            {isPass ?
-                                <Trophy className="w-24 h-24 text-honey-oak relative z-10 animate-bounce" /> :
-                                <RotateCcw className="w-24 h-24 text-muted-foreground relative z-10" />
-                            }
+                            <Trophy className="w-24 h-24 text-honey-oak relative z-10 animate-bounce" />
                         </div>
                     </div>
 
                     <h2 className="text-4xl font-serif font-bold text-ink-brown mb-2">
-                        {currentRound === 3 ? "Mission Accomplished!" : `Round ${currentRound} Complete`}
+                        Task Complete!
                     </h2>
 
                     <div className="bg-paper-white/50 backdrop-blur-sm rounded-2xl p-6 border border-maple-cream inline-block min-w-[300px]">
-                        <p className="text-ink-brown/80 mb-2 uppercase tracking-widest text-xs font-bold">Accuracy</p>
+                        <p className="text-ink-brown/80 text-lg mb-2 uppercase tracking-widest text-xs font-bold">Accuracy</p>
                         <div className="text-5xl font-mono font-bold text-ink-brown mb-4">
                             {Math.round(passRate)}%
                         </div>
@@ -139,20 +99,13 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                     </div>
 
                     <div className="flex flex-col gap-4 max-w-xs mx-auto pt-8">
-                        {currentRound < 3 ? (
-                            <Button onClick={handleNextRound} className="w-full h-14 text-lg rounded-xl bg-ink-brown hover:bg-ink-brown/90 text-paper-white shadow-lg shadow-ink-brown/20 transition-all hover:-translate-y-1">
-                                Start Round {currentRound + 1} <ArrowRight className="ml-2 w-5 h-5" />
+                        <Link href={backLink}>
+                            <Button variant="outline" className="w-full h-14 text-lg rounded-xl border-2 border-ink-brown text-ink-brown hover:bg-ink-brown hover:text-white transition-all">
+                                <ArrowLeft className="mr-2 w-5 h-5" /> Back to Menu
                             </Button>
-                        ) : (
-                            <Link href="/practice/jtbd">
-                                <Button variant="outline" className="w-full h-14 text-lg rounded-xl border-2 border-ink-brown text-ink-brown hover:bg-ink-brown hover:text-white transition-all">
-                                    Return to Base
-                                </Button>
-                            </Link>
-                        )}
-
+                        </Link>
                         <Button variant="ghost" onClick={restart} className="w-full rounded-xl text-ink-brown/70 hover:text-ink-brown hover:bg-maple-cream/50">
-                            Restart Simulation
+                            Run Again
                         </Button>
                     </div>
                 </div>
@@ -160,13 +113,15 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
         );
     }
 
+    const currentQ = questions[currentIndex];
+
     return (
         <div className={`max-w-3xl mx-auto transition-opacity duration-300 ${isAnimating ? 'opacity-50' : 'opacity-100'}`}>
             {/* Header */}
             <div className="mb-10 flex items-end justify-between border-b pb-6 border-maple-cream">
                 <div className="space-y-2">
                     <span className="text-xs font-bold uppercase tracking-[0.2em] text-honey-oak">
-                        Case File: {currentRound}
+                        {title}
                     </span>
                     <div className="flex items-baseline gap-2 text-ink-brown">
                         <span className="text-3xl font-mono font-bold">0{currentIndex + 1}</span>
@@ -193,10 +148,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                         const originalIndex = shuffledInternalIndices[index];
                         const isSelected = selectedOption === originalIndex;
                         const isCorrect = originalIndex === currentQ.correctAnswer;
-                        const shouldShowCorrect = showFeedback && isCorrect;
-                        const shouldShowWrong = showFeedback && isSelected && !isCorrect;
 
-                        // Base styles
                         let containerClasses = "w-full text-left p-5 md:p-6 rounded-2xl border-2 transition-all duration-300 relative group overflow-hidden";
                         let textClasses = "text-lg md:text-xl relative z-10 transition-colors duration-300";
                         let icon = null;
@@ -217,7 +169,7 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                         } else {
                             if (isSelected) {
                                 containerClasses += " bg-honey-oak/10 border-honey-oak shadow-md -translate-y-0.5";
-                                textClasses += " text-ink-brown font-medium";
+                                textClasses += " text-ink-brown";
                             } else {
                                 containerClasses += " bg-white border-maple-cream hover:border-honey-oak hover:shadow-lg hover:-translate-y-1";
                                 textClasses += " text-ink-brown/80 group-hover:text-ink-brown";
@@ -257,16 +209,14 @@ export default function QuizExercise({ exercise }: QuizExerciseProps) {
                                         : currentQ.feedback.incorrect}
                                 </p>
                             </div>
-
-                            {/* Decorative background element */}
                             <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-current opacity-5 rounded-full blur-2xl"></div>
                         </div>
 
                         <Button
-                            onClick={handlNext}
+                            onClick={handleNext}
                             className="w-full h-16 text-xl font-medium rounded-2xl bg-ink-brown hover:bg-ink-brown/90 text-paper-white shadow-xl shadow-ink-brown/30 transition-all hover:-translate-y-1 hover:scale-[1.01]"
                         >
-                            {currentIndex === questions.length - 1 ? "Finish Round" : "Next Case"} <ArrowRight className="ml-3 w-6 h-6" />
+                            {currentIndex === questions.length - 1 ? "Finish Task" : "Next Situation"} <ArrowRight className="ml-3 w-6 h-6" />
                         </Button>
                     </div>
                 )}

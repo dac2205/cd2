@@ -1,0 +1,36 @@
+[
+    {
+        "id": "ins-effort-trap",
+        "title": "The Hard Work Trap (Bẫy nỗ lực)",
+        "tension": "Bạn tin rằng cứ chăm chỉ là sẽ thành công, nhưng thực tế bạn đang kiệt sức mà thu nhập vẫn không đổi.",
+        "belief": "Cần cù bù thông minh. Work harder.",
+        "core": "Nỗ lực không đúng hướng cũng giống như chạy thật nhanh trên một con đường cụt. Bạn cần chiến lược (Strategy) chứ không chỉ là sự chăm chỉ (Effort).",
+        "reframe": "Đừng làm việc chăm chỉ hơn, hãy làm việc khôn ngoan hơn với lộ trình đúng.",
+        "mechanism": "Strategic Career Roadmap",
+        "hooks": [
+            "Tại sao làm mãi không giàu?",
+            "Nỗ lực ảo",
+            "Thoát khỏi vòng luẩn quẩn"
+        ],
+        "angle": "Góc nhìn Chiến lược",
+        "promise": "Lộ trình rõ ràng để x2 thu nhập trong 1 năm.",
+        "rtb": "Coaching 1:1 từ Mentor thực chiến."
+    },
+    {
+        "id": "ins-income-growth",
+        "title": "The Income Plateau (Ngưỡng thu nhập)",
+        "tension": "Bạn bị kẹt ở mức thu nhập X triệu/tháng quá lâu. Bạn muốn bứt phá lên 2X nhưng không nhìn thấy con đường.",
+        "belief": "Tăng lương phụ thuộc vào sếp và công ty.",
+        "core": "Thu nhập của bạn là phản chiếu giá trị bạn tạo ra. Để x2 thu nhập, bạn cần x2 giá trị bản thân (Skills + Mindset).",
+        "reframe": "Đừng chờ được tăng lương, hãy trở thành người có giá trị cao.",
+        "mechanism": "Value-Based Coaching",
+        "hooks": [
+            "Làm sao để x2 thu nhập?",
+            "Bí mật của High Performers",
+            "Vượt qua ngưỡng thu nhập trung bình"
+        ],
+        "angle": "Góc nhìn Giá trị",
+        "promise": "Biến bạn thành phiên bản có giá trị gấp đôi sau 1 năm.",
+        "rtb": "Phương pháp Coaching tập trung vào kết quả thực tế."
+    }
+]

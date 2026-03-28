@@ -1,69 +1,87 @@
 # Design System: Detective Wood & Acoustic Theme
 
-This design system is based on the `conan.school` brand, featuring a "Detective Wood" aesthetic with warm, natural tones and clean typography.
+Reference: `www.conan.school` (v7)
 
-## 1. Color Palette
+## 1. Core Colors (Semantic Tokens)
 
-### Core Colors
-- **Paper White** (Background/Cards): `hsl(45 50% 96%)` / `#FAF7F0`
-- **Ink Brown** (Text/Foreground): `hsl(25 25% 24%)` / `#4C3A2E`
-- **Conan Red Soft** (Primary/Destructive): `hsl(8 60% 49%)` / `#C74433`
-- **Honey Oak** (Secondary): `hsl(33 50% 56%)` / `#C89254`
-- **Maple Cream** (Muted/Popover): `hsl(38 60% 81%)` / `#EED7B0`
-- **Guitar Amber** (Accent/Ring): `hsl(33 62% 45%)` / `#B97A2B`
-- **Caramel Walnut** (Borders/Charts): `hsl(28 42% 43%)` / `#9C6F41`
-- **Deep Espresso** (Footer Background): `hsl(0 11% 21%)` / `#3B2F2F`
-- **Fog Grey** (Borders): `hsl(0 0% 91%)` / `#E7E7E7`
-- **Copper Line** (Decor): `hsl(28 43% 46%)` / `#A87444`
+The theme uses a warm, acoustic palette inspired by detective novels and wood textures.
 
-### Semantic Usage
-- **Background**: Paper White
-- **Prose**: Ink Brown (90% opacity for body)
-- **Primary Buttons/Highlights**: Conan Red Soft
-- **Accents/Hovers**: Guitar Amber
-- **Secondary Elements**: Honey Oak
-- **Subtle Backgrounds**: Maple Cream
+| Token | Color Name | HSL Value | Hex Approx | Usage |
+|-------|------------|-----------|------------|-------|
+| `--background` | Paper White | 45 50% 96% | #FAF7F0 | Main background |
+| `--foreground` | Ink Brown | 25 25% 24% | #4C3A2E | Body text |
+| `--card` | Paper White | 45 50% 96% | #FAF7F0 | Card background |
+| `--popover` | Maple Cream | 38 60% 81% | #EED7B0 | Popovers/Tooltips |
+| `--primary` | Conan Red Soft | 8 60% 49% | #C74433 | Primary buttons/links |
+| `--primary-foreground` | Paper White | 45 50% 96% | #FAF7F0 | Text on primary |
+| `--secondary` | Honey Oak | 33 50% 56% | #C89254 | Secondary elements |
+| `--muted` | Maple Cream | 38 60% 81% | #EED7B0 | Muted backgrounds |
+| `--accent` | Guitar Amber | 33 62% 45% | #B97A2B | Interactive accents |
+| `--destructive` | Conan Red Soft | 8 60% 49% | #C74433 | Error/Destroy |
+| `--border` | Fog Grey | 0 0% 91% | #E7E7E7 | Borders (Light) |
+
+### Raw Wood Colors
+- **Golden Oak**: `hsl(33 56% 64%)` #D9A86C
+- **Honey Oak**: `hsl(33 50% 56%)` #C89254
+- **Maple Cream**: `hsl(38 60% 81%)` #EED7B0
+- **Guitar Amber**: `hsl(33 62% 45%)` #B97A2B
+- **Caramel Walnut**: `hsl(28 42% 43%)` #9C6F41
+- **Deep Espresso**: `hsl(0 11% 21%)` #3B2F2F
 
 ## 2. Typography
 
-### Font Families
-- **Sans Serif (Headings/UI)**: `'Inter'`, system-ui, sans-serif
-- **Serif (Quotes/Accents)**: `'Crimson Pro'`, Georgia, serif
-- **Monospace**: `ui-monospace`, monospace
+### Functions
+- **Headings**: Inter (`--font-family-sans`)
+- **Body**: Inter (`--font-family-sans`)
+- **Quotes/Accents**: Crimson Pro (`--font-family-serif`) - "Font Detective"
 
-### Hierarchy
-- **H1**: Bold (700), `-0.015em` spacing, 1.2 line height
-- **H2**: Semibold (600), `-0.01em` spacing, 1.3 line height
-- **H3**: Semibold (600), `-0.005em` spacing, 1.4 line height
-- **Body**: Normal (400), 1.5 line height
+### Weights
+- Normal: 400
+- Medium: 500
+- Semibold: 600
+- Bold: 700
 
-## 3. UI Components
+## 3. Shadows & Effects
 
-### Buttons
-- Rounded corners (`0.5rem` / `8px`)
-- Hover effects with `transform` and slightly reduced opacity or color shift.
+- **Warm Glow**: `box-shadow: 0 0 20px 5px hsl(var(--guitar-amber) / 0.3)`
+- **Glassmorphism**: Backdrop blur 4px, background opacity 0.95.
 
-### Cards ("Card Wood")
-- Background: Paper White
-- Border: 1px solid Caramel Walnut (15% opacity)
-- Radius: 12px
-- Shadow: `0 2px 6px rgba(0,0,0,0.12)`
-- Header: Maple Cream background, bottom border
+## 4. Animations
+
+### `fade-in-up`
+```css
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+```
+
+### `slide-in`
+```css
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+```
+
+### `warm-glow` (Pulse)
+```css
+@keyframes warm-glow {
+  0%, 100% { box-shadow: 0 0 0 0 hsl(var(--guitar-amber) / 0); }
+  50% { box-shadow: 0 0 20px 5px hsl(var(--guitar-amber) / 0.3); }
+}
+```
+
+## 5. Components
 
 ### Navbar
-- Background: Background color (95% opacity) with backdrop blur (4px)
-- Sticky positioning
-- Bottom border: Fog Grey
+- Check reference styling for `.navbar`, `.navbar-menu-item`.
+- Sticky, blur effect.
 
-### Popovers
-- Background: Maple Cream
-- Text: Ink Brown
+### Footer
+- Background: Deep Espresso.
+- Text: Paper White.
+- Includes "Checkerboard Grid" pattern.
 
-### Animations
-- **Fade In Up**: `transform: translateY(20px) -> 0`, `opacity: 0 -> 1`
-- **Slide In**: `transform: translateX(-20px) -> 0`, `opacity: 0 -> 1`
-- **Warm Glow**: Box shadow pulse using Guitar Amber
-
-## 4. Spacing & Layout
-- Global border radius: `0.5rem` (8px) usually, `12px` for larger cards.
-- Max width containers: `1280px`
+### Checkboard Grid
+- Background image using repeating linear gradients to create a grid texture.

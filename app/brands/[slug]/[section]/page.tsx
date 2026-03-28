@@ -7,11 +7,10 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import InsightsExplorer from "@/components/insights/InsightsExplorer";
 import JTBDView from "@/components/jtbd/JTBDView";
 import AudienceView from "@/components/audience/AudienceView";
-import QuizView from "@/components/quiz/QuizView";
 
 export async function generateStaticParams() {
     const brands = getAllBrands();
-    const sections = ["jtbd", "audience", "insights", "quiz"];
+    const sections = ["jtbd", "audience", "insights"];
 
     return brands.flatMap((brand) =>
         sections.map((section) => ({
@@ -33,7 +32,6 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
         jtbd: "Jobs to be Done",
         audience: "Audience Segments",
         insights: "Customer Insights",
-        quiz: "Brand Quiz"
     };
 
     if (!sectionTitles[section]) {
@@ -115,10 +113,6 @@ export default async function BrandSectionPage({ params }: { params: Promise<{ s
                             <div className="prose" dangerouslySetInnerHTML={{ __html: brand.insights }} />
                         </div>
                     )
-                )}
-
-                {section === "quiz" && (
-                    <QuizView questions={brand.quiz} />
                 )}
             </div>
         </div>

@@ -10,21 +10,17 @@ interface QuizViewProps {
 }
 
 export default function QuizView({ questions }: QuizViewProps) {
-    const [shuffledQuestions, setShuffledQuestions] = useState<QuizQuestion[]>([]);
-    const [shuffledOptions, setShuffledOptions] = useState<Record<string, string[]>>({});
+    const shuffledQuestions = React.useMemo(() =>
+        [...questions].sort(() => Math.random() - 0.5),
+        [questions]);
 
-    useEffect(() => {
-        // Shuffle questions
-        const newQuestions = [...questions].sort(() => Math.random() - 0.5);
-        setShuffledQuestions(newQuestions);
-
-        // Shuffle options for each question
+    const shuffledOptions = React.useMemo(() => {
         const newOptions: Record<string, string[]> = {};
-        newQuestions.forEach(q => {
+        shuffledQuestions.forEach(q => {
             newOptions[q.id] = [...q.options].sort(() => Math.random() - 0.5);
         });
-        setShuffledOptions(newOptions);
-    }, [questions]);
+        return newOptions;
+    }, [shuffledQuestions]);
 
     if (shuffledQuestions.length === 0) {
         return <div style={{ padding: "2rem", textAlign: "center" }}>Đang tải câu hỏi...</div>;

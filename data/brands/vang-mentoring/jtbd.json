@@ -1,0 +1,38 @@
+{
+    "functional": [
+        {
+            "id": "func-income",
+            "title": "Tăng thu nhập gấp đôi",
+            "description": "Đạt mức thu nhập 2X trong vòng 1 năm.",
+            "situation": "Đang loay hoay với mức lương hiện tại, không biết cách để tăng lên.",
+            "context": "Thị trường cạnh tranh, làm việc chăm chỉ thôi là chưa đủ.",
+            "triggers": [
+                "Lương không đủ sống",
+                "Không thấy tương lai"
+            ],
+            "desiredOutcome": [
+                "Thu nhập cao hơn",
+                "Sự nghiệp thăng tiến"
+            ]
+        }
+    ],
+    "emotional": [
+        {
+            "id": "emo-confidence",
+            "title": "Tự tin vào năng lực",
+            "description": "Cảm thấy mình giỏi hơn, có giá trị hơn.",
+            "situation": "Được Mentor dẫn dắt và thấy sự tiến bộ rõ rệt.",
+            "context": "Muốn khẳng định bản thân.",
+            "triggers": [
+                "Hoài nghi bản thân",
+                "Sợ bị đào thải"
+            ],
+            "desiredOutcome": [
+                "Tự tin",
+                "Được công nhận"
+            ]
+        }
+    ],
+    "social": [],
+    "other": []
+}

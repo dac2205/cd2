@@ -54,7 +54,7 @@ export default function BrandList({ initialBrands }: BrandListProps) {
 
     const renderCard = (brand: Brand, isFavorite: boolean) => (
         <Link key={brand.slug} href={`/brands/${brand.slug}`} className="block group no-underline h-full">
-            <Card className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm relative overflow-hidden">
+            <div className="h-full card-wood transition-all duration-300 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden flex flex-col">
                 <div
                     onClick={(e) => toggleFavorite(e, brand.slug)}
                     className="absolute top-4 right-4 z-10 cursor-pointer p-1 hover:bg-black/5 rounded-full transition-colors"
@@ -66,16 +66,16 @@ export default function BrandList({ initialBrands }: BrandListProps) {
                         className="text-ink-brown/40 hover:text-red-500 transition-colors"
                     />
                 </div>
-                <CardHeader>
-                    <CardTitle className="pr-8 text-xl text-ink-brown font-serif">{brand.meta.name}</CardTitle>
-                    <p className="text-sm text-ink-brown/60">
+                <div className="card-wood-header border-b-0 bg-transparent p-6 pb-2">
+                    <h3 className="pr-8 text-xl text-ink-brown font-serif font-bold leading-none tracking-tight">{brand.meta.name}</h3>
+                    <p className="text-sm text-ink-brown/60 mt-1.5">
                         {brand.meta.owner}
                     </p>
-                </CardHeader>
-                <CardContent>
-                    {/* Content removed */}
-                </CardContent>
-            </Card>
+                </div>
+                <div className="p-6 pt-2 flex-grow">
+                    {/* Placeholder for future content or description */}
+                </div>
+            </div>
         </Link>
     );
 
@@ -84,14 +84,12 @@ export default function BrandList({ initialBrands }: BrandListProps) {
         return (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {initialBrands.map((brand) => (
-                    <Card key={brand.slug} className="h-full bg-paper-white border-caramel-walnut/15 rounded-xl shadow-sm">
-                        <CardHeader>
-                            <CardTitle className="text-ink-brown">{brand.meta.name}</CardTitle>
-                            <p className="text-sm text-ink-brown/60">
-                                {brand.meta.owner}
-                            </p>
-                        </CardHeader>
-                    </Card>
+                    <div key={brand.slug} className="h-full card-wood shadow-sm p-6">
+                        <h3 className="text-xl text-ink-brown font-serif font-bold">{brand.meta.name}</h3>
+                        <p className="text-sm text-ink-brown/60 mt-1">
+                            {brand.meta.owner}
+                        </p>
+                    </div>
                 ))}
             </div>
         );
