@@ -2,13 +2,14 @@
 
 import React, { useState } from "react";
 import { BrandContent } from "@/lib/types";
-import { BookOpen, Users, Lightbulb, CheckCircle, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import JTBDView from "@/components/jtbd/JTBDView";
 import AudienceView from "@/components/audience/AudienceView";
 import InsightsExplorer from "@/components/insights/InsightsExplorer";
 import QuizView from "@/components/quiz/QuizView";
+import PlatformView from "@/components/brand/PlatformView";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
+import { BookOpen, Users, Lightbulb, CheckCircle, ArrowLeft, Target } from "lucide-react";
 
 interface BrandDashboardProps {
     brand: BrandContent;
@@ -16,12 +17,18 @@ interface BrandDashboardProps {
     jtbdHtmlData?: Record<string, string>;
 }
 
-type SectionType = 'jtbd' | 'audience' | 'insights' | 'quiz';
+type SectionType = 'platform' | 'jtbd' | 'audience' | 'insights' | 'quiz';
 
 export default function BrandDashboard({ brand, slug, jtbdHtmlData }: BrandDashboardProps) {
-    const [activeSection, setActiveSection] = useState<SectionType>('jtbd');
+    const [activeSection, setActiveSection] = useState<SectionType>('platform');
 
     const sections = [
+        {
+            id: 'platform' as SectionType,
+            title: "Brand Platform",
+            icon: Target,
+            color: "hsl(var(--primary))"
+        },
         {
             id: 'jtbd' as SectionType,
             title: "Jobs to be Done",
@@ -130,6 +137,10 @@ export default function BrandDashboard({ brand, slug, jtbdHtmlData }: BrandDashb
                 </div>
 
                 <div key={activeSection} className="animate-in fade-in zoom-in-95 duration-300">
+                    {activeSection === 'platform' && (
+                        <PlatformView platform={brand.platform} />
+                    )}
+
                     {activeSection === 'jtbd' && (
                         <JTBDView
                             data={brand.structuredJTBD}

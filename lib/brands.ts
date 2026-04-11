@@ -10,7 +10,8 @@ import {
     QuizQuestion,
     Insight,
     JTBDData,
-    AudienceSegment
+    AudienceSegment,
+    BrandPlatform
 } from './types';
 
 const brandsDirectory = path.join(process.cwd(), 'data/brands');
@@ -113,9 +114,21 @@ export async function getBrandContent(slug: string): Promise<BrandContent | null
         }
     }
 
+    // Load Structured Platform
+    const platformPath = path.join(brandDir, 'platform.json');
+    let platform: BrandPlatform | undefined = undefined;
+    if (fs.existsSync(platformPath)) {
+        try {
+            platform = JSON.parse(fs.readFileSync(platformPath, 'utf8'));
+        } catch (e) {
+            console.error("Error parsing platform.json", e);
+        }
+    }
+
     return {
         meta,
         introduction,
+        platform,
         jtbd,
         audience,
         structuredAudience,

@@ -51,9 +51,19 @@ export interface AudienceSegment {
     painPoints: string[];
 }
 
+export interface BrandPlatform {
+    tagline?: string;
+    archetype?: string;
+    mission?: string;
+    vision?: string;
+    values?: string[];
+    essence?: string;
+}
+
 export interface BrandContent {
     meta: BrandMeta;
     introduction: string; // New introduction field
+    platform?: BrandPlatform;
     jtbd: string;     // HTML/Markdown content
     structuredJTBD?: JTBDData;
     audience: string; // HTML/Markdown content

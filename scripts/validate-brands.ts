@@ -153,7 +153,24 @@ function validateBrand(brandSlug: string): ValidationResult {
         }
     }
 
-    // 6. Validate Introduction
+    // 6. Validate Platform
+    const platformPath = path.join(brandDir, 'platform.json');
+    if (exists(platformPath)) {
+        const platform = readJson(platformPath);
+        if (!platform) {
+            result.errors.push('Invalid JSON in platform.json');
+        } else {
+            const optionalFields = ['tagline', 'archetype', 'mission', 'vision', 'essence', 'values'];
+            const presentFields = optionalFields.filter(f => platform[f]);
+            if (presentFields.length === 0) {
+                result.warnings.push('platform.json exists but is empty or missing standard fields');
+            }
+        }
+    } else {
+        result.warnings.push('Missing platform.json (Optional but recommended)');
+    }
+
+    // 7. Validate Introduction
     if (!exists(path.join(brandDir, 'introduction.md'))) {
         result.errors.push('Missing introduction.md');
     }
